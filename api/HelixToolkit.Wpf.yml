@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: HelixToolkit.Wpf
+  commentId: N:HelixToolkit.Wpf
+  id: HelixToolkit.Wpf
+  children:
+  - HelixToolkit.Wpf.LwoReader
+  - HelixToolkit.Wpf.ModelReader
+  - HelixToolkit.Wpf.OffReader
+  - HelixToolkit.Wpf.PlyReader
+  - HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  - HelixToolkit.Wpf.PlyReader.PlyElement
+  - HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+  - HelixToolkit.Wpf.PlyReader.PlyHeader
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  - HelixToolkit.Wpf.PlyReader.PlyProperty
+  - HelixToolkit.Wpf.StLReader
+  langs:
+  - csharp
+  - vb
+  name: HelixToolkit.Wpf
+  nameWithType: HelixToolkit.Wpf
+  fullName: HelixToolkit.Wpf
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape.File
+references:
+- uid: HelixToolkit.Wpf.LwoReader
+  commentId: T:HelixToolkit.Wpf.LwoReader
+  href: HelixToolkit.Wpf.LwoReader.html
+  name: LwoReader
+  nameWithType: LwoReader
+  fullName: HelixToolkit.Wpf.LwoReader
+- uid: HelixToolkit.Wpf.ModelReader
+  commentId: T:HelixToolkit.Wpf.ModelReader
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.ModelReader.html
+  name: ModelReader
+  nameWithType: ModelReader
+  fullName: HelixToolkit.Wpf.ModelReader
+- uid: HelixToolkit.Wpf.OffReader
+  commentId: T:HelixToolkit.Wpf.OffReader
+  href: HelixToolkit.Wpf.OffReader.html
+  name: OffReader
+  nameWithType: OffReader
+  fullName: HelixToolkit.Wpf.OffReader
+- uid: HelixToolkit.Wpf.PlyReader
+  commentId: T:HelixToolkit.Wpf.PlyReader
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader
+  nameWithType: PlyReader
+  fullName: HelixToolkit.Wpf.PlyReader
+- uid: HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyFormatTypes
+  nameWithType: PlyReader.PlyFormatTypes
+  fullName: HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+    name: PlyFormatTypes
+    href: HelixToolkit.Wpf.PlyReader.PlyFormatTypes.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+    name: PlyFormatTypes
+    href: HelixToolkit.Wpf.PlyReader.PlyFormatTypes.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyDataTypes
+  nameWithType: PlyReader.PlyDataTypes
+  fullName: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    name: PlyDataTypes
+    href: HelixToolkit.Wpf.PlyReader.PlyDataTypes.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    name: PlyDataTypes
+    href: HelixToolkit.Wpf.PlyReader.PlyDataTypes.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyHeaderItems
+  nameWithType: PlyReader.PlyHeaderItems
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+    name: PlyHeaderItems
+    href: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+    name: PlyHeaderItems
+    href: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyElement
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyElement
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyElement
+  nameWithType: PlyReader.PlyElement
+  fullName: HelixToolkit.Wpf.PlyReader.PlyElement
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyElement
+    name: PlyElement
+    href: HelixToolkit.Wpf.PlyReader.PlyElement.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyElement
+    name: PlyElement
+    href: HelixToolkit.Wpf.PlyReader.PlyElement.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyProperty
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyProperty
+  nameWithType: PlyReader.PlyProperty
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyProperty
+    name: PlyProperty
+    href: HelixToolkit.Wpf.PlyReader.PlyProperty.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyProperty
+    name: PlyProperty
+    href: HelixToolkit.Wpf.PlyReader.PlyProperty.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeader
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyHeader
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyHeader
+  nameWithType: PlyReader.PlyHeader
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeader
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeader
+    name: PlyHeader
+    href: HelixToolkit.Wpf.PlyReader.PlyHeader.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeader
+    name: PlyHeader
+    href: HelixToolkit.Wpf.PlyReader.PlyHeader.html
+- uid: HelixToolkit.Wpf.StLReader
+  commentId: T:HelixToolkit.Wpf.StLReader
+  href: HelixToolkit.Wpf.StLReader.html
+  name: StLReader
+  nameWithType: StLReader
+  fullName: HelixToolkit.Wpf.StLReader
+- uid: HelixToolkit.Wpf
+  commentId: N:HelixToolkit.Wpf
+  href: HelixToolkit.html
+  name: HelixToolkit.Wpf
+  nameWithType: HelixToolkit.Wpf
+  fullName: HelixToolkit.Wpf
+  spec.csharp:
+  - uid: HelixToolkit
+    name: HelixToolkit
+    href: HelixToolkit.html
+  - name: .
+  - uid: HelixToolkit.Wpf
+    name: Wpf
+    href: HelixToolkit.Wpf.html
+  spec.vb:
+  - uid: HelixToolkit
+    name: HelixToolkit
+    href: HelixToolkit.html
+  - name: .
+  - uid: HelixToolkit.Wpf
+    name: Wpf
+    href: HelixToolkit.Wpf.html

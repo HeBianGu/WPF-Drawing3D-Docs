@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.ExtensionMethods
+  commentId: N:H.Drawing3D.Shape.ExtensionMethods
+  id: H.Drawing3D.Shape.ExtensionMethods
+  children:
+  - H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+  - H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions
+  - H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions
+  - H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.ExtensionMethods
+  nameWithType: H.Drawing3D.Shape.ExtensionMethods
+  fullName: H.Drawing3D.Shape.ExtensionMethods
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+  commentId: T:H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+  parent: H.Drawing3D.Shape.ExtensionMethods
+  href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html
+  name: AnimationExtensions
+  nameWithType: AnimationExtensions
+  fullName: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+- uid: H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions
+  commentId: T:H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions
+  href: H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions.html
+  name: Matrix3DExtensions
+  nameWithType: Matrix3DExtensions
+  fullName: H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions
+- uid: H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions
+  commentId: T:H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions
+  href: H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions.html
+  name: Point3DExtensions
+  nameWithType: Point3DExtensions
+  fullName: H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions
+- uid: H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions
+  commentId: T:H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions
+  href: H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions.html
+  name: Vector3DExtensions
+  nameWithType: Vector3DExtensions
+  fullName: H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions
+- uid: H.Drawing3D.Shape.ExtensionMethods
+  commentId: N:H.Drawing3D.Shape.ExtensionMethods
+  href: H.html
+  name: H.Drawing3D.Shape.ExtensionMethods
+  nameWithType: H.Drawing3D.Shape.ExtensionMethods
+  fullName: H.Drawing3D.Shape.ExtensionMethods
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.ExtensionMethods
+    name: ExtensionMethods
+    href: H.Drawing3D.Shape.ExtensionMethods.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.ExtensionMethods
+    name: ExtensionMethods
+    href: H.Drawing3D.Shape.ExtensionMethods.html

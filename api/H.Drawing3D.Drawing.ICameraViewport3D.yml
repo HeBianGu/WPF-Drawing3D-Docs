@@ -1,0 +1,2088 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawing.ICameraViewport3D
+  commentId: T:H.Drawing3D.Drawing.ICameraViewport3D
+  id: ICameraViewport3D
+  parent: H.Drawing3D.Drawing
+  children:
+  - H.Drawing3D.Drawing.ICameraViewport3D.Camera
+  - H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds(System.Windows.Point)
+  - H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds(System.Windows.Point)
+  - H.Drawing3D.Drawing.ICameraViewport3D.Viewport
+  langs:
+  - csharp
+  - vb
+  name: ICameraViewport3D
+  nameWithType: ICameraViewport3D
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D
+  type: Interface
+  source:
+    id: ICameraViewport3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\ICameraViewport3D.cs
+    startLine: 14
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public interface ICameraViewport3D
+    content.vb: Public Interface ICameraViewport3D
+  extensionMethods:
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(System.Windows.Media.Media3D.Point3D,System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(System.Windows.Point)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(System.Windows.Media.Media3D.Rect3D)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(System.Windows.Media.Media3D.Rect3D,System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.Viewport
+  commentId: P:H.Drawing3D.Drawing.ICameraViewport3D.Viewport
+  id: Viewport
+  parent: H.Drawing3D.Drawing.ICameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: Viewport
+  nameWithType: ICameraViewport3D.Viewport
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.Viewport
+  type: Property
+  source:
+    id: Viewport
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\ICameraViewport3D.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: Viewport3D Viewport { get; }
+    parameters: []
+    return:
+      type: System.Windows.Controls.Viewport3D
+    content.vb: ReadOnly Property Viewport As Viewport3D
+  overload: H.Drawing3D.Drawing.ICameraViewport3D.Viewport*
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.Camera
+  commentId: P:H.Drawing3D.Drawing.ICameraViewport3D.Camera
+  id: Camera
+  parent: H.Drawing3D.Drawing.ICameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: Camera
+  nameWithType: ICameraViewport3D.Camera
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.Camera
+  type: Property
+  source:
+    id: Camera
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\ICameraViewport3D.cs
+    startLine: 17
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: ProjectionCamera Camera { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.ProjectionCamera
+    content.vb: ReadOnly Property Camera As ProjectionCamera
+  overload: H.Drawing3D.Drawing.ICameraViewport3D.Camera*
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds(System.Windows.Point)
+  commentId: M:H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds(System.Windows.Point)
+  id: HitModel3Ds(System.Windows.Point)
+  parent: H.Drawing3D.Drawing.ICameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: HitModel3Ds(Point)
+  nameWithType: ICameraViewport3D.HitModel3Ds(Point)
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds(System.Windows.Point)
+  type: Method
+  source:
+    id: HitModel3Ds
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\ICameraViewport3D.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: IEnumerable<Model3D> HitModel3Ds(Point position)
+    parameters:
+    - id: position
+      type: System.Windows.Point
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+    content.vb: Function HitModel3Ds(position As Point) As IEnumerable(Of Model3D)
+  overload: H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds*
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds(System.Windows.Point)
+  commentId: M:H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds(System.Windows.Point)
+  id: HitVisual3Ds(System.Windows.Point)
+  parent: H.Drawing3D.Drawing.ICameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: HitVisual3Ds(Point)
+  nameWithType: ICameraViewport3D.HitVisual3Ds(Point)
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds(System.Windows.Point)
+  type: Method
+  source:
+    id: HitVisual3Ds
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\ICameraViewport3D.cs
+    startLine: 19
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: IEnumerable<Visual3D> HitVisual3Ds(Point position)
+    parameters:
+    - id: position
+      type: System.Windows.Point
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D}
+    content.vb: Function HitVisual3Ds(position As Point) As IEnumerable(Of Visual3D)
+  overload: H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds*
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.Drawing.ICameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: ChangeDirection(Vector3D, Vector3D, double)
+  nameWithType: ICameraViewport3D.ChangeDirection(Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: ChangeDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\ICameraViewport3D.cs
+    startLine: 21
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: void ChangeDirection(Vector3D lookDir, Vector3D upDir, double animationTime = 500)
+    parameters:
+    - id: lookDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: upDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: animationTime
+      type: System.Double
+    content.vb: Sub ChangeDirection(lookDir As Vector3D, upDir As Vector3D, animationTime As Double = 500)
+  overload: H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection*
+  nameWithType.vb: ICameraViewport3D.ChangeDirection(Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: ChangeDirection(Vector3D, Vector3D, Double)
+references:
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_GetBoundingBox_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: GetBoundingBox(ICameraViewport3D)
+  nameWithType: CameraViewport3DExtension.GetBoundingBox(ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetBoundingBox
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_GetBoundingBox_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetBoundingBox
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_GetBoundingBox_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_HitTest_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  name: HitTest(ICameraViewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  nameWithType: CameraViewport3DExtension.HitTest(ICameraViewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point, System.Predicate<System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult>)
+  nameWithType.vb: CameraViewport3DExtension.HitTest(ICameraViewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point, System.Predicate(Of System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult))
+  name.vb: HitTest(ICameraViewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+    name: HitTest
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_HitTest_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult
+    name: RayMeshGeometry3DHitTestResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.raymeshgeometry3dhittestresult
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+    name: HitTest
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_HitTest_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult
+    name: RayMeshGeometry3DHitTestResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.raymeshgeometry3dhittestresult
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(System.Windows.Media.Media3D.Point3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Double_
+  name: LookAt(ICameraViewport3D, Point3D, double)
+  nameWithType: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, double)
+  nameWithType.vb: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, Double)
+  name.vb: LookAt(ICameraViewport3D, Point3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: LookAt(ICameraViewport3D, Point3D, Vector3D, double)
+  nameWithType: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, double)
+  nameWithType.vb: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: LookAt(ICameraViewport3D, Point3D, Vector3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_Reset_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: Reset(ICameraViewport3D)
+  nameWithType: CameraViewport3DExtension.Reset(ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: Reset
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_Reset_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: Reset
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_Reset_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  name: ToGeo(ICameraViewport3D, double)
+  nameWithType: CameraViewport3DExtension.ToGeo(ICameraViewport3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D, double)
+  nameWithType.vb: CameraViewport3DExtension.ToGeo(ICameraViewport3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D, Double)
+  name.vb: ToGeo(ICameraViewport3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(System.Windows.Point)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_
+  name: ToGeo(ICameraViewport3D, Point)
+  nameWithType: CameraViewport3DExtension.ToGeo(ICameraViewport3D, Point)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_
+  name: ToView(ICameraViewport3D, Point3D)
+  nameWithType: CameraViewport3DExtension.ToView(ICameraViewport3D, Point3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(System.Windows.Media.Media3D.Rect3D)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_
+  name: ToView(ICameraViewport3D, Rect3D)
+  nameWithType: CameraViewport3DExtension.ToView(ICameraViewport3D, Rect3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Rect3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  name: ZoomToFit(ICameraViewport3D, double)
+  nameWithType: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, double)
+  nameWithType.vb: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, Double)
+  name.vb: ZoomToFit(ICameraViewport3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(System.Windows.Media.Media3D.Rect3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_System_Double_
+  name: ZoomToFit(ICameraViewport3D, Rect3D, double)
+  nameWithType: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, Rect3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Rect3D, double)
+  nameWithType.vb: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, Rect3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Rect3D, Double)
+  name.vb: ZoomToFit(ICameraViewport3D, Rect3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+  parent: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_HitTestOnShape_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_H_Drawing3D_Shape_Base_IShape3D_
+  name: HitTestOnShape(ICameraViewport3D, Point, IShape3D)
+  nameWithType: ShapeCameraViewport3DExtension.HitTestOnShape(ICameraViewport3D, Point, IShape3D)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point, H.Drawing3D.Shape.Base.IShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+    name: HitTestOnShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_HitTestOnShape_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+    name: HitTestOnShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_HitTestOnShape_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  name: LookAtShape(ICameraViewport3D, IShape3D, double)
+  nameWithType: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, double)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, double)
+  nameWithType.vb: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, Double)
+  name.vb: LookAtShape(ICameraViewport3D, IShape3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: LookAtShape(ICameraViewport3D, IShape3D, Vector3D, double)
+  nameWithType: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, System.Windows.Media.Media3D.Vector3D, double)
+  nameWithType.vb: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: LookAtShape(ICameraViewport3D, IShape3D, Vector3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  parent: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_ZoomToFitShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  name: ZoomToFitShape(ICameraViewport3D, IShape3D, double)
+  nameWithType: ShapeCameraViewport3DExtension.ZoomToFitShape(ICameraViewport3D, IShape3D, double)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, double)
+  nameWithType.vb: ShapeCameraViewport3DExtension.ZoomToFitShape(ICameraViewport3D, IShape3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, Double)
+  name.vb: ZoomToFitShape(ICameraViewport3D, IShape3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: ZoomToFitShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_ZoomToFitShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: ZoomToFitShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_ZoomToFitShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_GetBoundingBox_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: GetBoundingBox(ICameraViewport3D)
+  nameWithType: CameraViewport3DExtension.GetBoundingBox(ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetBoundingBox
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_GetBoundingBox_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.GetBoundingBox(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetBoundingBox
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_GetBoundingBox_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  commentId: T:H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html
+  name: CameraViewport3DExtension
+  nameWithType: CameraViewport3DExtension
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_HitTest_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  name: HitTest(ICameraViewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  nameWithType: CameraViewport3DExtension.HitTest(ICameraViewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point, System.Predicate<System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult>)
+  nameWithType.vb: CameraViewport3DExtension.HitTest(ICameraViewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point, System.Predicate(Of System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult))
+  name.vb: HitTest(ICameraViewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+    name: HitTest
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_HitTest_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult
+    name: RayMeshGeometry3DHitTestResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.raymeshgeometry3dhittestresult
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.HitTest(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+    name: HitTest
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_HitTest_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult
+    name: RayMeshGeometry3DHitTestResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.raymeshgeometry3dhittestresult
+  - name: )
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Double_
+  name: LookAt(ICameraViewport3D, Point3D, double)
+  nameWithType: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, double)
+  nameWithType.vb: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, Double)
+  name.vb: LookAt(ICameraViewport3D, Point3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: LookAt(ICameraViewport3D, Point3D, Vector3D, double)
+  nameWithType: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, double)
+  nameWithType.vb: CameraViewport3DExtension.LookAt(ICameraViewport3D, Point3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: LookAt(ICameraViewport3D, Point3D, Vector3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.LookAt(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAt
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_LookAt_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_Reset_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: Reset(ICameraViewport3D)
+  nameWithType: CameraViewport3DExtension.Reset(ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: Reset
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_Reset_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.Reset(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: Reset
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_Reset_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  name: ToGeo(ICameraViewport3D, double)
+  nameWithType: CameraViewport3DExtension.ToGeo(ICameraViewport3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D, double)
+  nameWithType.vb: CameraViewport3DExtension.ToGeo(ICameraViewport3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D, Double)
+  name.vb: ToGeo(ICameraViewport3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_
+  name: ToGeo(ICameraViewport3D, Point)
+  nameWithType: CameraViewport3DExtension.ToGeo(ICameraViewport3D, Point)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToGeo(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point)
+    name: ToGeo
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToGeo_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_
+  name: ToView(ICameraViewport3D, Point3D)
+  nameWithType: CameraViewport3DExtension.ToView(ICameraViewport3D, Point3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Point3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Point3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Point3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_
+  name: ToView(ICameraViewport3D, Rect3D)
+  nameWithType: CameraViewport3DExtension.ToView(ICameraViewport3D, Rect3D)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Rect3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ToView(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D)
+    name: ToView
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ToView_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  name: ZoomToFit(ICameraViewport3D, double)
+  nameWithType: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, double)
+  nameWithType.vb: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, Double)
+  name.vb: ZoomToFit(ICameraViewport3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_System_Double_
+  name: ZoomToFit(ICameraViewport3D, Rect3D, double)
+  nameWithType: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, Rect3D, double)
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Rect3D, double)
+  nameWithType.vb: CameraViewport3DExtension.ZoomToFit(ICameraViewport3D, Rect3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Media.Media3D.Rect3D, Double)
+  name.vb: ZoomToFit(ICameraViewport3D, Rect3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension.ZoomToFit(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+    name: ZoomToFit
+    href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html#H_Drawing3D_View_Extensions_CameraViewport3DExtension_ZoomToFit_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Media_Media3D_Rect3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_HitTestOnShape_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_H_Drawing3D_Shape_Base_IShape3D_
+  name: HitTestOnShape(ICameraViewport3D, Point, IShape3D)
+  nameWithType: ShapeCameraViewport3DExtension.HitTestOnShape(ICameraViewport3D, Point, IShape3D)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D, System.Windows.Point, H.Drawing3D.Shape.Base.IShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+    name: HitTestOnShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_HitTestOnShape_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.HitTestOnShape(H.Drawing3D.Drawing.ICameraViewport3D,System.Windows.Point,H.Drawing3D.Shape.Base.IShape3D)
+    name: HitTestOnShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_HitTestOnShape_H_Drawing3D_Drawing_ICameraViewport3D_System_Windows_Point_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  commentId: T:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html
+  name: ShapeCameraViewport3DExtension
+  nameWithType: ShapeCameraViewport3DExtension
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  name: LookAtShape(ICameraViewport3D, IShape3D, double)
+  nameWithType: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, double)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, double)
+  nameWithType.vb: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, Double)
+  name.vb: LookAtShape(ICameraViewport3D, IShape3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: LookAtShape(ICameraViewport3D, IShape3D, Vector3D, double)
+  nameWithType: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, System.Windows.Media.Media3D.Vector3D, double)
+  nameWithType.vb: ShapeCameraViewport3DExtension.LookAtShape(ICameraViewport3D, IShape3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: LookAtShape(ICameraViewport3D, IShape3D, Vector3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.LookAtShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+    name: LookAtShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_LookAtShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_ZoomToFitShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  name: ZoomToFitShape(ICameraViewport3D, IShape3D, double)
+  nameWithType: ShapeCameraViewport3DExtension.ZoomToFitShape(ICameraViewport3D, IShape3D, double)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, double)
+  nameWithType.vb: ShapeCameraViewport3DExtension.ZoomToFitShape(ICameraViewport3D, IShape3D, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D, H.Drawing3D.Shape.Base.IShape3D, Double)
+  name.vb: ZoomToFitShape(ICameraViewport3D, IShape3D, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: ZoomToFitShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_ZoomToFitShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.ZoomToFitShape(H.Drawing3D.Drawing.ICameraViewport3D,H.Drawing3D.Shape.Base.IShape3D,System.Double)
+    name: ZoomToFitShape
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_ZoomToFitShape_H_Drawing3D_Drawing_ICameraViewport3D_H_Drawing3D_Shape_Base_IShape3D_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.View.Extensions
+  commentId: N:H.Drawing3D.View.Extensions
+  href: H.html
+  name: H.Drawing3D.View.Extensions
+  nameWithType: H.Drawing3D.View.Extensions
+  fullName: H.Drawing3D.View.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.Viewport*
+  commentId: Overload:H.Drawing3D.Drawing.ICameraViewport3D.Viewport
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html#H_Drawing3D_Drawing_ICameraViewport3D_Viewport
+  name: Viewport
+  nameWithType: ICameraViewport3D.Viewport
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.Viewport
+- uid: System.Windows.Controls.Viewport3D
+  commentId: T:System.Windows.Controls.Viewport3D
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.viewport3d
+  name: Viewport3D
+  nameWithType: Viewport3D
+  fullName: System.Windows.Controls.Viewport3D
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.Camera*
+  commentId: Overload:H.Drawing3D.Drawing.ICameraViewport3D.Camera
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html#H_Drawing3D_Drawing_ICameraViewport3D_Camera
+  name: Camera
+  nameWithType: ICameraViewport3D.Camera
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.Camera
+- uid: System.Windows.Media.Media3D.ProjectionCamera
+  commentId: T:System.Windows.Media.Media3D.ProjectionCamera
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  name: ProjectionCamera
+  nameWithType: ProjectionCamera
+  fullName: System.Windows.Media.Media3D.ProjectionCamera
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds*
+  commentId: Overload:H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html#H_Drawing3D_Drawing_ICameraViewport3D_HitModel3Ds_System_Windows_Point_
+  name: HitModel3Ds
+  nameWithType: ICameraViewport3D.HitModel3Ds
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.HitModel3Ds
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Model3D>
+  nameWithType: IEnumerable<Model3D>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Model3D>
+  nameWithType.vb: IEnumerable(Of Model3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Model3D)
+  name.vb: IEnumerable(Of Model3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds*
+  commentId: Overload:H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html#H_Drawing3D_Drawing_ICameraViewport3D_HitVisual3Ds_System_Windows_Point_
+  name: HitVisual3Ds
+  nameWithType: ICameraViewport3D.HitVisual3Ds
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.HitVisual3Ds
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Visual3D>
+  nameWithType: IEnumerable<Visual3D>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Visual3D>
+  nameWithType.vb: IEnumerable(Of Visual3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Visual3D)
+  name.vb: IEnumerable(Of Visual3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection*
+  commentId: Overload:H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html#H_Drawing3D_Drawing_ICameraViewport3D_ChangeDirection_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: ChangeDirection
+  nameWithType: ICameraViewport3D.ChangeDirection
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D.ChangeDirection
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

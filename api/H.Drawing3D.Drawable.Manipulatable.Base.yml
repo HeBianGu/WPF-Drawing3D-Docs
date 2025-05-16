@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawable.Manipulatable.Base
+  commentId: N:H.Drawing3D.Drawable.Manipulatable.Base
+  id: H.Drawing3D.Drawable.Manipulatable.Base
+  children:
+  - H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator
+  - H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator
+  - H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator
+  - H.Drawing3D.Drawable.Manipulatable.Base.IManipulator
+  - H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase
+  - H.Drawing3D.Drawable.Manipulatable.Base.Manipulator
+  - H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator
+  - H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawable.Manipulatable.Base
+  nameWithType: H.Drawing3D.Drawable.Manipulatable.Base
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawable.Manipulatable
+references:
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator
+  href: H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator.html
+  name: BindableRotateManipulator
+  nameWithType: BindableRotateManipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator
+  href: H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator.html
+  name: BindableTranslateManipulator
+  nameWithType: BindableTranslateManipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator
+  href: H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator.html
+  name: CombinedManipulator
+  nameWithType: CombinedManipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.IManipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.IManipulator
+  parent: H.Drawing3D.Drawable.Manipulatable.Base
+  href: H.Drawing3D.Drawable.Manipulatable.Base.IManipulator.html
+  name: IManipulator
+  nameWithType: IManipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.IManipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase
+  href: H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase.html
+  name: ManipulableShape3DBase
+  nameWithType: ManipulableShape3DBase
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.Manipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.Manipulator
+  parent: H.Drawing3D.Drawable.Manipulatable.Base
+  href: H.Drawing3D.Drawable.Manipulatable.Base.Manipulator.html
+  name: Manipulator
+  nameWithType: Manipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.Manipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator
+  href: H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator.html
+  name: RotateManipulator
+  nameWithType: RotateManipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+  href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  name: TranslateManipulator
+  nameWithType: TranslateManipulator
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+- uid: H.Drawing3D.Drawable.Manipulatable.Base
+  commentId: N:H.Drawing3D.Drawable.Manipulatable.Base
+  href: H.html
+  name: H.Drawing3D.Drawable.Manipulatable.Base
+  nameWithType: H.Drawing3D.Drawable.Manipulatable.Base
+  fullName: H.Drawing3D.Drawable.Manipulatable.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable
+    name: Manipulatable
+    href: H.Drawing3D.Drawable.Manipulatable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base
+    name: Base
+    href: H.Drawing3D.Drawable.Manipulatable.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable
+    name: Manipulatable
+    href: H.Drawing3D.Drawable.Manipulatable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base
+    name: Base
+    href: H.Drawing3D.Drawable.Manipulatable.Base.html

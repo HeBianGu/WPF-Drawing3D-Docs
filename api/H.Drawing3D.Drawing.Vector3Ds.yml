@@ -1,0 +1,1189 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawing.Vector3Ds
+  commentId: T:H.Drawing3D.Drawing.Vector3Ds
+  id: Vector3Ds
+  parent: H.Drawing3D.Drawing
+  children:
+  - H.Drawing3D.Drawing.Vector3Ds.Behind
+  - H.Drawing3D.Drawing.Vector3Ds.Down
+  - H.Drawing3D.Drawing.Vector3Ds.DownBehind
+  - H.Drawing3D.Drawing.Vector3Ds.DownFront
+  - H.Drawing3D.Drawing.Vector3Ds.Front
+  - H.Drawing3D.Drawing.Vector3Ds.Left
+  - H.Drawing3D.Drawing.Vector3Ds.LeftBehind
+  - H.Drawing3D.Drawing.Vector3Ds.LeftDown
+  - H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind
+  - H.Drawing3D.Drawing.Vector3Ds.LeftDownFront
+  - H.Drawing3D.Drawing.Vector3Ds.LeftFront
+  - H.Drawing3D.Drawing.Vector3Ds.LeftUp
+  - H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind
+  - H.Drawing3D.Drawing.Vector3Ds.LeftUpFront
+  - H.Drawing3D.Drawing.Vector3Ds.Right
+  - H.Drawing3D.Drawing.Vector3Ds.RightBehind
+  - H.Drawing3D.Drawing.Vector3Ds.RightDown
+  - H.Drawing3D.Drawing.Vector3Ds.RightDownBehind
+  - H.Drawing3D.Drawing.Vector3Ds.RightDownFront
+  - H.Drawing3D.Drawing.Vector3Ds.RightFront
+  - H.Drawing3D.Drawing.Vector3Ds.RightUp
+  - H.Drawing3D.Drawing.Vector3Ds.RightUpBehind
+  - H.Drawing3D.Drawing.Vector3Ds.RightUpFront
+  - H.Drawing3D.Drawing.Vector3Ds.Up
+  - H.Drawing3D.Drawing.Vector3Ds.UpBehind
+  - H.Drawing3D.Drawing.Vector3Ds.UpFront
+  langs:
+  - csharp
+  - vb
+  name: Vector3Ds
+  nameWithType: Vector3Ds
+  fullName: H.Drawing3D.Drawing.Vector3Ds
+  type: Class
+  source:
+    id: Vector3Ds
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 20
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static class Vector3Ds
+    content.vb: Public Module Vector3Ds
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.Drawing.Vector3Ds.Right
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.Right
+  id: Right
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Vector3Ds.Right
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Right
+  type: Property
+  source:
+    id: Right
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D Right { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property Right As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.Right*
+- uid: H.Drawing3D.Drawing.Vector3Ds.Left
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.Left
+  id: Left
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Vector3Ds.Left
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Left
+  type: Property
+  source:
+    id: Left
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 23
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D Left { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property Left As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.Left*
+- uid: H.Drawing3D.Drawing.Vector3Ds.Up
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.Up
+  id: Up
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: Vector3Ds.Up
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Up
+  type: Property
+  source:
+    id: Up
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D Up { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property Up As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.Up*
+- uid: H.Drawing3D.Drawing.Vector3Ds.Down
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.Down
+  id: Down
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: Vector3Ds.Down
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Down
+  type: Property
+  source:
+    id: Down
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 25
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D Down { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property Down As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.Down*
+- uid: H.Drawing3D.Drawing.Vector3Ds.Front
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.Front
+  id: Front
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: Vector3Ds.Front
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Front
+  type: Property
+  source:
+    id: Front
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 26
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D Front { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property Front As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.Front*
+- uid: H.Drawing3D.Drawing.Vector3Ds.Behind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.Behind
+  id: Behind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: Behind
+  nameWithType: Vector3Ds.Behind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Behind
+  type: Property
+  source:
+    id: Behind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 27
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D Behind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property Behind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.Behind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightUp
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightUp
+  id: RightUp
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightUp
+  nameWithType: Vector3Ds.RightUp
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightUp
+  type: Property
+  source:
+    id: RightUp
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 28
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightUp { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightUp As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightUp*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightDown
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightDown
+  id: RightDown
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightDown
+  nameWithType: Vector3Ds.RightDown
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightDown
+  type: Property
+  source:
+    id: RightDown
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightDown { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightDown As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightDown*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftUp
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftUp
+  id: LeftUp
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftUp
+  nameWithType: Vector3Ds.LeftUp
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftUp
+  type: Property
+  source:
+    id: LeftUp
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 30
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftUp { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftUp As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftUp*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftDown
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftDown
+  id: LeftDown
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftDown
+  nameWithType: Vector3Ds.LeftDown
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftDown
+  type: Property
+  source:
+    id: LeftDown
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 31
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftDown { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftDown As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftDown*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightFront
+  id: RightFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightFront
+  nameWithType: Vector3Ds.RightFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightFront
+  type: Property
+  source:
+    id: RightFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 33
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightBehind
+  id: RightBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightBehind
+  nameWithType: Vector3Ds.RightBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightBehind
+  type: Property
+  source:
+    id: RightBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 34
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftFront
+  id: LeftFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftFront
+  nameWithType: Vector3Ds.LeftFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftFront
+  type: Property
+  source:
+    id: LeftFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 35
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftBehind
+  id: LeftBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftBehind
+  nameWithType: Vector3Ds.LeftBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftBehind
+  type: Property
+  source:
+    id: LeftBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 36
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.UpFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.UpFront
+  id: UpFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: UpFront
+  nameWithType: Vector3Ds.UpFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.UpFront
+  type: Property
+  source:
+    id: UpFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 38
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D UpFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property UpFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.UpFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.UpBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.UpBehind
+  id: UpBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: UpBehind
+  nameWithType: Vector3Ds.UpBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.UpBehind
+  type: Property
+  source:
+    id: UpBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 39
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D UpBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property UpBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.UpBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.DownFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.DownFront
+  id: DownFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: DownFront
+  nameWithType: Vector3Ds.DownFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.DownFront
+  type: Property
+  source:
+    id: DownFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 40
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D DownFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property DownFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.DownFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.DownBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.DownBehind
+  id: DownBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: DownBehind
+  nameWithType: Vector3Ds.DownBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.DownBehind
+  type: Property
+  source:
+    id: DownBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 41
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D DownBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property DownBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.DownBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightUpFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightUpFront
+  id: RightUpFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightUpFront
+  nameWithType: Vector3Ds.RightUpFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightUpFront
+  type: Property
+  source:
+    id: RightUpFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 43
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightUpFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightUpFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightUpFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightUpBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightUpBehind
+  id: RightUpBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightUpBehind
+  nameWithType: Vector3Ds.RightUpBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightUpBehind
+  type: Property
+  source:
+    id: RightUpBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 44
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightUpBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightUpBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightUpBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightDownFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightDownFront
+  id: RightDownFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightDownFront
+  nameWithType: Vector3Ds.RightDownFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightDownFront
+  type: Property
+  source:
+    id: RightDownFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 45
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightDownFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightDownFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightDownFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightDownBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.RightDownBehind
+  id: RightDownBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: RightDownBehind
+  nameWithType: Vector3Ds.RightDownBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightDownBehind
+  type: Property
+  source:
+    id: RightDownBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 46
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D RightDownBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property RightDownBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.RightDownBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftUpFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftUpFront
+  id: LeftUpFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftUpFront
+  nameWithType: Vector3Ds.LeftUpFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftUpFront
+  type: Property
+  source:
+    id: LeftUpFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 48
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftUpFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftUpFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftUpFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind
+  id: LeftUpBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftUpBehind
+  nameWithType: Vector3Ds.LeftUpBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind
+  type: Property
+  source:
+    id: LeftUpBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 49
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftUpBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftUpBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftDownFront
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftDownFront
+  id: LeftDownFront
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftDownFront
+  nameWithType: Vector3Ds.LeftDownFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftDownFront
+  type: Property
+  source:
+    id: LeftDownFront
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 50
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftDownFront { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftDownFront As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftDownFront*
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind
+  commentId: P:H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind
+  id: LeftDownBehind
+  parent: H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: LeftDownBehind
+  nameWithType: Vector3Ds.LeftDownBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind
+  type: Property
+  source:
+    id: LeftDownBehind
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Drawing\H.Drawing3D.Drawing\Vector3DExtension.cs
+    startLine: 51
+  assemblies:
+  - H.Drawing3D.Drawing
+  namespace: H.Drawing3D.Drawing
+  syntax:
+    content: public static Vector3D LeftDownBehind { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Public Shared ReadOnly Property LeftDownBehind As Vector3D
+  overload: H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind*
+references:
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.Vector3Ds.Right*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.Right
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_Right
+  name: Right
+  nameWithType: Vector3Ds.Right
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Right
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.Drawing.Vector3Ds.Left*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.Left
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_Left
+  name: Left
+  nameWithType: Vector3Ds.Left
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Left
+- uid: H.Drawing3D.Drawing.Vector3Ds.Up*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.Up
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_Up
+  name: Up
+  nameWithType: Vector3Ds.Up
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Up
+- uid: H.Drawing3D.Drawing.Vector3Ds.Down*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.Down
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_Down
+  name: Down
+  nameWithType: Vector3Ds.Down
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Down
+- uid: H.Drawing3D.Drawing.Vector3Ds.Front*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.Front
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_Front
+  name: Front
+  nameWithType: Vector3Ds.Front
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Front
+- uid: H.Drawing3D.Drawing.Vector3Ds.Behind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.Behind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_Behind
+  name: Behind
+  nameWithType: Vector3Ds.Behind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.Behind
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightUp*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightUp
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightUp
+  name: RightUp
+  nameWithType: Vector3Ds.RightUp
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightUp
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightDown*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightDown
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightDown
+  name: RightDown
+  nameWithType: Vector3Ds.RightDown
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightDown
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftUp*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftUp
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftUp
+  name: LeftUp
+  nameWithType: Vector3Ds.LeftUp
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftUp
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftDown*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftDown
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftDown
+  name: LeftDown
+  nameWithType: Vector3Ds.LeftDown
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftDown
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightFront
+  name: RightFront
+  nameWithType: Vector3Ds.RightFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightBehind
+  name: RightBehind
+  nameWithType: Vector3Ds.RightBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftFront
+  name: LeftFront
+  nameWithType: Vector3Ds.LeftFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftBehind
+  name: LeftBehind
+  nameWithType: Vector3Ds.LeftBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.UpFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.UpFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_UpFront
+  name: UpFront
+  nameWithType: Vector3Ds.UpFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.UpFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.UpBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.UpBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_UpBehind
+  name: UpBehind
+  nameWithType: Vector3Ds.UpBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.UpBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.DownFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.DownFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_DownFront
+  name: DownFront
+  nameWithType: Vector3Ds.DownFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.DownFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.DownBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.DownBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_DownBehind
+  name: DownBehind
+  nameWithType: Vector3Ds.DownBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.DownBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightUpFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightUpFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightUpFront
+  name: RightUpFront
+  nameWithType: Vector3Ds.RightUpFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightUpFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightUpBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightUpBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightUpBehind
+  name: RightUpBehind
+  nameWithType: Vector3Ds.RightUpBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightUpBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightDownFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightDownFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightDownFront
+  name: RightDownFront
+  nameWithType: Vector3Ds.RightDownFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightDownFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.RightDownBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.RightDownBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_RightDownBehind
+  name: RightDownBehind
+  nameWithType: Vector3Ds.RightDownBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.RightDownBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftUpFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftUpFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftUpFront
+  name: LeftUpFront
+  nameWithType: Vector3Ds.LeftUpFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftUpFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftUpBehind
+  name: LeftUpBehind
+  nameWithType: Vector3Ds.LeftUpBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftUpBehind
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftDownFront*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftDownFront
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftDownFront
+  name: LeftDownFront
+  nameWithType: Vector3Ds.LeftDownFront
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftDownFront
+- uid: H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind*
+  commentId: Overload:H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind
+  href: H.Drawing3D.Drawing.Vector3Ds.html#H_Drawing3D_Drawing_Vector3Ds_LeftDownBehind
+  name: LeftDownBehind
+  nameWithType: Vector3Ds.LeftDownBehind
+  fullName: H.Drawing3D.Drawing.Vector3Ds.LeftDownBehind

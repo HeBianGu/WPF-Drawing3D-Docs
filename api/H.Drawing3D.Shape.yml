@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape
+  commentId: N:H.Drawing3D.Shape
+  id: H.Drawing3D.Shape
+  children:
+  - H.Drawing3D.Shape.ShapeBrushs
+  - H.Drawing3D.Shape.ShapeColors
+  - H.Drawing3D.Shape.ShapeExtension
+  - H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape
+  nameWithType: H.Drawing3D.Shape
+  fullName: H.Drawing3D.Shape
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.ShapeBrushs
+  commentId: T:H.Drawing3D.Shape.ShapeBrushs
+  href: H.Drawing3D.Shape.ShapeBrushs.html
+  name: ShapeBrushs
+  nameWithType: ShapeBrushs
+  fullName: H.Drawing3D.Shape.ShapeBrushs
+- uid: H.Drawing3D.Shape.ShapeColors
+  commentId: T:H.Drawing3D.Shape.ShapeColors
+  href: H.Drawing3D.Shape.ShapeColors.html
+  name: ShapeColors
+  nameWithType: ShapeColors
+  fullName: H.Drawing3D.Shape.ShapeColors
+- uid: H.Drawing3D.Shape.ShapeExtension
+  commentId: T:H.Drawing3D.Shape.ShapeExtension
+  href: H.Drawing3D.Shape.ShapeExtension.html
+  name: ShapeExtension
+  nameWithType: ShapeExtension
+  fullName: H.Drawing3D.Shape.ShapeExtension
+- uid: H.Drawing3D.Shape.ShapeMaterials
+  commentId: T:H.Drawing3D.Shape.ShapeMaterials
+  href: H.Drawing3D.Shape.ShapeMaterials.html
+  name: ShapeMaterials
+  nameWithType: ShapeMaterials
+  fullName: H.Drawing3D.Shape.ShapeMaterials

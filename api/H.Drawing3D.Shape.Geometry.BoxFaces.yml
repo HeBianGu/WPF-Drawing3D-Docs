@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.BoxFaces
+  id: BoxFaces
+  parent: H.Drawing3D.Shape.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.BoxFaces.All
+  - H.Drawing3D.Shape.Geometry.BoxFaces.Back
+  - H.Drawing3D.Shape.Geometry.BoxFaces.Bottom
+  - H.Drawing3D.Shape.Geometry.BoxFaces.Front
+  - H.Drawing3D.Shape.Geometry.BoxFaces.Left
+  - H.Drawing3D.Shape.Geometry.BoxFaces.NegativeX
+  - H.Drawing3D.Shape.Geometry.BoxFaces.NegativeY
+  - H.Drawing3D.Shape.Geometry.BoxFaces.NegativeZ
+  - H.Drawing3D.Shape.Geometry.BoxFaces.PositiveX
+  - H.Drawing3D.Shape.Geometry.BoxFaces.PositiveY
+  - H.Drawing3D.Shape.Geometry.BoxFaces.PositiveZ
+  - H.Drawing3D.Shape.Geometry.BoxFaces.Right
+  - H.Drawing3D.Shape.Geometry.BoxFaces.Top
+  langs:
+  - csharp
+  - vb
+  name: BoxFaces
+  nameWithType: BoxFaces
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces
+  type: Enum
+  source:
+    id: BoxFaces
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 63
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Box face enumeration.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum BoxFaces
+    content.vb: >-
+      <Flags>
+
+      Public Enum BoxFaces
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.PositiveZ
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.PositiveZ
+  id: PositiveZ
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: PositiveZ
+  nameWithType: BoxFaces.PositiveZ
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.PositiveZ
+  type: Field
+  source:
+    id: PositiveZ
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 69
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The top.
+  example: []
+  syntax:
+    content: PositiveZ = 1
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.Top
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.Top
+  id: Top
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: BoxFaces.Top
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.Top
+  type: Field
+  source:
+    id: Top
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 73
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The top.
+  example: []
+  syntax:
+    content: Top = 1
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.NegativeZ
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.NegativeZ
+  id: NegativeZ
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: NegativeZ
+  nameWithType: BoxFaces.NegativeZ
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.NegativeZ
+  type: Field
+  source:
+    id: NegativeZ
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 78
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The bottom.
+  example: []
+  syntax:
+    content: NegativeZ = 2
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.Bottom
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.Bottom
+  id: Bottom
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: BoxFaces.Bottom
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.Bottom
+  type: Field
+  source:
+    id: Bottom
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 82
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The bottom.
+  example: []
+  syntax:
+    content: Bottom = 2
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.NegativeY
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.NegativeY
+  id: NegativeY
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: NegativeY
+  nameWithType: BoxFaces.NegativeY
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.NegativeY
+  type: Field
+  source:
+    id: NegativeY
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 87
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The left side.
+  example: []
+  syntax:
+    content: NegativeY = 4
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.Left
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.Left
+  id: Left
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: BoxFaces.Left
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.Left
+  type: Field
+  source:
+    id: Left
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 91
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The left side.
+  example: []
+  syntax:
+    content: Left = 4
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.PositiveY
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.PositiveY
+  id: PositiveY
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: PositiveY
+  nameWithType: BoxFaces.PositiveY
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.PositiveY
+  type: Field
+  source:
+    id: PositiveY
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 96
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The right side.
+  example: []
+  syntax:
+    content: PositiveY = 8
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.Right
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.Right
+  id: Right
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: BoxFaces.Right
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.Right
+  type: Field
+  source:
+    id: Right
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 100
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The right side.
+  example: []
+  syntax:
+    content: Right = 8
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.PositiveX
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.PositiveX
+  id: PositiveX
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: PositiveX
+  nameWithType: BoxFaces.PositiveX
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.PositiveX
+  type: Field
+  source:
+    id: PositiveX
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 105
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The front side.
+  example: []
+  syntax:
+    content: PositiveX = 16
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.Front
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.Front
+  id: Front
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: BoxFaces.Front
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.Front
+  type: Field
+  source:
+    id: Front
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 109
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The front side.
+  example: []
+  syntax:
+    content: Front = 16
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.NegativeX
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.NegativeX
+  id: NegativeX
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: NegativeX
+  nameWithType: BoxFaces.NegativeX
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.NegativeX
+  type: Field
+  source:
+    id: NegativeX
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 114
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The back side.
+  example: []
+  syntax:
+    content: NegativeX = 32
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.Back
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.Back
+  id: Back
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: BoxFaces.Back
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.Back
+  type: Field
+  source:
+    id: Back
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 118
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: The back side.
+  example: []
+  syntax:
+    content: Back = 32
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces.All
+  commentId: F:H.Drawing3D.Shape.Geometry.BoxFaces.All
+  id: All
+  parent: H.Drawing3D.Shape.Geometry.BoxFaces
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: BoxFaces.All
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces.All
+  type: Field
+  source:
+    id: All
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 123
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: All sides.
+  example: []
+  syntax:
+    content: All = PositiveZ | Bottom | Left | PositiveY | Front | Back
+    return:
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+    content.vb: All = PositiveZ Or Bottom Or Left Or PositiveY Or Front Or Back
+references:
+- uid: H.Drawing3D.Shape.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry
+  fullName: H.Drawing3D.Shape.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.BoxFaces
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.BoxFaces.html
+  name: BoxFaces
+  nameWithType: BoxFaces
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces

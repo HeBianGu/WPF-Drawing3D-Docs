@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Base.IShape3DCreator
+  commentId: T:H.Drawing3D.Shape.Base.IShape3DCreator
+  id: IShape3DCreator
+  parent: H.Drawing3D.Shape.Base
+  children:
+  - H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape
+  langs:
+  - csharp
+  - vb
+  name: IShape3DCreator
+  nameWithType: IShape3DCreator
+  fullName: H.Drawing3D.Shape.Base.IShape3DCreator
+  type: Interface
+  source:
+    id: IShape3DCreator
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\IShape3DCreator.cs
+    startLine: 9
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  syntax:
+    content: public interface IShape3DCreator
+    content.vb: Public Interface IShape3DCreator
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape
+  commentId: M:H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape
+  id: CreateShape
+  parent: H.Drawing3D.Shape.Base.IShape3DCreator
+  langs:
+  - csharp
+  - vb
+  name: CreateShape()
+  nameWithType: IShape3DCreator.CreateShape()
+  fullName: H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape()
+  type: Method
+  source:
+    id: CreateShape
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\IShape3DCreator.cs
+    startLine: 11
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  syntax:
+    content: IShape3D CreateShape()
+    return:
+      type: H.Drawing3D.Shape.Base.IShape3D
+    content.vb: Function CreateShape() As IShape3D
+  overload: H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape*
+references:
+- uid: H.Drawing3D.Shape.Base
+  commentId: N:H.Drawing3D.Shape.Base
+  href: H.html
+  name: H.Drawing3D.Shape.Base
+  nameWithType: H.Drawing3D.Shape.Base
+  fullName: H.Drawing3D.Shape.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape*
+  commentId: Overload:H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape
+  href: H.Drawing3D.Shape.Base.IShape3DCreator.html#H_Drawing3D_Shape_Base_IShape3DCreator_CreateShape
+  name: CreateShape
+  nameWithType: IShape3DCreator.CreateShape
+  fullName: H.Drawing3D.Shape.Base.IShape3DCreator.CreateShape
+- uid: H.Drawing3D.Shape.Base.IShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IShape3D.html
+  name: IShape3D
+  nameWithType: IShape3D
+  fullName: H.Drawing3D.Shape.Base.IShape3D

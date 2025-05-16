@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CameraControllerExtension | WPF-Drawing3D开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CameraControllerExtension | WPF-Drawing3D开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-Drawing3D开发文档">
+            WPF-Drawing3D开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension">
+
+
+
+  <h1 id="H_Drawing3D_View_Extensions_CameraControllerExtension" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension" class="text-break">
+Class CameraControllerExtension  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Drawing3D.html">Drawing3D</a>.<a class="xref" href="H.Drawing3D.View.html">View</a>.<a class="xref" href="H.Drawing3D.View.Extensions.html">Extensions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Drawing3D.View.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class CameraControllerExtension</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CameraControllerExtension</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_Back_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Back*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)">
+  Back(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Back(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)">
+  Bottom(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Bottom(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)">
+  BottomBackLeft(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BottomBackLeft(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)">
+  BottomBackRight(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BottomBackRight(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)">
+  BottomFrontLeft(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BottomFrontLeft(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)">
+  BottomFrontRight(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BottomFrontRight(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_Front_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Front*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)">
+  Front(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Front(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)">
+  IsometricBottom(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IsometricBottom(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)">
+  IsometricLeft(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IsometricLeft(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)">
+  IsometricRight(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IsometricRight(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)">
+  IsometricTop(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IsometricTop(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_Left_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Left*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)">
+  Left(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Left(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_Right_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Right*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)">
+  Right(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Right(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_Top_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Top*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)">
+  Top(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Top(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)">
+  TopBackLeft(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TopBackLeft(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)">
+  TopBackRight(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TopBackRight(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)">
+  TopFrontLeft(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TopFrontLeft(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight*"></a>
+
+  <h3 id="H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_" data-uid="H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)">
+  TopFrontRight(ICameraController)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TopFrontRight(this ICameraController view)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>view</code> <a class="xref" href="H.Drawing3D.View.Base.ICameraController.html">ICameraController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Base.IControlableCameraViewport3D
+  commentId: T:H.Drawing3D.View.Base.IControlableCameraViewport3D
+  id: IControlableCameraViewport3D
+  parent: H.Drawing3D.View.Base
+  children:
+  - H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: IControlableCameraViewport3D
+  nameWithType: IControlableCameraViewport3D
+  fullName: H.Drawing3D.View.Base.IControlableCameraViewport3D
+  type: Interface
+  source:
+    id: IControlableCameraViewport3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\IControlableCameraViewport3D.cs
+    startLine: 4
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: public interface IControlableCameraViewport3D
+    content.vb: Public Interface IControlableCameraViewport3D
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.View.Base.IControlableCameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: ChangeDirection(Vector3D, Vector3D, double)
+  nameWithType: IControlableCameraViewport3D.ChangeDirection(Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: ChangeDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\IControlableCameraViewport3D.cs
+    startLine: 6
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ChangeDirection(Vector3D lookDir, Vector3D upDir, double animationTime = 500)
+    parameters:
+    - id: lookDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: upDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: animationTime
+      type: System.Double
+    content.vb: Sub ChangeDirection(lookDir As Vector3D, upDir As Vector3D, animationTime As Double = 500)
+  overload: H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection*
+  nameWithType.vb: IControlableCameraViewport3D.ChangeDirection(Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection(System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: ChangeDirection(Vector3D, Vector3D, Double)
+references:
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection*
+  commentId: Overload:H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection
+  href: H.Drawing3D.View.Base.IControlableCameraViewport3D.html#H_Drawing3D_View_Base_IControlableCameraViewport3D_ChangeDirection_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: ChangeDirection
+  nameWithType: IControlableCameraViewport3D.ChangeDirection
+  fullName: H.Drawing3D.View.Base.IControlableCameraViewport3D.ChangeDirection
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

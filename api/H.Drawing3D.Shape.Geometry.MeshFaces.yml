@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.MeshFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshFaces
+  id: MeshFaces
+  parent: H.Drawing3D.Shape.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.MeshFaces.Default
+  - H.Drawing3D.Shape.Geometry.MeshFaces.QuadPatches
+  langs:
+  - csharp
+  - vb
+  name: MeshFaces
+  nameWithType: MeshFaces
+  fullName: H.Drawing3D.Shape.Geometry.MeshFaces
+  type: Enum
+  source:
+    id: MeshFaces
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 128
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: MeshFaces.
+  example: []
+  syntax:
+    content: public enum MeshFaces
+    content.vb: Public Enum MeshFaces
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Geometry.MeshFaces.Default
+  commentId: F:H.Drawing3D.Shape.Geometry.MeshFaces.Default
+  id: Default
+  parent: H.Drawing3D.Shape.Geometry.MeshFaces
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MeshFaces.Default
+  fullName: H.Drawing3D.Shape.Geometry.MeshFaces.Default
+  type: Field
+  source:
+    id: Default
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 133
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Normal Face (3 Points).
+  example: []
+  syntax:
+    content: Default = 0
+    return:
+      type: H.Drawing3D.Shape.Geometry.MeshFaces
+- uid: H.Drawing3D.Shape.Geometry.MeshFaces.QuadPatches
+  commentId: F:H.Drawing3D.Shape.Geometry.MeshFaces.QuadPatches
+  id: QuadPatches
+  parent: H.Drawing3D.Shape.Geometry.MeshFaces
+  langs:
+  - csharp
+  - vb
+  name: QuadPatches
+  nameWithType: MeshFaces.QuadPatches
+  fullName: H.Drawing3D.Shape.Geometry.MeshFaces.QuadPatches
+  type: Field
+  source:
+    id: QuadPatches
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshBuilder.cs
+    startLine: 137
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Face with 4 Points.
+  example: []
+  syntax:
+    content: QuadPatches = 1
+    return:
+      type: H.Drawing3D.Shape.Geometry.MeshFaces
+references:
+- uid: H.Drawing3D.Shape.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry
+  fullName: H.Drawing3D.Shape.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Geometry.MeshFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshFaces
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.MeshFaces.html
+  name: MeshFaces
+  nameWithType: MeshFaces
+  fullName: H.Drawing3D.Shape.Geometry.MeshFaces

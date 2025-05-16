@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry
+  id: H.Drawing3D.Shape.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.BoxFaces
+  - H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder
+  - H.Drawing3D.Shape.Geometry.MeshBuilder
+  - H.Drawing3D.Shape.Geometry.MeshFaces
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  - H.Drawing3D.Shape.Geometry.MeshSimplification
+  - H.Drawing3D.Shape.Geometry.Polygon
+  - H.Drawing3D.Shape.Geometry.Polygon3D
+  - H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry
+  fullName: H.Drawing3D.Shape.Geometry
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator
+  commentId: T:H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator
+  href: H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator.html
+  name: CuttingEarsTriangulator
+  nameWithType: CuttingEarsTriangulator
+  fullName: H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  commentId: T:H.Drawing3D.Shape.Geometry.IMeshBuilder
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html
+  name: IMeshBuilder
+  nameWithType: IMeshBuilder
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.BoxFaces
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.BoxFaces.html
+  name: BoxFaces
+  nameWithType: BoxFaces
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: H.Drawing3D.Shape.Geometry.MeshFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshFaces
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.MeshFaces.html
+  name: MeshFaces
+  nameWithType: MeshFaces
+  fullName: H.Drawing3D.Shape.Geometry.MeshFaces
+- uid: H.Drawing3D.Shape.Geometry.MeshBuilder
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshBuilder
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.MeshBuilder.html
+  name: MeshBuilder
+  nameWithType: MeshBuilder
+  fullName: H.Drawing3D.Shape.Geometry.MeshBuilder
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html
+  name: MeshGeometryHelper
+  nameWithType: MeshGeometryHelper
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+- uid: H.Drawing3D.Shape.Geometry.MeshSimplification
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshSimplification
+  href: H.Drawing3D.Shape.Geometry.MeshSimplification.html
+  name: MeshSimplification
+  nameWithType: MeshSimplification
+  fullName: H.Drawing3D.Shape.Geometry.MeshSimplification
+- uid: H.Drawing3D.Shape.Geometry.Polygon
+  commentId: T:H.Drawing3D.Shape.Geometry.Polygon
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.Polygon.html
+  name: Polygon
+  nameWithType: Polygon
+  fullName: H.Drawing3D.Shape.Geometry.Polygon
+- uid: H.Drawing3D.Shape.Geometry.Polygon3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Polygon3D
+  href: H.Drawing3D.Shape.Geometry.Polygon3D.html
+  name: Polygon3D
+  nameWithType: Polygon3D
+  fullName: H.Drawing3D.Shape.Geometry.Polygon3D
+- uid: H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator
+  commentId: T:H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator
+  href: H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator.html
+  name: SweepLinePolygonTriangulator
+  nameWithType: SweepLinePolygonTriangulator
+  fullName: H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator
+- uid: H.Drawing3D.Shape.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry
+  fullName: H.Drawing3D.Shape.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html

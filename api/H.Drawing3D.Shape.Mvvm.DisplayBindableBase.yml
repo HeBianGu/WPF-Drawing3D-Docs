@@ -1,0 +1,1141 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  id: DisplayBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  children:
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.#ctor
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  langs:
+  - csharp
+  - vb
+  name: DisplayBindableBase
+  nameWithType: DisplayBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  type: Class
+  source:
+    id: DisplayBindableBase
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 17
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 提供显示相关功能的可绑定基类。
+  example: []
+  syntax:
+    content: 'public abstract class DisplayBindableBase : CommandsBindableBase, INotifyPropertyChanged'
+    content.vb: Public MustInherit Class DisplayBindableBase Inherits CommandsBindableBase Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - H.Drawing3D.Shape.Mvvm.BindableBase
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  derivedClasses:
+  - H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter
+  - H.Drawing3D.Shape.Base.Shape3DBase`1
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+  - H.Drawing3D.Shape.Mvvm.BindableBase.Init
+  - H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+  - H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.#ctor
+  commentId: M:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.#ctor
+  id: '#ctor'
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: DisplayBindableBase()
+  nameWithType: DisplayBindableBase.DisplayBindableBase()
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.DisplayBindableBase()
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 初始化 <xref href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase" data-throw-if-not-resolved="false"></xref> 类的新实例。
+  example: []
+  syntax:
+    content: public DisplayBindableBase()
+    content.vb: Public Sub New()
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.#ctor*
+  nameWithType.vb: DisplayBindableBase.New()
+  fullName.vb: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.New()
+  name.vb: New()
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  id: ID
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: DisplayBindableBase.ID
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  type: Property
+  source:
+    id: ID
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 49
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的唯一标识符。
+  example: []
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public virtual string ID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Browsable(False)>
+
+      Public Overridable Property ID As String
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  id: Name
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DisplayBindableBase.Name
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  type: Property
+  source:
+    id: Name
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 65
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的名称。
+  example: []
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      [Display(Name = "名称", GroupName = "常用")]
+
+      public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Browsable(False)>
+
+      <Display(Name:="名称", GroupName:="常用")>
+
+      Public Overridable Property Name As String
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+  - type: System.ComponentModel.DataAnnotations.DisplayAttribute
+    ctor: System.ComponentModel.DataAnnotations.DisplayAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: 名称
+    - name: GroupName
+      type: System.String
+      value: 常用
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  id: Icon
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: DisplayBindableBase.Icon
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  type: Property
+  source:
+    id: Icon
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 81
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的图标。
+  example: []
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      [Display(Name = "图标", GroupName = "常用")]
+
+      public virtual string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Browsable(False)>
+
+      <Display(Name:="图标", GroupName:="常用")>
+
+      Public Overridable Property Icon As String
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+  - type: System.ComponentModel.DataAnnotations.DisplayAttribute
+    ctor: System.ComponentModel.DataAnnotations.DisplayAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: 图标
+    - name: GroupName
+      type: System.String
+      value: 常用
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  id: ShortName
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: DisplayBindableBase.ShortName
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  type: Property
+  source:
+    id: ShortName
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 98
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的简称。
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      [Browsable(false)]
+
+      public virtual string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      <Browsable(False)>
+
+      Public Overridable Property ShortName As String
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  id: GroupName
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: GroupName
+  nameWithType: DisplayBindableBase.GroupName
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  type: Property
+  source:
+    id: GroupName
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 116
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的分组名称。
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      [Browsable(false)]
+
+      public virtual string GroupName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      <Browsable(False)>
+
+      Public Overridable Property GroupName As String
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  id: Description
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DisplayBindableBase.Description
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  type: Property
+  source:
+    id: Description
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 134
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的描述。
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      [Browsable(false)]
+
+      public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      <Browsable(False)>
+
+      Public Overridable Property Description As String
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  id: Order
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: DisplayBindableBase.Order
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  type: Property
+  source:
+    id: Order
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 152
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取或设置对象的顺序。
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      [Browsable(false)]
+
+      public virtual int Order { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonIgnore>
+
+      <Browsable(False)>
+
+      Public Overridable Property Order As Integer
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  id: LoadDefaultCommand
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: LoadDefaultCommand
+  nameWithType: DisplayBindableBase.LoadDefaultCommand
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  type: Property
+  source:
+    id: LoadDefaultCommand
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 168
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 获取加载默认值的命令。
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      [Display(Name = "恢复默认")]
+
+      public virtual RelayCommand LoadDefaultCommand { get; }
+    parameters: []
+    return:
+      type: H.Drawing3D.Shape.Mvvm.RelayCommand
+    content.vb: >-
+      <JsonIgnore>
+
+      <Display(Name:="恢复默认")>
+
+      Public Overridable ReadOnly Property LoadDefaultCommand As RelayCommand
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.DisplayAttribute
+    ctor: System.ComponentModel.DataAnnotations.DisplayAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: 恢复默认
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  commentId: M:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  id: LoadDefault
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  langs:
+  - csharp
+  - vb
+  name: LoadDefault()
+  nameWithType: DisplayBindableBase.LoadDefault()
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault()
+  type: Method
+  source:
+    id: LoadDefault
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Mvvm\DisplayBindableBase.cs
+    startLine: 179
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Mvvm
+  summary: 加载默认值。
+  example: []
+  syntax:
+    content: public virtual void LoadDefault()
+    content.vb: Public Overridable Sub LoadDefault()
+  overload: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault*
+references:
+- uid: H.Drawing3D.Shape.Mvvm
+  commentId: N:H.Drawing3D.Shape.Mvvm
+  href: H.html
+  name: H.Drawing3D.Shape.Mvvm
+  nameWithType: H.Drawing3D.Shape.Mvvm
+  fullName: H.Drawing3D.Shape.Mvvm
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Mvvm
+    name: Mvvm
+    href: H.Drawing3D.Shape.Mvvm.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Mvvm
+    name: Mvvm
+    href: H.Drawing3D.Shape.Mvvm.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.BindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html
+  name: BindableBase
+  nameWithType: BindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html
+  name: CommandsBindableBase
+  nameWithType: CommandsBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+  commentId: P:H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+  parent: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_Commands
+  name: Commands
+  nameWithType: CommandsBindableBase.Commands
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+  commentId: M:H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+  parent: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands
+  name: CreateCommands()
+  nameWithType: CommandsBindableBase.CreateCommands()
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+    name: CreateCommands
+    href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+    name: CreateCommands
+    href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase.Init
+  commentId: M:H.Drawing3D.Shape.Mvvm.BindableBase.Init
+  parent: H.Drawing3D.Shape.Mvvm.BindableBase
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init
+  name: Init()
+  nameWithType: BindableBase.Init()
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase.Init()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.Init
+    name: Init
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.Init
+    name: Init
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+  commentId: E:H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+  parent: H.Drawing3D.Shape.Mvvm.BindableBase
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BindableBase.PropertyChanged
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+  commentId: M:H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+  parent: H.Drawing3D.Shape.Mvvm.BindableBase
+  isExternal: true
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_
+  name: RaisePropertyChanged(string)
+  nameWithType: BindableBase.RaisePropertyChanged(string)
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(string)
+  nameWithType.vb: BindableBase.RaisePropertyChanged(String)
+  fullName.vb: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html
+  name: DisplayBindableBase
+  nameWithType: DisplayBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.#ctor*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.#ctor
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase__ctor
+  name: DisplayBindableBase
+  nameWithType: DisplayBindableBase.DisplayBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.DisplayBindableBase
+  nameWithType.vb: DisplayBindableBase.New
+  fullName.vb: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.New
+  name.vb: New
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ID
+  name: ID
+  nameWithType: DisplayBindableBase.ID
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Name
+  name: Name
+  nameWithType: DisplayBindableBase.Name
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Icon
+  name: Icon
+  nameWithType: DisplayBindableBase.Icon
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ShortName
+  name: ShortName
+  nameWithType: DisplayBindableBase.ShortName
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_GroupName
+  name: GroupName
+  nameWithType: DisplayBindableBase.GroupName
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Description
+  name: Description
+  nameWithType: DisplayBindableBase.Description
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Order
+  name: Order
+  nameWithType: DisplayBindableBase.Order
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefaultCommand
+  name: LoadDefaultCommand
+  nameWithType: DisplayBindableBase.LoadDefaultCommand
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+- uid: H.Drawing3D.Shape.Mvvm.RelayCommand
+  commentId: T:H.Drawing3D.Shape.Mvvm.RelayCommand
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.RelayCommand.html
+  name: RelayCommand
+  nameWithType: RelayCommand
+  fullName: H.Drawing3D.Shape.Mvvm.RelayCommand
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault*
+  commentId: Overload:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefault
+  name: LoadDefault
+  nameWithType: DisplayBindableBase.LoadDefault
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault

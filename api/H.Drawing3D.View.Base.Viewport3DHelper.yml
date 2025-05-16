@@ -1,0 +1,2472 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Base.Viewport3DHelper
+  commentId: T:H.Drawing3D.View.Base.Viewport3DHelper
+  id: Viewport3DHelper
+  parent: H.Drawing3D.View.Base
+  children:
+  - H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  - H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D,System.Int32)
+  - H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.Export(System.Windows.Controls.Viewport3D,System.String,System.Windows.Media.Brush)
+  - H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  - H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D,System.Windows.Rect,H.Drawing3D.View.Base.SelectionHitMode)
+  - H.Drawing3D.View.Base.Viewport3DHelper.FindNearest(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult},System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Vector3D@,System.Windows.DependencyObject@)
+  - H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  - H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetLights(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetRay(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetTransform(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Visual3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Controls.Viewport3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  - H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Point3D@)
+  - H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  - H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  - H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.View.Base.Viewport3DHelper.Print(System.Windows.Controls.Viewport3D,System.String)
+  - H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  - H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D,System.Windows.Media.Brush,System.Int32)
+  - H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange(System.Windows.Controls.Viewport3D,System.Double,System.Double)
+  - H.Drawing3D.View.Base.Viewport3DHelper.SearchFor``1(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D})
+  - H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  - H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  langs:
+  - csharp
+  - vb
+  name: Viewport3DHelper
+  nameWithType: Viewport3DHelper
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper
+  type: Class
+  source:
+    id: Viewport3DHelper
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Provides extension methods for <xref href="System.Windows.Controls.Viewport3D" data-throw-if-not-resolved="false"></xref>.
+  remarks: See "3D programming for Windows" (Charles Petzold book) and <a hef="http://www.ericsink.com/wpf3d/index.html">Twelve Days of WPF 3D</a>.
+  example: []
+  syntax:
+    content: public static class Viewport3DHelper
+    content.vb: Public Module Viewport3DHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D,System.Int32)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D,System.Int32)
+  id: Copy(System.Windows.Controls.Viewport3D,System.Int32)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Copy(Viewport3D, int)
+  nameWithType: Viewport3DHelper.Copy(Viewport3D, int)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D, int)
+  type: Method
+  source:
+    id: Copy
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 36
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Copies the specified viewport to the clipboard.
+  example: []
+  syntax:
+    content: public static void Copy(this Viewport3D view, int m = 1)
+    parameters:
+    - id: view
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: m
+      type: System.Int32
+      description: The oversampling multiplier.
+    content.vb: Public Shared Sub Copy(view As Viewport3D, m As Integer = 1)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Copy*
+  nameWithType.vb: Viewport3DHelper.Copy(Viewport3D, Integer)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D, Integer)
+  name.vb: Copy(Viewport3D, Integer)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  id: Copy(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Copy(Viewport3D, double, double, Brush, int)
+  nameWithType: Viewport3DHelper.Copy(Viewport3D, double, double, Brush, int)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D, double, double, System.Windows.Media.Brush, int)
+  type: Method
+  source:
+    id: Copy
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 49
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Copies the specified viewport to the clipboard.
+  example: []
+  syntax:
+    content: public static void Copy(this Viewport3D view, double width, double height, Brush background, int m = 1)
+    parameters:
+    - id: view
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: width
+      type: System.Double
+      description: The width.
+    - id: height
+      type: System.Double
+      description: The height.
+    - id: background
+      type: System.Windows.Media.Brush
+      description: The background.
+    - id: m
+      type: System.Int32
+      description: The oversampling multiplier.
+    content.vb: Public Shared Sub Copy(view As Viewport3D, width As Double, height As Double, background As Brush, m As Integer = 1)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Copy*
+  nameWithType.vb: Viewport3DHelper.Copy(Viewport3D, Double, Double, Brush, Integer)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.Copy(System.Windows.Controls.Viewport3D, Double, Double, System.Windows.Media.Brush, Integer)
+  name.vb: Copy(Viewport3D, Double, Double, Brush, Integer)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml(System.Windows.Controls.Viewport3D)
+  id: CopyXaml(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: CopyXaml(Viewport3D)
+  nameWithType: Viewport3DHelper.CopyXaml(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: CopyXaml
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 60
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Copies the viewport as <pre><code class="lang-csharp">xaml</code></pre> to the clipboard.
+  example: []
+  syntax:
+    content: public static void CopyXaml(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    content.vb: Public Shared Sub CopyXaml(viewport As Viewport3D)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Export(System.Windows.Controls.Viewport3D,System.String,System.Windows.Media.Brush)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Export(System.Windows.Controls.Viewport3D,System.String,System.Windows.Media.Brush)
+  id: Export(System.Windows.Controls.Viewport3D,System.String,System.Windows.Media.Brush)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Export(Viewport3D, string, Brush)
+  nameWithType: Viewport3DHelper.Export(Viewport3D, string, Brush)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Export(System.Windows.Controls.Viewport3D, string, System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: Export
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 71
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Exports the specified viewport.
+  example: []
+  syntax:
+    content: public static void Export(this Viewport3D viewport, string fileName, Brush background = null)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: fileName
+      type: System.String
+      description: Name of the file.
+    - id: background
+      type: System.Windows.Media.Brush
+      description: The background brush.
+    content.vb: Public Shared Sub Export(viewport As Viewport3D, fileName As String, background As Brush = Nothing)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Export*
+  nameWithType.vb: Viewport3DHelper.Export(Viewport3D, String, Brush)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.Export(System.Windows.Controls.Viewport3D, String, System.Windows.Media.Brush)
+  name.vb: Export(Viewport3D, String, Brush)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  id: FindHits(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: FindHits(Viewport3D, Point)
+  nameWithType: Viewport3DHelper.FindHits(Viewport3D, Point)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D, System.Windows.Point)
+  type: Method
+  source:
+    id: FindHits
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 147
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Finds the hits for the specified position.
+  example: []
+  syntax:
+    content: public static IList<Viewport3DHelper.HitResult> FindHits(this Viewport3D viewport, Point position)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: position
+      type: System.Windows.Point
+      description: The position.
+    return:
+      type: System.Collections.Generic.IList{H.Drawing3D.View.Base.Viewport3DHelper.HitResult}
+      description: List of hits, sorted with the nearest hit first.
+    content.vb: Public Shared Function FindHits(viewport As Viewport3D, position As Point) As IList(Of Viewport3DHelper.HitResult)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.FindHits*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D,System.Windows.Rect,H.Drawing3D.View.Base.SelectionHitMode)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D,System.Windows.Rect,H.Drawing3D.View.Base.SelectionHitMode)
+  id: FindHits(System.Windows.Controls.Viewport3D,System.Windows.Rect,H.Drawing3D.View.Base.SelectionHitMode)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: FindHits(Viewport3D, Rect, SelectionHitMode)
+  nameWithType: Viewport3DHelper.FindHits(Viewport3D, Rect, SelectionHitMode)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindHits(System.Windows.Controls.Viewport3D, System.Windows.Rect, H.Drawing3D.View.Base.SelectionHitMode)
+  type: Method
+  source:
+    id: FindHits
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 198
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Finds the hits for the specified rectangle.
+  example: []
+  syntax:
+    content: public static IEnumerable<Viewport3DHelper.RectangleHitResult> FindHits(this Viewport3D viewport, Rect rectangle, SelectionHitMode mode)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: rectangle
+      type: System.Windows.Rect
+      description: The rectangle.
+    - id: mode
+      type: H.Drawing3D.View.Base.SelectionHitMode
+      description: The mode of selection.
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult}
+      description: The list of the hits.
+    content.vb: Public Shared Function FindHits(viewport As Viewport3D, rectangle As Rect, mode As SelectionHitMode) As IEnumerable(Of Viewport3DHelper.RectangleHitResult)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.FindHits*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindNearest(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult},System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Vector3D@,System.Windows.DependencyObject@)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.FindNearest(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult},System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Vector3D@,System.Windows.DependencyObject@)
+  id: FindNearest(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult},System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Vector3D@,System.Windows.DependencyObject@)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: FindNearest(Viewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>, out Point3D, out Vector3D, out DependencyObject)
+  nameWithType: Viewport3DHelper.FindNearest(Viewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>, out Point3D, out Vector3D, out DependencyObject)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindNearest(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Predicate<System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult>, out System.Windows.Media.Media3D.Point3D, out System.Windows.Media.Media3D.Vector3D, out System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindNearest
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 275
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Finds the nearest visual, hit point and its normal at the specified position.
+  example: []
+  syntax:
+    content: public static bool FindNearest(this Viewport3D viewport, Point position, Predicate<RayMeshGeometry3DHitTestResult> predicate, out Point3D point, out Vector3D normal, out DependencyObject visual)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: position
+      type: System.Windows.Point
+      description: The position.
+    - id: predicate
+      type: System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult}
+    - id: point
+      type: System.Windows.Media.Media3D.Point3D
+      description: The 3D hit point.
+    - id: normal
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The normal of the mesh at the hit point.
+    - id: visual
+      type: System.Windows.DependencyObject
+      description: The hit visual.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if a visual was found at the specified position.
+    content.vb: Public Shared Function FindNearest(viewport As Viewport3D, position As Point, predicate As Predicate(Of RayMeshGeometry3DHitTestResult), point As Point3D, normal As Vector3D, visual As DependencyObject) As Boolean
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.FindNearest*
+  nameWithType.vb: Viewport3DHelper.FindNearest(Viewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult), Point3D, Vector3D, DependencyObject)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.FindNearest(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Predicate(Of System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult), System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.DependencyObject)
+  name.vb: FindNearest(Viewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult), Point3D, Vector3D, DependencyObject)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  id: FindNearestPoint(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: FindNearestPoint(Viewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  nameWithType: Viewport3DHelper.FindNearestPoint(Viewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Predicate<System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult>)
+  type: Method
+  source:
+    id: FindNearestPoint
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 356
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Finds the coordinates of the nearest point at the specified position.
+  example: []
+  syntax:
+    content: public static Point3D? FindNearestPoint(this Viewport3D viewport, Point position, Predicate<RayMeshGeometry3DHitTestResult> predicate = null)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: position
+      type: System.Windows.Point
+      description: The position.
+    - id: predicate
+      type: System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult}
+    return:
+      type: System.Nullable{System.Windows.Media.Media3D.Point3D}
+      description: The nearest point, or null if no point was found.
+    content.vb: Public Shared Function FindNearestPoint(viewport As Viewport3D, position As Point, predicate As Predicate(Of RayMeshGeometry3DHitTestResult) = Nothing) As Point3D?
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint*
+  nameWithType.vb: Viewport3DHelper.FindNearestPoint(Viewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Predicate(Of System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult))
+  name.vb: FindNearestPoint(Viewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  id: FindNearestVisual(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: FindNearestVisual(Viewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  nameWithType: Viewport3DHelper.FindNearestVisual(Viewport3D, Point, Predicate<RayMeshGeometry3DHitTestResult>)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Predicate<System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult>)
+  type: Method
+  source:
+    id: FindNearestVisual
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 369
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Finds the Visual3D that is nearest the specified position.
+  example: []
+  syntax:
+    content: public static Visual3D FindNearestVisual(this Viewport3D viewport, Point position, Predicate<RayMeshGeometry3DHitTestResult> predicate = null)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: position
+      type: System.Windows.Point
+      description: The position.
+    - id: predicate
+      type: System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult}
+    return:
+      type: System.Windows.Media.Media3D.Visual3D
+      description: The nearest visual, or <code>null</code> if no visual was found.
+    content.vb: Public Shared Function FindNearestVisual(viewport As Viewport3D, position As Point, predicate As Predicate(Of RayMeshGeometry3DHitTestResult) = Nothing) As Visual3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual*
+  nameWithType.vb: Viewport3DHelper.FindNearestVisual(Viewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Predicate(Of System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult))
+  name.vb: FindNearestVisual(Viewport3D, Point, Predicate(Of RayMeshGeometry3DHitTestResult))
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  id: GetCameraTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCameraTransform(Viewport3DVisual)
+  nameWithType: Viewport3DHelper.GetCameraTransform(Viewport3DVisual)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  type: Method
+  source:
+    id: GetCameraTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 379
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the camera transform.
+  example: []
+  syntax:
+    content: public static Matrix3D GetCameraTransform(this Viewport3DVisual viewport3DVisual)
+    parameters:
+    - id: viewport3DVisual
+      type: System.Windows.Media.Media3D.Viewport3DVisual
+      description: The viewport visual.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The camera transform.
+    content.vb: Public Shared Function GetCameraTransform(viewport3DVisual As Viewport3DVisual) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Controls.Viewport3D)
+  id: GetCameraTransform(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCameraTransform(Viewport3D)
+  nameWithType: Viewport3DHelper.GetCameraTransform(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetCameraTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 393
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the camera transform (viewport and projection).
+  example: []
+  syntax:
+    content: public static Matrix3D GetCameraTransform(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: A <xref href="System.Windows.Media.Media3D.Matrix3D" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function GetCameraTransform(viewport As Viewport3D) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetLights(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetLights(System.Windows.Controls.Viewport3D)
+  id: GetLights(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLights(Viewport3D)
+  nameWithType: Viewport3DHelper.GetLights(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetLights(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetLights
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 403
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets all lights.
+  example: []
+  syntax:
+    content: public static IEnumerable<Light> GetLights(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Light}
+      description: A sequence of <xref href="System.Windows.Media.Media3D.Light" data-throw-if-not-resolved="false"></xref> objects.
+    content.vb: Public Shared Function GetLights(viewport As Viewport3D) As IEnumerable(Of Light)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetLights*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetRay(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetRay(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  id: GetRay(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRay(Viewport3D, Point)
+  nameWithType: Viewport3DHelper.GetRay(Viewport3D, Point)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetRay(System.Windows.Controls.Viewport3D, System.Windows.Point)
+  type: Method
+  source:
+    id: GetRay
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 421
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the ray at the specified position.
+  example: []
+  syntax:
+    content: public static Ray3D GetRay(this Viewport3D viewport, Point position)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: position
+      type: System.Windows.Point
+      description: A 2D point.
+    return:
+      type: H.Drawing3D.View.Base.Ray3D
+      description: A <xref href="H.Drawing3D.View.Base.Ray3D" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function GetRay(viewport As Viewport3D, position As Point) As Ray3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetRay*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  id: GetTotalTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTotalTransform(Viewport3DVisual)
+  nameWithType: Viewport3DHelper.GetTotalTransform(Viewport3DVisual)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  type: Method
+  source:
+    id: GetTotalTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 432
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the total transform (camera and viewport).
+  example: []
+  syntax:
+    content: public static Matrix3D GetTotalTransform(this Viewport3DVisual viewport3DVisual)
+    parameters:
+    - id: viewport3DVisual
+      type: System.Windows.Media.Media3D.Viewport3DVisual
+      description: The viewport visual.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The total transform.
+    content.vb: Public Shared Function GetTotalTransform(viewport3DVisual As Viewport3DVisual) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Controls.Viewport3D)
+  id: GetTotalTransform(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTotalTransform(Viewport3D)
+  nameWithType: Viewport3DHelper.GetTotalTransform(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetTotalTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 444
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the total transform (camera and viewport).
+  example: []
+  syntax:
+    content: public static Matrix3D GetTotalTransform(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The total transform.
+    content.vb: Public Shared Function GetTotalTransform(viewport As Viewport3D) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTransform(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Visual3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetTransform(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Visual3D)
+  id: GetTransform(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Visual3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTransform(Viewport3D, Visual3D)
+  nameWithType: Viewport3DHelper.GetTransform(Viewport3D, Visual3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTransform(System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Visual3D)
+  type: Method
+  source:
+    id: GetTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 457
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the total transform of the specified visual.
+  example: []
+  syntax:
+    content: public static GeneralTransform3D GetTransform(this Viewport3D viewport, Visual3D visual)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: visual
+      type: System.Windows.Media.Media3D.Visual3D
+      description: The visual.
+    return:
+      type: System.Windows.Media.Media3D.GeneralTransform3D
+      description: The transform.
+    content.vb: Public Shared Function GetTransform(viewport As Viewport3D, visual As Visual3D) As GeneralTransform3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix(System.Windows.Controls.Viewport3D)
+  id: GetViewMatrix(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetViewMatrix(Viewport3D)
+  nameWithType: Viewport3DHelper.GetViewMatrix(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetViewMatrix
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 488
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the view matrix.
+  example: []
+  syntax:
+    content: public static Matrix3D GetViewMatrix(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: A <xref href="System.Windows.Media.Media3D.Matrix3D" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function GetViewMatrix(viewport As Viewport3D) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix(System.Windows.Controls.Viewport3D)
+  id: GetProjectionMatrix(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProjectionMatrix(Viewport3D)
+  nameWithType: Viewport3DHelper.GetProjectionMatrix(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetProjectionMatrix
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 498
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the projection matrix.
+  example: []
+  syntax:
+    content: public static Matrix3D GetProjectionMatrix(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: A <xref href="System.Windows.Media.Media3D.Matrix3D" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function GetProjectionMatrix(viewport As Viewport3D) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  id: GetViewportTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetViewportTransform(Viewport3DVisual)
+  nameWithType: Viewport3DHelper.GetViewportTransform(Viewport3DVisual)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Viewport3DVisual)
+  type: Method
+  source:
+    id: GetViewportTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 508
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the viewport transform.
+  example: []
+  syntax:
+    content: public static Matrix3D GetViewportTransform(this Viewport3DVisual viewport3DVisual)
+    parameters:
+    - id: viewport3DVisual
+      type: System.Windows.Media.Media3D.Viewport3DVisual
+      description: The viewport3DVisual.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The transform.
+    content.vb: Public Shared Function GetViewportTransform(viewport3DVisual As Viewport3DVisual) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Controls.Viewport3D)
+  id: GetViewportTransform(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetViewportTransform(Viewport3D)
+  nameWithType: Viewport3DHelper.GetViewportTransform(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetViewportTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 536
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the viewport transform.
+  example: []
+  syntax:
+    content: public static Matrix3D GetViewportTransform(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The transform.
+    content.vb: Public Shared Function GetViewportTransform(viewport As Viewport3D) As Matrix3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Point3D@)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Point3D@)
+  id: Point2DtoPoint3D(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D@,System.Windows.Media.Media3D.Point3D@)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Point2DtoPoint3D(Viewport3D, Point, out Point3D, out Point3D)
+  nameWithType: Viewport3DHelper.Point2DtoPoint3D(Viewport3D, Point, out Point3D, out Point3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D(System.Windows.Controls.Viewport3D, System.Windows.Point, out System.Windows.Media.Media3D.Point3D, out System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: Point2DtoPoint3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 565
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Transforms a position to Point3D at the near and far clipping planes.
+  example: []
+  syntax:
+    content: public static bool Point2DtoPoint3D(this Viewport3D viewport, Point pointIn, out Point3D pointNear, out Point3D pointFar)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: pointIn
+      type: System.Windows.Point
+      description: The point to transform.
+    - id: pointNear
+      type: System.Windows.Media.Media3D.Point3D
+      description: The point at the near clipping plane.
+    - id: pointFar
+      type: System.Windows.Media.Media3D.Point3D
+      description: The point at the far clipping plane.
+    return:
+      type: System.Boolean
+      description: True if points were found.
+    content.vb: Public Shared Function Point2DtoPoint3D(viewport As Viewport3D, pointIn As Point, pointNear As Point3D, pointFar As Point3D) As Boolean
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D*
+  nameWithType.vb: Viewport3DHelper.Point2DtoPoint3D(Viewport3D, Point, Point3D, Point3D)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  name.vb: Point2DtoPoint3D(Viewport3D, Point, Point3D, Point3D)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  id: Point2DtoRay3D(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Point2DtoRay3D(Viewport3D, Point)
+  nameWithType: Viewport3DHelper.Point2DtoRay3D(Viewport3D, Point)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D(System.Windows.Controls.Viewport3D, System.Windows.Point)
+  type: Method
+  source:
+    id: Point2DtoRay3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 598
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Transforms a 2D point to a ray.
+  example: []
+  syntax:
+    content: public static Ray3D Point2DtoRay3D(this Viewport3D viewport, Point pointIn)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: pointIn
+      type: System.Windows.Point
+      description: The point.
+    return:
+      type: H.Drawing3D.View.Base.Ray3D
+      description: The ray.
+    content.vb: Public Shared Function Point2DtoRay3D(viewport As Viewport3D, pointIn As Point) As Ray3D
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D)
+  id: Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Point3DtoPoint2D(Viewport3D, Point3D)
+  nameWithType: Viewport3DHelper.Point3DtoPoint2D(Viewport3D, Point3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: Point3DtoPoint2D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 609
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Transforms the Point3D to a Point2D.
+  example: []
+  syntax:
+    content: public static Point Point3DtoPoint2D(this Viewport3D viewport, Point3D point)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: point
+      type: System.Windows.Media.Media3D.Point3D
+      description: The 3D point.
+    return:
+      type: System.Windows.Point
+      description: The point.
+    content.vb: Public Shared Function Point3DtoPoint2D(viewport As Viewport3D, point As Point3D) As Point
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  id: Point3DtoPoint2D(System.Windows.Controls.Viewport3D,System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Point3DtoPoint2D(Viewport3D, IEnumerable<Point3D>)
+  nameWithType: Viewport3DHelper.Point3DtoPoint2D(Viewport3D, IEnumerable<Point3D>)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D, System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Point3D>)
+  type: Method
+  source:
+    id: Point3DtoPoint2D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 623
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Transforms the set of Point3D to a set of Point2D.
+  example: []
+  syntax:
+    content: public static IEnumerable<Point> Point3DtoPoint2D(this Viewport3D viewport, IEnumerable<Point3D> points)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: points
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D}
+      description: The set of 3D points.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.Point}
+      description: The transformed points.
+    content.vb: Public Shared Function Point3DtoPoint2D(viewport As Viewport3D, points As IEnumerable(Of Point3D)) As IEnumerable(Of Point)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D*
+  nameWithType.vb: Viewport3DHelper.Point3DtoPoint2D(Viewport3D, IEnumerable(Of Point3D))
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D(System.Windows.Controls.Viewport3D, System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Point3D))
+  name.vb: Point3DtoPoint2D(Viewport3D, IEnumerable(Of Point3D))
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Print(System.Windows.Controls.Viewport3D,System.String)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.Print(System.Windows.Controls.Viewport3D,System.String)
+  id: Print(System.Windows.Controls.Viewport3D,System.String)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: Print(Viewport3D, string)
+  nameWithType: Viewport3DHelper.Print(Viewport3D, string)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Print(System.Windows.Controls.Viewport3D, string)
+  type: Method
+  source:
+    id: Print
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 639
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Prints the specified viewport.
+  example: []
+  syntax:
+    content: public static void Print(this Viewport3D vp, string description)
+    parameters:
+    - id: vp
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: description
+      type: System.String
+      description: The description.
+    content.vb: Public Shared Sub Print(vp As Viewport3D, description As String)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.Print*
+  nameWithType.vb: Viewport3DHelper.Print(Viewport3D, String)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.Print(System.Windows.Controls.Viewport3D, String)
+  name.vb: Print(Viewport3D, String)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D,System.Windows.Media.Brush,System.Int32)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D,System.Windows.Media.Brush,System.Int32)
+  id: RenderBitmap(System.Windows.Controls.Viewport3D,System.Windows.Media.Brush,System.Int32)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: RenderBitmap(Viewport3D, Brush, int)
+  nameWithType: Viewport3DHelper.RenderBitmap(Viewport3D, Brush, int)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D, System.Windows.Media.Brush, int)
+  type: Method
+  source:
+    id: RenderBitmap
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 653
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Renders the viewport to a bitmap.
+  example: []
+  syntax:
+    content: public static BitmapSource RenderBitmap(this Viewport3D view, Brush background, int m = 1)
+    parameters:
+    - id: view
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: background
+      type: System.Windows.Media.Brush
+      description: The background.
+    - id: m
+      type: System.Int32
+      description: The oversampling multiplier.
+    return:
+      type: System.Windows.Media.Imaging.BitmapSource
+      description: A bitmap.
+    content.vb: Public Shared Function RenderBitmap(view As Viewport3D, background As Brush, m As Integer = 1) As BitmapSource
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap*
+  nameWithType.vb: Viewport3DHelper.RenderBitmap(Viewport3D, Brush, Integer)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D, System.Windows.Media.Brush, Integer)
+  name.vb: RenderBitmap(Viewport3D, Brush, Integer)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  id: RenderBitmap(System.Windows.Controls.Viewport3D,System.Double,System.Double,System.Windows.Media.Brush,System.Int32)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: RenderBitmap(Viewport3D, double, double, Brush, int)
+  nameWithType: Viewport3DHelper.RenderBitmap(Viewport3D, double, double, Brush, int)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D, double, double, System.Windows.Media.Brush, int)
+  type: Method
+  source:
+    id: RenderBitmap
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 714
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Renders the viewport to a bitmap.
+  example: []
+  syntax:
+    content: public static BitmapSource RenderBitmap(this Viewport3D view, double width, double height, Brush background, int m = 1)
+    parameters:
+    - id: view
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: width
+      type: System.Double
+      description: The width.
+    - id: height
+      type: System.Double
+      description: The height.
+    - id: background
+      type: System.Windows.Media.Brush
+      description: The background.
+    - id: m
+      type: System.Int32
+      description: The oversampling multiplier.
+    return:
+      type: System.Windows.Media.Imaging.BitmapSource
+      description: A bitmap.
+    content.vb: Public Shared Function RenderBitmap(view As Viewport3D, width As Double, height As Double, background As Brush, m As Integer = 1) As BitmapSource
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap*
+  nameWithType.vb: Viewport3DHelper.RenderBitmap(Viewport3D, Double, Double, Brush, Integer)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap(System.Windows.Controls.Viewport3D, Double, Double, System.Windows.Media.Brush, Integer)
+  name.vb: RenderBitmap(Viewport3D, Double, Double, Brush, Integer)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange(System.Windows.Controls.Viewport3D,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange(System.Windows.Controls.Viewport3D,System.Double,System.Double)
+  id: ResizeAndArrange(System.Windows.Controls.Viewport3D,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: ResizeAndArrange(Viewport3D, double, double)
+  nameWithType: Viewport3DHelper.ResizeAndArrange(Viewport3D, double, double)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange(System.Windows.Controls.Viewport3D, double, double)
+  type: Method
+  source:
+    id: ResizeAndArrange
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 736
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Resizes and arranges the viewport.
+  example: []
+  syntax:
+    content: public static void ResizeAndArrange(this Viewport3D view, double width, double height)
+    parameters:
+    - id: view
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: width
+      type: System.Double
+      description: The width.
+    - id: height
+      type: System.Double
+      description: The height.
+    content.vb: Public Shared Sub ResizeAndArrange(view As Viewport3D, width As Double, height As Double)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange*
+  nameWithType.vb: Viewport3DHelper.ResizeAndArrange(Viewport3D, Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange(System.Windows.Controls.Viewport3D, Double, Double)
+  name.vb: ResizeAndArrange(Viewport3D, Double, Double)
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.SearchFor``1(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D})
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.SearchFor``1(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D})
+  id: SearchFor``1(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: SearchFor<T>(IEnumerable<Visual3D>)
+  nameWithType: Viewport3DHelper.SearchFor<T>(IEnumerable<Visual3D>)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.SearchFor<T>(System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Visual3D>)
+  type: Method
+  source:
+    id: SearchFor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 822
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Recursive search in a Visual3D collection for objects of given type T
+  example: []
+  syntax:
+    content: public static IList<Model3D> SearchFor<T>(this IEnumerable<Visual3D> collection)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D}
+      description: The collection.
+    typeParameters:
+    - id: T
+      description: The type to search for.
+    return:
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D}
+      description: A list of models.
+    content.vb: Public Shared Function SearchFor(Of T)(collection As IEnumerable(Of Visual3D)) As IList(Of Model3D)
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.SearchFor*
+  nameWithType.vb: Viewport3DHelper.SearchFor(Of T)(IEnumerable(Of Visual3D))
+  fullName.vb: H.Drawing3D.View.Base.Viewport3DHelper.SearchFor(Of T)(System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Visual3D))
+  name.vb: SearchFor(Of T)(IEnumerable(Of Visual3D))
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  id: UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: UnProject(Viewport3D, Point, Point3D, Vector3D)
+  nameWithType: Viewport3DHelper.UnProject(Viewport3D, Point, Point3D, Vector3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D, System.Windows.Point, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D)
+  type: Method
+  source:
+    id: UnProject
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 850
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Transforms a point from the screen (2D) to a point on plane (3D) 平行于相机的平面上的交点
+  remarks: Maps window coordinates to object coordinates like <pre><code class="lang-csharp">gluUnProject</code></pre>.
+  example: []
+  syntax:
+    content: public static Point3D? UnProject(this Viewport3D viewport, Point p, Point3D position, Vector3D normal)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: p
+      type: System.Windows.Point
+      description: The 2D point.
+    - id: position
+      type: System.Windows.Media.Media3D.Point3D
+      description: A point in the plane.
+    - id: normal
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The plane normal.
+    return:
+      type: System.Nullable{System.Windows.Media.Media3D.Point3D}
+      description: A 3D point.
+    content.vb: Public Shared Function UnProject(viewport As Viewport3D, p As Point, position As Point3D, normal As Vector3D) As Point3D?
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.UnProject*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  id: UnProject(System.Windows.Controls.Viewport3D,System.Windows.Point)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: UnProject(Viewport3D, Point)
+  nameWithType: Viewport3DHelper.UnProject(Viewport3D, Point)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.UnProject(System.Windows.Controls.Viewport3D, System.Windows.Point)
+  type: Method
+  source:
+    id: UnProject
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 868
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Transforms a point from the screen (2D) to a point on the plane trough the camera target point.
+  example: []
+  syntax:
+    content: public static Point3D? UnProject(this Viewport3D viewport, Point p)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: p
+      type: System.Windows.Point
+      description: The 2D point.
+    return:
+      type: System.Nullable{System.Windows.Media.Media3D.Point3D}
+      description: A 3D point.
+    content.vb: Public Shared Function UnProject(viewport As Viewport3D, p As Point) As Point3D?
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.UnProject*
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles(System.Windows.Controls.Viewport3D)
+  commentId: M:H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles(System.Windows.Controls.Viewport3D)
+  id: GetTotalNumberOfTriangles(System.Windows.Controls.Viewport3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.Viewport3DHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTotalNumberOfTriangles(Viewport3D)
+  nameWithType: Viewport3DHelper.GetTotalNumberOfTriangles(Viewport3D)
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles(System.Windows.Controls.Viewport3D)
+  type: Method
+  source:
+    id: GetTotalNumberOfTriangles
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\Viewport3DHelper.cs
+    startLine: 878
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the total number of triangles in the viewport.
+  example: []
+  syntax:
+    content: public static int GetTotalNumberOfTriangles(this Viewport3D viewport)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    return:
+      type: System.Int32
+      description: The total number of triangles
+    content.vb: Public Shared Function GetTotalNumberOfTriangles(viewport As Viewport3D) As Integer
+  overload: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles*
+references:
+- uid: System.Windows.Controls.Viewport3D
+  commentId: T:System.Windows.Controls.Viewport3D
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.viewport3d
+  name: Viewport3D
+  nameWithType: Viewport3D
+  fullName: System.Windows.Controls.Viewport3D
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Copy*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.Copy
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_Copy_System_Windows_Controls_Viewport3D_System_Int32_
+  name: Copy
+  nameWithType: Viewport3DHelper.Copy
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Copy
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_CopyXaml_System_Windows_Controls_Viewport3D_
+  name: CopyXaml
+  nameWithType: Viewport3DHelper.CopyXaml
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.CopyXaml
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Export*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.Export
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_Export_System_Windows_Controls_Viewport3D_System_String_System_Windows_Media_Brush_
+  name: Export
+  nameWithType: Viewport3DHelper.Export
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Export
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindHits*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.FindHits
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_FindHits_System_Windows_Controls_Viewport3D_System_Windows_Point_
+  name: FindHits
+  nameWithType: Viewport3DHelper.FindHits
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindHits
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Collections.Generic.IList{H.Drawing3D.View.Base.Viewport3DHelper.HitResult}
+  commentId: T:System.Collections.Generic.IList{H.Drawing3D.View.Base.Viewport3DHelper.HitResult}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Viewport3DHelper.HitResult>
+  nameWithType: IList<Viewport3DHelper.HitResult>
+  fullName: System.Collections.Generic.IList<H.Drawing3D.View.Base.Viewport3DHelper.HitResult>
+  nameWithType.vb: IList(Of Viewport3DHelper.HitResult)
+  fullName.vb: System.Collections.Generic.IList(Of H.Drawing3D.View.Base.Viewport3DHelper.HitResult)
+  name.vb: IList(Of Viewport3DHelper.HitResult)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+    name: HitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.HitResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+    name: HitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.HitResult.html
+  - name: )
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Windows.Rect
+  commentId: T:System.Windows.Rect
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.rect
+  name: Rect
+  nameWithType: Rect
+  fullName: System.Windows.Rect
+- uid: H.Drawing3D.View.Base.SelectionHitMode
+  commentId: T:H.Drawing3D.View.Base.SelectionHitMode
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.SelectionHitMode.html
+  name: SelectionHitMode
+  nameWithType: SelectionHitMode
+  fullName: H.Drawing3D.View.Base.SelectionHitMode
+- uid: System.Collections.Generic.IEnumerable{H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Viewport3DHelper.RectangleHitResult>
+  nameWithType: IEnumerable<Viewport3DHelper.RectangleHitResult>
+  fullName: System.Collections.Generic.IEnumerable<H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult>
+  nameWithType.vb: IEnumerable(Of Viewport3DHelper.RectangleHitResult)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult)
+  name.vb: IEnumerable(Of Viewport3DHelper.RectangleHitResult)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+    name: RectangleHitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+    name: RectangleHitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindNearest*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.FindNearest
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_FindNearest_System_Windows_Controls_Viewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__System_Windows_Media_Media3D_Point3D__System_Windows_Media_Media3D_Vector3D__System_Windows_DependencyObject__
+  name: FindNearest
+  nameWithType: Viewport3DHelper.FindNearest
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindNearest
+- uid: System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult}
+  commentId: T:System.Predicate{System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult}
+  parent: System
+  definition: System.Predicate`1
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<RayMeshGeometry3DHitTestResult>
+  nameWithType: Predicate<RayMeshGeometry3DHitTestResult>
+  fullName: System.Predicate<System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult>
+  nameWithType.vb: Predicate(Of RayMeshGeometry3DHitTestResult)
+  fullName.vb: System.Predicate(Of System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult)
+  name.vb: Predicate(Of RayMeshGeometry3DHitTestResult)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult
+    name: RayMeshGeometry3DHitTestResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.raymeshgeometry3dhittestresult
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.RayMeshGeometry3DHitTestResult
+    name: RayMeshGeometry3DHitTestResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.raymeshgeometry3dhittestresult
+  - name: )
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_FindNearestPoint_System_Windows_Controls_Viewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  name: FindNearestPoint
+  nameWithType: Viewport3DHelper.FindNearestPoint
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestPoint
+- uid: System.Nullable{System.Windows.Media.Media3D.Point3D}
+  commentId: T:System.Nullable{System.Windows.Media.Media3D.Point3D}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D?
+  nameWithType: Point3D?
+  fullName: System.Windows.Media.Media3D.Point3D?
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '?'
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_FindNearestVisual_System_Windows_Controls_Viewport3D_System_Windows_Point_System_Predicate_System_Windows_Media_Media3D_RayMeshGeometry3DHitTestResult__
+  name: FindNearestVisual
+  nameWithType: Viewport3DHelper.FindNearestVisual
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.FindNearestVisual
+- uid: System.Windows.Media.Media3D.Visual3D
+  commentId: T:System.Windows.Media.Media3D.Visual3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  name: Visual3D
+  nameWithType: Visual3D
+  fullName: System.Windows.Media.Media3D.Visual3D
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetCameraTransform_System_Windows_Media_Media3D_Viewport3DVisual_
+  name: GetCameraTransform
+  nameWithType: Viewport3DHelper.GetCameraTransform
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetCameraTransform
+- uid: System.Windows.Media.Media3D.Viewport3DVisual
+  commentId: T:System.Windows.Media.Media3D.Viewport3DVisual
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.viewport3dvisual
+  name: Viewport3DVisual
+  nameWithType: Viewport3DVisual
+  fullName: System.Windows.Media.Media3D.Viewport3DVisual
+- uid: System.Windows.Media.Media3D.Matrix3D
+  commentId: T:System.Windows.Media.Media3D.Matrix3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.matrix3d
+  name: Matrix3D
+  nameWithType: Matrix3D
+  fullName: System.Windows.Media.Media3D.Matrix3D
+- uid: System.Windows.Media.Media3D.Light
+  commentId: T:System.Windows.Media.Media3D.Light
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.light
+  name: Light
+  nameWithType: Light
+  fullName: System.Windows.Media.Media3D.Light
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetLights*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetLights
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetLights_System_Windows_Controls_Viewport3D_
+  name: GetLights
+  nameWithType: Viewport3DHelper.GetLights
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetLights
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Light}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Light}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Light>
+  nameWithType: IEnumerable<Light>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Light>
+  nameWithType.vb: IEnumerable(Of Light)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Light)
+  name.vb: IEnumerable(Of Light)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Light
+    name: Light
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.light
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Light
+    name: Light
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.light
+  - name: )
+- uid: H.Drawing3D.View.Base.Ray3D
+  commentId: T:H.Drawing3D.View.Base.Ray3D
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.Ray3D.html
+  name: Ray3D
+  nameWithType: Ray3D
+  fullName: H.Drawing3D.View.Base.Ray3D
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetRay*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetRay
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetRay_System_Windows_Controls_Viewport3D_System_Windows_Point_
+  name: GetRay
+  nameWithType: Viewport3DHelper.GetRay
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetRay
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetTotalTransform_System_Windows_Media_Media3D_Viewport3DVisual_
+  name: GetTotalTransform
+  nameWithType: Viewport3DHelper.GetTotalTransform
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalTransform
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTransform*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetTransform
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetTransform_System_Windows_Controls_Viewport3D_System_Windows_Media_Media3D_Visual3D_
+  name: GetTransform
+  nameWithType: Viewport3DHelper.GetTransform
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTransform
+- uid: System.Windows.Media.Media3D.GeneralTransform3D
+  commentId: T:System.Windows.Media.Media3D.GeneralTransform3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.generaltransform3d
+  name: GeneralTransform3D
+  nameWithType: GeneralTransform3D
+  fullName: System.Windows.Media.Media3D.GeneralTransform3D
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetViewMatrix_System_Windows_Controls_Viewport3D_
+  name: GetViewMatrix
+  nameWithType: Viewport3DHelper.GetViewMatrix
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetViewMatrix
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetProjectionMatrix_System_Windows_Controls_Viewport3D_
+  name: GetProjectionMatrix
+  nameWithType: Viewport3DHelper.GetProjectionMatrix
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetProjectionMatrix
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Viewport3DVisual_
+  name: GetViewportTransform
+  nameWithType: Viewport3DHelper.GetViewportTransform
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetViewportTransform
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_Point2DtoPoint3D_System_Windows_Controls_Viewport3D_System_Windows_Point_System_Windows_Media_Media3D_Point3D__System_Windows_Media_Media3D_Point3D__
+  name: Point2DtoPoint3D
+  nameWithType: Viewport3DHelper.Point2DtoPoint3D
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoPoint3D
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_Point2DtoRay3D_System_Windows_Controls_Viewport3D_System_Windows_Point_
+  name: Point2DtoRay3D
+  nameWithType: Viewport3DHelper.Point2DtoRay3D
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point2DtoRay3D
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_Point3DtoPoint2D_System_Windows_Controls_Viewport3D_System_Windows_Media_Media3D_Point3D_
+  name: Point3DtoPoint2D
+  nameWithType: Viewport3DHelper.Point3DtoPoint2D
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Point3DtoPoint2D
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Point3D>
+  nameWithType: IEnumerable<Point3D>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Point3D>
+  nameWithType.vb: IEnumerable(Of Point3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Point3D)
+  name.vb: IEnumerable(Of Point3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Point}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Point}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Point>
+  nameWithType: IEnumerable<Point>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Point>
+  nameWithType.vb: IEnumerable(Of Point)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Point)
+  name.vb: IEnumerable(Of Point)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.Print*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.Print
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_Print_System_Windows_Controls_Viewport3D_System_String_
+  name: Print
+  nameWithType: Viewport3DHelper.Print
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.Print
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_RenderBitmap_System_Windows_Controls_Viewport3D_System_Windows_Media_Brush_System_Int32_
+  name: RenderBitmap
+  nameWithType: Viewport3DHelper.RenderBitmap
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.RenderBitmap
+- uid: System.Windows.Media.Imaging.BitmapSource
+  commentId: T:System.Windows.Media.Imaging.BitmapSource
+  parent: System.Windows.Media.Imaging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource
+  name: BitmapSource
+  nameWithType: BitmapSource
+  fullName: System.Windows.Media.Imaging.BitmapSource
+- uid: System.Windows.Media.Imaging
+  commentId: N:System.Windows.Media.Imaging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Imaging
+  nameWithType: System.Windows.Media.Imaging
+  fullName: System.Windows.Media.Imaging
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Imaging
+    name: Imaging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.imaging
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Imaging
+    name: Imaging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.imaging
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_ResizeAndArrange_System_Windows_Controls_Viewport3D_System_Double_System_Double_
+  name: ResizeAndArrange
+  nameWithType: Viewport3DHelper.ResizeAndArrange
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.ResizeAndArrange
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.SearchFor*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.SearchFor
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_SearchFor__1_System_Collections_Generic_IEnumerable_System_Windows_Media_Media3D_Visual3D__
+  name: SearchFor
+  nameWithType: Viewport3DHelper.SearchFor
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.SearchFor
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Visual3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Visual3D>
+  nameWithType: IEnumerable<Visual3D>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Visual3D>
+  nameWithType.vb: IEnumerable(Of Visual3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Visual3D)
+  name.vb: IEnumerable(Of Visual3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Model3D>
+  nameWithType: IList<Model3D>
+  fullName: System.Collections.Generic.IList<System.Windows.Media.Media3D.Model3D>
+  nameWithType.vb: IList(Of Model3D)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Model3D)
+  name.vb: IList(Of Model3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.UnProject*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.UnProject
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_UnProject_System_Windows_Controls_Viewport3D_System_Windows_Point_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_
+  name: UnProject
+  nameWithType: Viewport3DHelper.UnProject
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.UnProject
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles*
+  commentId: Overload:H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html#H_Drawing3D_View_Base_Viewport3DHelper_GetTotalNumberOfTriangles_System_Windows_Controls_Viewport3D_
+  name: GetTotalNumberOfTriangles
+  nameWithType: Viewport3DHelper.GetTotalNumberOfTriangles
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.GetTotalNumberOfTriangles

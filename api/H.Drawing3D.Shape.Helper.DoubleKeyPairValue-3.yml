@@ -1,0 +1,725 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  commentId: T:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  id: DoubleKeyPairValue`3
+  parent: H.Drawing3D.Shape.Helper
+  children:
+  - H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.#ctor(`0,`1,`2)
+  - H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key1
+  - H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key2
+  - H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.ToString
+  - H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Value
+  langs:
+  - csharp
+  - vb
+  name: DoubleKeyPairValue<K, T, V>
+  nameWithType: DoubleKeyPairValue<K, T, V>
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>
+  type: Class
+  source:
+    id: DoubleKeyPairValue
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Helper\DoubleKeyDictionary.cs
+    startLine: 266
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Helper
+  summary: Represents two keys and a value.
+  example: []
+  syntax:
+    content: public sealed class DoubleKeyPairValue<K, T, V>
+    typeParameters:
+    - id: K
+      description: First key type.
+    - id: T
+      description: Second key type.
+    - id: V
+      description: Value type.
+    content.vb: Public NotInheritable Class DoubleKeyPairValue(Of K, T, V)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V)
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V)
+  name.vb: DoubleKeyPairValue(Of K, T, V)
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.#ctor(`0,`1,`2)
+  commentId: M:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.#ctor(`0,`1,`2)
+  id: '#ctor(`0,`1,`2)'
+  parent: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  langs:
+  - csharp
+  - vb
+  name: DoubleKeyPairValue(K, T, V)
+  nameWithType: DoubleKeyPairValue<K, T, V>.DoubleKeyPairValue(K, T, V)
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.DoubleKeyPairValue(K, T, V)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Helper\DoubleKeyDictionary.cs
+    startLine: 280
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Helper
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.Shape.Helper.DoubleKeyPairValue%603" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public DoubleKeyPairValue(K key1, T key2, V value)
+    parameters:
+    - id: key1
+      type: '{K}'
+      description: The key1.
+    - id: key2
+      type: '{T}'
+      description: The key2.
+    - id: value
+      type: '{V}'
+      description: The value.
+    content.vb: Public Sub New(key1 As K, key2 As T, value As V)
+  overload: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.#ctor*
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).New(K, T, V)
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).New(K, T, V)
+  name.vb: New(K, T, V)
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key1
+  commentId: P:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key1
+  id: Key1
+  parent: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  langs:
+  - csharp
+  - vb
+  name: Key1
+  nameWithType: DoubleKeyPairValue<K, T, V>.Key1
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.Key1
+  type: Property
+  source:
+    id: Key1
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Helper\DoubleKeyDictionary.cs
+    startLine: 291
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Helper
+  summary: Gets or sets the key1.
+  example: []
+  syntax:
+    content: public K Key1 { get; set; }
+    parameters: []
+    return:
+      type: '{K}'
+      description: The key1.
+    content.vb: Public Property Key1 As K
+  overload: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key1*
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).Key1
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).Key1
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key2
+  commentId: P:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key2
+  id: Key2
+  parent: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  langs:
+  - csharp
+  - vb
+  name: Key2
+  nameWithType: DoubleKeyPairValue<K, T, V>.Key2
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.Key2
+  type: Property
+  source:
+    id: Key2
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Helper\DoubleKeyDictionary.cs
+    startLine: 297
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Helper
+  summary: Gets or sets the key2.
+  example: []
+  syntax:
+    content: public T Key2 { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+      description: The key2.
+    content.vb: Public Property Key2 As T
+  overload: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key2*
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).Key2
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).Key2
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Value
+  commentId: P:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Value
+  id: Value
+  parent: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DoubleKeyPairValue<K, T, V>.Value
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.Value
+  type: Property
+  source:
+    id: Value
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Helper\DoubleKeyDictionary.cs
+    startLine: 303
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Helper
+  summary: Gets or sets the value.
+  example: []
+  syntax:
+    content: public V Value { get; set; }
+    parameters: []
+    return:
+      type: '{V}'
+      description: The value.
+    content.vb: Public Property Value As V
+  overload: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Value*
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).Value
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).Value
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.ToString
+  commentId: M:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.ToString
+  id: ToString
+  parent: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DoubleKeyPairValue<K, T, V>.ToString()
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Helper\DoubleKeyDictionary.cs
+    startLine: 311
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Helper
+  summary: Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.ToString*
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).ToString()
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).ToString()
+references:
+- uid: H.Drawing3D.Shape.Helper
+  commentId: N:H.Drawing3D.Shape.Helper
+  href: H.html
+  name: H.Drawing3D.Shape.Helper
+  nameWithType: H.Drawing3D.Shape.Helper
+  fullName: H.Drawing3D.Shape.Helper
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Helper
+    name: Helper
+    href: H.Drawing3D.Shape.Helper.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Helper
+    name: Helper
+    href: H.Drawing3D.Shape.Helper.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  commentId: T:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html
+  name: DoubleKeyPairValue<K, T, V>
+  nameWithType: DoubleKeyPairValue<K, T, V>
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V)
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V)
+  name.vb: DoubleKeyPairValue(Of K, T, V)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+    name: DoubleKeyPairValue
+    href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html
+  - name: <
+  - name: K
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+    name: DoubleKeyPairValue
+    href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: K
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: )
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.#ctor*
+  commentId: Overload:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.#ctor
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html#H_Drawing3D_Shape_Helper_DoubleKeyPairValue_3__ctor__0__1__2_
+  name: DoubleKeyPairValue
+  nameWithType: DoubleKeyPairValue<K, T, V>.DoubleKeyPairValue
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.DoubleKeyPairValue
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).New
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).New
+  name.vb: New
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: '{V}'
+  commentId: '!:V'
+  definition: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key1*
+  commentId: Overload:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key1
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html#H_Drawing3D_Shape_Helper_DoubleKeyPairValue_3_Key1
+  name: Key1
+  nameWithType: DoubleKeyPairValue<K, T, V>.Key1
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.Key1
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).Key1
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).Key1
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key2*
+  commentId: Overload:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Key2
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html#H_Drawing3D_Shape_Helper_DoubleKeyPairValue_3_Key2
+  name: Key2
+  nameWithType: DoubleKeyPairValue<K, T, V>.Key2
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.Key2
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).Key2
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).Key2
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Value*
+  commentId: Overload:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.Value
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html#H_Drawing3D_Shape_Helper_DoubleKeyPairValue_3_Value
+  name: Value
+  nameWithType: DoubleKeyPairValue<K, T, V>.Value
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.Value
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).Value
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.ToString*
+  commentId: Overload:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3.ToString
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html#H_Drawing3D_Shape_Helper_DoubleKeyPairValue_3_ToString
+  name: ToString
+  nameWithType: DoubleKeyPairValue<K, T, V>.ToString
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>.ToString
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V).ToString
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V).ToString

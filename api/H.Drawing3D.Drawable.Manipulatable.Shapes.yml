@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes
+  commentId: N:H.Drawing3D.Drawable.Manipulatable.Shapes
+  id: H.Drawing3D.Drawable.Manipulatable.Shapes
+  children:
+  - H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D
+  - H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D
+  - H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D
+  - H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D
+  - H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawable.Manipulatable.Shapes
+  nameWithType: H.Drawing3D.Drawable.Manipulatable.Shapes
+  fullName: H.Drawing3D.Drawable.Manipulatable.Shapes
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawable.Manipulatable
+references:
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D
+  href: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D.html
+  name: ManipulableFileModelShape3D
+  nameWithType: ManipulableFileModelShape3D
+  fullName: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D
+  href: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D.html
+  name: ManipulablePlaneFileModelShape3D
+  nameWithType: ManipulablePlaneFileModelShape3D
+  fullName: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D
+  href: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D.html
+  name: ManipulatableCubeShape3D
+  nameWithType: ManipulatableCubeShape3D
+  fullName: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D
+  href: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D.html
+  name: ManipulatableEllipsoidShape3D
+  nameWithType: ManipulatableEllipsoidShape3D
+  fullName: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D
+  href: H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D.html
+  name: TransformManipulatableCubeShape3D
+  nameWithType: TransformManipulatableCubeShape3D
+  fullName: H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D

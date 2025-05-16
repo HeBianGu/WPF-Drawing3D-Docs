@@ -1,0 +1,4 @@
+[submodule "Source/WPF-Drawing3D"]
+	path = Source/WPF-Drawing3D
+	url = https://github.com/HeBianGu/WPF-Drawing3D.git
+	branch = 1.0.1

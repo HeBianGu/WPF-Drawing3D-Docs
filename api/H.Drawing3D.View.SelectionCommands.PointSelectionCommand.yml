@@ -1,0 +1,1344 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  id: PointSelectionCommand
+  parent: H.Drawing3D.View.SelectionCommands
+  children:
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs})
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs},System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PointSelectionCommand
+  nameWithType: PointSelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  type: Class
+  source:
+    id: PointSelectionCommand
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 23
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Provides a command that raises an event returning the hit models at the mouse location when the mouse button is clicked.
+  example: []
+  syntax:
+    content: 'public class PointSelectionCommand : SelectionCommand, ICommand'
+    content.vb: Public Class PointSelectionCommand Inherits SelectionCommand Implements ICommand
+  inheritance:
+  - System.Object
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand
+  implements:
+  - System.Windows.Input.ICommand
+  inheritedMembers:
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.Viewport
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecuteChanged
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.SelectionHitMode
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.MouseDownPoint
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(System.Object)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(System.Object)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.Delta(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.OnModelsSelected(H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.OnVisualsSelected(H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(System.Object)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(System.Object,System.Windows.Input.MouseEventArgs)
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(System.Object,System.EventArgs)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs})
+  commentId: M:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs})
+  id: '#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs})'
+  parent: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  langs:
+  - csharp
+  - vb
+  name: PointSelectionCommand(Viewport3D, EventHandler<ModelsSelectedEventArgs>)
+  nameWithType: PointSelectionCommand.PointSelectionCommand(Viewport3D, EventHandler<ModelsSelectedEventArgs>)
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.PointSelectionCommand(System.Windows.Controls.Viewport3D, System.EventHandler<H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 35
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.View.SelectionCommands.PointSelectionCommand" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public PointSelectionCommand(Viewport3D viewport, EventHandler<ModelsSelectedEventArgs> modelsSelectedEventHandler)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: modelsSelectedEventHandler
+      type: System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs}
+      description: The selection event handler.
+    content.vb: Public Sub New(viewport As Viewport3D, modelsSelectedEventHandler As EventHandler(Of ModelsSelectedEventArgs))
+  overload: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor*
+  nameWithType.vb: PointSelectionCommand.New(Viewport3D, EventHandler(Of ModelsSelectedEventArgs))
+  fullName.vb: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.New(System.Windows.Controls.Viewport3D, System.EventHandler(Of H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs))
+  name.vb: New(Viewport3D, EventHandler(Of ModelsSelectedEventArgs))
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})
+  commentId: M:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})
+  id: '#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})'
+  parent: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  langs:
+  - csharp
+  - vb
+  name: PointSelectionCommand(Viewport3D, EventHandler<VisualsSelectedEventArgs>)
+  nameWithType: PointSelectionCommand.PointSelectionCommand(Viewport3D, EventHandler<VisualsSelectedEventArgs>)
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.PointSelectionCommand(System.Windows.Controls.Viewport3D, System.EventHandler<H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 45
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.View.SelectionCommands.PointSelectionCommand" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public PointSelectionCommand(Viewport3D viewport, EventHandler<VisualsSelectedEventArgs> visualsSelectedEventHandler)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: visualsSelectedEventHandler
+      type: System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs}
+      description: The selection event handler.
+    content.vb: Public Sub New(viewport As Viewport3D, visualsSelectedEventHandler As EventHandler(Of VisualsSelectedEventArgs))
+  overload: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor*
+  nameWithType.vb: PointSelectionCommand.New(Viewport3D, EventHandler(Of VisualsSelectedEventArgs))
+  fullName.vb: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.New(System.Windows.Controls.Viewport3D, System.EventHandler(Of H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs))
+  name.vb: New(Viewport3D, EventHandler(Of VisualsSelectedEventArgs))
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs},System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})
+  commentId: M:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs},System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})
+  id: '#ctor(System.Windows.Controls.Viewport3D,System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs},System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs})'
+  parent: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  langs:
+  - csharp
+  - vb
+  name: PointSelectionCommand(Viewport3D, EventHandler<ModelsSelectedEventArgs>, EventHandler<VisualsSelectedEventArgs>)
+  nameWithType: PointSelectionCommand.PointSelectionCommand(Viewport3D, EventHandler<ModelsSelectedEventArgs>, EventHandler<VisualsSelectedEventArgs>)
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.PointSelectionCommand(System.Windows.Controls.Viewport3D, System.EventHandler<H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs>, System.EventHandler<H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 56
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.View.SelectionCommands.PointSelectionCommand" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public PointSelectionCommand(Viewport3D viewport, EventHandler<ModelsSelectedEventArgs> modelsSelectedEventHandler, EventHandler<VisualsSelectedEventArgs> visualsSelectedEventHandler)
+    parameters:
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: modelsSelectedEventHandler
+      type: System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs}
+      description: The selection event handler.
+    - id: visualsSelectedEventHandler
+      type: System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs}
+      description: The selection event handler.
+    content.vb: Public Sub New(viewport As Viewport3D, modelsSelectedEventHandler As EventHandler(Of ModelsSelectedEventArgs), visualsSelectedEventHandler As EventHandler(Of VisualsSelectedEventArgs))
+  overload: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor*
+  nameWithType.vb: PointSelectionCommand.New(Viewport3D, EventHandler(Of ModelsSelectedEventArgs), EventHandler(Of VisualsSelectedEventArgs))
+  fullName.vb: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.New(System.Windows.Controls.Viewport3D, System.EventHandler(Of H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs), System.EventHandler(Of H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs))
+  name.vb: New(Viewport3D, EventHandler(Of ModelsSelectedEventArgs), EventHandler(Of VisualsSelectedEventArgs))
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  id: Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  langs:
+  - csharp
+  - vb
+  name: Started(ManipulationEventArgs)
+  nameWithType: PointSelectionCommand.Started(ManipulationEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  type: Method
+  source:
+    id: Started
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 65
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Occurs when the manipulation is started.
+  example: []
+  syntax:
+    content: protected override void Started(ManipulationEventArgs e)
+    parameters:
+    - id: e
+      type: H.Drawing3D.View.Cameras.ManipulationEventArgs
+      description: The <xref href="H.Drawing3D.View.Cameras.ManipulationEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+    content.vb: Protected Overrides Sub Started(e As ManipulationEventArgs)
+  overridden: H.Drawing3D.View.SelectionCommands.SelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  overload: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started*
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  id: Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  langs:
+  - csharp
+  - vb
+  name: Completed(ManipulationEventArgs)
+  nameWithType: PointSelectionCommand.Completed(ManipulationEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  type: Method
+  source:
+    id: Completed
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 83
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: The customized complete operation when the manipulation is completed.
+  example: []
+  syntax:
+    content: protected override void Completed(ManipulationEventArgs e)
+    parameters:
+    - id: e
+      type: H.Drawing3D.View.Cameras.ManipulationEventArgs
+      description: The <xref href="H.Drawing3D.View.Cameras.ManipulationEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+    content.vb: Protected Overrides Sub Completed(e As ManipulationEventArgs)
+  overridden: H.Drawing3D.View.SelectionCommands.SelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  overload: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed*
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor
+  commentId: M:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor
+  id: GetCursor
+  parent: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  langs:
+  - csharp
+  - vb
+  name: GetCursor()
+  nameWithType: PointSelectionCommand.GetCursor()
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor()
+  type: Method
+  source:
+    id: GetCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\PointSelectionCommand.cs
+    startLine: 92
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Gets the cursor for the gesture.
+  example: []
+  syntax:
+    content: protected override Cursor GetCursor()
+    return:
+      type: System.Windows.Input.Cursor
+      description: A cursor.
+    content.vb: Protected Overrides Function GetCursor() As Cursor
+  overridden: H.Drawing3D.View.SelectionCommands.SelectionCommand.GetCursor
+  overload: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor*
+references:
+- uid: H.Drawing3D.View.SelectionCommands
+  commentId: N:H.Drawing3D.View.SelectionCommands
+  href: H.html
+  name: H.Drawing3D.View.SelectionCommands
+  nameWithType: H.Drawing3D.View.SelectionCommands
+  fullName: H.Drawing3D.View.SelectionCommands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.SelectionCommands
+    name: SelectionCommands
+    href: H.Drawing3D.View.SelectionCommands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.SelectionCommands
+    name: SelectionCommands
+    href: H.Drawing3D.View.SelectionCommands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.SelectionCommand
+  parent: H.Drawing3D.View.SelectionCommands
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html
+  name: SelectionCommand
+  nameWithType: SelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.icommand
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Viewport
+  commentId: F:H.Drawing3D.View.SelectionCommands.SelectionCommand.Viewport
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Viewport
+  name: Viewport
+  nameWithType: SelectionCommand.Viewport
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.Viewport
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecuteChanged
+  commentId: E:H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecuteChanged
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_CanExecuteChanged
+  name: CanExecuteChanged
+  nameWithType: SelectionCommand.CanExecuteChanged
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecuteChanged
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.SelectionHitMode
+  commentId: P:H.Drawing3D.View.SelectionCommands.SelectionCommand.SelectionHitMode
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_SelectionHitMode
+  name: SelectionHitMode
+  nameWithType: SelectionCommand.SelectionHitMode
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.SelectionHitMode
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.MouseDownPoint
+  commentId: P:H.Drawing3D.View.SelectionCommands.SelectionCommand.MouseDownPoint
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_MouseDownPoint
+  name: MouseDownPoint
+  nameWithType: SelectionCommand.MouseDownPoint
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.MouseDownPoint
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(System.Object)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(System.Object)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  isExternal: true
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Execute_System_Object_
+  name: Execute(object)
+  nameWithType: SelectionCommand.Execute(object)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(object)
+  nameWithType.vb: SelectionCommand.Execute(Object)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(Object)
+  name.vb: Execute(Object)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(System.Object)
+    name: Execute
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Execute_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Execute(System.Object)
+    name: Execute
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Execute_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(System.Object)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(System.Object)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  isExternal: true
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_CanExecute_System_Object_
+  name: CanExecute(object)
+  nameWithType: SelectionCommand.CanExecute(object)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(object)
+  nameWithType.vb: SelectionCommand.CanExecute(Object)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(Object)
+  name.vb: CanExecute(Object)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(System.Object)
+    name: CanExecute
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_CanExecute_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.CanExecute(System.Object)
+    name: CanExecute
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_CanExecute_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Delta(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.Delta(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Delta_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  name: Delta(ManipulationEventArgs)
+  nameWithType: SelectionCommand.Delta(ManipulationEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.Delta(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Delta(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+    name: Delta
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Delta_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Delta(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+    name: Delta
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Delta_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnModelsSelected(H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.OnModelsSelected(H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnModelsSelected_H_Drawing3D_View_SelectionCommands_ModelsSelectedEventArgs_
+  name: OnModelsSelected(ModelsSelectedEventArgs)
+  nameWithType: SelectionCommand.OnModelsSelected(ModelsSelectedEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnModelsSelected(H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnModelsSelected(H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+    name: OnModelsSelected
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnModelsSelected_H_Drawing3D_View_SelectionCommands_ModelsSelectedEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+    name: ModelsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnModelsSelected(H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+    name: OnModelsSelected
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnModelsSelected_H_Drawing3D_View_SelectionCommands_ModelsSelectedEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+    name: ModelsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnVisualsSelected(H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.OnVisualsSelected(H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnVisualsSelected_H_Drawing3D_View_SelectionCommands_VisualsSelectedEventArgs_
+  name: OnVisualsSelected(VisualsSelectedEventArgs)
+  nameWithType: SelectionCommand.OnVisualsSelected(VisualsSelectedEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnVisualsSelected(H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnVisualsSelected(H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+    name: OnVisualsSelected
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnVisualsSelected_H_Drawing3D_View_SelectionCommands_VisualsSelectedEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+    name: VisualsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnVisualsSelected(H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+    name: OnVisualsSelected
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnVisualsSelected_H_Drawing3D_View_SelectionCommands_VisualsSelectedEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+    name: VisualsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.html
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(System.Object)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(System.Object)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  isExternal: true
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseDown_System_Object_
+  name: OnMouseDown(object)
+  nameWithType: SelectionCommand.OnMouseDown(object)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(object)
+  nameWithType.vb: SelectionCommand.OnMouseDown(Object)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(Object)
+  name.vb: OnMouseDown(Object)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(System.Object)
+    name: OnMouseDown
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseDown_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseDown(System.Object)
+    name: OnMouseDown
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseDown_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  isExternal: true
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseUp_System_Object_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseUp(object, MouseButtonEventArgs)
+  nameWithType: SelectionCommand.OnMouseUp(object, MouseButtonEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(object, System.Windows.Input.MouseButtonEventArgs)
+  nameWithType.vb: SelectionCommand.OnMouseUp(Object, MouseButtonEventArgs)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(Object, System.Windows.Input.MouseButtonEventArgs)
+  name.vb: OnMouseUp(Object, MouseButtonEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseUp
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseUp_System_Object_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)
+    name: OnMouseUp
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseUp_System_Object_System_Windows_Input_MouseButtonEventArgs_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.MouseButtonEventArgs
+    name: MouseButtonEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(System.Object,System.Windows.Input.MouseEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(System.Object,System.Windows.Input.MouseEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  isExternal: true
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseMove_System_Object_System_Windows_Input_MouseEventArgs_
+  name: OnMouseMove(object, MouseEventArgs)
+  nameWithType: SelectionCommand.OnMouseMove(object, MouseEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(object, System.Windows.Input.MouseEventArgs)
+  nameWithType.vb: SelectionCommand.OnMouseMove(Object, MouseEventArgs)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(Object, System.Windows.Input.MouseEventArgs)
+  name.vb: OnMouseMove(Object, MouseEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(System.Object,System.Windows.Input.MouseEventArgs)
+    name: OnMouseMove
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseMove_System_Object_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnMouseMove(System.Object,System.Windows.Input.MouseEventArgs)
+    name: OnMouseMove
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnMouseMove_System_Object_System_Windows_Input_MouseEventArgs_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(System.Object,System.EventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(System.Object,System.EventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  isExternal: true
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnCanExecutedChanged_System_Object_System_EventArgs_
+  name: OnCanExecutedChanged(object, EventArgs)
+  nameWithType: SelectionCommand.OnCanExecutedChanged(object, EventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(object, System.EventArgs)
+  nameWithType.vb: SelectionCommand.OnCanExecutedChanged(Object, EventArgs)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(Object, System.EventArgs)
+  name.vb: OnCanExecutedChanged(Object, EventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(System.Object,System.EventArgs)
+    name: OnCanExecutedChanged
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnCanExecutedChanged_System_Object_System_EventArgs_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.OnCanExecutedChanged(System.Object,System.EventArgs)
+    name: OnCanExecutedChanged
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_OnCanExecutedChanged_System_Object_System_EventArgs_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html
+  name: PointSelectionCommand
+  nameWithType: PointSelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor*
+  commentId: Overload:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.#ctor
+  href: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html#H_Drawing3D_View_SelectionCommands_PointSelectionCommand__ctor_System_Windows_Controls_Viewport3D_System_EventHandler_H_Drawing3D_View_SelectionCommands_ModelsSelectedEventArgs__
+  name: PointSelectionCommand
+  nameWithType: PointSelectionCommand.PointSelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.PointSelectionCommand
+  nameWithType.vb: PointSelectionCommand.New
+  fullName.vb: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.New
+  name.vb: New
+- uid: System.Windows.Controls.Viewport3D
+  commentId: T:System.Windows.Controls.Viewport3D
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.viewport3d
+  name: Viewport3D
+  nameWithType: Viewport3D
+  fullName: System.Windows.Controls.Viewport3D
+- uid: System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs}
+  commentId: T:System.EventHandler{H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<ModelsSelectedEventArgs>
+  nameWithType: EventHandler<ModelsSelectedEventArgs>
+  fullName: System.EventHandler<H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs>
+  nameWithType.vb: EventHandler(Of ModelsSelectedEventArgs)
+  fullName.vb: System.EventHandler(Of H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs)
+  name.vb: EventHandler(Of ModelsSelectedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+    name: ModelsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+    name: ModelsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html
+  - name: )
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs}
+  commentId: T:System.EventHandler{H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<VisualsSelectedEventArgs>
+  nameWithType: EventHandler<VisualsSelectedEventArgs>
+  fullName: System.EventHandler<H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs>
+  nameWithType.vb: EventHandler(Of VisualsSelectedEventArgs)
+  fullName.vb: System.EventHandler(Of H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs)
+  name.vb: EventHandler(Of VisualsSelectedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+    name: VisualsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+    name: VisualsSelectedEventArgs
+    href: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.html
+  - name: )
+- uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+  commentId: T:H.Drawing3D.View.Cameras.ManipulationEventArgs
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  name: ManipulationEventArgs
+  nameWithType: ManipulationEventArgs
+  fullName: H.Drawing3D.View.Cameras.ManipulationEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Started_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  name: Started(ManipulationEventArgs)
+  nameWithType: SelectionCommand.Started(ManipulationEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+    name: Started
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Started_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Started(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+    name: Started
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Started_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started*
+  commentId: Overload:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started
+  href: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html#H_Drawing3D_View_SelectionCommands_PointSelectionCommand_Started_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  name: Started
+  nameWithType: PointSelectionCommand.Started
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Started
+- uid: H.Drawing3D.View.Cameras
+  commentId: N:H.Drawing3D.View.Cameras
+  href: H.html
+  name: H.Drawing3D.View.Cameras
+  nameWithType: H.Drawing3D.View.Cameras
+  fullName: H.Drawing3D.View.Cameras
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Completed_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  name: Completed(ManipulationEventArgs)
+  nameWithType: SelectionCommand.Completed(ManipulationEventArgs)
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+    name: Completed
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Completed_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.Completed(H.Drawing3D.View.Cameras.ManipulationEventArgs)
+    name: Completed
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_Completed_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  - name: (
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed*
+  commentId: Overload:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed
+  href: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html#H_Drawing3D_View_SelectionCommands_PointSelectionCommand_Completed_H_Drawing3D_View_Cameras_ManipulationEventArgs_
+  name: Completed
+  nameWithType: PointSelectionCommand.Completed
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.Completed
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.GetCursor
+  commentId: M:H.Drawing3D.View.SelectionCommands.SelectionCommand.GetCursor
+  parent: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_GetCursor
+  name: GetCursor()
+  nameWithType: SelectionCommand.GetCursor()
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand.GetCursor()
+  spec.csharp:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.GetCursor
+    name: GetCursor
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_GetCursor
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand.GetCursor
+    name: GetCursor
+    href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html#H_Drawing3D_View_SelectionCommands_SelectionCommand_GetCursor
+  - name: (
+  - name: )
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor*
+  commentId: Overload:H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor
+  href: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html#H_Drawing3D_View_SelectionCommands_PointSelectionCommand_GetCursor
+  name: GetCursor
+  nameWithType: PointSelectionCommand.GetCursor
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.GetCursor
+- uid: System.Windows.Input.Cursor
+  commentId: T:System.Windows.Input.Cursor
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.cursor
+  name: Cursor
+  nameWithType: Cursor
+  fullName: System.Windows.Input.Cursor

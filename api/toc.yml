@@ -1,0 +1,793 @@
+### YamlMime:TableOfContent
+items:
+- uid: H.Drawing3D.Components.Plane
+  name: H.Drawing3D.Components.Plane
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Components.Plane.MovePlaneShapeState
+    name: MovePlaneShapeState
+    type: Class
+  - uid: H.Drawing3D.Components.Plane.PlaneLayerView3D
+    name: PlaneLayerView3D
+    type: Class
+  - uid: H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D
+    name: ThemeablePlaneLayerView3D
+    type: Class
+- uid: H.Drawing3D.Components.Plane.Presenters
+  name: H.Drawing3D.Components.Plane.Presenters
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter
+    name: PlaneVeiwPresenter
+    type: Class
+- uid: H.Drawing3D.Drawable
+  name: H.Drawing3D.Drawable
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawable.DrawableShapeLayer
+    name: DrawableShapeLayer
+    type: Class
+  - uid: H.Drawing3D.Drawable.ISelectableState
+    name: ISelectableState
+    type: Interface
+  - uid: H.Drawing3D.Drawable.Presenterable2DState
+    name: Presenterable2DState
+    type: Class
+  - uid: H.Drawing3D.Drawable.SelectableStateBase
+    name: SelectableStateBase
+    type: Class
+  - uid: H.Drawing3D.Drawable.Sphere
+    name: Sphere
+    type: Class
+- uid: H.Drawing3D.Drawable.Base
+  name: H.Drawing3D.Drawable.Base
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawable.Base.MouseOverableStateBase
+    name: MouseOverableStateBase
+    type: Class
+- uid: H.Drawing3D.Drawable.Manipulatable
+  name: H.Drawing3D.Drawable.Manipulatable
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension
+    name: GetManipulableFileModelShape3DExtension
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D
+    name: IManipulableShape3D
+    type: Interface
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulableState
+    name: ManipulableState
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase
+    name: ManipulableStateBase
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+    name: ManipulatorExtension
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState
+    name: MovePlaneShapeState
+    type: Class
+- uid: H.Drawing3D.Drawable.Manipulatable.Base
+  name: H.Drawing3D.Drawable.Manipulatable.Base
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator
+    name: BindableRotateManipulator
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator
+    name: BindableTranslateManipulator
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator
+    name: CombinedManipulator
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.IManipulator
+    name: IManipulator
+    type: Interface
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase
+    name: ManipulableShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.Manipulator
+    name: Manipulator
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator
+    name: RotateManipulator
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    type: Class
+- uid: H.Drawing3D.Drawable.Manipulatable.Shapes
+  name: H.Drawing3D.Drawable.Manipulatable.Shapes
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D
+    name: ManipulableFileModelShape3D
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D
+    name: ManipulablePlaneFileModelShape3D
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D
+    name: ManipulatableCubeShape3D
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D
+    name: ManipulatableEllipsoidShape3D
+    type: Class
+  - uid: H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D
+    name: TransformManipulatableCubeShape3D
+    type: Class
+- uid: H.Drawing3D.Drawing
+  name: H.Drawing3D.Drawing
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension
+    name: DispatcherExtension
+    type: Class
+  - uid: H.Drawing3D.Drawing.GeometryDrawing3D
+    name: GeometryDrawing3D
+    type: Class
+  - uid: H.Drawing3D.Drawing.GroupDrawing3D
+    name: GroupDrawing3D
+    type: Class
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    type: Interface
+  - uid: H.Drawing3D.Drawing.IPresenter2DView3D
+    name: IPresenter2DView3D
+    type: Interface
+  - uid: H.Drawing3D.Drawing.Rect3DExtension
+    name: Rect3DExtension
+    type: Class
+  - uid: H.Drawing3D.Drawing.Vector3DExtension
+    name: Vector3DExtension
+    type: Class
+  - uid: H.Drawing3D.Drawing.Vector3Ds
+    name: Vector3Ds
+    type: Class
+- uid: H.Drawing3D.Drawing.Base
+  name: H.Drawing3D.Drawing.Base
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Drawing.Base.Drawing3DBase
+    name: Drawing3DBase
+    type: Class
+  - uid: H.Drawing3D.Drawing.Base.Drawing3DBase`1
+    name: Drawing3DBase<T>
+    type: Class
+  - uid: H.Drawing3D.Drawing.Base.IDrawing3D
+    name: IDrawing3D
+    type: Interface
+  - uid: H.Drawing3D.Drawing.Base.IGeometryDrawing3D
+    name: IGeometryDrawing3D
+    type: Interface
+  - uid: H.Drawing3D.Drawing.Base.IGroupDrawing3D
+    name: IGroupDrawing3D
+    type: Interface
+- uid: H.Drawing3D.Shape
+  name: H.Drawing3D.Shape
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.ShapeBrushs
+    name: ShapeBrushs
+    type: Class
+  - uid: H.Drawing3D.Shape.ShapeColors
+    name: ShapeColors
+    type: Class
+  - uid: H.Drawing3D.Shape.ShapeExtension
+    name: ShapeExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.ShapeMaterials
+    name: ShapeMaterials
+    type: Class
+- uid: H.Drawing3D.Shape.Base
+  name: H.Drawing3D.Shape.Base
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase
+    name: DrawableGeometryModel3DShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase
+    name: DrawableModel3DGroupShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase
+    name: Geometry3DGeometryShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+    name: GeometryModel3DShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.IDisplayShape3D
+    name: IDisplayShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IGameShape3D
+    name: IGameShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IMaterialShape3D
+    name: IMaterialShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IMouseOverableShape3D
+    name: IMouseOverableShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IPlaneShape3D
+    name: IPlaneShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IPresenter2DShape3D
+    name: IPresenter2DShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.ISelectableShape3D
+    name: ISelectableShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.IShape3DCreator
+    name: IShape3DCreator
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase<T>
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.MeshGeometryShape3DBase
+    name: MeshGeometryShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.Model3DGroupShape3DBase
+    name: Model3DGroupShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase<T>
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase
+    name: PlaneBackgroundShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase<T>
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase<T>
+    type: Class
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase<T>
+    type: Class
+- uid: H.Drawing3D.Shape.Extension
+  name: H.Drawing3D.Shape.Extension
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension
+    name: GeometryDrawing3DExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.Extension.GroupDrawing3DExtension
+    name: GroupDrawing3DExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D
+    name: IMeshGeometryDrawing3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D
+    name: MeshGeometryDrawing3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension
+    name: MeshGeometryDrawing3DExtension
+    type: Class
+- uid: H.Drawing3D.Shape.ExtensionMethods
+  name: H.Drawing3D.Shape.ExtensionMethods
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+    name: AnimationExtensions
+    type: Class
+  - uid: H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions
+    name: Matrix3DExtensions
+    type: Class
+  - uid: H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions
+    name: Point3DExtensions
+    type: Class
+  - uid: H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions
+    name: Vector3DExtensions
+    type: Class
+- uid: H.Drawing3D.Shape.File
+  name: H.Drawing3D.Shape.File
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties
+    name: AttachedProperties
+    type: Class
+  - uid: H.Drawing3D.Shape.File.FileModelCache
+    name: FileModelCache
+    type: Class
+  - uid: H.Drawing3D.Shape.File.FileModelShape3D
+    name: FileModelShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions
+    name: FileModelShape3DExtensions
+    type: Class
+  - uid: H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension
+    name: GetFileModelShape3DStatesExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.File.GetFileModelShape3DsExtension
+    name: GetFileModelShape3DsExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension
+    name: GetRandomPlaneShapesExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.File.IFileModelShape3D
+    name: IFileModelShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.File.Model3DExtension
+    name: Model3DExtension
+    type: Class
+  - uid: H.Drawing3D.Shape.File.PlaneFileModelShape3D
+    name: PlaneFileModelShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D
+    name: RandomMaterialFileModelShape3D
+    type: Class
+- uid: H.Drawing3D.Shape.File.Importers
+  name: H.Drawing3D.Shape.File.Importers
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.File.Importers.IModelReader
+    name: IModelReader
+    type: Interface
+  - uid: H.Drawing3D.Shape.File.Importers.Importers
+    name: Importers
+    type: Class
+  - uid: H.Drawing3D.Shape.File.Importers.ModelImporter
+    name: ModelImporter
+    type: Class
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader
+    name: ObjReader
+    type: Class
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader.Group
+    name: ObjReader.Group
+    type: Class
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+    name: ObjReader.MaterialDefinition
+    type: Class
+  - uid: H.Drawing3D.Shape.File.Importers.StudioReader
+    name: StudioReader
+    type: Class
+- uid: H.Drawing3D.Shape.Geometry
+  name: H.Drawing3D.Shape.Geometry
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Geometry.BoxFaces
+    name: BoxFaces
+    type: Enum
+  - uid: H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator
+    name: CuttingEarsTriangulator
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.IMeshBuilder
+    name: IMeshBuilder
+    type: Interface
+  - uid: H.Drawing3D.Shape.Geometry.MeshBuilder
+    name: MeshBuilder
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.MeshFaces
+    name: MeshFaces
+    type: Enum
+  - uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+    name: MeshGeometryHelper
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.MeshSimplification
+    name: MeshSimplification
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Polygon
+    name: Polygon
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Polygon3D
+    name: Polygon3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator
+    name: SweepLinePolygonTriangulator
+    type: Class
+- uid: H.Drawing3D.Shape.Geometry.Geometry
+  name: H.Drawing3D.Shape.Geometry.Geometry
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+    name: BoundingSphere
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+    name: LineSegment
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Geometry.Mesh3D
+    name: Mesh3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+    name: Plane3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+    name: Ray3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Geometry.Geometry.Triangle
+    name: Triangle
+    type: Class
+- uid: H.Drawing3D.Shape.Helper
+  name: H.Drawing3D.Shape.Helper
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Helper.ContourHelper
+    name: ContourHelper
+    type: Class
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyDictionary`3
+    name: DoubleKeyDictionary<K, T, V>
+    type: Class
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+    name: DoubleKeyPairValue<K, T, V>
+    type: Class
+  - uid: H.Drawing3D.Shape.Helper.MathHelper
+    name: MathHelper
+    type: Class
+  - uid: H.Drawing3D.Shape.Helper.Noise2d
+    name: Noise2d
+    type: Class
+  - uid: H.Drawing3D.Shape.Helper.TextCreator
+    name: TextCreator
+    type: Class
+- uid: H.Drawing3D.Shape.Mvvm
+  name: H.Drawing3D.Shape.Mvvm
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase
+    name: BindableBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Mvvm.CommandBase
+    name: CommandBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+    name: CommandsBindableBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+    name: DisplayBindableBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Mvvm.DisplayCommand
+    name: DisplayCommand
+    type: Class
+  - uid: H.Drawing3D.Shape.Mvvm.IDisplayCommand
+    name: IDisplayCommand
+    type: Interface
+  - uid: H.Drawing3D.Shape.Mvvm.RelayCommand
+    name: RelayCommand
+    type: Class
+- uid: H.Drawing3D.Shape.Mvvm.Attributes
+  name: H.Drawing3D.Shape.Mvvm.Attributes
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute
+    name: IDAttribute
+    type: Class
+  - uid: H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute
+    name: IconAttribute
+    type: Class
+- uid: H.Drawing3D.Shape.Shapes
+  name: H.Drawing3D.Shape.Shapes
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.Shape.Shapes.ArrowShape3D
+    name: ArrowShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D
+    name: AxisBoundingBoxShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.BoundingBoxShape3D
+    name: BoundingBoxShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D
+    name: CoordinateSystemShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.CubeShape3D
+    name: CubeShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.EllipsoidShape3D
+    name: EllipsoidShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.GridLinesShape3D
+    name: GridLinesShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D
+    name: IPlaneBackgroundShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Shapes.IShapeGroupShape3D
+    name: IShapeGroupShape3D
+    type: Interface
+  - uid: H.Drawing3D.Shape.Shapes.PanoramaCube3D
+    name: PanoramaCube3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.PipeShape3D
+    name: PipeShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D
+    name: PlaneBackgroundShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.PolyLineShape3D
+    name: PolyLineShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.QuadShape3D
+    name: QuadShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.RectangleShape3D
+    name: RectangleShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.SSShape3D
+    name: SSShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.ShapeGroupShape3D
+    name: ShapeGroupShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.SphereShape3D
+    name: SphereShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.TestGroupShape3D
+    name: TestGroupShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D
+    name: TestMeshGeometryShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.TextShape3D
+    name: TextShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.TextShape3DBase
+    name: TextShape3DBase
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.TorusShape3D
+    name: TorusShape3D
+    type: Class
+  - uid: H.Drawing3D.Shape.Shapes.TruncatedConeShape3D
+    name: TruncatedConeShape3D
+    type: Class
+- uid: H.Drawing3D.ShapeLayer
+  name: H.Drawing3D.ShapeLayer
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.ShapeLayer.ShapesLayer
+    name: ShapesLayer
+    type: Class
+- uid: H.Drawing3D.ShapeLayer.Layer
+  name: H.Drawing3D.ShapeLayer.Layer
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer
+    name: ICameraUpdateLayer
+    type: Interface
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    type: Interface
+  - uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+    name: IMouseLayer3D
+    type: Interface
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+    name: Layer3DExtension
+    type: Class
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase
+    name: LayerBase
+    type: Class
+  - uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+    name: ShapeLayerBase
+    type: Class
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer
+  name: H.Drawing3D.ShapeLayer.ShapeLayer
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+    name: IShapeLayer
+    type: Interface
+  - uid: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+    name: ShapesLayerBase
+    type: Class
+- uid: H.Drawing3D.View
+  name: H.Drawing3D.View
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.View.CameraViewport3D
+    name: CameraViewport3D
+    type: Class
+- uid: H.Drawing3D.View.Base
+  name: H.Drawing3D.View.Base
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.View.Base.CameraHelper
+    name: CameraHelper
+    type: Class
+  - uid: H.Drawing3D.View.Base.HelixToolkitException
+    name: HelixToolkitException
+    type: Class
+  - uid: H.Drawing3D.View.Base.IBoundsIgnoredVisual3D
+    name: IBoundsIgnoredVisual3D
+    type: Interface
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    type: Interface
+  - uid: H.Drawing3D.View.Base.IControlableCameraViewport3D
+    name: IControlableCameraViewport3D
+    type: Interface
+  - uid: H.Drawing3D.View.Base.ILayerView3D
+    name: ILayerView3D
+    type: Interface
+  - uid: H.Drawing3D.View.Base.IShapesView3D
+    name: IShapesView3D
+    type: Interface
+  - uid: H.Drawing3D.View.Base.IView3D
+    name: IView3D
+    type: Interface
+  - uid: H.Drawing3D.View.Base.InputBindingX
+    name: InputBindingX
+    type: Class
+  - uid: H.Drawing3D.View.Base.LayerView3DExtension
+    name: LayerView3DExtension
+    type: Class
+  - uid: H.Drawing3D.View.Base.LineSegment
+    name: LineSegment
+    type: Class
+  - uid: H.Drawing3D.View.Base.Model3DHelper
+    name: Model3DHelper
+    type: Class
+  - uid: H.Drawing3D.View.Base.Ray3D
+    name: Ray3D
+    type: Class
+  - uid: H.Drawing3D.View.Base.RectangleAdorner
+    name: RectangleAdorner
+    type: Class
+  - uid: H.Drawing3D.View.Base.RenderingEventListener
+    name: RenderingEventListener
+    type: Class
+  - uid: H.Drawing3D.View.Base.RenderingEventManager
+    name: RenderingEventManager
+    type: Class
+  - uid: H.Drawing3D.View.Base.SelectionHitMode
+    name: SelectionHitMode
+    type: Enum
+  - uid: H.Drawing3D.View.Base.Transform3DHelper
+    name: Transform3DHelper
+    type: Class
+  - uid: H.Drawing3D.View.Base.Triangle
+    name: Triangle
+    type: Class
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    type: Class
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+    name: Viewport3DHelper.HitResult
+    type: Class
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+    name: Viewport3DHelper.RectangleHitResult
+    type: Class
+  - uid: H.Drawing3D.View.Base.Visual3DHelper
+    name: Visual3DHelper
+    type: Class
+  - uid: H.Drawing3D.View.Base.WeakEventListener`2
+    name: WeakEventListener<TEventManager, TEventArgs>
+    type: Class
+  - uid: H.Drawing3D.View.Base.WeakEventManagerBase`1
+    name: WeakEventManagerBase<TManager>
+    type: Class
+- uid: H.Drawing3D.View.Cameras
+  name: H.Drawing3D.View.Cameras
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.View.Cameras.CameraMode
+    name: CameraMode
+    type: Enum
+  - uid: H.Drawing3D.View.Cameras.CameraRotationMode
+    name: CameraRotationMode
+    type: Enum
+  - uid: H.Drawing3D.View.Cameras.CameraSetting
+    name: CameraSetting
+    type: Class
+  - uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+    name: ManipulationEventArgs
+    type: Class
+- uid: H.Drawing3D.View.Extensions
+  name: H.Drawing3D.View.Extensions
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension
+    name: CameraControllerExtension
+    type: Class
+  - uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+    name: CameraViewport3DExtension
+    type: Class
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+    name: ShapeCameraViewport3DExtension
+    type: Class
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension
+    name: ShapesExtension
+    type: Class
+- uid: H.Drawing3D.View.SelectionCommands
+  name: H.Drawing3D.View.SelectionCommands
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs
+    name: ModelsSelectedByPointEventArgs
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+    name: ModelsSelectedByRectangleEventArgs
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+    name: ModelsSelectedEventArgs
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+    name: PointSelectionCommand
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+    name: RectangleSelectionCommand
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.SelectionCommand
+    name: SelectionCommand
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs
+    name: VisualsSelectedByPointEventArgs
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs
+    name: VisualsSelectedByRectangleEventArgs
+    type: Class
+  - uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+    name: VisualsSelectedEventArgs
+    type: Class
+- uid: H.Drawing3D.View.Views
+  name: H.Drawing3D.View.Views
+  type: Namespace
+  items:
+  - uid: H.Drawing3D.View.Views.CameraController
+    name: CameraController
+    type: Class
+  - uid: H.Drawing3D.View.Views.GameShapesView3D
+    name: GameShapesView3D
+    type: Class
+  - uid: H.Drawing3D.View.Views.LayerView3D
+    name: LayerView3D
+    type: Class
+  - uid: H.Drawing3D.View.Views.MouseOverableShapesView3D
+    name: MouseOverableShapesView3D
+    type: Class
+  - uid: H.Drawing3D.View.Views.Presenter2DView3D
+    name: Presenter2DView3D
+    type: Class
+  - uid: H.Drawing3D.View.Views.SelectableShapesView3D
+    name: SelectableShapesView3D
+    type: Class
+  - uid: H.Drawing3D.View.Views.ShapeView3D
+    name: ShapeView3D
+    type: Class
+  - uid: H.Drawing3D.View.Views.ShapeView3DImage
+    name: ShapeView3DImage
+    type: Class
+  - uid: H.Drawing3D.View.Views.ShapesView3D
+    name: ShapesView3D
+    type: Class
+- uid: HelixToolkit.Wpf
+  name: HelixToolkit.Wpf
+  type: Namespace
+  items:
+  - uid: HelixToolkit.Wpf.LwoReader
+    name: LwoReader
+    type: Class
+  - uid: HelixToolkit.Wpf.ModelReader
+    name: ModelReader
+    type: Class
+  - uid: HelixToolkit.Wpf.OffReader
+    name: OffReader
+    type: Class
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    type: Class
+  - uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    name: PlyReader.PlyDataTypes
+    type: Enum
+  - uid: HelixToolkit.Wpf.PlyReader.PlyElement
+    name: PlyReader.PlyElement
+    type: Class
+  - uid: HelixToolkit.Wpf.PlyReader.PlyFormatTypes
+    name: PlyReader.PlyFormatTypes
+    type: Enum
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeader
+    name: PlyReader.PlyHeader
+    type: Class
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+    name: PlyReader.PlyHeaderItems
+    type: Enum
+  - uid: HelixToolkit.Wpf.PlyReader.PlyProperty
+    name: PlyReader.PlyProperty
+    type: Class
+  - uid: HelixToolkit.Wpf.StLReader
+    name: StLReader
+    type: Class
+memberLayout: SamePage

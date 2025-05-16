@@ -1,0 +1,1648 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Base.CameraHelper
+  commentId: T:H.Drawing3D.View.Base.CameraHelper
+  id: CameraHelper
+  parent: H.Drawing3D.View.Base
+  children:
+  - H.Drawing3D.View.Base.CameraHelper.AnimateTo(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.AnimateWidth(System.Windows.Media.Media3D.OrthographicCamera,System.Double,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.ChangeDirection(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.Copy(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Boolean)
+  - H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera
+  - H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.GetInfo(System.Windows.Media.Media3D.Camera)
+  - H.Drawing3D.View.Base.CameraHelper.GetInverseTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix(System.Windows.Media.Media3D.Camera,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.GetTotalTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.GetViewMatrix(System.Windows.Media.Media3D.Camera)
+  - H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.Camera)
+  - H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.OrthographicCamera)
+  - H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.PerspectiveCamera)
+  - H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  - H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Rect)
+  langs:
+  - csharp
+  - vb
+  name: CameraHelper
+  nameWithType: CameraHelper
+  fullName: H.Drawing3D.View.Base.CameraHelper
+  type: Class
+  source:
+    id: CameraHelper
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Provides extension methods for <xref href="System.Windows.Media.Media3D.Camera" data-throw-if-not-resolved="false"></xref> derived classes.
+  example: []
+  syntax:
+    content: public static class CameraHelper
+    content.vb: Public Module CameraHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.View.Base.CameraHelper.AnimateTo(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.AnimateTo(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: AnimateTo(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: AnimateTo(ProjectionCamera, Point3D, Vector3D, Vector3D, double)
+  nameWithType: CameraHelper.AnimateTo(ProjectionCamera, Point3D, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.AnimateTo(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: AnimateTo
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 42
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Animates the camera position and directions.
+  example: []
+  syntax:
+    content: public static void AnimateTo(this ProjectionCamera camera, Point3D newPosition, Vector3D newDirection, Vector3D newUpDirection, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera to animate.
+    - id: newPosition
+      type: System.Windows.Media.Media3D.Point3D
+      description: The position to animate to.
+    - id: newDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The direction to animate to.
+    - id: newUpDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The up direction to animate to.
+    - id: animationTime
+      type: System.Double
+      description: Animation time in milliseconds.
+    content.vb: Public Shared Sub AnimateTo(camera As ProjectionCamera, newPosition As Point3D, newDirection As Vector3D, newUpDirection As Vector3D, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.AnimateTo*
+  nameWithType.vb: CameraHelper.AnimateTo(ProjectionCamera, Point3D, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.AnimateTo(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: AnimateTo(ProjectionCamera, Point3D, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.AnimateWidth(System.Windows.Media.Media3D.OrthographicCamera,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.AnimateWidth(System.Windows.Media.Media3D.OrthographicCamera,System.Double,System.Double)
+  id: AnimateWidth(System.Windows.Media.Media3D.OrthographicCamera,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: AnimateWidth(OrthographicCamera, double, double)
+  nameWithType: CameraHelper.AnimateWidth(OrthographicCamera, double, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.AnimateWidth(System.Windows.Media.Media3D.OrthographicCamera, double, double)
+  type: Method
+  source:
+    id: AnimateWidth
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 98
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Animates the orthographic width.
+  example: []
+  syntax:
+    content: public static void AnimateWidth(this OrthographicCamera camera, double newWidth, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.OrthographicCamera
+      description: An orthographic camera.
+    - id: newWidth
+      type: System.Double
+      description: The width to animate to.
+    - id: animationTime
+      type: System.Double
+      description: Animation time in milliseconds
+    content.vb: Public Shared Sub AnimateWidth(camera As OrthographicCamera, newWidth As Double, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.AnimateWidth*
+  nameWithType.vb: CameraHelper.AnimateWidth(OrthographicCamera, Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.AnimateWidth(System.Windows.Media.Media3D.OrthographicCamera, Double, Double)
+  name.vb: AnimateWidth(OrthographicCamera, Double, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.ChangeDirection(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.ChangeDirection(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: ChangeDirection(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeDirection(ProjectionCamera, Vector3D, Vector3D, double)
+  nameWithType: CameraHelper.ChangeDirection(ProjectionCamera, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.ChangeDirection(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: ChangeDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 132
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Changes the direction of a camera.
+  example: []
+  syntax:
+    content: public static void ChangeDirection(this ProjectionCamera camera, Vector3D newLookDirection, Vector3D newUpDirection, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera.
+    - id: newLookDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The new look direction.
+    - id: newUpDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The new up direction.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub ChangeDirection(camera As ProjectionCamera, newLookDirection As Vector3D, newUpDirection As Vector3D, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.ChangeDirection*
+  nameWithType.vb: CameraHelper.ChangeDirection(ProjectionCamera, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.ChangeDirection(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: ChangeDirection(ProjectionCamera, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.Copy(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Boolean)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.Copy(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Boolean)
+  id: Copy(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Boolean)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: Copy(ProjectionCamera, ProjectionCamera, bool)
+  nameWithType: CameraHelper.Copy(ProjectionCamera, ProjectionCamera, bool)
+  fullName: H.Drawing3D.View.Base.CameraHelper.Copy(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.ProjectionCamera, bool)
+  type: Method
+  source:
+    id: Copy
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 146
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Copies the specified camera, converts field of view/width if necessary.
+  example: []
+  syntax:
+    content: public static void Copy(this ProjectionCamera source, ProjectionCamera dest, bool copyNearFarPlaneDistances = true)
+    parameters:
+    - id: source
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The source camera.
+    - id: dest
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The destination camera.
+    - id: copyNearFarPlaneDistances
+      type: System.Boolean
+      description: Copy near and far plane distances if set to <code>true</code>.
+    content.vb: Public Shared Sub Copy(source As ProjectionCamera, dest As ProjectionCamera, copyNearFarPlaneDistances As Boolean = True)
+  overload: H.Drawing3D.View.Base.CameraHelper.Copy*
+  nameWithType.vb: CameraHelper.Copy(ProjectionCamera, ProjectionCamera, Boolean)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.Copy(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.ProjectionCamera, Boolean)
+  name.vb: Copy(ProjectionCamera, ProjectionCamera, Boolean)
+- uid: H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Double)
+  id: CopyDirectionOnly(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.ProjectionCamera,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectionOnly(ProjectionCamera, ProjectionCamera, double)
+  nameWithType: CameraHelper.CopyDirectionOnly(ProjectionCamera, ProjectionCamera, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.ProjectionCamera, double)
+  type: Method
+  source:
+    id: CopyDirectionOnly
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 206
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Copy the direction of the source <xref href="System.Windows.Media.Media3D.Camera" data-throw-if-not-resolved="false"></xref>. Used for the CoordinateSystem view.
+  example: []
+  syntax:
+    content: public static void CopyDirectionOnly(this ProjectionCamera source, ProjectionCamera dest, double distance)
+    parameters:
+    - id: source
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The source camera.
+    - id: dest
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The destination camera.
+    - id: distance
+      type: System.Double
+      description: New length of the LookDirection vector.
+    content.vb: Public Shared Sub CopyDirectionOnly(source As ProjectionCamera, dest As ProjectionCamera, distance As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly*
+  nameWithType.vb: CameraHelper.CopyDirectionOnly(ProjectionCamera, ProjectionCamera, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.ProjectionCamera, Double)
+  name.vb: CopyDirectionOnly(ProjectionCamera, ProjectionCamera, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera
+  id: CreateDefaultCamera
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCamera()
+  nameWithType: CameraHelper.CreateDefaultCamera()
+  fullName: H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera()
+  type: Method
+  source:
+    id: CreateDefaultCamera
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 224
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Creates a default perspective camera.
+  example: []
+  syntax:
+    content: public static PerspectiveCamera CreateDefaultCamera()
+    return:
+      type: System.Windows.Media.Media3D.PerspectiveCamera
+      description: A perspective camera.
+    content.vb: Public Shared Function CreateDefaultCamera() As PerspectiveCamera
+  overload: H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera*
+- uid: H.Drawing3D.View.Base.CameraHelper.GetInfo(System.Windows.Media.Media3D.Camera)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.GetInfo(System.Windows.Media.Media3D.Camera)
+  id: GetInfo(System.Windows.Media.Media3D.Camera)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: GetInfo(Camera)
+  nameWithType: CameraHelper.GetInfo(Camera)
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetInfo(System.Windows.Media.Media3D.Camera)
+  type: Method
+  source:
+    id: GetInfo
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 240
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets an information string about the specified camera.
+  example: []
+  syntax:
+    content: public static string GetInfo(this Camera camera)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.Camera
+      description: The camera.
+    return:
+      type: System.String
+      description: The get info.
+    content.vb: Public Shared Function GetInfo(camera As Camera) As String
+  overload: H.Drawing3D.View.Base.CameraHelper.GetInfo*
+- uid: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double)
+  id: LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: LookAt(ProjectionCamera, Point3D, double)
+  nameWithType: CameraHelper.LookAt(ProjectionCamera, Point3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, double)
+  type: Method
+  source:
+    id: LookAt
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 317
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Set the camera target point without changing the look direction.
+  example: []
+  syntax:
+    content: public static void LookAt(this ProjectionCamera camera, Point3D target, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera.
+    - id: target
+      type: System.Windows.Media.Media3D.Point3D
+      description: The target.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub LookAt(camera As ProjectionCamera, target As Point3D, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.LookAt*
+  nameWithType.vb: CameraHelper.LookAt(ProjectionCamera, Point3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, Double)
+  name.vb: LookAt(ProjectionCamera, Point3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: LookAt(ProjectionCamera, Point3D, Vector3D, double)
+  nameWithType: CameraHelper.LookAt(ProjectionCamera, Point3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: LookAt
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 337
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Set the camera target point and look direction
+  example: []
+  syntax:
+    content: public static void LookAt(this ProjectionCamera camera, Point3D target, Vector3D newLookDirection, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera.
+    - id: target
+      type: System.Windows.Media.Media3D.Point3D
+      description: The target.
+    - id: newLookDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The new look direction.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub LookAt(camera As ProjectionCamera, target As Point3D, newLookDirection As Vector3D, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.LookAt*
+  nameWithType.vb: CameraHelper.LookAt(ProjectionCamera, Point3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: LookAt(ProjectionCamera, Point3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: LookAt(ProjectionCamera, Point3D, Vector3D, Vector3D, double)
+  nameWithType: CameraHelper.LookAt(ProjectionCamera, Point3D, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: LookAt
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 360
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Set the camera target point and directions
+  example: []
+  syntax:
+    content: public static void LookAt(this ProjectionCamera camera, Point3D target, Vector3D newLookDirection, Vector3D newUpDirection, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera.
+    - id: target
+      type: System.Windows.Media.Media3D.Point3D
+      description: The target.
+    - id: newLookDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The new look direction.
+    - id: newUpDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The new up direction.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub LookAt(camera As ProjectionCamera, target As Point3D, newLookDirection As Vector3D, newUpDirection As Vector3D, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.LookAt*
+  nameWithType.vb: CameraHelper.LookAt(ProjectionCamera, Point3D, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: LookAt(ProjectionCamera, Point3D, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  id: LookAt(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: LookAt(ProjectionCamera, Point3D, double, double)
+  nameWithType: CameraHelper.LookAt(ProjectionCamera, Point3D, double, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, double, double)
+  type: Method
+  source:
+    id: LookAt
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 389
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Set the camera target point and camera distance.
+  example: []
+  syntax:
+    content: public static void LookAt(this ProjectionCamera camera, Point3D target, double distance, double animationTime)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera.
+    - id: target
+      type: System.Windows.Media.Media3D.Point3D
+      description: The target point.
+    - id: distance
+      type: System.Double
+      description: The distance to the camera.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub LookAt(camera As ProjectionCamera, target As Point3D, distance As Double, animationTime As Double)
+  overload: H.Drawing3D.View.Base.CameraHelper.LookAt*
+  nameWithType.vb: CameraHelper.LookAt(ProjectionCamera, Point3D, Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.LookAt(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Media.Media3D.Point3D, Double, Double)
+  name.vb: LookAt(ProjectionCamera, Point3D, Double, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.Camera)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.Camera)
+  id: Reset(System.Windows.Media.Media3D.Camera)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: Reset(Camera)
+  nameWithType: CameraHelper.Reset(Camera)
+  fullName: H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.Camera)
+  type: Method
+  source:
+    id: Reset
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 402
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Resets the specified camera.
+  example: []
+  syntax:
+    content: public static void Reset(this Camera camera)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.Camera
+      description: The camera.
+    content.vb: Public Shared Sub Reset(camera As Camera)
+  overload: H.Drawing3D.View.Base.CameraHelper.Reset*
+- uid: H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.PerspectiveCamera)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.PerspectiveCamera)
+  id: Reset(System.Windows.Media.Media3D.PerspectiveCamera)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: Reset(PerspectiveCamera)
+  nameWithType: CameraHelper.Reset(PerspectiveCamera)
+  fullName: H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.PerspectiveCamera)
+  type: Method
+  source:
+    id: Reset
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 417
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Resets the specified perspective camera.
+  example: []
+  syntax:
+    content: public static void Reset(this PerspectiveCamera camera)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.PerspectiveCamera
+      description: The camera.
+    content.vb: Public Shared Sub Reset(camera As PerspectiveCamera)
+  overload: H.Drawing3D.View.Base.CameraHelper.Reset*
+- uid: H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.OrthographicCamera)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.OrthographicCamera)
+  id: Reset(System.Windows.Media.Media3D.OrthographicCamera)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: Reset(OrthographicCamera)
+  nameWithType: CameraHelper.Reset(OrthographicCamera)
+  fullName: H.Drawing3D.View.Base.CameraHelper.Reset(System.Windows.Media.Media3D.OrthographicCamera)
+  type: Method
+  source:
+    id: Reset
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 436
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Resets the specified orthographic camera.
+  example: []
+  syntax:
+    content: public static void Reset(this OrthographicCamera camera)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.OrthographicCamera
+      description: The camera.
+    content.vb: Public Shared Sub Reset(camera As OrthographicCamera)
+  overload: H.Drawing3D.View.Base.CameraHelper.Reset*
+- uid: H.Drawing3D.View.Base.CameraHelper.GetViewMatrix(System.Windows.Media.Media3D.Camera)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.GetViewMatrix(System.Windows.Media.Media3D.Camera)
+  id: GetViewMatrix(System.Windows.Media.Media3D.Camera)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: GetViewMatrix(Camera)
+  nameWithType: CameraHelper.GetViewMatrix(Camera)
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetViewMatrix(System.Windows.Media.Media3D.Camera)
+  type: Method
+  source:
+    id: GetViewMatrix
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 458
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Obtains the view transform matrix for a camera. (see page 327)
+  example: []
+  syntax:
+    content: public static Matrix3D GetViewMatrix(this Camera camera)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.Camera
+      description: Camera to obtain the ViewMatrix for
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: A Matrix3D object with the camera view transform matrix, or a Matrix3D with all zeros if the "camera" is null.
+    content.vb: Public Shared Function GetViewMatrix(camera As Camera) As Matrix3D
+  overload: H.Drawing3D.View.Base.CameraHelper.GetViewMatrix*
+- uid: H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix(System.Windows.Media.Media3D.Camera,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix(System.Windows.Media.Media3D.Camera,System.Double)
+  id: GetProjectionMatrix(System.Windows.Media.Media3D.Camera,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: GetProjectionMatrix(Camera, double)
+  nameWithType: CameraHelper.GetProjectionMatrix(Camera, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix(System.Windows.Media.Media3D.Camera, double)
+  type: Method
+  source:
+    id: GetProjectionMatrix
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 505
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the projection matrix for the specified camera.
+  example: []
+  syntax:
+    content: public static Matrix3D GetProjectionMatrix(this Camera camera, double aspectRatio)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.Camera
+      description: The camera.
+    - id: aspectRatio
+      type: System.Double
+      description: The aspect ratio.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The projection matrix.
+    content.vb: Public Shared Function GetProjectionMatrix(camera As Camera, aspectRatio As Double) As Matrix3D
+  overload: H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix*
+  nameWithType.vb: CameraHelper.GetProjectionMatrix(Camera, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix(System.Windows.Media.Media3D.Camera, Double)
+  name.vb: GetProjectionMatrix(Camera, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.GetTotalTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.GetTotalTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  id: GetTotalTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTotalTransform(Camera, double)
+  nameWithType: CameraHelper.GetTotalTransform(Camera, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetTotalTransform(System.Windows.Media.Media3D.Camera, double)
+  type: Method
+  source:
+    id: GetTotalTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 549
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the combined view and projection transform.
+  example: []
+  syntax:
+    content: public static Matrix3D GetTotalTransform(this Camera camera, double aspectRatio)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.Camera
+      description: The camera.
+    - id: aspectRatio
+      type: System.Double
+      description: The aspect ratio.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The total view and projection transform.
+    content.vb: Public Shared Function GetTotalTransform(camera As Camera, aspectRatio As Double) As Matrix3D
+  overload: H.Drawing3D.View.Base.CameraHelper.GetTotalTransform*
+  nameWithType.vb: CameraHelper.GetTotalTransform(Camera, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.GetTotalTransform(System.Windows.Media.Media3D.Camera, Double)
+  name.vb: GetTotalTransform(Camera, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.GetInverseTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.GetInverseTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  id: GetInverseTransform(System.Windows.Media.Media3D.Camera,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: GetInverseTransform(Camera, double)
+  nameWithType: CameraHelper.GetInverseTransform(Camera, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetInverseTransform(System.Windows.Media.Media3D.Camera, double)
+  type: Method
+  source:
+    id: GetInverseTransform
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 584
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Gets the inverse camera transform.
+  example: []
+  syntax:
+    content: public static Matrix3D GetInverseTransform(this Camera camera, double aspectRatio)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.Camera
+      description: The camera.
+    - id: aspectRatio
+      type: System.Double
+      description: The aspect ratio.
+    return:
+      type: System.Windows.Media.Media3D.Matrix3D
+      description: The inverse transform.
+    content.vb: Public Shared Function GetInverseTransform(camera As Camera, aspectRatio As Double) As Matrix3D
+  overload: H.Drawing3D.View.Base.CameraHelper.GetInverseTransform*
+  nameWithType.vb: CameraHelper.GetInverseTransform(Camera, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.GetInverseTransform(System.Windows.Media.Media3D.Camera, Double)
+  name.vb: GetInverseTransform(Camera, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  id: FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: FitView(ProjectionCamera, Viewport3D, double)
+  nameWithType: CameraHelper.FitView(ProjectionCamera, Viewport3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, double)
+  type: Method
+  source:
+    id: FitView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 601
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Fits the current scene in the current view.
+  example: []
+  syntax:
+    content: public static void FitView(this ProjectionCamera camera, Viewport3D viewport, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The actual camera.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub FitView(camera As ProjectionCamera, viewport As Viewport3D, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.FitView*
+  nameWithType.vb: CameraHelper.FitView(ProjectionCamera, Viewport3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, Double)
+  name.vb: FitView(ProjectionCamera, Viewport3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: FitView(ProjectionCamera, Viewport3D, Vector3D, Vector3D, double)
+  nameWithType: CameraHelper.FitView(ProjectionCamera, Viewport3D, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: FitView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 624
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Fits the current scene in the current view.
+  example: []
+  syntax:
+    content: public static void FitView(this ProjectionCamera camera, Viewport3D viewport, Vector3D lookDirection, Vector3D upDirection, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The actual camera.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: lookDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The look direction.
+    - id: upDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The up direction.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub FitView(camera As ProjectionCamera, viewport As Viewport3D, lookDirection As Vector3D, upDirection As Vector3D, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.FitView*
+  nameWithType.vb: CameraHelper.FitView(ProjectionCamera, Viewport3D, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: FitView(ProjectionCamera, Viewport3D, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  id: ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: ZoomExtents(ProjectionCamera, Viewport3D, double)
+  nameWithType: CameraHelper.ZoomExtents(ProjectionCamera, Viewport3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, double)
+  type: Method
+  source:
+    id: ZoomExtents
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 647
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Zooms to fit the extents of the specified viewport.
+  example: []
+  syntax:
+    content: public static void ZoomExtents(this ProjectionCamera camera, Viewport3D viewport, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The actual camera.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub ZoomExtents(camera As ProjectionCamera, viewport As Viewport3D, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.ZoomExtents*
+  nameWithType.vb: CameraHelper.ZoomExtents(ProjectionCamera, Viewport3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, Double)
+  name.vb: ZoomExtents(ProjectionCamera, Viewport3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  id: ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: ZoomExtents(ProjectionCamera, Viewport3D, Rect3D, double)
+  nameWithType: CameraHelper.ZoomExtents(ProjectionCamera, Viewport3D, Rect3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Rect3D, double)
+  type: Method
+  source:
+    id: ZoomExtents
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 671
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Zooms to fit the specified bounding rectangle.
+  example: []
+  syntax:
+    content: public static void ZoomExtents(this ProjectionCamera camera, Viewport3D viewport, Rect3D bounds, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera to change.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: bounds
+      type: System.Windows.Media.Media3D.Rect3D
+      description: The bounding rectangle.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub ZoomExtents(camera As ProjectionCamera, viewport As Viewport3D, bounds As Rect3D, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.ZoomExtents*
+  nameWithType.vb: CameraHelper.ZoomExtents(ProjectionCamera, Viewport3D, Rect3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Rect3D, Double)
+  name.vb: ZoomExtents(ProjectionCamera, Viewport3D, Rect3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Rect3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: FitView(ProjectionCamera, Viewport3D, Rect3D, Vector3D, Vector3D, double)
+  nameWithType: CameraHelper.FitView(ProjectionCamera, Viewport3D, Rect3D, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Rect3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: FitView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 696
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Fits the specified bounding rectangle in the current view.
+  example: []
+  syntax:
+    content: public static void FitView(this ProjectionCamera camera, Viewport3D viewport, Rect3D bounds, Vector3D lookDirection, Vector3D upDirection, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera to change.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: bounds
+      type: System.Windows.Media.Media3D.Rect3D
+      description: The bounding rectangle.
+    - id: lookDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The look direction.
+    - id: upDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The up direction.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub FitView(camera As ProjectionCamera, viewport As Viewport3D, bounds As Rect3D, lookDirection As Vector3D, upDirection As Vector3D, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.FitView*
+  nameWithType.vb: CameraHelper.FitView(ProjectionCamera, Viewport3D, Rect3D, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Rect3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: FitView(ProjectionCamera, Viewport3D, Rect3D, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  id: ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double)
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: ZoomExtents(ProjectionCamera, Viewport3D, Point3D, double, double)
+  nameWithType: CameraHelper.ZoomExtents(ProjectionCamera, Viewport3D, Point3D, double, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Point3D, double, double)
+  type: Method
+  source:
+    id: ZoomExtents
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 722
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Zooms to fit the specified sphere.
+  example: []
+  syntax:
+    content: public static void ZoomExtents(ProjectionCamera camera, Viewport3D viewport, Point3D center, double radius, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera to change.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+      description: The center of the sphere.
+    - id: radius
+      type: System.Double
+      description: The radius of the sphere.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub ZoomExtents(camera As ProjectionCamera, viewport As Viewport3D, center As Point3D, radius As Double, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.ZoomExtents*
+  nameWithType.vb: CameraHelper.ZoomExtents(ProjectionCamera, Viewport3D, Point3D, Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.ZoomExtents(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Point3D, Double, Double)
+  name.vb: ZoomExtents(ProjectionCamera, Viewport3D, Point3D, Double, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: FitView(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: FitView(ProjectionCamera, Viewport3D, Point3D, double, Vector3D, Vector3D, double)
+  nameWithType: CameraHelper.FitView(ProjectionCamera, Viewport3D, Point3D, double, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Point3D, double, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: FitView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 749
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Fits the specified bounding sphere to the view.
+  example: []
+  syntax:
+    content: public static void FitView(ProjectionCamera camera, Viewport3D viewport, Point3D center, double radius, Vector3D lookDirection, Vector3D upDirection, double animationTime = 0)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera to change.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+      description: The center of the sphere.
+    - id: radius
+      type: System.Double
+      description: The radius of the sphere.
+    - id: lookDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The look direction.
+    - id: upDirection
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The up direction.
+    - id: animationTime
+      type: System.Double
+      description: The animation time.
+    content.vb: Public Shared Sub FitView(camera As ProjectionCamera, viewport As Viewport3D, center As Point3D, radius As Double, lookDirection As Vector3D, upDirection As Vector3D, animationTime As Double = 0)
+  overload: H.Drawing3D.View.Base.CameraHelper.FitView*
+  nameWithType.vb: CameraHelper.FitView(ProjectionCamera, Viewport3D, Point3D, Double, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.CameraHelper.FitView(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Media.Media3D.Point3D, Double, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: FitView(ProjectionCamera, Viewport3D, Point3D, Double, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Rect)
+  commentId: M:H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Rect)
+  id: ZoomToRectangle(System.Windows.Media.Media3D.ProjectionCamera,System.Windows.Controls.Viewport3D,System.Windows.Rect)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Base.CameraHelper
+  langs:
+  - csharp
+  - vb
+  name: ZoomToRectangle(ProjectionCamera, Viewport3D, Rect)
+  nameWithType: CameraHelper.ZoomToRectangle(ProjectionCamera, Viewport3D, Rect)
+  fullName: H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle(System.Windows.Media.Media3D.ProjectionCamera, System.Windows.Controls.Viewport3D, System.Windows.Rect)
+  type: Method
+  source:
+    id: ZoomToRectangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\CameraHelper.cs
+    startLine: 800
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Zooms the camera to the specified rectangle.
+  example: []
+  syntax:
+    content: public static void ZoomToRectangle(this ProjectionCamera camera, Viewport3D viewport, Rect zoomRectangle)
+    parameters:
+    - id: camera
+      type: System.Windows.Media.Media3D.ProjectionCamera
+      description: The camera.
+    - id: viewport
+      type: System.Windows.Controls.Viewport3D
+      description: The viewport.
+    - id: zoomRectangle
+      type: System.Windows.Rect
+      description: The zoom rectangle.
+    content.vb: Public Shared Sub ZoomToRectangle(camera As ProjectionCamera, viewport As Viewport3D, zoomRectangle As Rect)
+  overload: H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle*
+references:
+- uid: System.Windows.Media.Media3D.Camera
+  commentId: T:System.Windows.Media.Media3D.Camera
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.camera
+  name: Camera
+  nameWithType: Camera
+  fullName: System.Windows.Media.Media3D.Camera
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.View.Base.CameraHelper.AnimateTo*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.AnimateTo
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_AnimateTo_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: AnimateTo
+  nameWithType: CameraHelper.AnimateTo
+  fullName: H.Drawing3D.View.Base.CameraHelper.AnimateTo
+- uid: System.Windows.Media.Media3D.ProjectionCamera
+  commentId: T:System.Windows.Media.Media3D.ProjectionCamera
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  name: ProjectionCamera
+  nameWithType: ProjectionCamera
+  fullName: System.Windows.Media.Media3D.ProjectionCamera
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Drawing3D.View.Base.CameraHelper.AnimateWidth*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.AnimateWidth
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_AnimateWidth_System_Windows_Media_Media3D_OrthographicCamera_System_Double_System_Double_
+  name: AnimateWidth
+  nameWithType: CameraHelper.AnimateWidth
+  fullName: H.Drawing3D.View.Base.CameraHelper.AnimateWidth
+- uid: System.Windows.Media.Media3D.OrthographicCamera
+  commentId: T:System.Windows.Media.Media3D.OrthographicCamera
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.orthographiccamera
+  name: OrthographicCamera
+  nameWithType: OrthographicCamera
+  fullName: System.Windows.Media.Media3D.OrthographicCamera
+- uid: H.Drawing3D.View.Base.CameraHelper.ChangeDirection*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.ChangeDirection
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_ChangeDirection_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: ChangeDirection
+  nameWithType: CameraHelper.ChangeDirection
+  fullName: H.Drawing3D.View.Base.CameraHelper.ChangeDirection
+- uid: H.Drawing3D.View.Base.CameraHelper.Copy*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.Copy
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_Copy_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Media_Media3D_ProjectionCamera_System_Boolean_
+  name: Copy
+  nameWithType: CameraHelper.Copy
+  fullName: H.Drawing3D.View.Base.CameraHelper.Copy
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_CopyDirectionOnly_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Media_Media3D_ProjectionCamera_System_Double_
+  name: CopyDirectionOnly
+  nameWithType: CameraHelper.CopyDirectionOnly
+  fullName: H.Drawing3D.View.Base.CameraHelper.CopyDirectionOnly
+- uid: H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_CreateDefaultCamera
+  name: CreateDefaultCamera
+  nameWithType: CameraHelper.CreateDefaultCamera
+  fullName: H.Drawing3D.View.Base.CameraHelper.CreateDefaultCamera
+- uid: System.Windows.Media.Media3D.PerspectiveCamera
+  commentId: T:System.Windows.Media.Media3D.PerspectiveCamera
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.perspectivecamera
+  name: PerspectiveCamera
+  nameWithType: PerspectiveCamera
+  fullName: System.Windows.Media.Media3D.PerspectiveCamera
+- uid: H.Drawing3D.View.Base.CameraHelper.GetInfo*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.GetInfo
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_GetInfo_System_Windows_Media_Media3D_Camera_
+  name: GetInfo
+  nameWithType: CameraHelper.GetInfo
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.Drawing3D.View.Base.CameraHelper.LookAt*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.LookAt
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_LookAt_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Media_Media3D_Point3D_System_Double_
+  name: LookAt
+  nameWithType: CameraHelper.LookAt
+  fullName: H.Drawing3D.View.Base.CameraHelper.LookAt
+- uid: H.Drawing3D.View.Base.CameraHelper.Reset*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.Reset
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_Reset_System_Windows_Media_Media3D_Camera_
+  name: Reset
+  nameWithType: CameraHelper.Reset
+  fullName: H.Drawing3D.View.Base.CameraHelper.Reset
+- uid: H.Drawing3D.View.Base.CameraHelper.GetViewMatrix*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.GetViewMatrix
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_GetViewMatrix_System_Windows_Media_Media3D_Camera_
+  name: GetViewMatrix
+  nameWithType: CameraHelper.GetViewMatrix
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetViewMatrix
+- uid: System.Windows.Media.Media3D.Matrix3D
+  commentId: T:System.Windows.Media.Media3D.Matrix3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.matrix3d
+  name: Matrix3D
+  nameWithType: Matrix3D
+  fullName: System.Windows.Media.Media3D.Matrix3D
+- uid: H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_GetProjectionMatrix_System_Windows_Media_Media3D_Camera_System_Double_
+  name: GetProjectionMatrix
+  nameWithType: CameraHelper.GetProjectionMatrix
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetProjectionMatrix
+- uid: H.Drawing3D.View.Base.CameraHelper.GetTotalTransform*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.GetTotalTransform
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_GetTotalTransform_System_Windows_Media_Media3D_Camera_System_Double_
+  name: GetTotalTransform
+  nameWithType: CameraHelper.GetTotalTransform
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetTotalTransform
+- uid: H.Drawing3D.View.Base.CameraHelper.GetInverseTransform*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.GetInverseTransform
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_GetInverseTransform_System_Windows_Media_Media3D_Camera_System_Double_
+  name: GetInverseTransform
+  nameWithType: CameraHelper.GetInverseTransform
+  fullName: H.Drawing3D.View.Base.CameraHelper.GetInverseTransform
+- uid: H.Drawing3D.View.Base.CameraHelper.FitView*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.FitView
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_FitView_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Controls_Viewport3D_System_Double_
+  name: FitView
+  nameWithType: CameraHelper.FitView
+  fullName: H.Drawing3D.View.Base.CameraHelper.FitView
+- uid: System.Windows.Controls.Viewport3D
+  commentId: T:System.Windows.Controls.Viewport3D
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.viewport3d
+  name: Viewport3D
+  nameWithType: Viewport3D
+  fullName: System.Windows.Controls.Viewport3D
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Drawing3D.View.Base.CameraHelper.ZoomExtents*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.ZoomExtents
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_ZoomExtents_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Controls_Viewport3D_System_Double_
+  name: ZoomExtents
+  nameWithType: CameraHelper.ZoomExtents
+  fullName: H.Drawing3D.View.Base.CameraHelper.ZoomExtents
+- uid: System.Windows.Media.Media3D.Rect3D
+  commentId: T:System.Windows.Media.Media3D.Rect3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  name: Rect3D
+  nameWithType: Rect3D
+  fullName: System.Windows.Media.Media3D.Rect3D
+- uid: H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle*
+  commentId: Overload:H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle
+  href: H.Drawing3D.View.Base.CameraHelper.html#H_Drawing3D_View_Base_CameraHelper_ZoomToRectangle_System_Windows_Media_Media3D_ProjectionCamera_System_Windows_Controls_Viewport3D_System_Windows_Rect_
+  name: ZoomToRectangle
+  nameWithType: CameraHelper.ZoomToRectangle
+  fullName: H.Drawing3D.View.Base.CameraHelper.ZoomToRectangle
+- uid: System.Windows.Rect
+  commentId: T:System.Windows.Rect
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.rect
+  name: Rect
+  nameWithType: Rect
+  fullName: System.Windows.Rect
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows

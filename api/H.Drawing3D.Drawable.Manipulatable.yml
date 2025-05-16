@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawable.Manipulatable
+  commentId: N:H.Drawing3D.Drawable.Manipulatable
+  id: H.Drawing3D.Drawable.Manipulatable
+  children:
+  - H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension
+  - H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D
+  - H.Drawing3D.Drawable.Manipulatable.ManipulableState
+  - H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase
+  - H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  - H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawable.Manipulatable
+  nameWithType: H.Drawing3D.Drawable.Manipulatable
+  fullName: H.Drawing3D.Drawable.Manipulatable
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawable.Manipulatable
+references:
+- uid: H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension
+  href: H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension.html
+  name: GetManipulableFileModelShape3DExtension
+  nameWithType: GetManipulableFileModelShape3DExtension
+  fullName: H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension
+- uid: H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D
+  parent: H.Drawing3D.Drawable.Manipulatable
+  href: H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D.html
+  name: IManipulableShape3D
+  nameWithType: IManipulableShape3D
+  fullName: H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulableState
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.ManipulableState
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulableState.html
+  name: ManipulableState
+  nameWithType: ManipulableState
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulableState
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase
+  parent: H.Drawing3D.Drawable.Manipulatable
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase.html
+  name: ManipulableStateBase
+  nameWithType: ManipulableStateBase
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  parent: H.Drawing3D.Drawable.Manipulatable
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html
+  name: ManipulatorExtension
+  nameWithType: ManipulatorExtension
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+- uid: H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState
+  href: H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState.html
+  name: MovePlaneShapeState
+  nameWithType: MovePlaneShapeState
+  fullName: H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState
+- uid: H.Drawing3D.Drawable.Manipulatable
+  commentId: N:H.Drawing3D.Drawable.Manipulatable
+  href: H.html
+  name: H.Drawing3D.Drawable.Manipulatable
+  nameWithType: H.Drawing3D.Drawable.Manipulatable
+  fullName: H.Drawing3D.Drawable.Manipulatable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable
+    name: Manipulatable
+    href: H.Drawing3D.Drawable.Manipulatable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable
+    name: Manipulatable
+    href: H.Drawing3D.Drawable.Manipulatable.html

@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Mvvm
+  commentId: N:H.Drawing3D.Shape.Mvvm
+  id: H.Drawing3D.Shape.Mvvm
+  children:
+  - H.Drawing3D.Shape.Mvvm.BindableBase
+  - H.Drawing3D.Shape.Mvvm.CommandBase
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  - H.Drawing3D.Shape.Mvvm.DisplayCommand
+  - H.Drawing3D.Shape.Mvvm.IDisplayCommand
+  - H.Drawing3D.Shape.Mvvm.RelayCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Mvvm
+  nameWithType: H.Drawing3D.Shape.Mvvm
+  fullName: H.Drawing3D.Shape.Mvvm
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.BindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html
+  name: BindableBase
+  nameWithType: BindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase
+- uid: H.Drawing3D.Shape.Mvvm.CommandBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.CommandBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.CommandBase.html
+  name: CommandBase
+  nameWithType: CommandBase
+  fullName: H.Drawing3D.Shape.Mvvm.CommandBase
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html
+  name: CommandsBindableBase
+  nameWithType: CommandsBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html
+  name: DisplayBindableBase
+  nameWithType: DisplayBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+- uid: H.Drawing3D.Shape.Mvvm.DisplayCommand
+  commentId: T:H.Drawing3D.Shape.Mvvm.DisplayCommand
+  href: H.Drawing3D.Shape.Mvvm.DisplayCommand.html
+  name: DisplayCommand
+  nameWithType: DisplayCommand
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayCommand
+- uid: H.Drawing3D.Shape.Mvvm.IDisplayCommand
+  commentId: T:H.Drawing3D.Shape.Mvvm.IDisplayCommand
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.IDisplayCommand.html
+  name: IDisplayCommand
+  nameWithType: IDisplayCommand
+  fullName: H.Drawing3D.Shape.Mvvm.IDisplayCommand
+- uid: H.Drawing3D.Shape.Mvvm.RelayCommand
+  commentId: T:H.Drawing3D.Shape.Mvvm.RelayCommand
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.RelayCommand.html
+  name: RelayCommand
+  nameWithType: RelayCommand
+  fullName: H.Drawing3D.Shape.Mvvm.RelayCommand
+- uid: H.Drawing3D.Shape.Mvvm
+  commentId: N:H.Drawing3D.Shape.Mvvm
+  href: H.html
+  name: H.Drawing3D.Shape.Mvvm
+  nameWithType: H.Drawing3D.Shape.Mvvm
+  fullName: H.Drawing3D.Shape.Mvvm
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Mvvm
+    name: Mvvm
+    href: H.Drawing3D.Shape.Mvvm.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Mvvm
+    name: Mvvm
+    href: H.Drawing3D.Shape.Mvvm.html

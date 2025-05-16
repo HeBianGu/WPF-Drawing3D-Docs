@@ -1,0 +1,2607 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMeshBuilder | WPF-Drawing3D开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMeshBuilder | WPF-Drawing3D开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-Drawing3D开发文档">
+            WPF-Drawing3D开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder">
+
+
+
+  <h1 id="H_Drawing3D_Shape_Geometry_IMeshBuilder" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder" class="text-break">
+Interface IMeshBuilder  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Drawing3D.html">Drawing3D</a>.<a class="xref" href="H.Drawing3D.Shape.html">Shape</a>.<a class="xref" href="H.Drawing3D.Shape.Geometry.html">Geometry</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Drawing3D.Shape.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMeshBuilder</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddArrow_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddArrow_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)">
+  AddArrow(Point3D, Point3D, double, double, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddArrow(Point3D point1, Point3D point2, double diameter, double headLength = 3, int thetaDiv = 18)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>point2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>headLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBoundingBox_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBoundingBox_System_Windows_Media_Media3D_Rect3D_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox(System.Windows.Media.Media3D.Rect3D,System.Double)">
+  AddBoundingBox(Rect3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddBoundingBox(Rect3D boundingBox, double diameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>boundingBox</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d">Rect3D</a></dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double)">
+  AddBox(Point3D, double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddBox(Point3D center, double xlength, double ylength, double zlength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>xlength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>ylength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>zlength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Double_H_Drawing3D_Shape_Geometry_BoxFaces_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)">
+  AddBox(Point3D, double, double, double, BoxFaces)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddBox(Point3D center, double xlength, double ylength, double zlength, BoxFaces faces)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>xlength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>ylength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>zlength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>faces</code> <a class="xref" href="H.Drawing3D.Shape.Geometry.BoxFaces.html">BoxFaces</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_System_Double_H_Drawing3D_Shape_Geometry_BoxFaces_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)">
+  AddBox(Point3D, Vector3D, Vector3D, double, double, double, BoxFaces)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddBox(Point3D center, Vector3D x, Vector3D y, double xlength, double ylength, double zlength, BoxFaces faces = BoxFaces.All)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>xlength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>ylength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>zlength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>faces</code> <a class="xref" href="H.Drawing3D.Shape.Geometry.BoxFaces.html">BoxFaces</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_System_Windows_Media_Media3D_Rect3D_H_Drawing3D_Shape_Geometry_BoxFaces_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Rect3D,H.Drawing3D.Shape.Geometry.BoxFaces)">
+  AddBox(Rect3D, BoxFaces)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddBox(Rect3D rectangle, BoxFaces faces = BoxFaces.All)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectangle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d">Rect3D</a></dt>
+    <dd></dd>
+    <dt><code>faces</code> <a class="xref" href="H.Drawing3D.Shape.Geometry.BoxFaces.html">BoxFaces</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCone_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCone_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Boolean_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean,System.Int32)">
+  AddCone(Point3D, Point3D, double, bool, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCone(Point3D origin, Point3D apex, double baseRadius, bool baseCap, int thetaDiv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>apex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>baseRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>baseCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCone_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCone_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_System_Double_System_Boolean_System_Boolean_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Int32)">
+  AddCone(Point3D, Vector3D, double, double, double, bool, bool, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCone(Point3D origin, Vector3D direction, double baseRadius, double topRadius, double height, bool baseCap, bool topCap, int thetaDiv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>baseRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>topRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>baseCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>topCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCube_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCube_H_Drawing3D_Shape_Geometry_BoxFaces_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube(H.Drawing3D.Shape.Geometry.BoxFaces)">
+  AddCube(BoxFaces)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCube(BoxFaces faces = BoxFaces.All)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>faces</code> <a class="xref" href="H.Drawing3D.Shape.Geometry.BoxFaces.html">BoxFaces</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCubeFace_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCubeFace_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double)">
+  AddCubeFace(Point3D, Vector3D, Vector3D, double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCubeFace(Point3D center, Vector3D normal, Vector3D up, double dist, double width, double height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>normal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>dist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCylinder_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCylinder_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)">
+  AddCylinder(Point3D, Point3D, double, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCylinder(Point3D p1, Point3D p2, double diameter, int thetaDiv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCylinder_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCylinder_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Boolean,System.Boolean)">
+  AddCylinder(Point3D, Point3D, double, int, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCylinder(Point3D p1, Point3D p2, double radius = 1, int thetaDiv = 32, bool cap1 = true, bool cap2 = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>cap1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>cap2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddDodecahedron_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddDodecahedron_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)">
+  AddDodecahedron(Point3D, Vector3D, Vector3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddDodecahedron(Point3D center, Vector3D forward, Vector3D up, double sideLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>forward</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>sideLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddEdges_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddEdges_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Int32__System_Double_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)">
+  AddEdges(IList&lt;Point3D&gt;, IList&lt;int&gt;, double, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddEdges(IList&lt;Point3D&gt; points, IList&lt;int&gt; edges, double diameter, int thetaDiv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>edges</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddEllipsoid_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddEllipsoid_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Double_System_Int32_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,System.Int32,System.Int32)">
+  AddEllipsoid(Point3D, double, double, double, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddEllipsoid(Point3D center, double radiusx, double radiusy, double radiusz, int thetaDiv = 20, int phiDiv = 10)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>radiusx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>radiusy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>radiusz</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>phiDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddExtrudedGeometry_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddExtrudedGeometry_System_Collections_Generic_IList_System_Windows_Point__System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)">
+  AddExtrudedGeometry(IList&lt;Point&gt;, Vector3D, Point3D, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddExtrudedGeometry(IList&lt;Point&gt; points, Vector3D xaxis, Point3D p0, Point3D p1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>xaxis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>p0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddExtrudedSegments_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddExtrudedSegments_System_Collections_Generic_IList_System_Windows_Point__System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)">
+  AddExtrudedSegments(IList&lt;Point&gt;, Vector3D, Point3D, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddExtrudedSegments(IList&lt;Point&gt; points, Vector3D axisX, Point3D p0, Point3D p1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>axisX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>p0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNX_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNX" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX">
+  AddFaceNX()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddFaceNX()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNY_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNY" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY">
+  AddFaceNY()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddFaceNY()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNZ_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNZ" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ">
+  AddFaceNZ()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddFaceNZ()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePX_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePX" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX">
+  AddFacePX()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddFacePX()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePY_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePY" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY">
+  AddFacePY()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddFacePY()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePZ_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePZ" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ">
+  AddFacePZ()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddFacePZ()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddLoftedGeometry_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddLoftedGeometry_System_Collections_Generic_IList_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D___System_Collections_Generic_IList_System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D___System_Collections_Generic_IList_System_Collections_Generic_IList_System_Windows_Point___" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}})">
+  AddLoftedGeometry(IList&lt;IList&lt;Point3D&gt;&gt;, IList&lt;IList&lt;Vector3D&gt;&gt;, IList&lt;IList&lt;Point&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddLoftedGeometry(IList&lt;IList&lt;Point3D&gt;&gt; positionsList, IList&lt;IList&lt;Vector3D&gt;&gt; normalList, IList&lt;IList&lt;Point&gt;&gt; textureCoordinateList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>positionsList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;&gt;</dt>
+    <dd></dd>
+    <dt><code>normalList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;&gt;</dt>
+    <dd></dd>
+    <dt><code>textureCoordinateList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddNode_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddNode_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Point_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Point)">
+  AddNode(Point3D, Vector3D, Point)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddNode(Point3D position, Vector3D normal, Point textureCoordinate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>normal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>textureCoordinate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddOctahedron_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddOctahedron_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double)">
+  AddOctahedron(Point3D, Vector3D, Vector3D, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddOctahedron(Point3D center, Vector3D forward, Vector3D up, double sideLength, double height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>forward</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>sideLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPipe_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPipe_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)">
+  AddPipe(Point3D, Point3D, double, double, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPipe(Point3D point1, Point3D point2, double innerDiameter, double diameter, int thetaDiv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>point2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>innerDiameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPipes_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPipes_System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Int32__System_Double_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes(System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)">
+  AddPipes(IList&lt;Vector3D&gt;, IList&lt;int&gt;, double, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPipes(IList&lt;Vector3D&gt; points, IList&lt;int&gt; edges, double diameter = 1, int thetaDiv = 32)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>edges</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Int32})">
+  AddPolygon(IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPolygon(IList&lt;int&gt; vertexIndices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertexIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D})">
+  AddPolygon(IList&lt;Point3D&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPolygon(IList&lt;Point3D&gt; points)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_System_Collections_Generic_IList_System_Windows_Point__System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D)">
+  AddPolygon(IList&lt;Point&gt;, Vector3D, Vector3D, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPolygon(IList&lt;Point&gt; points, Vector3D axisX, Vector3D axisY, Point3D origin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>axisX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>axisY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygonByCuttingEars_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygonByCuttingEars_System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars(System.Collections.Generic.IList{System.Int32})">
+  AddPolygonByCuttingEars(IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPolygonByCuttingEars(IList&lt;int&gt; vertexIndices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertexIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygonByTriangulation_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygonByTriangulation_System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation(System.Collections.Generic.IList{System.Int32})">
+  AddPolygonByTriangulation(IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPolygonByTriangulation(IList&lt;int&gt; vertexIndices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertexIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPyramid_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPyramid_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Boolean)">
+  AddPyramid(Point3D, double, double, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPyramid(Point3D center, double sideLength, double height, bool closeBase = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>sideLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>closeBase</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPyramid_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPyramid_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Boolean)">
+  AddPyramid(Point3D, Vector3D, Vector3D, double, double, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPyramid(Point3D center, Vector3D forward, Vector3D up, double sideLength, double height, bool closeBase = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>forward</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>sideLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>closeBase</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Collections.Generic.IList{System.Int32})">
+  AddQuad(IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddQuad(IList&lt;int&gt; vertexIndices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertexIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)">
+  AddQuad(Point3D, Point3D, Point3D, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddQuad(Point3D p0, Point3D p1, Point3D p2, Point3D p3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Point_System_Windows_Point_System_Windows_Point_System_Windows_Point_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)">
+  AddQuad(Point3D, Point3D, Point3D, Point3D, Point, Point, Point, Point)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddQuad(Point3D p0, Point3D p1, Point3D p2, Point3D p3, Point uv0, Point uv1, Point uv2, Point uv3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>uv0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>uv1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>uv2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>uv3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuads_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuads_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})">
+  AddQuads(IList&lt;Point3D&gt;, IList&lt;Vector3D&gt;, IList&lt;Point&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddQuads(IList&lt;Point3D&gt; quadPositions, IList&lt;Vector3D&gt; quadNormals, IList&lt;Point&gt; quadTextureCoordinates)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quadPositions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>quadNormals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>quadTextureCoordinates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_H_Drawing3D_Shape_Geometry_BoxFaces_System_Int32_System_Int32_System_Double_System_Double_System_Boolean_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces,System.Int32,System.Int32,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean)">
+  AddRectangularMesh(BoxFaces, int, int, double, double, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRectangularMesh(BoxFaces plane, int columns, int rows, double width, double height, bool flipTriangles = false, bool flipTexCoordsUAxis = false, bool flipTexCoordsVAxis = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>plane</code> <a class="xref" href="H.Drawing3D.Shape.Geometry.BoxFaces.html">BoxFaces</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>rows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>flipTriangles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>flipTexCoordsUAxis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>flipTexCoordsVAxis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32)">
+  AddRectangularMesh(IList&lt;Point3D&gt;, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRectangularMesh(IList&lt;Point3D&gt; points, int columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Int32_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32,System.Boolean)">
+  AddRectangularMesh(IList&lt;Point3D&gt;, int, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRectangularMesh(IList&lt;Point3D&gt; points, int columns, bool flipTriangles = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>flipTriangles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_System_Windows_Media_Media3D_Point3D_0__0___System_Windows_Point_0__0___System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Windows.Media.Media3D.Point3D[0:,0:],System.Windows.Point[0:,0:],System.Boolean,System.Boolean)">
+  AddRectangularMesh(Point3D[,], Point[,], bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRectangularMesh(Point3D[,] points, Point[,] texCoords = null, bool closed0 = false, bool closed1 = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>[,]</dt>
+    <dd></dd>
+    <dt><code>texCoords</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>[,]</dt>
+    <dd></dd>
+    <dt><code>closed0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>closed1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMeshTriangleIndices_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMeshTriangleIndices_System_Int32_System_Int32_System_Int32_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean)">
+  AddRectangularMeshTriangleIndices(int, int, int, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRectangularMeshTriangleIndices(int index0, int rows, int columns, bool isSpherical = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>rows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>isSpherical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMeshTriangleIndices_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMeshTriangleIndices_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+  AddRectangularMeshTriangleIndices(int, int, int, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRectangularMeshTriangleIndices(int index0, int rows, int columns, bool rowsClosed, bool columnsClosed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>rows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>rowsClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>columnsClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRegularIcosahedron_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRegularIcosahedron_System_Windows_Media_Media3D_Point3D_System_Double_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean)">
+  AddRegularIcosahedron(Point3D, double, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRegularIcosahedron(Point3D center, double radius, bool shareVertices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>shareVertices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRevolvedGeometry_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRevolvedGeometry_System_Collections_Generic_IList_System_Windows_Point__System_Collections_Generic_IList_System_Double__System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Double},System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Int32)">
+  AddRevolvedGeometry(IList&lt;Point&gt;, IList&lt;double&gt;, Point3D, Vector3D, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRevolvedGeometry(IList&lt;Point&gt; points, IList&lt;double&gt; textureValues, Point3D origin, Vector3D direction, int thetaDiv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>textureValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>origin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSphere_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSphere_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Int32)">
+  AddSphere(Point3D, double, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddSphere(Point3D center, double radius = 1, int thetaDiv = 32, int phiDiv = 32)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>phiDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSubdivisionSphere_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSubdivisionSphere_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)">
+  AddSubdivisionSphere(Point3D, double, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddSubdivisionSphere(Point3D center, double radius, int subdivisions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>subdivisions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSurfaceOfRevolution_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSurfaceOfRevolution_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Collections_Generic_IList_System_Windows_Point__System_Collections_Generic_IList_System_Int32__System_Int32_System_Collections_Generic_IList_System_Double__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Double})">
+  AddSurfaceOfRevolution(Point3D, Vector3D, IList&lt;Point&gt;, IList&lt;int&gt;, int, IList&lt;double&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddSurfaceOfRevolution(Point3D origin, Vector3D axis, IList&lt;Point&gt; section, IList&lt;int&gt; sectionIndices, int thetaDiv = 37, IList&lt;double&gt; textureValues = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>section</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>sectionIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>textureValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTetrahedron_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTetrahedron_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)">
+  AddTetrahedron(Point3D, Vector3D, Vector3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTetrahedron(Point3D center, Vector3D forward, Vector3D up, double sideLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>forward</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>sideLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTorus_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTorus_System_Double_System_Double_System_Int32_System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus(System.Double,System.Double,System.Int32,System.Int32)">
+  AddTorus(double, double, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTorus(double torusDiameter, double tubeDiameter, int thetaDiv = 36, int phiDiv = 24)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>torusDiameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tubeDiameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>phiDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Collections.Generic.IList{System.Int32})">
+  AddTriangle(IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangle(IList&lt;int&gt; vertexIndices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertexIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)">
+  AddTriangle(Point3D, Point3D, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangle(Point3D p0, Point3D p1, Point3D p2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Windows_Point_System_Windows_Point_System_Windows_Point_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point)">
+  AddTriangle(Point3D, Point3D, Point3D, Point, Point, Point)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangle(Point3D p0, Point3D p1, Point3D p2, Point uv0, Point uv1, Point uv2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>uv0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>uv1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>uv2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleFan_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleFan_System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Int32})">
+  AddTriangleFan(IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangleFan(IList&lt;int&gt; vertices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleFan_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleFan_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})">
+  AddTriangleFan(IList&lt;Point3D&gt;, IList&lt;Vector3D&gt;, IList&lt;Point&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangleFan(IList&lt;Point3D&gt; fanPositions, IList&lt;Vector3D&gt; fanNormals = null, IList&lt;Point&gt; fanTextureCoordinates = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fanPositions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>fanNormals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>fanTextureCoordinates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleStrip_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleStrip_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})">
+  AddTriangleStrip(IList&lt;Point3D&gt;, IList&lt;Vector3D&gt;, IList&lt;Point&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangleStrip(IList&lt;Point3D&gt; stripPositions, IList&lt;Vector3D&gt; stripNormals = null, IList&lt;Point&gt; stripTextureCoordinates = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stripPositions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>stripNormals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>stripTextureCoordinates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangles_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangles_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})">
+  AddTriangles(IList&lt;Point3D&gt;, IList&lt;Vector3D&gt;, IList&lt;Point&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTriangles(IList&lt;Point3D&gt; trianglePositions, IList&lt;Vector3D&gt; triangleNormals = null, IList&lt;Point&gt; triangleTextureCoordinates = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>trianglePositions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>triangleNormals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>triangleTextureCoordinates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Double__System_Collections_Generic_IList_System_Double__System_Collections_Generic_IList_System_Double__System_Collections_Generic_IList_System_Windows_Point__System_Windows_Media_Media3D_Vector3D_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+  AddTube(IList&lt;Point3D&gt;, IList&lt;double&gt;, IList&lt;double&gt;, IList&lt;double&gt;, IList&lt;Point&gt;, Vector3D, bool, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTube(IList&lt;Point3D&gt; path, IList&lt;double&gt; angles, IList&lt;double&gt; values, IList&lt;double&gt; diameters, IList&lt;Point&gt; section, Vector3D sectionXAxis, bool isTubeClosed, bool isSectionClosed, bool frontCap = false, bool backCap = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>angles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>diameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>section</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>sectionXAxis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>isTubeClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isSectionClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>frontCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>backCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Double__System_Collections_Generic_IList_System_Double__System_Collections_Generic_IList_System_Windows_Point__System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+  AddTube(IList&lt;Point3D&gt;, IList&lt;double&gt;, IList&lt;double&gt;, IList&lt;Point&gt;, bool, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTube(IList&lt;Point3D&gt; path, IList&lt;double&gt; values, IList&lt;double&gt; diameters, IList&lt;Point&gt; section, bool isTubeClosed, bool isSectionClosed, bool frontCap = false, bool backCap = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>diameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>section</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>isTubeClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isSectionClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>frontCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>backCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Double_System_Int32_System_Boolean_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+  AddTube(IList&lt;Point3D&gt;, double, int, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTube(IList&lt;Point3D&gt; path, double diameter, int thetaDiv, bool isTubeClosed, bool frontCap = false, bool backCap = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>diameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>isTubeClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>frontCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>backCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Double___System_Double___System_Int32_System_Boolean_System_Boolean_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double[],System.Double[],System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+  AddTube(IList&lt;Point3D&gt;, double[], double[], int, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddTube(IList&lt;Point3D&gt; path, double[] values, double[] diameters, int thetaDiv, bool isTubeClosed, bool frontCap = false, bool backCap = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>[]</dt>
+    <dd></dd>
+    <dt><code>diameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>[]</dt>
+    <dd></dd>
+    <dt><code>thetaDiv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>isTubeClosed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>frontCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>backCap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_Append_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.Append*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_Append_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})">
+  Append(IList&lt;Point3D&gt;, IList&lt;int&gt;, IList&lt;Vector3D&gt;, IList&lt;Point&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Append(IList&lt;Point3D&gt; positionsToAppend, IList&lt;int&gt; triangleIndicesToAppend, IList&lt;Vector3D&gt; normalsToAppend = null, IList&lt;Point&gt; textureCoordinatesToAppend = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>positionsToAppend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>triangleIndicesToAppend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>normalsToAppend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>textureCoordinatesToAppend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_Append_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.Append*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_Append_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Windows.Media.Media3D.MeshGeometry3D)">
+  Append(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Append(MeshGeometry3D mesh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_Scale_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_Scale_System_Double_System_Double_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale(System.Double,System.Double,System.Double)">
+  Scale(double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Scale(double scaleX, double scaleY, double scaleZ)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scaleX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>scaleY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>scaleZ</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_SubdivideLinear_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_SubdivideLinear_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear(System.Boolean)">
+  SubdivideLinear(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SubdivideLinear(bool barycentric = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>barycentric</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_IMeshBuilder_ToMesh_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_IMeshBuilder_ToMesh_System_Boolean_" data-uid="H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh(System.Boolean)">
+  ToMesh(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">MeshGeometry3D ToMesh(bool freeze = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>freeze</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

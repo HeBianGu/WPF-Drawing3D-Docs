@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  id: H.Drawing3D.View.Base
+  children:
+  - H.Drawing3D.View.Base.CameraHelper
+  - H.Drawing3D.View.Base.HelixToolkitException
+  - H.Drawing3D.View.Base.IBoundsIgnoredVisual3D
+  - H.Drawing3D.View.Base.ICameraController
+  - H.Drawing3D.View.Base.IControlableCameraViewport3D
+  - H.Drawing3D.View.Base.ILayerView3D
+  - H.Drawing3D.View.Base.IShapesView3D
+  - H.Drawing3D.View.Base.IView3D
+  - H.Drawing3D.View.Base.InputBindingX
+  - H.Drawing3D.View.Base.LayerView3DExtension
+  - H.Drawing3D.View.Base.LineSegment
+  - H.Drawing3D.View.Base.Model3DHelper
+  - H.Drawing3D.View.Base.Ray3D
+  - H.Drawing3D.View.Base.RectangleAdorner
+  - H.Drawing3D.View.Base.RenderingEventListener
+  - H.Drawing3D.View.Base.RenderingEventManager
+  - H.Drawing3D.View.Base.SelectionHitMode
+  - H.Drawing3D.View.Base.Transform3DHelper
+  - H.Drawing3D.View.Base.Triangle
+  - H.Drawing3D.View.Base.Viewport3DHelper
+  - H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+  - H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+  - H.Drawing3D.View.Base.Visual3DHelper
+  - H.Drawing3D.View.Base.WeakEventListener`2
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.View
+references:
+- uid: H.Drawing3D.View.Base.CameraHelper
+  commentId: T:H.Drawing3D.View.Base.CameraHelper
+  href: H.Drawing3D.View.Base.CameraHelper.html
+  name: CameraHelper
+  nameWithType: CameraHelper
+  fullName: H.Drawing3D.View.Base.CameraHelper
+- uid: H.Drawing3D.View.Base.HelixToolkitException
+  commentId: T:H.Drawing3D.View.Base.HelixToolkitException
+  href: H.Drawing3D.View.Base.HelixToolkitException.html
+  name: HelixToolkitException
+  nameWithType: HelixToolkitException
+  fullName: H.Drawing3D.View.Base.HelixToolkitException
+- uid: H.Drawing3D.View.Base.IBoundsIgnoredVisual3D
+  commentId: T:H.Drawing3D.View.Base.IBoundsIgnoredVisual3D
+  href: H.Drawing3D.View.Base.IBoundsIgnoredVisual3D.html
+  name: IBoundsIgnoredVisual3D
+  nameWithType: IBoundsIgnoredVisual3D
+  fullName: H.Drawing3D.View.Base.IBoundsIgnoredVisual3D
+- uid: H.Drawing3D.View.Base.ICameraController
+  commentId: T:H.Drawing3D.View.Base.ICameraController
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.ICameraController.html
+  name: ICameraController
+  nameWithType: ICameraController
+  fullName: H.Drawing3D.View.Base.ICameraController
+- uid: H.Drawing3D.View.Base.IControlableCameraViewport3D
+  commentId: T:H.Drawing3D.View.Base.IControlableCameraViewport3D
+  href: H.Drawing3D.View.Base.IControlableCameraViewport3D.html
+  name: IControlableCameraViewport3D
+  nameWithType: IControlableCameraViewport3D
+  fullName: H.Drawing3D.View.Base.IControlableCameraViewport3D
+- uid: H.Drawing3D.View.Base.ILayerView3D
+  commentId: T:H.Drawing3D.View.Base.ILayerView3D
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.ILayerView3D.html
+  name: ILayerView3D
+  nameWithType: ILayerView3D
+  fullName: H.Drawing3D.View.Base.ILayerView3D
+- uid: H.Drawing3D.View.Base.LayerView3DExtension
+  commentId: T:H.Drawing3D.View.Base.LayerView3DExtension
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.LayerView3DExtension.html
+  name: LayerView3DExtension
+  nameWithType: LayerView3DExtension
+  fullName: H.Drawing3D.View.Base.LayerView3DExtension
+- uid: H.Drawing3D.View.Base.InputBindingX
+  commentId: T:H.Drawing3D.View.Base.InputBindingX
+  href: H.Drawing3D.View.Base.InputBindingX.html
+  name: InputBindingX
+  nameWithType: InputBindingX
+  fullName: H.Drawing3D.View.Base.InputBindingX
+- uid: H.Drawing3D.View.Base.IShapesView3D
+  commentId: T:H.Drawing3D.View.Base.IShapesView3D
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.IShapesView3D.html
+  name: IShapesView3D
+  nameWithType: IShapesView3D
+  fullName: H.Drawing3D.View.Base.IShapesView3D
+- uid: H.Drawing3D.View.Base.IView3D
+  commentId: T:H.Drawing3D.View.Base.IView3D
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.IView3D.html
+  name: IView3D
+  nameWithType: IView3D
+  fullName: H.Drawing3D.View.Base.IView3D
+- uid: H.Drawing3D.View.Base.LineSegment
+  commentId: T:H.Drawing3D.View.Base.LineSegment
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.LineSegment.html
+  name: LineSegment
+  nameWithType: LineSegment
+  fullName: H.Drawing3D.View.Base.LineSegment
+- uid: H.Drawing3D.View.Base.Model3DHelper
+  commentId: T:H.Drawing3D.View.Base.Model3DHelper
+  href: H.Drawing3D.View.Base.Model3DHelper.html
+  name: Model3DHelper
+  nameWithType: Model3DHelper
+  fullName: H.Drawing3D.View.Base.Model3DHelper
+- uid: H.Drawing3D.View.Base.Ray3D
+  commentId: T:H.Drawing3D.View.Base.Ray3D
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.Ray3D.html
+  name: Ray3D
+  nameWithType: Ray3D
+  fullName: H.Drawing3D.View.Base.Ray3D
+- uid: H.Drawing3D.View.Base.RectangleAdorner
+  commentId: T:H.Drawing3D.View.Base.RectangleAdorner
+  href: H.Drawing3D.View.Base.RectangleAdorner.html
+  name: RectangleAdorner
+  nameWithType: RectangleAdorner
+  fullName: H.Drawing3D.View.Base.RectangleAdorner
+- uid: H.Drawing3D.View.Base.RenderingEventListener
+  commentId: T:H.Drawing3D.View.Base.RenderingEventListener
+  href: H.Drawing3D.View.Base.RenderingEventListener.html
+  name: RenderingEventListener
+  nameWithType: RenderingEventListener
+  fullName: H.Drawing3D.View.Base.RenderingEventListener
+- uid: H.Drawing3D.View.Base.RenderingEventManager
+  commentId: T:H.Drawing3D.View.Base.RenderingEventManager
+  href: H.Drawing3D.View.Base.RenderingEventManager.html
+  name: RenderingEventManager
+  nameWithType: RenderingEventManager
+  fullName: H.Drawing3D.View.Base.RenderingEventManager
+- uid: H.Drawing3D.View.Base.SelectionHitMode
+  commentId: T:H.Drawing3D.View.Base.SelectionHitMode
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.SelectionHitMode.html
+  name: SelectionHitMode
+  nameWithType: SelectionHitMode
+  fullName: H.Drawing3D.View.Base.SelectionHitMode
+- uid: H.Drawing3D.View.Base.Transform3DHelper
+  commentId: T:H.Drawing3D.View.Base.Transform3DHelper
+  href: H.Drawing3D.View.Base.Transform3DHelper.html
+  name: Transform3DHelper
+  nameWithType: Transform3DHelper
+  fullName: H.Drawing3D.View.Base.Transform3DHelper
+- uid: H.Drawing3D.View.Base.Triangle
+  commentId: T:H.Drawing3D.View.Base.Triangle
+  href: H.Drawing3D.View.Base.Triangle.html
+  name: Triangle
+  nameWithType: Triangle
+  fullName: H.Drawing3D.View.Base.Triangle
+- uid: H.Drawing3D.View.Base.Viewport3DHelper
+  commentId: T:H.Drawing3D.View.Base.Viewport3DHelper
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  name: Viewport3DHelper
+  nameWithType: Viewport3DHelper
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+  commentId: T:H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  name: Viewport3DHelper.RectangleHitResult
+  nameWithType: Viewport3DHelper.RectangleHitResult
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+    name: RectangleHitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.html
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult
+    name: RectangleHitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.html
+- uid: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+  commentId: T:H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+  href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  name: Viewport3DHelper.HitResult
+  nameWithType: Viewport3DHelper.HitResult
+  fullName: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+    name: HitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.HitResult.html
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper
+    name: Viewport3DHelper
+    href: H.Drawing3D.View.Base.Viewport3DHelper.html
+  - name: .
+  - uid: H.Drawing3D.View.Base.Viewport3DHelper.HitResult
+    name: HitResult
+    href: H.Drawing3D.View.Base.Viewport3DHelper.HitResult.html
+- uid: H.Drawing3D.View.Base.Visual3DHelper
+  commentId: T:H.Drawing3D.View.Base.Visual3DHelper
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.Visual3DHelper.html
+  name: Visual3DHelper
+  nameWithType: Visual3DHelper
+  fullName: H.Drawing3D.View.Base.Visual3DHelper
+- uid: H.Drawing3D.View.Base.WeakEventListener`2
+  commentId: T:H.Drawing3D.View.Base.WeakEventListener`2
+  href: H.Drawing3D.View.Base.WeakEventListener-2.html
+  name: WeakEventListener<TEventManager, TEventArgs>
+  nameWithType: WeakEventListener<TEventManager, TEventArgs>
+  fullName: H.Drawing3D.View.Base.WeakEventListener<TEventManager, TEventArgs>
+  nameWithType.vb: WeakEventListener(Of TEventManager, TEventArgs)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventListener(Of TEventManager, TEventArgs)
+  name.vb: WeakEventListener(Of TEventManager, TEventArgs)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.WeakEventListener`2
+    name: WeakEventListener
+    href: H.Drawing3D.View.Base.WeakEventListener-2.html
+  - name: <
+  - name: TEventManager
+  - name: ','
+  - name: " "
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.WeakEventListener`2
+    name: WeakEventListener
+    href: H.Drawing3D.View.Base.WeakEventListener-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventManager
+  - name: ','
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  commentId: T:H.Drawing3D.View.Base.WeakEventManagerBase`1
+  href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html
+  name: WeakEventManagerBase<TManager>
+  nameWithType: WeakEventManagerBase<TManager>
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>
+  nameWithType.vb: WeakEventManagerBase(Of TManager)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager)
+  name.vb: WeakEventManagerBase(Of TManager)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.WeakEventManagerBase`1
+    name: WeakEventManagerBase
+    href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html
+  - name: <
+  - name: TManager
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.WeakEventManagerBase`1
+    name: WeakEventManagerBase
+    href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TManager
+  - name: )
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html

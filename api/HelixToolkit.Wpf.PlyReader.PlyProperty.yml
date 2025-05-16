@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyProperty
+  id: PlyReader.PlyProperty
+  parent: HelixToolkit.Wpf
+  children:
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.#ctor(System.String,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object,System.Boolean,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object[])
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.Name
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.Type
+  - HelixToolkit.Wpf.PlyReader.PlyProperty.Value
+  langs:
+  - csharp
+  - vb
+  name: PlyReader.PlyProperty
+  nameWithType: PlyReader.PlyProperty
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty
+  type: Class
+  source:
+    id: PlyProperty
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 444
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: Represents a property of a <xref href="HelixToolkit.Wpf.PlyReader.PlyElement" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public class PlyReader.PlyProperty
+    content.vb: Public Class PlyReader.PlyProperty
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.#ctor(System.String,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object,System.Boolean,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object[])
+  commentId: M:HelixToolkit.Wpf.PlyReader.PlyProperty.#ctor(System.String,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object,System.Boolean,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object[])
+  id: '#ctor(System.String,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object,System.Boolean,HelixToolkit.Wpf.PlyReader.PlyDataTypes,System.Object[])'
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: PlyProperty(string, PlyDataTypes, object, bool, PlyDataTypes, object[])
+  nameWithType: PlyReader.PlyProperty.PlyProperty(string, PlyReader.PlyDataTypes, object, bool, PlyReader.PlyDataTypes, object[])
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.PlyProperty(string, HelixToolkit.Wpf.PlyReader.PlyDataTypes, object, bool, HelixToolkit.Wpf.PlyReader.PlyDataTypes, object[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 455
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: Initializes a new ply property with the specified values.
+  example: []
+  syntax:
+    content: public PlyProperty(string name, PlyReader.PlyDataTypes type, object value, bool isList, PlyReader.PlyDataTypes listContentType, object[] listContentValues)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the property.
+    - id: type
+      type: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+      description: The type of the property.
+    - id: value
+      type: System.Object
+      description: The value of the property.
+    - id: isList
+      type: System.Boolean
+      description: Specifies whether the property is a list or not.
+    - id: listContentType
+      type: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+      description: The type of contents in the list if it is a list.
+    - id: listContentValues
+      type: System.Object[]
+      description: The items in the property's list.
+    content.vb: Public Sub New(name As String, type As PlyReader.PlyDataTypes, value As Object, isList As Boolean, listContentType As PlyReader.PlyDataTypes, listContentValues As Object())
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.#ctor*
+  nameWithType.vb: PlyReader.PlyProperty.New(String, PlyReader.PlyDataTypes, Object, Boolean, PlyReader.PlyDataTypes, Object())
+  fullName.vb: HelixToolkit.Wpf.PlyReader.PlyProperty.New(String, HelixToolkit.Wpf.PlyReader.PlyDataTypes, Object, Boolean, HelixToolkit.Wpf.PlyReader.PlyDataTypes, Object())
+  name.vb: New(String, PlyDataTypes, Object, Boolean, PlyDataTypes, Object())
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.Name
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.Name
+  id: Name
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PlyReader.PlyProperty.Name
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.Name
+  type: Property
+  source:
+    id: Name
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 468
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The name of this property.
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.Name*
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.Type
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.Type
+  id: Type
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PlyReader.PlyProperty.Type
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.Type
+  type: Property
+  source:
+    id: Type
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 477
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: >-
+    For a scalar property: the type of value it holds.<p></p>
+
+    For a vector property: the type of the items count value.
+  remarks: A scalar property is a property where <xref href="HelixToolkit.Wpf.PlyReader.PlyProperty.IsList" data-throw-if-not-resolved="false"></xref> is false.
+  example: []
+  syntax:
+    content: public PlyReader.PlyDataTypes Type { get; }
+    parameters: []
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    content.vb: Public ReadOnly Property Type As PlyReader.PlyDataTypes
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.Type*
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.Value
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.Value
+  id: Value
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: PlyReader.PlyProperty.Value
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.Value
+  type: Property
+  source:
+    id: Value
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 483
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: >-
+    For a scalar property: The value of this property.<p></p>
+
+    For a vector property: The number of items in the list.
+  example: []
+  syntax:
+    content: public object Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Value As Object
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.Value*
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  id: IsList
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: IsList
+  nameWithType: PlyReader.PlyProperty.IsList
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  type: Property
+  source:
+    id: IsList
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 488
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: Specifies whether this property is a scalar or vector (list).
+  example: []
+  syntax:
+    content: public bool IsList { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsList As Boolean
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList*
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType
+  id: ListContentType
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: ListContentType
+  nameWithType: PlyReader.PlyProperty.ListContentType
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType
+  type: Property
+  source:
+    id: ListContentType
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 493
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The type of items in the list.
+  example: []
+  syntax:
+    content: public PlyReader.PlyDataTypes ListContentType { get; }
+    parameters: []
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    content.vb: Public ReadOnly Property ListContentType As PlyReader.PlyDataTypes
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType*
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues
+  id: ListContentValues
+  parent: HelixToolkit.Wpf.PlyReader.PlyProperty
+  langs:
+  - csharp
+  - vb
+  name: ListContentValues
+  nameWithType: PlyReader.PlyProperty.ListContentValues
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues
+  type: Property
+  source:
+    id: ListContentValues
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 498
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The value of the items in the list.
+  example: []
+  syntax:
+    content: public object[] ListContentValues { get; }
+    parameters: []
+    return:
+      type: System.Object[]
+    content.vb: Public ReadOnly Property ListContentValues As Object()
+  overload: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues*
+references:
+- uid: HelixToolkit.Wpf.PlyReader.PlyElement
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyElement
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyElement
+  nameWithType: PlyReader.PlyElement
+  fullName: HelixToolkit.Wpf.PlyReader.PlyElement
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyElement
+    name: PlyElement
+    href: HelixToolkit.Wpf.PlyReader.PlyElement.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyElement
+    name: PlyElement
+    href: HelixToolkit.Wpf.PlyReader.PlyElement.html
+- uid: HelixToolkit.Wpf
+  commentId: N:HelixToolkit.Wpf
+  href: HelixToolkit.html
+  name: HelixToolkit.Wpf
+  nameWithType: HelixToolkit.Wpf
+  fullName: HelixToolkit.Wpf
+  spec.csharp:
+  - uid: HelixToolkit
+    name: HelixToolkit
+    href: HelixToolkit.html
+  - name: .
+  - uid: HelixToolkit.Wpf
+    name: Wpf
+    href: HelixToolkit.Wpf.html
+  spec.vb:
+  - uid: HelixToolkit
+    name: HelixToolkit
+    href: HelixToolkit.html
+  - name: .
+  - uid: HelixToolkit.Wpf
+    name: Wpf
+    href: HelixToolkit.Wpf.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.#ctor*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.#ctor
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty__ctor_System_String_HelixToolkit_Wpf_PlyReader_PlyDataTypes_System_Object_System_Boolean_HelixToolkit_Wpf_PlyReader_PlyDataTypes_System_Object___
+  name: PlyProperty
+  nameWithType: PlyReader.PlyProperty.PlyProperty
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.PlyProperty
+  nameWithType.vb: PlyReader.PlyProperty.New
+  fullName.vb: HelixToolkit.Wpf.PlyReader.PlyProperty.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyDataTypes
+  nameWithType: PlyReader.PlyDataTypes
+  fullName: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    name: PlyDataTypes
+    href: HelixToolkit.Wpf.PlyReader.PlyDataTypes.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyDataTypes
+    name: PlyDataTypes
+    href: HelixToolkit.Wpf.PlyReader.PlyDataTypes.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.Name*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.Name
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_Name
+  name: Name
+  nameWithType: PlyReader.PlyProperty.Name
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.Name
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  commentId: P:HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_IsList
+  name: IsList
+  nameWithType: PlyReader.PlyProperty.IsList
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.Type*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.Type
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_Type
+  name: Type
+  nameWithType: PlyReader.PlyProperty.Type
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.Type
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.Value*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.Value
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_Value
+  name: Value
+  nameWithType: PlyReader.PlyProperty.Value
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.Value
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_IsList
+  name: IsList
+  nameWithType: PlyReader.PlyProperty.IsList
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.IsList
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_ListContentType
+  name: ListContentType
+  nameWithType: PlyReader.PlyProperty.ListContentType
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentType
+- uid: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues*
+  commentId: Overload:HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues
+  href: HelixToolkit.Wpf.PlyReader.PlyProperty.html#HelixToolkit_Wpf_PlyReader_PlyProperty_ListContentValues
+  name: ListContentValues
+  nameWithType: PlyReader.PlyProperty.ListContentValues
+  fullName: HelixToolkit.Wpf.PlyReader.PlyProperty.ListContentValues

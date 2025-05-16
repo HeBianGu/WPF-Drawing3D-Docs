@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Cameras.CameraMode
+  commentId: T:H.Drawing3D.View.Cameras.CameraMode
+  id: CameraMode
+  parent: H.Drawing3D.View.Cameras
+  children:
+  - H.Drawing3D.View.Cameras.CameraMode.FixedPosition
+  - H.Drawing3D.View.Cameras.CameraMode.Inspect
+  - H.Drawing3D.View.Cameras.CameraMode.WalkAround
+  langs:
+  - csharp
+  - vb
+  name: CameraMode
+  nameWithType: CameraMode
+  fullName: H.Drawing3D.View.Cameras.CameraMode
+  type: Enum
+  source:
+    id: CameraMode
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Cameras\CameraMode.cs
+    startLine: 14
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Cameras
+  summary: Camera movement modes.
+  example: []
+  syntax:
+    content: public enum CameraMode
+    content.vb: Public Enum CameraMode
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.View.Cameras.CameraMode.Inspect
+  commentId: F:H.Drawing3D.View.Cameras.CameraMode.Inspect
+  id: Inspect
+  parent: H.Drawing3D.View.Cameras.CameraMode
+  langs:
+  - csharp
+  - vb
+  name: Inspect
+  nameWithType: CameraMode.Inspect
+  fullName: H.Drawing3D.View.Cameras.CameraMode.Inspect
+  type: Field
+  source:
+    id: Inspect
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Cameras\CameraMode.cs
+    startLine: 19
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Cameras
+  summary: Orbits around a point (fixed target position, move closer target when zooming).
+  example: []
+  syntax:
+    content: Inspect = 0
+    return:
+      type: H.Drawing3D.View.Cameras.CameraMode
+- uid: H.Drawing3D.View.Cameras.CameraMode.WalkAround
+  commentId: F:H.Drawing3D.View.Cameras.CameraMode.WalkAround
+  id: WalkAround
+  parent: H.Drawing3D.View.Cameras.CameraMode
+  langs:
+  - csharp
+  - vb
+  name: WalkAround
+  nameWithType: CameraMode.WalkAround
+  fullName: H.Drawing3D.View.Cameras.CameraMode.WalkAround
+  type: Field
+  source:
+    id: WalkAround
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Cameras\CameraMode.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Cameras
+  summary: Walk around (fixed camera position, move in cameradirection when zooming).
+  example: []
+  syntax:
+    content: WalkAround = 1
+    return:
+      type: H.Drawing3D.View.Cameras.CameraMode
+- uid: H.Drawing3D.View.Cameras.CameraMode.FixedPosition
+  commentId: F:H.Drawing3D.View.Cameras.CameraMode.FixedPosition
+  id: FixedPosition
+  parent: H.Drawing3D.View.Cameras.CameraMode
+  langs:
+  - csharp
+  - vb
+  name: FixedPosition
+  nameWithType: CameraMode.FixedPosition
+  fullName: H.Drawing3D.View.Cameras.CameraMode.FixedPosition
+  type: Field
+  source:
+    id: FixedPosition
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Cameras\CameraMode.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Cameras
+  summary: Fixed camera target, change FOV when zooming.
+  example: []
+  syntax:
+    content: FixedPosition = 2
+    return:
+      type: H.Drawing3D.View.Cameras.CameraMode
+references:
+- uid: H.Drawing3D.View.Cameras
+  commentId: N:H.Drawing3D.View.Cameras
+  href: H.html
+  name: H.Drawing3D.View.Cameras
+  nameWithType: H.Drawing3D.View.Cameras
+  fullName: H.Drawing3D.View.Cameras
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.View.Cameras.CameraMode
+  commentId: T:H.Drawing3D.View.Cameras.CameraMode
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.CameraMode.html
+  name: CameraMode
+  nameWithType: CameraMode
+  fullName: H.Drawing3D.View.Cameras.CameraMode

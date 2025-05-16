@@ -1,0 +1,3464 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer
+  commentId: T:H.Drawing3D.ShapeLayer.ShapesLayer
+  id: ShapesLayer
+  parent: H.Drawing3D.ShapeLayer
+  children:
+  - H.Drawing3D.ShapeLayer.ShapesLayer.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  - H.Drawing3D.ShapeLayer.ShapesLayer.Drawing
+  - H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  - H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  langs:
+  - csharp
+  - vb
+  name: ShapesLayer
+  nameWithType: ShapesLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer
+  type: Class
+  source:
+    id: ShapesLayer
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\ShapesLayer.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer
+  syntax:
+    content: 'public class ShapesLayer : ShapesLayerBase, IAnimatable, IAddChild, ILayer3D, IShapeLayer, ICameraUpdateLayer'
+    content.vb: Public Class ShapesLayer Inherits ShapesLayerBase Implements IAnimatable, IAddChild, ILayer3D, IShapeLayer, ICameraUpdateLayer
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.DependencyObject
+  - System.Windows.Media.Media3D.Visual3D
+  - System.Windows.Media.Media3D.ModelVisual3D
+  - H.Drawing3D.ShapeLayer.Layer.LayerBase
+  - H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+  - H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  implements:
+  - System.Windows.Media.Animation.IAnimatable
+  - System.Windows.Markup.IAddChild
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  - H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+  - H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer
+  inheritedMembers:
+  - H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.Shapes
+  - H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.ShapesProperty
+  - H.Drawing3D.ShapeLayer.Layer.LayerBase.ModelVisual3D
+  - H.Drawing3D.ShapeLayer.Layer.LayerBase.View
+  - H.Drawing3D.ShapeLayer.Layer.LayerBase.Clear
+  - H.Drawing3D.ShapeLayer.Layer.LayerBase.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  - System.Windows.Media.Media3D.ModelVisual3D.ContentProperty
+  - System.Windows.Media.Media3D.ModelVisual3D.TransformProperty
+  - System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(System.Int32)
+  - System.Windows.Media.Media3D.ModelVisual3D.Children
+  - System.Windows.Media.Media3D.ModelVisual3D.Content
+  - System.Windows.Media.Media3D.ModelVisual3D.Transform
+  - System.Windows.Media.Media3D.ModelVisual3D.Visual3DChildrenCount
+  - System.Windows.Media.Media3D.Visual3D.AddVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  - System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock)
+  - System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock,System.Windows.Media.Animation.HandoffBehavior)
+  - System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline)
+  - System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline,System.Windows.Media.Animation.HandoffBehavior)
+  - System.Windows.Media.Media3D.Visual3D.FindCommonVisualAncestor(System.Windows.DependencyObject)
+  - System.Windows.Media.Media3D.Visual3D.GetAnimationBaseValue(System.Windows.DependencyProperty)
+  - System.Windows.Media.Media3D.Visual3D.IsAncestorOf(System.Windows.DependencyObject)
+  - System.Windows.Media.Media3D.Visual3D.IsDescendantOf(System.Windows.DependencyObject)
+  - System.Windows.Media.Media3D.Visual3D.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)
+  - System.Windows.Media.Media3D.Visual3D.OnVisualParentChanged(System.Windows.DependencyObject)
+  - System.Windows.Media.Media3D.Visual3D.RemoveVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  - System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Media3D.Visual3D)
+  - System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Visual)
+  - System.Windows.Media.Media3D.Visual3D.TransformToDescendant(System.Windows.Media.Media3D.Visual3D)
+  - System.Windows.Media.Media3D.Visual3D.HasAnimatedProperties
+  - System.Windows.Media.Media3D.Visual3D.Visual3DModel
+  - System.Windows.DependencyObject.ClearValue(System.Windows.DependencyProperty)
+  - System.Windows.DependencyObject.ClearValue(System.Windows.DependencyPropertyKey)
+  - System.Windows.DependencyObject.CoerceValue(System.Windows.DependencyProperty)
+  - System.Windows.DependencyObject.Equals(System.Object)
+  - System.Windows.DependencyObject.GetHashCode
+  - System.Windows.DependencyObject.GetLocalValueEnumerator
+  - System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)
+  - System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty)
+  - System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)
+  - System.Windows.DependencyObject.ReadLocalValue(System.Windows.DependencyProperty)
+  - System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty,System.Object)
+  - System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)
+  - System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey,System.Object)
+  - System.Windows.DependencyObject.ShouldSerializeProperty(System.Windows.DependencyProperty)
+  - System.Windows.DependencyObject.DependencyObjectType
+  - System.Windows.DependencyObject.IsSealed
+  - System.Windows.Threading.DispatcherObject.Dispatcher
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D.H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  - System.Windows.DependencyObject.H.Drawing3D.Shape.File.AttachedProperties.GetName
+  - System.Windows.DependencyObject.H.Drawing3D.Shape.File.AttachedProperties.SetName(System.String)
+  - System.Windows.Media.Animation.IAnimatable.H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Double,System.Double)
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Transform3D)
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetTransform
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Model3D)
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetViewport
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Action{{T},System.Windows.Media.Media3D.Transform3D})
+  - System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Action{{T},System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.Drawing
+  commentId: M:H.Drawing3D.ShapeLayer.ShapesLayer.Drawing
+  id: Drawing
+  parent: H.Drawing3D.ShapeLayer.ShapesLayer
+  langs:
+  - csharp
+  - vb
+  name: Drawing()
+  nameWithType: ShapesLayer.Drawing()
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.Drawing()
+  type: Method
+  source:
+    id: Drawing
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\ShapesLayer.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer
+  example: []
+  syntax:
+    content: public override void Drawing()
+    content.vb: Public Overrides Sub Drawing()
+  overridden: H.Drawing3D.ShapeLayer.Layer.LayerBase.Drawing
+  overload: H.Drawing3D.ShapeLayer.ShapesLayer.Drawing*
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  commentId: M:H.Drawing3D.ShapeLayer.ShapesLayer.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  id: AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  parent: H.Drawing3D.ShapeLayer.ShapesLayer
+  langs:
+  - csharp
+  - vb
+  name: AddShape(IShape3D)
+  nameWithType: ShapesLayer.AddShape(IShape3D)
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  type: Method
+  source:
+    id: AddShape
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\ShapesLayer.cs
+    startLine: 42
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer
+  example: []
+  syntax:
+    content: public override void AddShape(IShape3D shape)
+    parameters:
+    - id: shape
+      type: H.Drawing3D.Shape.Base.IShape3D
+    content.vb: Public Overrides Sub AddShape(shape As IShape3D)
+  overridden: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  overload: H.Drawing3D.ShapeLayer.ShapesLayer.AddShape*
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  commentId: M:H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  id: RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  parent: H.Drawing3D.ShapeLayer.ShapesLayer
+  langs:
+  - csharp
+  - vb
+  name: RemoveShape(IShape3D)
+  nameWithType: ShapesLayer.RemoveShape(IShape3D)
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  type: Method
+  source:
+    id: RemoveShape
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\ShapesLayer.cs
+    startLine: 48
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer
+  example: []
+  syntax:
+    content: public override void RemoveShape(IShape3D shape)
+    parameters:
+    - id: shape
+      type: H.Drawing3D.Shape.Base.IShape3D
+    content.vb: Public Overrides Sub RemoveShape(shape As IShape3D)
+  overridden: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  overload: H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape*
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  id: OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.ShapeLayer.ShapesLayer
+  langs:
+  - csharp
+  - vb
+  name: OnCameraUpdate(ICameraViewport3D)
+  nameWithType: ShapesLayer.OnCameraUpdate(ICameraViewport3D)
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  type: Method
+  source:
+    id: OnCameraUpdate
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\ShapesLayer.cs
+    startLine: 55
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer
+  example: []
+  syntax:
+    content: public void OnCameraUpdate(ICameraViewport3D vierw)
+    parameters:
+    - id: vierw
+      type: H.Drawing3D.Drawing.ICameraViewport3D
+    content.vb: Public Sub OnCameraUpdate(vierw As ICameraViewport3D)
+  overload: H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate*
+  implements:
+  - H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+references:
+- uid: H.Drawing3D.ShapeLayer
+  commentId: N:H.Drawing3D.ShapeLayer
+  href: H.html
+  name: H.Drawing3D.ShapeLayer
+  nameWithType: H.Drawing3D.ShapeLayer
+  fullName: H.Drawing3D.ShapeLayer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Windows.Media.Media3D.Visual3D
+  commentId: T:System.Windows.Media.Media3D.Visual3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  name: Visual3D
+  nameWithType: Visual3D
+  fullName: System.Windows.Media.Media3D.Visual3D
+- uid: System.Windows.Media.Media3D.ModelVisual3D
+  commentId: T:System.Windows.Media.Media3D.ModelVisual3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d
+  name: ModelVisual3D
+  nameWithType: ModelVisual3D
+  fullName: System.Windows.Media.Media3D.ModelVisual3D
+- uid: H.Drawing3D.ShapeLayer.Layer.LayerBase
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.LayerBase
+  parent: H.Drawing3D.ShapeLayer.Layer
+  href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html
+  name: LayerBase
+  nameWithType: LayerBase
+  fullName: H.Drawing3D.ShapeLayer.Layer.LayerBase
+- uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+  parent: H.Drawing3D.ShapeLayer.Layer
+  href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html
+  name: ShapeLayerBase
+  nameWithType: ShapeLayerBase
+  fullName: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  commentId: T:H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  parent: H.Drawing3D.ShapeLayer.ShapeLayer
+  href: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.html
+  name: ShapesLayerBase
+  nameWithType: ShapesLayerBase
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+- uid: System.Windows.Media.Animation.IAnimatable
+  commentId: T:System.Windows.Media.Animation.IAnimatable
+  parent: System.Windows.Media.Animation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable
+  name: IAnimatable
+  nameWithType: IAnimatable
+  fullName: System.Windows.Media.Animation.IAnimatable
+- uid: System.Windows.Markup.IAddChild
+  commentId: T:System.Windows.Markup.IAddChild
+  parent: System.Windows.Markup
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild
+  name: IAddChild
+  nameWithType: IAddChild
+  fullName: System.Windows.Markup.IAddChild
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  parent: H.Drawing3D.ShapeLayer.Layer
+  href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  name: ILayer3D
+  nameWithType: ILayer3D
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+  commentId: T:H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+  parent: H.Drawing3D.ShapeLayer.ShapeLayer
+  href: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer.html
+  name: IShapeLayer
+  nameWithType: IShapeLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+- uid: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer
+  parent: H.Drawing3D.ShapeLayer.Layer
+  href: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.html
+  name: ICameraUpdateLayer
+  nameWithType: ICameraUpdateLayer
+  fullName: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.Shapes
+  commentId: P:H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.Shapes
+  parent: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  href: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.html#H_Drawing3D_ShapeLayer_ShapeLayer_ShapesLayerBase_Shapes
+  name: Shapes
+  nameWithType: ShapesLayerBase.Shapes
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.Shapes
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.ShapesProperty
+  commentId: F:H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.ShapesProperty
+  parent: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  href: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.html#H_Drawing3D_ShapeLayer_ShapeLayer_ShapesLayerBase_ShapesProperty
+  name: ShapesProperty
+  nameWithType: ShapesLayerBase.ShapesProperty
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.ShapesProperty
+- uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.ModelVisual3D
+  commentId: P:H.Drawing3D.ShapeLayer.Layer.LayerBase.ModelVisual3D
+  parent: H.Drawing3D.ShapeLayer.Layer.LayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_ModelVisual3D
+  name: ModelVisual3D
+  nameWithType: LayerBase.ModelVisual3D
+  fullName: H.Drawing3D.ShapeLayer.Layer.LayerBase.ModelVisual3D
+- uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.View
+  commentId: P:H.Drawing3D.ShapeLayer.Layer.LayerBase.View
+  parent: H.Drawing3D.ShapeLayer.Layer.LayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_View
+  name: View
+  nameWithType: LayerBase.View
+  fullName: H.Drawing3D.ShapeLayer.Layer.LayerBase.View
+- uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.Clear
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.LayerBase.Clear
+  parent: H.Drawing3D.ShapeLayer.Layer.LayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_Clear
+  name: Clear()
+  nameWithType: LayerBase.Clear()
+  fullName: H.Drawing3D.ShapeLayer.Layer.LayerBase.Clear()
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.Clear
+    name: Clear
+    href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.Clear
+    name: Clear
+    href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_Clear
+  - name: (
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.LayerBase.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.LayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_InitView_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: InitView(ICameraViewport3D)
+  nameWithType: LayerBase.InitView(ICameraViewport3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.LayerBase.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: InitView
+    href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_InitView_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: InitView
+    href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_InitView_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: System.Windows.Media.Media3D.ModelVisual3D.ContentProperty
+  commentId: F:System.Windows.Media.Media3D.ModelVisual3D.ContentProperty
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.contentproperty
+  name: ContentProperty
+  nameWithType: ModelVisual3D.ContentProperty
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.ContentProperty
+- uid: System.Windows.Media.Media3D.ModelVisual3D.TransformProperty
+  commentId: F:System.Windows.Media.Media3D.ModelVisual3D.TransformProperty
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.transformproperty
+  name: TransformProperty
+  nameWithType: ModelVisual3D.TransformProperty
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.TransformProperty
+- uid: System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(System.Int32)
+  commentId: M:System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(System.Int32)
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.getvisual3dchild
+  name: GetVisual3DChild(int)
+  nameWithType: ModelVisual3D.GetVisual3DChild(int)
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(int)
+  nameWithType.vb: ModelVisual3D.GetVisual3DChild(Integer)
+  fullName.vb: System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(Integer)
+  name.vb: GetVisual3DChild(Integer)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(System.Int32)
+    name: GetVisual3DChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.getvisual3dchild
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.ModelVisual3D.GetVisual3DChild(System.Int32)
+    name: GetVisual3DChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.getvisual3dchild
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Windows.Media.Media3D.ModelVisual3D.Children
+  commentId: P:System.Windows.Media.Media3D.ModelVisual3D.Children
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.children
+  name: Children
+  nameWithType: ModelVisual3D.Children
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.Children
+- uid: System.Windows.Media.Media3D.ModelVisual3D.Content
+  commentId: P:System.Windows.Media.Media3D.ModelVisual3D.Content
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.content
+  name: Content
+  nameWithType: ModelVisual3D.Content
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.Content
+- uid: System.Windows.Media.Media3D.ModelVisual3D.Transform
+  commentId: P:System.Windows.Media.Media3D.ModelVisual3D.Transform
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.transform
+  name: Transform
+  nameWithType: ModelVisual3D.Transform
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.Transform
+- uid: System.Windows.Media.Media3D.ModelVisual3D.Visual3DChildrenCount
+  commentId: P:System.Windows.Media.Media3D.ModelVisual3D.Visual3DChildrenCount
+  parent: System.Windows.Media.Media3D.ModelVisual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d.visual3dchildrencount
+  name: Visual3DChildrenCount
+  nameWithType: ModelVisual3D.Visual3DChildrenCount
+  fullName: System.Windows.Media.Media3D.ModelVisual3D.Visual3DChildrenCount
+- uid: System.Windows.Media.Media3D.Visual3D.AddVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.AddVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.addvisual3dchild
+  name: AddVisual3DChild(Visual3D)
+  nameWithType: Visual3D.AddVisual3DChild(Visual3D)
+  fullName: System.Windows.Media.Media3D.Visual3D.AddVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.AddVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+    name: AddVisual3DChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.addvisual3dchild
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.AddVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+    name: AddVisual3DChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.addvisual3dchild
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.applyanimationclock#system-windows-media-media3d-visual3d-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock)
+  name: ApplyAnimationClock(DependencyProperty, AnimationClock)
+  nameWithType: Visual3D.ApplyAnimationClock(DependencyProperty, AnimationClock)
+  fullName: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty, System.Windows.Media.Animation.AnimationClock)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock)
+    name: ApplyAnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.applyanimationclock#system-windows-media-media3d-visual3d-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationClock
+    name: AnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationclock
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock)
+    name: ApplyAnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.applyanimationclock#system-windows-media-media3d-visual3d-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationClock
+    name: AnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationclock
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock,System.Windows.Media.Animation.HandoffBehavior)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock,System.Windows.Media.Animation.HandoffBehavior)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.applyanimationclock#system-windows-media-media3d-visual3d-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock-system-windows-media-animation-handoffbehavior)
+  name: ApplyAnimationClock(DependencyProperty, AnimationClock, HandoffBehavior)
+  nameWithType: Visual3D.ApplyAnimationClock(DependencyProperty, AnimationClock, HandoffBehavior)
+  fullName: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty, System.Windows.Media.Animation.AnimationClock, System.Windows.Media.Animation.HandoffBehavior)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock,System.Windows.Media.Animation.HandoffBehavior)
+    name: ApplyAnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.applyanimationclock#system-windows-media-media3d-visual3d-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock-system-windows-media-animation-handoffbehavior)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationClock
+    name: AnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationclock
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.HandoffBehavior
+    name: HandoffBehavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.handoffbehavior
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.ApplyAnimationClock(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationClock,System.Windows.Media.Animation.HandoffBehavior)
+    name: ApplyAnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.applyanimationclock#system-windows-media-media3d-visual3d-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock-system-windows-media-animation-handoffbehavior)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationClock
+    name: AnimationClock
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationclock
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.HandoffBehavior
+    name: HandoffBehavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.handoffbehavior
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.beginanimation#system-windows-media-media3d-visual3d-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline)
+  name: BeginAnimation(DependencyProperty, AnimationTimeline)
+  nameWithType: Visual3D.BeginAnimation(DependencyProperty, AnimationTimeline)
+  fullName: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty, System.Windows.Media.Animation.AnimationTimeline)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline)
+    name: BeginAnimation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.beginanimation#system-windows-media-media3d-visual3d-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationTimeline
+    name: AnimationTimeline
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationtimeline
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline)
+    name: BeginAnimation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.beginanimation#system-windows-media-media3d-visual3d-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationTimeline
+    name: AnimationTimeline
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationtimeline
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline,System.Windows.Media.Animation.HandoffBehavior)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline,System.Windows.Media.Animation.HandoffBehavior)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.beginanimation#system-windows-media-media3d-visual3d-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline-system-windows-media-animation-handoffbehavior)
+  name: BeginAnimation(DependencyProperty, AnimationTimeline, HandoffBehavior)
+  nameWithType: Visual3D.BeginAnimation(DependencyProperty, AnimationTimeline, HandoffBehavior)
+  fullName: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty, System.Windows.Media.Animation.AnimationTimeline, System.Windows.Media.Animation.HandoffBehavior)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline,System.Windows.Media.Animation.HandoffBehavior)
+    name: BeginAnimation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.beginanimation#system-windows-media-media3d-visual3d-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline-system-windows-media-animation-handoffbehavior)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationTimeline
+    name: AnimationTimeline
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationtimeline
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.HandoffBehavior
+    name: HandoffBehavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.handoffbehavior
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.BeginAnimation(System.Windows.DependencyProperty,System.Windows.Media.Animation.AnimationTimeline,System.Windows.Media.Animation.HandoffBehavior)
+    name: BeginAnimation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.beginanimation#system-windows-media-media3d-visual3d-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline-system-windows-media-animation-handoffbehavior)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.AnimationTimeline
+    name: AnimationTimeline
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.animationtimeline
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Animation.HandoffBehavior
+    name: HandoffBehavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.handoffbehavior
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.FindCommonVisualAncestor(System.Windows.DependencyObject)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.FindCommonVisualAncestor(System.Windows.DependencyObject)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.findcommonvisualancestor
+  name: FindCommonVisualAncestor(DependencyObject)
+  nameWithType: Visual3D.FindCommonVisualAncestor(DependencyObject)
+  fullName: System.Windows.Media.Media3D.Visual3D.FindCommonVisualAncestor(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.FindCommonVisualAncestor(System.Windows.DependencyObject)
+    name: FindCommonVisualAncestor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.findcommonvisualancestor
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.FindCommonVisualAncestor(System.Windows.DependencyObject)
+    name: FindCommonVisualAncestor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.findcommonvisualancestor
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.GetAnimationBaseValue(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.GetAnimationBaseValue(System.Windows.DependencyProperty)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.getanimationbasevalue
+  name: GetAnimationBaseValue(DependencyProperty)
+  nameWithType: Visual3D.GetAnimationBaseValue(DependencyProperty)
+  fullName: System.Windows.Media.Media3D.Visual3D.GetAnimationBaseValue(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.GetAnimationBaseValue(System.Windows.DependencyProperty)
+    name: GetAnimationBaseValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.getanimationbasevalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.GetAnimationBaseValue(System.Windows.DependencyProperty)
+    name: GetAnimationBaseValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.getanimationbasevalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.IsAncestorOf(System.Windows.DependencyObject)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.IsAncestorOf(System.Windows.DependencyObject)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.isancestorof
+  name: IsAncestorOf(DependencyObject)
+  nameWithType: Visual3D.IsAncestorOf(DependencyObject)
+  fullName: System.Windows.Media.Media3D.Visual3D.IsAncestorOf(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.IsAncestorOf(System.Windows.DependencyObject)
+    name: IsAncestorOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.isancestorof
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.IsAncestorOf(System.Windows.DependencyObject)
+    name: IsAncestorOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.isancestorof
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.IsDescendantOf(System.Windows.DependencyObject)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.IsDescendantOf(System.Windows.DependencyObject)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.isdescendantof
+  name: IsDescendantOf(DependencyObject)
+  nameWithType: Visual3D.IsDescendantOf(DependencyObject)
+  fullName: System.Windows.Media.Media3D.Visual3D.IsDescendantOf(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.IsDescendantOf(System.Windows.DependencyObject)
+    name: IsDescendantOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.isdescendantof
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.IsDescendantOf(System.Windows.DependencyObject)
+    name: IsDescendantOf
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.isdescendantof
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.onvisualchildrenchanged
+  name: OnVisualChildrenChanged(DependencyObject, DependencyObject)
+  nameWithType: Visual3D.OnVisualChildrenChanged(DependencyObject, DependencyObject)
+  fullName: System.Windows.Media.Media3D.Visual3D.OnVisualChildrenChanged(System.Windows.DependencyObject, System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)
+    name: OnVisualChildrenChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.onvisualchildrenchanged
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: ','
+  - name: " "
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)
+    name: OnVisualChildrenChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.onvisualchildrenchanged
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: ','
+  - name: " "
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.OnVisualParentChanged(System.Windows.DependencyObject)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.OnVisualParentChanged(System.Windows.DependencyObject)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.onvisualparentchanged
+  name: OnVisualParentChanged(DependencyObject)
+  nameWithType: Visual3D.OnVisualParentChanged(DependencyObject)
+  fullName: System.Windows.Media.Media3D.Visual3D.OnVisualParentChanged(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.OnVisualParentChanged(System.Windows.DependencyObject)
+    name: OnVisualParentChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.onvisualparentchanged
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.OnVisualParentChanged(System.Windows.DependencyObject)
+    name: OnVisualParentChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.onvisualparentchanged
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.RemoveVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.RemoveVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.removevisual3dchild
+  name: RemoveVisual3DChild(Visual3D)
+  nameWithType: Visual3D.RemoveVisual3DChild(Visual3D)
+  fullName: System.Windows.Media.Media3D.Visual3D.RemoveVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.RemoveVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+    name: RemoveVisual3DChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.removevisual3dchild
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.RemoveVisual3DChild(System.Windows.Media.Media3D.Visual3D)
+    name: RemoveVisual3DChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.removevisual3dchild
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Media3D.Visual3D)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtoancestor#system-windows-media-media3d-visual3d-transformtoancestor(system-windows-media-media3d-visual3d)
+  name: TransformToAncestor(Visual3D)
+  nameWithType: Visual3D.TransformToAncestor(Visual3D)
+  fullName: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Media3D.Visual3D)
+    name: TransformToAncestor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtoancestor#system-windows-media-media3d-visual3d-transformtoancestor(system-windows-media-media3d-visual3d)
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Media3D.Visual3D)
+    name: TransformToAncestor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtoancestor#system-windows-media-media3d-visual3d-transformtoancestor(system-windows-media-media3d-visual3d)
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Visual)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Visual)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtoancestor#system-windows-media-media3d-visual3d-transformtoancestor(system-windows-media-visual)
+  name: TransformToAncestor(Visual)
+  nameWithType: Visual3D.TransformToAncestor(Visual)
+  fullName: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Visual)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Visual)
+    name: TransformToAncestor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtoancestor#system-windows-media-media3d-visual3d-transformtoancestor(system-windows-media-visual)
+  - name: (
+  - uid: System.Windows.Media.Visual
+    name: Visual
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.TransformToAncestor(System.Windows.Media.Visual)
+    name: TransformToAncestor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtoancestor#system-windows-media-media3d-visual3d-transformtoancestor(system-windows-media-visual)
+  - name: (
+  - uid: System.Windows.Media.Visual
+    name: Visual
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.TransformToDescendant(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:System.Windows.Media.Media3D.Visual3D.TransformToDescendant(System.Windows.Media.Media3D.Visual3D)
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtodescendant
+  name: TransformToDescendant(Visual3D)
+  nameWithType: Visual3D.TransformToDescendant(Visual3D)
+  fullName: System.Windows.Media.Media3D.Visual3D.TransformToDescendant(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Visual3D.TransformToDescendant(System.Windows.Media.Media3D.Visual3D)
+    name: TransformToDescendant
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtodescendant
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Visual3D.TransformToDescendant(System.Windows.Media.Media3D.Visual3D)
+    name: TransformToDescendant
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.transformtodescendant
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.HasAnimatedProperties
+  commentId: P:System.Windows.Media.Media3D.Visual3D.HasAnimatedProperties
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.hasanimatedproperties
+  name: HasAnimatedProperties
+  nameWithType: Visual3D.HasAnimatedProperties
+  fullName: System.Windows.Media.Media3D.Visual3D.HasAnimatedProperties
+- uid: System.Windows.Media.Media3D.Visual3D.Visual3DModel
+  commentId: P:System.Windows.Media.Media3D.Visual3D.Visual3DModel
+  parent: System.Windows.Media.Media3D.Visual3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d.visual3dmodel
+  name: Visual3DModel
+  nameWithType: Visual3D.Visual3DModel
+  fullName: System.Windows.Media.Media3D.Visual3D.Visual3DModel
+- uid: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.DependencyObject.ClearValue(System.Windows.DependencyProperty)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencyproperty)
+  name: ClearValue(DependencyProperty)
+  nameWithType: DependencyObject.ClearValue(DependencyProperty)
+  fullName: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencyproperty)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencyproperty)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyPropertyKey)
+  commentId: M:System.Windows.DependencyObject.ClearValue(System.Windows.DependencyPropertyKey)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencypropertykey)
+  name: ClearValue(DependencyPropertyKey)
+  nameWithType: DependencyObject.ClearValue(DependencyPropertyKey)
+  fullName: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyPropertyKey)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyPropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencypropertykey)
+  - name: (
+  - uid: System.Windows.DependencyPropertyKey
+    name: DependencyPropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.ClearValue(System.Windows.DependencyPropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencypropertykey)
+  - name: (
+  - uid: System.Windows.DependencyPropertyKey
+    name: DependencyPropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey
+  - name: )
+- uid: System.Windows.DependencyObject.CoerceValue(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.DependencyObject.CoerceValue(System.Windows.DependencyProperty)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue
+  name: CoerceValue(DependencyProperty)
+  nameWithType: DependencyObject.CoerceValue(DependencyProperty)
+  fullName: System.Windows.DependencyObject.CoerceValue(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.CoerceValue(System.Windows.DependencyProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.CoerceValue(System.Windows.DependencyProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.DependencyObject.Equals(System.Object)
+  commentId: M:System.Windows.DependencyObject.Equals(System.Object)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals
+  name: Equals(object)
+  nameWithType: DependencyObject.Equals(object)
+  fullName: System.Windows.DependencyObject.Equals(object)
+  nameWithType.vb: DependencyObject.Equals(Object)
+  fullName.vb: System.Windows.DependencyObject.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.DependencyObject.GetHashCode
+  commentId: M:System.Windows.DependencyObject.GetHashCode
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode
+  name: GetHashCode()
+  nameWithType: DependencyObject.GetHashCode()
+  fullName: System.Windows.DependencyObject.GetHashCode()
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode
+  - name: (
+  - name: )
+- uid: System.Windows.DependencyObject.GetLocalValueEnumerator
+  commentId: M:System.Windows.DependencyObject.GetLocalValueEnumerator
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator
+  name: GetLocalValueEnumerator()
+  nameWithType: DependencyObject.GetLocalValueEnumerator()
+  fullName: System.Windows.DependencyObject.GetLocalValueEnumerator()
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.GetLocalValueEnumerator
+    name: GetLocalValueEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.GetLocalValueEnumerator
+    name: GetLocalValueEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator
+  - name: (
+  - name: )
+- uid: System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue
+  name: GetValue(DependencyProperty)
+  nameWithType: DependencyObject.GetValue(DependencyProperty)
+  fullName: System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty
+  name: InvalidateProperty(DependencyProperty)
+  nameWithType: DependencyObject.InvalidateProperty(DependencyProperty)
+  fullName: System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty)
+    name: InvalidateProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.InvalidateProperty(System.Windows.DependencyProperty)
+    name: InvalidateProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)
+  commentId: M:System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged
+  name: OnPropertyChanged(DependencyPropertyChangedEventArgs)
+  nameWithType: DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs)
+  fullName: System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged
+  - name: (
+  - uid: System.Windows.DependencyPropertyChangedEventArgs
+    name: DependencyPropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged
+  - name: (
+  - uid: System.Windows.DependencyPropertyChangedEventArgs
+    name: DependencyPropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertychangedeventargs
+  - name: )
+- uid: System.Windows.DependencyObject.ReadLocalValue(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.DependencyObject.ReadLocalValue(System.Windows.DependencyProperty)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue
+  name: ReadLocalValue(DependencyProperty)
+  nameWithType: DependencyObject.ReadLocalValue(DependencyProperty)
+  fullName: System.Windows.DependencyObject.ReadLocalValue(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.ReadLocalValue(System.Windows.DependencyProperty)
+    name: ReadLocalValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.ReadLocalValue(System.Windows.DependencyProperty)
+    name: ReadLocalValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty,System.Object)
+  commentId: M:System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty,System.Object)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue
+  name: SetCurrentValue(DependencyProperty, object)
+  nameWithType: DependencyObject.SetCurrentValue(DependencyProperty, object)
+  fullName: System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty, object)
+  nameWithType.vb: DependencyObject.SetCurrentValue(DependencyProperty, Object)
+  fullName.vb: System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty, Object)
+  name.vb: SetCurrentValue(DependencyProperty, Object)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty,System.Object)
+    name: SetCurrentValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.SetCurrentValue(System.Windows.DependencyProperty,System.Object)
+    name: SetCurrentValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)
+  commentId: M:System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencyproperty-system-object)
+  name: SetValue(DependencyProperty, object)
+  nameWithType: DependencyObject.SetValue(DependencyProperty, object)
+  fullName: System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty, object)
+  nameWithType.vb: DependencyObject.SetValue(DependencyProperty, Object)
+  fullName.vb: System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty, Object)
+  name.vb: SetValue(DependencyProperty, Object)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencyproperty-system-object)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencyproperty-system-object)
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey,System.Object)
+  commentId: M:System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey,System.Object)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencypropertykey-system-object)
+  name: SetValue(DependencyPropertyKey, object)
+  nameWithType: DependencyObject.SetValue(DependencyPropertyKey, object)
+  fullName: System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey, object)
+  nameWithType.vb: DependencyObject.SetValue(DependencyPropertyKey, Object)
+  fullName.vb: System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey, Object)
+  name.vb: SetValue(DependencyPropertyKey, Object)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencypropertykey-system-object)
+  - name: (
+  - uid: System.Windows.DependencyPropertyKey
+    name: DependencyPropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.SetValue(System.Windows.DependencyPropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencypropertykey-system-object)
+  - name: (
+  - uid: System.Windows.DependencyPropertyKey
+    name: DependencyPropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.DependencyObject.ShouldSerializeProperty(System.Windows.DependencyProperty)
+  commentId: M:System.Windows.DependencyObject.ShouldSerializeProperty(System.Windows.DependencyProperty)
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty
+  name: ShouldSerializeProperty(DependencyProperty)
+  nameWithType: DependencyObject.ShouldSerializeProperty(DependencyProperty)
+  fullName: System.Windows.DependencyObject.ShouldSerializeProperty(System.Windows.DependencyProperty)
+  spec.csharp:
+  - uid: System.Windows.DependencyObject.ShouldSerializeProperty(System.Windows.DependencyProperty)
+    name: ShouldSerializeProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+  spec.vb:
+  - uid: System.Windows.DependencyObject.ShouldSerializeProperty(System.Windows.DependencyProperty)
+    name: ShouldSerializeProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty
+  - name: (
+  - uid: System.Windows.DependencyProperty
+    name: DependencyProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  - name: )
+- uid: System.Windows.DependencyObject.DependencyObjectType
+  commentId: P:System.Windows.DependencyObject.DependencyObjectType
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.dependencyobjecttype
+  name: DependencyObjectType
+  nameWithType: DependencyObject.DependencyObjectType
+  fullName: System.Windows.DependencyObject.DependencyObjectType
+- uid: System.Windows.DependencyObject.IsSealed
+  commentId: P:System.Windows.DependencyObject.IsSealed
+  parent: System.Windows.DependencyObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.issealed
+  name: IsSealed
+  nameWithType: DependencyObject.IsSealed
+  fullName: System.Windows.DependencyObject.IsSealed
+- uid: System.Windows.Threading.DispatcherObject.Dispatcher
+  commentId: P:System.Windows.Threading.DispatcherObject.Dispatcher
+  parent: System.Windows.Threading.DispatcherObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher
+  name: Dispatcher
+  nameWithType: DispatcherObject.Dispatcher
+  fullName: System.Windows.Threading.DispatcherObject.Dispatcher
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+  definition: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  name: RefreshDrawing(ILayer3D)
+  nameWithType: Layer3DExtension.RefreshDrawing(ILayer3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System.Windows.DependencyObject.H.Drawing3D.Shape.File.AttachedProperties.GetName
+  commentId: M:H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+  parent: H.Drawing3D.Shape.File.AttachedProperties
+  definition: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+  href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_GetName_System_Windows_DependencyObject_
+  name: GetName(DependencyObject)
+  nameWithType: AttachedProperties.GetName(DependencyObject)
+  fullName: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+    name: GetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_GetName_System_Windows_DependencyObject_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+    name: GetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_GetName_System_Windows_DependencyObject_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.DependencyObject.H.Drawing3D.Shape.File.AttachedProperties.SetName(System.String)
+  commentId: M:H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+  parent: H.Drawing3D.Shape.File.AttachedProperties
+  definition: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+  href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_SetName_System_Windows_DependencyObject_System_String_
+  name: SetName(DependencyObject, string)
+  nameWithType: AttachedProperties.SetName(DependencyObject, string)
+  fullName: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject, string)
+  nameWithType.vb: AttachedProperties.SetName(DependencyObject, String)
+  fullName.vb: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject, String)
+  name.vb: SetName(DependencyObject, String)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+    name: SetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_SetName_System_Windows_DependencyObject_System_String_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+    name: SetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_SetName_System_Windows_DependencyObject_System_String_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Windows.Media.Animation.IAnimatable.H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+  parent: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+  definition: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+  href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html#H_Drawing3D_Shape_ExtensionMethods_AnimationExtensions_AnimateOpacity_System_Windows_Media_Animation_IAnimatable_System_Double_System_Double_
+  name: AnimateOpacity(IAnimatable, double, double)
+  nameWithType: AnimationExtensions.AnimateOpacity(IAnimatable, double, double)
+  fullName: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable, double, double)
+  nameWithType.vb: AnimationExtensions.AnimateOpacity(IAnimatable, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable, Double, Double)
+  name.vb: AnimateOpacity(IAnimatable, Double, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+    name: AnimateOpacity
+    href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html#H_Drawing3D_Shape_ExtensionMethods_AnimationExtensions_AnimateOpacity_System_Windows_Media_Animation_IAnimatable_System_Double_System_Double_
+  - name: (
+  - uid: System.Windows.Media.Animation.IAnimatable
+    name: IAnimatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+    name: AnimateOpacity
+    href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html#H_Drawing3D_Shape_ExtensionMethods_AnimationExtensions_AnimateOpacity_System_Windows_Media_Animation_IAnimatable_System_Double_System_Double_
+  - name: (
+  - uid: System.Windows.Media.Animation.IAnimatable
+    name: IAnimatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Transform3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_FindBounds_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D_
+  name: FindBounds(Visual3D, Transform3D)
+  nameWithType: Visual3DHelper.FindBounds(Visual3D, Transform3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Transform3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+    name: FindBounds
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_FindBounds_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+    name: FindBounds
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_FindBounds_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetTransform
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransform_System_Windows_Media_Media3D_Visual3D_
+  name: GetTransform(Visual3D)
+  nameWithType: Visual3DHelper.GetTransform(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Model3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransformTo_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Model3D_
+  name: GetTransformTo(Visual3D, Model3D)
+  nameWithType: Visual3DHelper.GetTransformTo(Visual3D, Model3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Model3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+    name: GetTransformTo
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransformTo_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Model3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+    name: GetTransformTo
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransformTo_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Model3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetViewport
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport_System_Windows_Media_Media3D_Visual3D_
+  name: GetViewport(Visual3D)
+  nameWithType: Visual3DHelper.GetViewport(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport3D_System_Windows_Media_Media3D_Visual3D_
+  name: GetViewport3D(Visual3D)
+  nameWithType: Visual3DHelper.GetViewport3D(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Visual3D_
+  name: GetViewportTransform(Visual3D)
+  nameWithType: Visual3DHelper.GetViewportTransform(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewportTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewportTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_IsAttachedToViewport3D_System_Windows_Media_Media3D_Visual3D_
+  name: IsAttachedToViewport3D(Visual3D)
+  nameWithType: Visual3DHelper.IsAttachedToViewport3D(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: IsAttachedToViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_IsAttachedToViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: IsAttachedToViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_IsAttachedToViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Action{{T},System.Windows.Media.Media3D.Transform3D})
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Transform3D__
+  name: Traverse<T>(Visual3D, Action<T, Transform3D>)
+  nameWithType: Visual3DHelper.Traverse<T>(Visual3D, Action<T, Transform3D>)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.Traverse<T>(System.Windows.Media.Media3D.Visual3D, System.Action<T, System.Windows.Media.Media3D.Transform3D>)
+  nameWithType.vb: Visual3DHelper.Traverse(Of T)(Visual3D, Action(Of T, Transform3D))
+  fullName.vb: H.Drawing3D.View.Base.Visual3DHelper.Traverse(Of T)(System.Windows.Media.Media3D.Visual3D, System.Action(Of T, System.Windows.Media.Media3D.Transform3D))
+  name.vb: Traverse(Of T)(Visual3D, Action(Of T, Transform3D))
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Transform3D__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Transform3D__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  - name: )
+- uid: System.Windows.Media.Media3D.Visual3D.H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Action{{T},System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+  parent: H.Drawing3D.View.Base.Visual3DHelper
+  definition: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D__
+  name: Traverse<T>(Visual3D, Action<T, Visual3D, Transform3D>)
+  nameWithType: Visual3DHelper.Traverse<T>(Visual3D, Action<T, Visual3D, Transform3D>)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.Traverse<T>(System.Windows.Media.Media3D.Visual3D, System.Action<T, System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Transform3D>)
+  nameWithType.vb: Visual3DHelper.Traverse(Of T)(Visual3D, Action(Of T, Visual3D, Transform3D))
+  fullName.vb: H.Drawing3D.View.Base.Visual3DHelper.Traverse(Of T)(System.Windows.Media.Media3D.Visual3D, System.Action(Of T, System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Transform3D))
+  name.vb: Traverse(Of T)(Visual3D, Action(Of T, Visual3D, Transform3D))
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.ShapeLayer.Layer
+  commentId: N:H.Drawing3D.ShapeLayer.Layer
+  href: H.html
+  name: H.Drawing3D.ShapeLayer.Layer
+  nameWithType: H.Drawing3D.ShapeLayer.Layer
+  fullName: H.Drawing3D.ShapeLayer.Layer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.Layer
+    name: Layer
+    href: H.Drawing3D.ShapeLayer.Layer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.Layer
+    name: Layer
+    href: H.Drawing3D.ShapeLayer.Layer.html
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer
+  commentId: N:H.Drawing3D.ShapeLayer.ShapeLayer
+  href: H.html
+  name: H.Drawing3D.ShapeLayer.ShapeLayer
+  nameWithType: H.Drawing3D.ShapeLayer.ShapeLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.ShapeLayer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.ShapeLayer.html
+- uid: System.Windows.Media.Animation
+  commentId: N:System.Windows.Media.Animation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Animation
+  nameWithType: System.Windows.Media.Animation
+  fullName: System.Windows.Media.Animation
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Animation
+    name: Animation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Animation
+    name: Animation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation
+- uid: System.Windows.Markup
+  commentId: N:System.Windows.Markup
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Markup
+  nameWithType: System.Windows.Markup
+  fullName: System.Windows.Markup
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Markup
+    name: Markup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.markup
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Markup
+    name: Markup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.markup
+- uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  name: RefreshDrawing(ILayer3D)
+  nameWithType: Layer3DExtension.RefreshDrawing(ILayer3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+  parent: H.Drawing3D.ShapeLayer.Layer
+  href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html
+  name: Layer3DExtension
+  nameWithType: Layer3DExtension
+  fullName: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+  commentId: M:H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+  isExternal: true
+  href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_GetName_System_Windows_DependencyObject_
+  name: GetName(DependencyObject)
+  nameWithType: AttachedProperties.GetName(DependencyObject)
+  fullName: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+    name: GetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_GetName_System_Windows_DependencyObject_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.GetName(System.Windows.DependencyObject)
+    name: GetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_GetName_System_Windows_DependencyObject_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: H.Drawing3D.Shape.File.AttachedProperties
+  commentId: T:H.Drawing3D.Shape.File.AttachedProperties
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.AttachedProperties.html
+  name: AttachedProperties
+  nameWithType: AttachedProperties
+  fullName: H.Drawing3D.Shape.File.AttachedProperties
+- uid: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+  commentId: M:H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+  isExternal: true
+  href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_SetName_System_Windows_DependencyObject_System_String_
+  name: SetName(DependencyObject, string)
+  nameWithType: AttachedProperties.SetName(DependencyObject, string)
+  fullName: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject, string)
+  nameWithType.vb: AttachedProperties.SetName(DependencyObject, String)
+  fullName.vb: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject, String)
+  name.vb: SetName(DependencyObject, String)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+    name: SetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_SetName_System_Windows_DependencyObject_System_String_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.AttachedProperties.SetName(System.Windows.DependencyObject,System.String)
+    name: SetName
+    href: H.Drawing3D.Shape.File.AttachedProperties.html#H_Drawing3D_Shape_File_AttachedProperties_SetName_System_Windows_DependencyObject_System_String_
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+  isExternal: true
+  href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html#H_Drawing3D_Shape_ExtensionMethods_AnimationExtensions_AnimateOpacity_System_Windows_Media_Animation_IAnimatable_System_Double_System_Double_
+  name: AnimateOpacity(IAnimatable, double, double)
+  nameWithType: AnimationExtensions.AnimateOpacity(IAnimatable, double, double)
+  fullName: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable, double, double)
+  nameWithType.vb: AnimationExtensions.AnimateOpacity(IAnimatable, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable, Double, Double)
+  name.vb: AnimateOpacity(IAnimatable, Double, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+    name: AnimateOpacity
+    href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html#H_Drawing3D_Shape_ExtensionMethods_AnimationExtensions_AnimateOpacity_System_Windows_Media_Animation_IAnimatable_System_Double_System_Double_
+  - name: (
+  - uid: System.Windows.Media.Animation.IAnimatable
+    name: IAnimatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.AnimateOpacity(System.Windows.Media.Animation.IAnimatable,System.Double,System.Double)
+    name: AnimateOpacity
+    href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html#H_Drawing3D_Shape_ExtensionMethods_AnimationExtensions_AnimateOpacity_System_Windows_Media_Animation_IAnimatable_System_Double_System_Double_
+  - name: (
+  - uid: System.Windows.Media.Animation.IAnimatable
+    name: IAnimatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+  commentId: T:H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+  parent: H.Drawing3D.Shape.ExtensionMethods
+  href: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html
+  name: AnimationExtensions
+  nameWithType: AnimationExtensions
+  fullName: H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions
+- uid: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_FindBounds_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D_
+  name: FindBounds(Visual3D, Transform3D)
+  nameWithType: Visual3DHelper.FindBounds(Visual3D, Transform3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Transform3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+    name: FindBounds
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_FindBounds_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.FindBounds(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D)
+    name: FindBounds
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_FindBounds_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper
+  commentId: T:H.Drawing3D.View.Base.Visual3DHelper
+  parent: H.Drawing3D.View.Base
+  href: H.Drawing3D.View.Base.Visual3DHelper.html
+  name: Visual3DHelper
+  nameWithType: Visual3DHelper
+  fullName: H.Drawing3D.View.Base.Visual3DHelper
+- uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransform_System_Windows_Media_Media3D_Visual3D_
+  name: GetTransform(Visual3D)
+  nameWithType: Visual3DHelper.GetTransform(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransformTo_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Model3D_
+  name: GetTransformTo(Visual3D, Model3D)
+  nameWithType: Visual3DHelper.GetTransformTo(Visual3D, Model3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Model3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+    name: GetTransformTo
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransformTo_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Model3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetTransformTo(System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Model3D)
+    name: GetTransformTo
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetTransformTo_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Model3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport_System_Windows_Media_Media3D_Visual3D_
+  name: GetViewport(Visual3D)
+  nameWithType: Visual3DHelper.GetViewport(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport3D_System_Windows_Media_Media3D_Visual3D_
+  name: GetViewport3D(Visual3D)
+  nameWithType: Visual3DHelper.GetViewport3D(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Visual3D_
+  name: GetViewportTransform(Visual3D)
+  nameWithType: Visual3DHelper.GetViewportTransform(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewportTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.GetViewportTransform(System.Windows.Media.Media3D.Visual3D)
+    name: GetViewportTransform
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_GetViewportTransform_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_IsAttachedToViewport3D_System_Windows_Media_Media3D_Visual3D_
+  name: IsAttachedToViewport3D(Visual3D)
+  nameWithType: Visual3DHelper.IsAttachedToViewport3D(Visual3D)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: IsAttachedToViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_IsAttachedToViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.IsAttachedToViewport3D(System.Windows.Media.Media3D.Visual3D)
+    name: IsAttachedToViewport3D
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_IsAttachedToViewport3D_System_Windows_Media_Media3D_Visual3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Transform3D__
+  name: Traverse<T>(Visual3D, Action<T, Transform3D>)
+  nameWithType: Visual3DHelper.Traverse<T>(Visual3D, Action<T, Transform3D>)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.Traverse<T>(System.Windows.Media.Media3D.Visual3D, System.Action<T, System.Windows.Media.Media3D.Transform3D>)
+  nameWithType.vb: Visual3DHelper.Traverse(Of T)(Visual3D, Action(Of T, Transform3D))
+  fullName.vb: H.Drawing3D.View.Base.Visual3DHelper.Traverse(Of T)(System.Windows.Media.Media3D.Visual3D, System.Action(Of T, System.Windows.Media.Media3D.Transform3D))
+  name.vb: Traverse(Of T)(Visual3D, Action(Of T, Transform3D))
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Transform3D__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Transform3D__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  - name: )
+- uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+  commentId: M:H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+  isExternal: true
+  href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D__
+  name: Traverse<T>(Visual3D, Action<T, Visual3D, Transform3D>)
+  nameWithType: Visual3DHelper.Traverse<T>(Visual3D, Action<T, Visual3D, Transform3D>)
+  fullName: H.Drawing3D.View.Base.Visual3DHelper.Traverse<T>(System.Windows.Media.Media3D.Visual3D, System.Action<T, System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Transform3D>)
+  nameWithType.vb: Visual3DHelper.Traverse(Of T)(Visual3D, Action(Of T, Visual3D, Transform3D))
+  fullName.vb: H.Drawing3D.View.Base.Visual3DHelper.Traverse(Of T)(System.Windows.Media.Media3D.Visual3D, System.Action(Of T, System.Windows.Media.Media3D.Visual3D, System.Windows.Media.Media3D.Transform3D))
+  name.vb: Traverse(Of T)(Visual3D, Action(Of T, Visual3D, Transform3D))
+  spec.csharp:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Base.Visual3DHelper.Traverse``1(System.Windows.Media.Media3D.Visual3D,System.Action{``0,System.Windows.Media.Media3D.Visual3D,System.Windows.Media.Media3D.Transform3D})
+    name: Traverse
+    href: H.Drawing3D.View.Base.Visual3DHelper.html#H_Drawing3D_View_Base_Visual3DHelper_Traverse__1_System_Windows_Media_Media3D_Visual3D_System_Action___0_System_Windows_Media_Media3D_Visual3D_System_Windows_Media_Media3D_Transform3D__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Visual3D
+    name: Visual3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.visual3d
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.File
+  commentId: N:H.Drawing3D.Shape.File
+  href: H.html
+  name: H.Drawing3D.Shape.File
+  nameWithType: H.Drawing3D.Shape.File
+  fullName: H.Drawing3D.Shape.File
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+- uid: H.Drawing3D.Shape.ExtensionMethods
+  commentId: N:H.Drawing3D.Shape.ExtensionMethods
+  href: H.html
+  name: H.Drawing3D.Shape.ExtensionMethods
+  nameWithType: H.Drawing3D.Shape.ExtensionMethods
+  fullName: H.Drawing3D.Shape.ExtensionMethods
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.ExtensionMethods
+    name: ExtensionMethods
+    href: H.Drawing3D.Shape.ExtensionMethods.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.ExtensionMethods
+    name: ExtensionMethods
+    href: H.Drawing3D.Shape.ExtensionMethods.html
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+- uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.Drawing
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.LayerBase.Drawing
+  parent: H.Drawing3D.ShapeLayer.Layer.LayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_Drawing
+  name: Drawing()
+  nameWithType: LayerBase.Drawing()
+  fullName: H.Drawing3D.ShapeLayer.Layer.LayerBase.Drawing()
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.Drawing
+    name: Drawing
+    href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_Drawing
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.LayerBase.Drawing
+    name: Drawing
+    href: H.Drawing3D.ShapeLayer.Layer.LayerBase.html#H_Drawing3D_ShapeLayer_Layer_LayerBase_Drawing
+  - name: (
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.Drawing*
+  commentId: Overload:H.Drawing3D.ShapeLayer.ShapesLayer.Drawing
+  href: H.Drawing3D.ShapeLayer.ShapesLayer.html#H_Drawing3D_ShapeLayer_ShapesLayer_Drawing
+  name: Drawing
+  nameWithType: ShapesLayer.Drawing
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.Drawing
+- uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html#H_Drawing3D_ShapeLayer_Layer_ShapeLayerBase_AddShape_H_Drawing3D_Shape_Base_IShape3D_
+  name: AddShape(IShape3D)
+  nameWithType: ShapeLayerBase.AddShape(IShape3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+    name: AddShape
+    href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html#H_Drawing3D_ShapeLayer_Layer_ShapeLayerBase_AddShape_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.AddShape(H.Drawing3D.Shape.Base.IShape3D)
+    name: AddShape
+    href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html#H_Drawing3D_ShapeLayer_Layer_ShapeLayerBase_AddShape_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.AddShape*
+  commentId: Overload:H.Drawing3D.ShapeLayer.ShapesLayer.AddShape
+  href: H.Drawing3D.ShapeLayer.ShapesLayer.html#H_Drawing3D_ShapeLayer_ShapesLayer_AddShape_H_Drawing3D_Shape_Base_IShape3D_
+  name: AddShape
+  nameWithType: ShapesLayer.AddShape
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.AddShape
+- uid: H.Drawing3D.Shape.Base.IShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IShape3D.html
+  name: IShape3D
+  nameWithType: IShape3D
+  fullName: H.Drawing3D.Shape.Base.IShape3D
+- uid: H.Drawing3D.Shape.Base
+  commentId: N:H.Drawing3D.Shape.Base
+  href: H.html
+  name: H.Drawing3D.Shape.Base
+  nameWithType: H.Drawing3D.Shape.Base
+  fullName: H.Drawing3D.Shape.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+- uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase
+  href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html#H_Drawing3D_ShapeLayer_Layer_ShapeLayerBase_RemoveShape_H_Drawing3D_Shape_Base_IShape3D_
+  name: RemoveShape(IShape3D)
+  nameWithType: ShapeLayerBase.RemoveShape(IShape3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+    name: RemoveShape
+    href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html#H_Drawing3D_ShapeLayer_Layer_ShapeLayerBase_RemoveShape_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.RemoveShape(H.Drawing3D.Shape.Base.IShape3D)
+    name: RemoveShape
+    href: H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html#H_Drawing3D_ShapeLayer_Layer_ShapeLayerBase_RemoveShape_H_Drawing3D_Shape_Base_IShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape*
+  commentId: Overload:H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape
+  href: H.Drawing3D.ShapeLayer.ShapesLayer.html#H_Drawing3D_ShapeLayer_ShapesLayer_RemoveShape_H_Drawing3D_Shape_Base_IShape3D_
+  name: RemoveShape
+  nameWithType: ShapesLayer.RemoveShape
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.RemoveShape
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate*
+  commentId: Overload:H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate
+  href: H.Drawing3D.ShapeLayer.ShapesLayer.html#H_Drawing3D_ShapeLayer_ShapesLayer_OnCameraUpdate_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: OnCameraUpdate
+  nameWithType: ShapesLayer.OnCameraUpdate
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer.OnCameraUpdate
+- uid: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer
+  href: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.html#H_Drawing3D_ShapeLayer_Layer_ICameraUpdateLayer_OnCameraUpdate_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: OnCameraUpdate(ICameraViewport3D)
+  nameWithType: ICameraUpdateLayer.OnCameraUpdate(ICameraViewport3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: OnCameraUpdate
+    href: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.html#H_Drawing3D_ShapeLayer_Layer_ICameraUpdateLayer_OnCameraUpdate_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.OnCameraUpdate(H.Drawing3D.Drawing.ICameraViewport3D)
+    name: OnCameraUpdate
+    href: H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.html#H_Drawing3D_ShapeLayer_Layer_ICameraUpdateLayer_OnCameraUpdate_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.Drawing.ICameraViewport3D
+  commentId: T:H.Drawing3D.Drawing.ICameraViewport3D
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  name: ICameraViewport3D
+  nameWithType: ICameraViewport3D
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D

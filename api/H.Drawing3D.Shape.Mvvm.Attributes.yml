@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Mvvm.Attributes
+  commentId: N:H.Drawing3D.Shape.Mvvm.Attributes
+  id: H.Drawing3D.Shape.Mvvm.Attributes
+  children:
+  - H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute
+  - H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Mvvm.Attributes
+  nameWithType: H.Drawing3D.Shape.Mvvm.Attributes
+  fullName: H.Drawing3D.Shape.Mvvm.Attributes
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute
+  commentId: T:H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute
+  href: H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute.html
+  name: IconAttribute
+  nameWithType: IconAttribute
+  fullName: H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute
+- uid: H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute
+  commentId: T:H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute
+  href: H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute.html
+  name: IDAttribute
+  nameWithType: IDAttribute
+  fullName: H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute

@@ -1,0 +1,3833 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Base.ICameraController
+  commentId: T:H.Drawing3D.View.Base.ICameraController
+  id: ICameraController
+  parent: H.Drawing3D.View.Base
+  children:
+  - H.Drawing3D.View.Base.ICameraController.ActualCamera
+  - H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Double,System.Double,System.Double)
+  - H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Windows.Media.Media3D.Vector3D)
+  - H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Double,System.Double)
+  - H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Windows.Media.Media3D.Vector3D)
+  - H.Drawing3D.View.Base.ICameraController.AddRotateForce(System.Double,System.Double)
+  - H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double)
+  - H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.View.Base.ICameraController.Camera
+  - H.Drawing3D.View.Base.ICameraController.CameraLookDirection
+  - H.Drawing3D.View.Base.ICameraController.CameraMode
+  - H.Drawing3D.View.Base.ICameraController.CameraPosition
+  - H.Drawing3D.View.Base.ICameraController.CameraRotationMode
+  - H.Drawing3D.View.Base.ICameraController.CameraTarget
+  - H.Drawing3D.View.Base.ICameraController.CameraUpDirection
+  - H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor
+  - H.Drawing3D.View.Base.ICameraController.DefaultCamera
+  - H.Drawing3D.View.Base.ICameraController.Enabled
+  - H.Drawing3D.View.Base.ICameraController.FixedRotationPoint
+  - H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled
+  - H.Drawing3D.View.Base.ICameraController.HideRectangle
+  - H.Drawing3D.View.Base.ICameraController.HideTargetAdorner
+  - H.Drawing3D.View.Base.ICameraController.InertiaFactor
+  - H.Drawing3D.View.Base.ICameraController.InfiniteSpin
+  - H.Drawing3D.View.Base.ICameraController.IsActive
+  - H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled
+  - H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled
+  - H.Drawing3D.View.Base.ICameraController.IsMoveEnabled
+  - H.Drawing3D.View.Base.ICameraController.IsPanEnabled
+  - H.Drawing3D.View.Base.ICameraController.IsRotationEnabled
+  - H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled
+  - H.Drawing3D.View.Base.ICameraController.IsZoomEnabled
+  - H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity
+  - H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity
+  - H.Drawing3D.View.Base.ICameraController.LimitFPS
+  - H.Drawing3D.View.Base.ICameraController.LookAt(System.Windows.Media.Media3D.Point3D,System.Double)
+  - H.Drawing3D.View.Base.ICameraController.LookAtChanged
+  - H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView
+  - H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView
+  - H.Drawing3D.View.Base.ICameraController.ModelUpDirection
+  - H.Drawing3D.View.Base.ICameraController.MoveSensitivity
+  - H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity
+  - H.Drawing3D.View.Base.ICameraController.PanCursor
+  - H.Drawing3D.View.Base.ICameraController.PushCameraSetting
+  - H.Drawing3D.View.Base.ICameraController.ResetCamera
+  - H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection
+  - H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting
+  - H.Drawing3D.View.Base.ICameraController.RestoreCursor
+  - H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity
+  - H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint
+  - H.Drawing3D.View.Base.ICameraController.RotateCursor
+  - H.Drawing3D.View.Base.ICameraController.RotationSensitivity
+  - H.Drawing3D.View.Base.ICameraController.SetCursor(System.Windows.Input.Cursor)
+  - H.Drawing3D.View.Base.ICameraController.ShowCameraTarget
+  - H.Drawing3D.View.Base.ICameraController.ShowRectangle(System.Windows.Rect,System.Windows.Media.Color,System.Windows.Media.Color)
+  - H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint
+  - H.Drawing3D.View.Base.ICameraController.SpinReleaseTime
+  - H.Drawing3D.View.Base.ICameraController.StartSpin(System.Windows.Vector,System.Windows.Point,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.View.Base.ICameraController.StopSpin
+  - H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity
+  - H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity
+  - H.Drawing3D.View.Base.ICameraController.UpdateRectangle(System.Windows.Rect)
+  - H.Drawing3D.View.Base.ICameraController.Viewport
+  - H.Drawing3D.View.Base.ICameraController.Zoom(System.Double)
+  - H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint
+  - H.Drawing3D.View.Base.ICameraController.ZoomCursor
+  - H.Drawing3D.View.Base.ICameraController.ZoomExtents(System.Double)
+  - H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor
+  - H.Drawing3D.View.Base.ICameraController.ZoomSensitivity
+  - H.Drawing3D.View.Base.ICameraController.ZoomedByRectangle
+  langs:
+  - csharp
+  - vb
+  name: ICameraController
+  nameWithType: ICameraController
+  fullName: H.Drawing3D.View.Base.ICameraController
+  type: Interface
+  source:
+    id: ICameraController
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: public interface ICameraController
+    content.vb: Public Interface ICameraController
+  extensionMethods:
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Back
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Front
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Left
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Right
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Top
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft
+  - H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.View.Base.ICameraController.ActualCamera
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ActualCamera
+  id: ActualCamera
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ActualCamera
+  nameWithType: ICameraController.ActualCamera
+  fullName: H.Drawing3D.View.Base.ICameraController.ActualCamera
+  type: Property
+  source:
+    id: ActualCamera
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 20
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: ProjectionCamera ActualCamera { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.ProjectionCamera
+    content.vb: ReadOnly Property ActualCamera As ProjectionCamera
+  overload: H.Drawing3D.View.Base.ICameraController.ActualCamera*
+- uid: H.Drawing3D.View.Base.ICameraController.Camera
+  commentId: P:H.Drawing3D.View.Base.ICameraController.Camera
+  id: Camera
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: Camera
+  nameWithType: ICameraController.Camera
+  fullName: H.Drawing3D.View.Base.ICameraController.Camera
+  type: Property
+  source:
+    id: Camera
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 21
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: ProjectionCamera Camera { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.ProjectionCamera
+    content.vb: Property Camera As ProjectionCamera
+  overload: H.Drawing3D.View.Base.ICameraController.Camera*
+- uid: H.Drawing3D.View.Base.ICameraController.CameraLookDirection
+  commentId: P:H.Drawing3D.View.Base.ICameraController.CameraLookDirection
+  id: CameraLookDirection
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: CameraLookDirection
+  nameWithType: ICameraController.CameraLookDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraLookDirection
+  type: Property
+  source:
+    id: CameraLookDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Vector3D CameraLookDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Property CameraLookDirection As Vector3D
+  overload: H.Drawing3D.View.Base.ICameraController.CameraLookDirection*
+- uid: H.Drawing3D.View.Base.ICameraController.CameraMode
+  commentId: P:H.Drawing3D.View.Base.ICameraController.CameraMode
+  id: CameraMode
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: CameraMode
+  nameWithType: ICameraController.CameraMode
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraMode
+  type: Property
+  source:
+    id: CameraMode
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 23
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: CameraMode CameraMode { get; set; }
+    parameters: []
+    return:
+      type: H.Drawing3D.View.Cameras.CameraMode
+    content.vb: Property CameraMode As CameraMode
+  overload: H.Drawing3D.View.Base.ICameraController.CameraMode*
+- uid: H.Drawing3D.View.Base.ICameraController.CameraPosition
+  commentId: P:H.Drawing3D.View.Base.ICameraController.CameraPosition
+  id: CameraPosition
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: CameraPosition
+  nameWithType: ICameraController.CameraPosition
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraPosition
+  type: Property
+  source:
+    id: CameraPosition
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Point3D CameraPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Property CameraPosition As Point3D
+  overload: H.Drawing3D.View.Base.ICameraController.CameraPosition*
+- uid: H.Drawing3D.View.Base.ICameraController.CameraRotationMode
+  commentId: P:H.Drawing3D.View.Base.ICameraController.CameraRotationMode
+  id: CameraRotationMode
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: CameraRotationMode
+  nameWithType: ICameraController.CameraRotationMode
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraRotationMode
+  type: Property
+  source:
+    id: CameraRotationMode
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 25
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: CameraRotationMode CameraRotationMode { get; set; }
+    parameters: []
+    return:
+      type: H.Drawing3D.View.Cameras.CameraRotationMode
+    content.vb: Property CameraRotationMode As CameraRotationMode
+  overload: H.Drawing3D.View.Base.ICameraController.CameraRotationMode*
+- uid: H.Drawing3D.View.Base.ICameraController.CameraTarget
+  commentId: P:H.Drawing3D.View.Base.ICameraController.CameraTarget
+  id: CameraTarget
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: CameraTarget
+  nameWithType: ICameraController.CameraTarget
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraTarget
+  type: Property
+  source:
+    id: CameraTarget
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 26
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Point3D CameraTarget { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Property CameraTarget As Point3D
+  overload: H.Drawing3D.View.Base.ICameraController.CameraTarget*
+- uid: H.Drawing3D.View.Base.ICameraController.CameraUpDirection
+  commentId: P:H.Drawing3D.View.Base.ICameraController.CameraUpDirection
+  id: CameraUpDirection
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: CameraUpDirection
+  nameWithType: ICameraController.CameraUpDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraUpDirection
+  type: Property
+  source:
+    id: CameraUpDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 27
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Vector3D CameraUpDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Property CameraUpDirection As Vector3D
+  overload: H.Drawing3D.View.Base.ICameraController.CameraUpDirection*
+- uid: H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor
+  id: ChangeFieldOfViewCursor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ChangeFieldOfViewCursor
+  nameWithType: ICameraController.ChangeFieldOfViewCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor
+  type: Property
+  source:
+    id: ChangeFieldOfViewCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 28
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Cursor ChangeFieldOfViewCursor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.Cursor
+    content.vb: Property ChangeFieldOfViewCursor As Cursor
+  overload: H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.DefaultCamera
+  commentId: P:H.Drawing3D.View.Base.ICameraController.DefaultCamera
+  id: DefaultCamera
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: DefaultCamera
+  nameWithType: ICameraController.DefaultCamera
+  fullName: H.Drawing3D.View.Base.ICameraController.DefaultCamera
+  type: Property
+  source:
+    id: DefaultCamera
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: ProjectionCamera DefaultCamera { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.ProjectionCamera
+    content.vb: Property DefaultCamera As ProjectionCamera
+  overload: H.Drawing3D.View.Base.ICameraController.DefaultCamera*
+- uid: H.Drawing3D.View.Base.ICameraController.Enabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.Enabled
+  id: Enabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: ICameraController.Enabled
+  fullName: H.Drawing3D.View.Base.ICameraController.Enabled
+  type: Property
+  source:
+    id: Enabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 30
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Enabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.Enabled*
+- uid: H.Drawing3D.View.Base.ICameraController.FixedRotationPoint
+  commentId: P:H.Drawing3D.View.Base.ICameraController.FixedRotationPoint
+  id: FixedRotationPoint
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: FixedRotationPoint
+  nameWithType: ICameraController.FixedRotationPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.FixedRotationPoint
+  type: Property
+  source:
+    id: FixedRotationPoint
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 31
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Point3D FixedRotationPoint { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Property FixedRotationPoint As Point3D
+  overload: H.Drawing3D.View.Base.ICameraController.FixedRotationPoint*
+- uid: H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled
+  id: FixedRotationPointEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: FixedRotationPointEnabled
+  nameWithType: ICameraController.FixedRotationPointEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled
+  type: Property
+  source:
+    id: FixedRotationPointEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 32
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool FixedRotationPointEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property FixedRotationPointEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.InertiaFactor
+  commentId: P:H.Drawing3D.View.Base.ICameraController.InertiaFactor
+  id: InertiaFactor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: InertiaFactor
+  nameWithType: ICameraController.InertiaFactor
+  fullName: H.Drawing3D.View.Base.ICameraController.InertiaFactor
+  type: Property
+  source:
+    id: InertiaFactor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 33
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double InertiaFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property InertiaFactor As Double
+  overload: H.Drawing3D.View.Base.ICameraController.InertiaFactor*
+- uid: H.Drawing3D.View.Base.ICameraController.InfiniteSpin
+  commentId: P:H.Drawing3D.View.Base.ICameraController.InfiniteSpin
+  id: InfiniteSpin
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: InfiniteSpin
+  nameWithType: ICameraController.InfiniteSpin
+  fullName: H.Drawing3D.View.Base.ICameraController.InfiniteSpin
+  type: Property
+  source:
+    id: InfiniteSpin
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 34
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool InfiniteSpin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property InfiniteSpin As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.InfiniteSpin*
+- uid: H.Drawing3D.View.Base.ICameraController.IsActive
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsActive
+  id: IsActive
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: ICameraController.IsActive
+  fullName: H.Drawing3D.View.Base.ICameraController.IsActive
+  type: Property
+  source:
+    id: IsActive
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 35
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsActive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsActive As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsActive*
+- uid: H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled
+  id: IsChangeFieldOfViewEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsChangeFieldOfViewEnabled
+  nameWithType: ICameraController.IsChangeFieldOfViewEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled
+  type: Property
+  source:
+    id: IsChangeFieldOfViewEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 36
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsChangeFieldOfViewEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsChangeFieldOfViewEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled
+  id: IsInertiaEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsInertiaEnabled
+  nameWithType: ICameraController.IsInertiaEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled
+  type: Property
+  source:
+    id: IsInertiaEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 37
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsInertiaEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsInertiaEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.IsMoveEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsMoveEnabled
+  id: IsMoveEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsMoveEnabled
+  nameWithType: ICameraController.IsMoveEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsMoveEnabled
+  type: Property
+  source:
+    id: IsMoveEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 38
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsMoveEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsMoveEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsMoveEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.IsPanEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsPanEnabled
+  id: IsPanEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsPanEnabled
+  nameWithType: ICameraController.IsPanEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsPanEnabled
+  type: Property
+  source:
+    id: IsPanEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 39
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsPanEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsPanEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsPanEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.IsRotationEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsRotationEnabled
+  id: IsRotationEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsRotationEnabled
+  nameWithType: ICameraController.IsRotationEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsRotationEnabled
+  type: Property
+  source:
+    id: IsRotationEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 40
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsRotationEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsRotationEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsRotationEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled
+  id: IsTouchZoomEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsTouchZoomEnabled
+  nameWithType: ICameraController.IsTouchZoomEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled
+  type: Property
+  source:
+    id: IsTouchZoomEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 41
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsTouchZoomEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsTouchZoomEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.IsZoomEnabled
+  commentId: P:H.Drawing3D.View.Base.ICameraController.IsZoomEnabled
+  id: IsZoomEnabled
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: IsZoomEnabled
+  nameWithType: ICameraController.IsZoomEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsZoomEnabled
+  type: Property
+  source:
+    id: IsZoomEnabled
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 42
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool IsZoomEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsZoomEnabled As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.IsZoomEnabled*
+- uid: H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity
+  id: LeftRightPanSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: LeftRightPanSensitivity
+  nameWithType: ICameraController.LeftRightPanSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity
+  type: Property
+  source:
+    id: LeftRightPanSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 43
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double LeftRightPanSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property LeftRightPanSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity
+  id: LeftRightRotationSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: LeftRightRotationSensitivity
+  nameWithType: ICameraController.LeftRightRotationSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity
+  type: Property
+  source:
+    id: LeftRightRotationSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 44
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double LeftRightRotationSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property LeftRightRotationSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.LimitFPS
+  commentId: P:H.Drawing3D.View.Base.ICameraController.LimitFPS
+  id: LimitFPS
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: LimitFPS
+  nameWithType: ICameraController.LimitFPS
+  fullName: H.Drawing3D.View.Base.ICameraController.LimitFPS
+  type: Property
+  source:
+    id: LimitFPS
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 45
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool LimitFPS { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LimitFPS As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.LimitFPS*
+- uid: H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView
+  commentId: P:H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView
+  id: MaximumFieldOfView
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: MaximumFieldOfView
+  nameWithType: ICameraController.MaximumFieldOfView
+  fullName: H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView
+  type: Property
+  source:
+    id: MaximumFieldOfView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 46
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double MaximumFieldOfView { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property MaximumFieldOfView As Double
+  overload: H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView*
+- uid: H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView
+  commentId: P:H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView
+  id: MinimumFieldOfView
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: MinimumFieldOfView
+  nameWithType: ICameraController.MinimumFieldOfView
+  fullName: H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView
+  type: Property
+  source:
+    id: MinimumFieldOfView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 47
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double MinimumFieldOfView { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property MinimumFieldOfView As Double
+  overload: H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView*
+- uid: H.Drawing3D.View.Base.ICameraController.ModelUpDirection
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ModelUpDirection
+  id: ModelUpDirection
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ModelUpDirection
+  nameWithType: ICameraController.ModelUpDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.ModelUpDirection
+  type: Property
+  source:
+    id: ModelUpDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 48
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Vector3D ModelUpDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Property ModelUpDirection As Vector3D
+  overload: H.Drawing3D.View.Base.ICameraController.ModelUpDirection*
+- uid: H.Drawing3D.View.Base.ICameraController.MoveSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.MoveSensitivity
+  id: MoveSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: MoveSensitivity
+  nameWithType: ICameraController.MoveSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.MoveSensitivity
+  type: Property
+  source:
+    id: MoveSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 49
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double MoveSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property MoveSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.MoveSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity
+  id: PageUpDownZoomSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: PageUpDownZoomSensitivity
+  nameWithType: ICameraController.PageUpDownZoomSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity
+  type: Property
+  source:
+    id: PageUpDownZoomSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 50
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double PageUpDownZoomSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property PageUpDownZoomSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.PanCursor
+  commentId: P:H.Drawing3D.View.Base.ICameraController.PanCursor
+  id: PanCursor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: PanCursor
+  nameWithType: ICameraController.PanCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.PanCursor
+  type: Property
+  source:
+    id: PanCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 51
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Cursor PanCursor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.Cursor
+    content.vb: Property PanCursor As Cursor
+  overload: H.Drawing3D.View.Base.ICameraController.PanCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity
+  id: RotataAroundClosestVertexComplexity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: RotataAroundClosestVertexComplexity
+  nameWithType: ICameraController.RotataAroundClosestVertexComplexity
+  fullName: H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity
+  type: Property
+  source:
+    id: RotataAroundClosestVertexComplexity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 52
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: int RotataAroundClosestVertexComplexity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property RotataAroundClosestVertexComplexity As Integer
+  overload: H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity*
+- uid: H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint
+  commentId: P:H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint
+  id: RotateAroundMouseDownPoint
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: RotateAroundMouseDownPoint
+  nameWithType: ICameraController.RotateAroundMouseDownPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint
+  type: Property
+  source:
+    id: RotateAroundMouseDownPoint
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 56
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: 按鼠标位置旋转
+  example: []
+  syntax:
+    content: bool RotateAroundMouseDownPoint { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property RotateAroundMouseDownPoint As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint*
+- uid: H.Drawing3D.View.Base.ICameraController.RotateCursor
+  commentId: P:H.Drawing3D.View.Base.ICameraController.RotateCursor
+  id: RotateCursor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: RotateCursor
+  nameWithType: ICameraController.RotateCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.RotateCursor
+  type: Property
+  source:
+    id: RotateCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 57
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Cursor RotateCursor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.Cursor
+    content.vb: Property RotateCursor As Cursor
+  overload: H.Drawing3D.View.Base.ICameraController.RotateCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.RotationSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.RotationSensitivity
+  id: RotationSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: RotationSensitivity
+  nameWithType: ICameraController.RotationSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.RotationSensitivity
+  type: Property
+  source:
+    id: RotationSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 58
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double RotationSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property RotationSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.RotationSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.ShowCameraTarget
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ShowCameraTarget
+  id: ShowCameraTarget
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ShowCameraTarget
+  nameWithType: ICameraController.ShowCameraTarget
+  fullName: H.Drawing3D.View.Base.ICameraController.ShowCameraTarget
+  type: Property
+  source:
+    id: ShowCameraTarget
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 59
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool ShowCameraTarget { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ShowCameraTarget As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.ShowCameraTarget*
+- uid: H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint
+  commentId: P:H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint
+  id: SnapMouseDownPoint
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: SnapMouseDownPoint
+  nameWithType: ICameraController.SnapMouseDownPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint
+  type: Property
+  source:
+    id: SnapMouseDownPoint
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 60
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool SnapMouseDownPoint { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property SnapMouseDownPoint As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint*
+- uid: H.Drawing3D.View.Base.ICameraController.SpinReleaseTime
+  commentId: P:H.Drawing3D.View.Base.ICameraController.SpinReleaseTime
+  id: SpinReleaseTime
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: SpinReleaseTime
+  nameWithType: ICameraController.SpinReleaseTime
+  fullName: H.Drawing3D.View.Base.ICameraController.SpinReleaseTime
+  type: Property
+  source:
+    id: SpinReleaseTime
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 61
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: int SpinReleaseTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property SpinReleaseTime As Integer
+  overload: H.Drawing3D.View.Base.ICameraController.SpinReleaseTime*
+- uid: H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity
+  id: UpDownPanSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: UpDownPanSensitivity
+  nameWithType: ICameraController.UpDownPanSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity
+  type: Property
+  source:
+    id: UpDownPanSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 62
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double UpDownPanSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property UpDownPanSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity
+  id: UpDownRotationSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: UpDownRotationSensitivity
+  nameWithType: ICameraController.UpDownRotationSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity
+  type: Property
+  source:
+    id: UpDownRotationSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 63
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double UpDownRotationSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property UpDownRotationSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.Viewport
+  commentId: P:H.Drawing3D.View.Base.ICameraController.Viewport
+  id: Viewport
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: Viewport
+  nameWithType: ICameraController.Viewport
+  fullName: H.Drawing3D.View.Base.ICameraController.Viewport
+  type: Property
+  source:
+    id: Viewport
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 64
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Viewport3D Viewport { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Controls.Viewport3D
+    content.vb: Property Viewport As Viewport3D
+  overload: H.Drawing3D.View.Base.ICameraController.Viewport*
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint
+  id: ZoomAroundMouseDownPoint
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ZoomAroundMouseDownPoint
+  nameWithType: ICameraController.ZoomAroundMouseDownPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint
+  type: Property
+  source:
+    id: ZoomAroundMouseDownPoint
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 68
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: 按鼠标位置缩放
+  example: []
+  syntax:
+    content: bool ZoomAroundMouseDownPoint { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ZoomAroundMouseDownPoint As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint*
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomCursor
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ZoomCursor
+  id: ZoomCursor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ZoomCursor
+  nameWithType: ICameraController.ZoomCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomCursor
+  type: Property
+  source:
+    id: ZoomCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 69
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Cursor ZoomCursor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.Cursor
+    content.vb: Property ZoomCursor As Cursor
+  overload: H.Drawing3D.View.Base.ICameraController.ZoomCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor
+  id: ZoomRectangleCursor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ZoomRectangleCursor
+  nameWithType: ICameraController.ZoomRectangleCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor
+  type: Property
+  source:
+    id: ZoomRectangleCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 70
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: Cursor ZoomRectangleCursor { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.Cursor
+    content.vb: Property ZoomRectangleCursor As Cursor
+  overload: H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomSensitivity
+  commentId: P:H.Drawing3D.View.Base.ICameraController.ZoomSensitivity
+  id: ZoomSensitivity
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ZoomSensitivity
+  nameWithType: ICameraController.ZoomSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomSensitivity
+  type: Property
+  source:
+    id: ZoomSensitivity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 71
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: double ZoomSensitivity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property ZoomSensitivity As Double
+  overload: H.Drawing3D.View.Base.ICameraController.ZoomSensitivity*
+- uid: H.Drawing3D.View.Base.ICameraController.LookAtChanged
+  commentId: E:H.Drawing3D.View.Base.ICameraController.LookAtChanged
+  id: LookAtChanged
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: LookAtChanged
+  nameWithType: ICameraController.LookAtChanged
+  fullName: H.Drawing3D.View.Base.ICameraController.LookAtChanged
+  type: Event
+  source:
+    id: LookAtChanged
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 73
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: event RoutedEventHandler LookAtChanged
+    return:
+      type: System.Windows.RoutedEventHandler
+    content.vb: Event LookAtChanged As RoutedEventHandler
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomedByRectangle
+  commentId: E:H.Drawing3D.View.Base.ICameraController.ZoomedByRectangle
+  id: ZoomedByRectangle
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ZoomedByRectangle
+  nameWithType: ICameraController.ZoomedByRectangle
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomedByRectangle
+  type: Event
+  source:
+    id: ZoomedByRectangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 74
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: event RoutedEventHandler ZoomedByRectangle
+    return:
+      type: System.Windows.RoutedEventHandler
+    content.vb: Event ZoomedByRectangle As RoutedEventHandler
+- uid: H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Double,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Double,System.Double,System.Double)
+  id: AddMoveForce(System.Double,System.Double,System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddMoveForce(double, double, double)
+  nameWithType: ICameraController.AddMoveForce(double, double, double)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddMoveForce(double, double, double)
+  type: Method
+  source:
+    id: AddMoveForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 76
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddMoveForce(double dx, double dy, double dz)
+    parameters:
+    - id: dx
+      type: System.Double
+    - id: dy
+      type: System.Double
+    - id: dz
+      type: System.Double
+    content.vb: Sub AddMoveForce(dx As Double, dy As Double, dz As Double)
+  overload: H.Drawing3D.View.Base.ICameraController.AddMoveForce*
+  nameWithType.vb: ICameraController.AddMoveForce(Double, Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.AddMoveForce(Double, Double, Double)
+  name.vb: AddMoveForce(Double, Double, Double)
+- uid: H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Windows.Media.Media3D.Vector3D)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Windows.Media.Media3D.Vector3D)
+  id: AddMoveForce(System.Windows.Media.Media3D.Vector3D)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddMoveForce(Vector3D)
+  nameWithType: ICameraController.AddMoveForce(Vector3D)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Windows.Media.Media3D.Vector3D)
+  type: Method
+  source:
+    id: AddMoveForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 77
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddMoveForce(Vector3D delta)
+    parameters:
+    - id: delta
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Sub AddMoveForce(delta As Vector3D)
+  overload: H.Drawing3D.View.Base.ICameraController.AddMoveForce*
+- uid: H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Double,System.Double)
+  id: AddPanForce(System.Double,System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddPanForce(double, double)
+  nameWithType: ICameraController.AddPanForce(double, double)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddPanForce(double, double)
+  type: Method
+  source:
+    id: AddPanForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 78
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddPanForce(double dx, double dy)
+    parameters:
+    - id: dx
+      type: System.Double
+    - id: dy
+      type: System.Double
+    content.vb: Sub AddPanForce(dx As Double, dy As Double)
+  overload: H.Drawing3D.View.Base.ICameraController.AddPanForce*
+  nameWithType.vb: ICameraController.AddPanForce(Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.AddPanForce(Double, Double)
+  name.vb: AddPanForce(Double, Double)
+- uid: H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Windows.Media.Media3D.Vector3D)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Windows.Media.Media3D.Vector3D)
+  id: AddPanForce(System.Windows.Media.Media3D.Vector3D)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddPanForce(Vector3D)
+  nameWithType: ICameraController.AddPanForce(Vector3D)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Windows.Media.Media3D.Vector3D)
+  type: Method
+  source:
+    id: AddPanForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 79
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddPanForce(Vector3D pan)
+    parameters:
+    - id: pan
+      type: System.Windows.Media.Media3D.Vector3D
+    content.vb: Sub AddPanForce(pan As Vector3D)
+  overload: H.Drawing3D.View.Base.ICameraController.AddPanForce*
+- uid: H.Drawing3D.View.Base.ICameraController.AddRotateForce(System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddRotateForce(System.Double,System.Double)
+  id: AddRotateForce(System.Double,System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddRotateForce(double, double)
+  nameWithType: ICameraController.AddRotateForce(double, double)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddRotateForce(double, double)
+  type: Method
+  source:
+    id: AddRotateForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 80
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddRotateForce(double dx, double dy)
+    parameters:
+    - id: dx
+      type: System.Double
+    - id: dy
+      type: System.Double
+    content.vb: Sub AddRotateForce(dx As Double, dy As Double)
+  overload: H.Drawing3D.View.Base.ICameraController.AddRotateForce*
+  nameWithType.vb: ICameraController.AddRotateForce(Double, Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.AddRotateForce(Double, Double)
+  name.vb: AddRotateForce(Double, Double)
+- uid: H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double)
+  id: AddZoomForce(System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddZoomForce(double)
+  nameWithType: ICameraController.AddZoomForce(double)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddZoomForce(double)
+  type: Method
+  source:
+    id: AddZoomForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 81
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddZoomForce(double delta)
+    parameters:
+    - id: delta
+      type: System.Double
+    content.vb: Sub AddZoomForce(delta As Double)
+  overload: H.Drawing3D.View.Base.ICameraController.AddZoomForce*
+  nameWithType.vb: ICameraController.AddZoomForce(Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.AddZoomForce(Double)
+  name.vb: AddZoomForce(Double)
+- uid: H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double,System.Windows.Media.Media3D.Point3D)
+  id: AddZoomForce(System.Double,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: AddZoomForce(double, Point3D)
+  nameWithType: ICameraController.AddZoomForce(double, Point3D)
+  fullName: H.Drawing3D.View.Base.ICameraController.AddZoomForce(double, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: AddZoomForce
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 82
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void AddZoomForce(double delta, Point3D zoomOrigin)
+    parameters:
+    - id: delta
+      type: System.Double
+    - id: zoomOrigin
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub AddZoomForce(delta As Double, zoomOrigin As Point3D)
+  overload: H.Drawing3D.View.Base.ICameraController.AddZoomForce*
+  nameWithType.vb: ICameraController.AddZoomForce(Double, Point3D)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.AddZoomForce(Double, System.Windows.Media.Media3D.Point3D)
+  name.vb: AddZoomForce(Double, Point3D)
+- uid: H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ChangeDirection(Vector3D, double)
+  nameWithType: ICameraController.ChangeDirection(Vector3D, double)
+  fullName: H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: ChangeDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 83
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ChangeDirection(Vector3D lookDir, double animationTime = 500)
+    parameters:
+    - id: lookDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: animationTime
+      type: System.Double
+    content.vb: Sub ChangeDirection(lookDir As Vector3D, animationTime As Double = 500)
+  overload: H.Drawing3D.View.Base.ICameraController.ChangeDirection*
+  nameWithType.vb: ICameraController.ChangeDirection(Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: ChangeDirection(Vector3D, Double)
+- uid: H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ChangeDirection(Vector3D, Vector3D, double)
+  nameWithType: ICameraController.ChangeDirection(Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: ChangeDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 84
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ChangeDirection(Vector3D lookDir, Vector3D upDir, double animationTime = 500)
+    parameters:
+    - id: lookDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: upDir
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: animationTime
+      type: System.Double
+    content.vb: Sub ChangeDirection(lookDir As Vector3D, upDir As Vector3D, animationTime As Double = 500)
+  overload: H.Drawing3D.View.Base.ICameraController.ChangeDirection*
+  nameWithType.vb: ICameraController.ChangeDirection(Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: ChangeDirection(Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.View.Base.ICameraController.HideRectangle
+  commentId: M:H.Drawing3D.View.Base.ICameraController.HideRectangle
+  id: HideRectangle
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: HideRectangle()
+  nameWithType: ICameraController.HideRectangle()
+  fullName: H.Drawing3D.View.Base.ICameraController.HideRectangle()
+  type: Method
+  source:
+    id: HideRectangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 85
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void HideRectangle()
+    content.vb: Sub HideRectangle()
+  overload: H.Drawing3D.View.Base.ICameraController.HideRectangle*
+- uid: H.Drawing3D.View.Base.ICameraController.HideTargetAdorner
+  commentId: M:H.Drawing3D.View.Base.ICameraController.HideTargetAdorner
+  id: HideTargetAdorner
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: HideTargetAdorner()
+  nameWithType: ICameraController.HideTargetAdorner()
+  fullName: H.Drawing3D.View.Base.ICameraController.HideTargetAdorner()
+  type: Method
+  source:
+    id: HideTargetAdorner
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 86
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void HideTargetAdorner()
+    content.vb: Sub HideTargetAdorner()
+  overload: H.Drawing3D.View.Base.ICameraController.HideTargetAdorner*
+- uid: H.Drawing3D.View.Base.ICameraController.LookAt(System.Windows.Media.Media3D.Point3D,System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.LookAt(System.Windows.Media.Media3D.Point3D,System.Double)
+  id: LookAt(System.Windows.Media.Media3D.Point3D,System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: LookAt(Point3D, double)
+  nameWithType: ICameraController.LookAt(Point3D, double)
+  fullName: H.Drawing3D.View.Base.ICameraController.LookAt(System.Windows.Media.Media3D.Point3D, double)
+  type: Method
+  source:
+    id: LookAt
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 87
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void LookAt(Point3D target, double animationTime)
+    parameters:
+    - id: target
+      type: System.Windows.Media.Media3D.Point3D
+    - id: animationTime
+      type: System.Double
+    content.vb: Sub LookAt(target As Point3D, animationTime As Double)
+  overload: H.Drawing3D.View.Base.ICameraController.LookAt*
+  nameWithType.vb: ICameraController.LookAt(Point3D, Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.LookAt(System.Windows.Media.Media3D.Point3D, Double)
+  name.vb: LookAt(Point3D, Double)
+- uid: H.Drawing3D.View.Base.ICameraController.PushCameraSetting
+  commentId: M:H.Drawing3D.View.Base.ICameraController.PushCameraSetting
+  id: PushCameraSetting
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: PushCameraSetting()
+  nameWithType: ICameraController.PushCameraSetting()
+  fullName: H.Drawing3D.View.Base.ICameraController.PushCameraSetting()
+  type: Method
+  source:
+    id: PushCameraSetting
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 88
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void PushCameraSetting()
+    content.vb: Sub PushCameraSetting()
+  overload: H.Drawing3D.View.Base.ICameraController.PushCameraSetting*
+- uid: H.Drawing3D.View.Base.ICameraController.ResetCamera
+  commentId: M:H.Drawing3D.View.Base.ICameraController.ResetCamera
+  id: ResetCamera
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ResetCamera()
+  nameWithType: ICameraController.ResetCamera()
+  fullName: H.Drawing3D.View.Base.ICameraController.ResetCamera()
+  type: Method
+  source:
+    id: ResetCamera
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 89
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ResetCamera()
+    content.vb: Sub ResetCamera()
+  overload: H.Drawing3D.View.Base.ICameraController.ResetCamera*
+- uid: H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection
+  commentId: M:H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection
+  id: ResetCameraUpDirection
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ResetCameraUpDirection()
+  nameWithType: ICameraController.ResetCameraUpDirection()
+  fullName: H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection()
+  type: Method
+  source:
+    id: ResetCameraUpDirection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 90
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ResetCameraUpDirection()
+    content.vb: Sub ResetCameraUpDirection()
+  overload: H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection*
+- uid: H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting
+  commentId: M:H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting
+  id: RestoreCameraSetting
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: RestoreCameraSetting()
+  nameWithType: ICameraController.RestoreCameraSetting()
+  fullName: H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting()
+  type: Method
+  source:
+    id: RestoreCameraSetting
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 91
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: bool RestoreCameraSetting()
+    return:
+      type: System.Boolean
+    content.vb: Function RestoreCameraSetting() As Boolean
+  overload: H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting*
+- uid: H.Drawing3D.View.Base.ICameraController.RestoreCursor
+  commentId: M:H.Drawing3D.View.Base.ICameraController.RestoreCursor
+  id: RestoreCursor
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: RestoreCursor()
+  nameWithType: ICameraController.RestoreCursor()
+  fullName: H.Drawing3D.View.Base.ICameraController.RestoreCursor()
+  type: Method
+  source:
+    id: RestoreCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 92
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void RestoreCursor()
+    content.vb: Sub RestoreCursor()
+  overload: H.Drawing3D.View.Base.ICameraController.RestoreCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.SetCursor(System.Windows.Input.Cursor)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.SetCursor(System.Windows.Input.Cursor)
+  id: SetCursor(System.Windows.Input.Cursor)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: SetCursor(Cursor)
+  nameWithType: ICameraController.SetCursor(Cursor)
+  fullName: H.Drawing3D.View.Base.ICameraController.SetCursor(System.Windows.Input.Cursor)
+  type: Method
+  source:
+    id: SetCursor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 93
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void SetCursor(Cursor cursor)
+    parameters:
+    - id: cursor
+      type: System.Windows.Input.Cursor
+    content.vb: Sub SetCursor(cursor As Cursor)
+  overload: H.Drawing3D.View.Base.ICameraController.SetCursor*
+- uid: H.Drawing3D.View.Base.ICameraController.ShowRectangle(System.Windows.Rect,System.Windows.Media.Color,System.Windows.Media.Color)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.ShowRectangle(System.Windows.Rect,System.Windows.Media.Color,System.Windows.Media.Color)
+  id: ShowRectangle(System.Windows.Rect,System.Windows.Media.Color,System.Windows.Media.Color)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ShowRectangle(Rect, Color, Color)
+  nameWithType: ICameraController.ShowRectangle(Rect, Color, Color)
+  fullName: H.Drawing3D.View.Base.ICameraController.ShowRectangle(System.Windows.Rect, System.Windows.Media.Color, System.Windows.Media.Color)
+  type: Method
+  source:
+    id: ShowRectangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 94
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ShowRectangle(Rect rect, Color color1, Color color2)
+    parameters:
+    - id: rect
+      type: System.Windows.Rect
+    - id: color1
+      type: System.Windows.Media.Color
+    - id: color2
+      type: System.Windows.Media.Color
+    content.vb: Sub ShowRectangle(rect As Rect, color1 As Color, color2 As Color)
+  overload: H.Drawing3D.View.Base.ICameraController.ShowRectangle*
+- uid: H.Drawing3D.View.Base.ICameraController.StartSpin(System.Windows.Vector,System.Windows.Point,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.StartSpin(System.Windows.Vector,System.Windows.Point,System.Windows.Media.Media3D.Point3D)
+  id: StartSpin(System.Windows.Vector,System.Windows.Point,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: StartSpin(Vector, Point, Point3D)
+  nameWithType: ICameraController.StartSpin(Vector, Point, Point3D)
+  fullName: H.Drawing3D.View.Base.ICameraController.StartSpin(System.Windows.Vector, System.Windows.Point, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: StartSpin
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 95
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void StartSpin(Vector speed, Point position, Point3D aroundPoint)
+    parameters:
+    - id: speed
+      type: System.Windows.Vector
+    - id: position
+      type: System.Windows.Point
+    - id: aroundPoint
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub StartSpin(speed As Vector, position As Point, aroundPoint As Point3D)
+  overload: H.Drawing3D.View.Base.ICameraController.StartSpin*
+- uid: H.Drawing3D.View.Base.ICameraController.StopSpin
+  commentId: M:H.Drawing3D.View.Base.ICameraController.StopSpin
+  id: StopSpin
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: StopSpin()
+  nameWithType: ICameraController.StopSpin()
+  fullName: H.Drawing3D.View.Base.ICameraController.StopSpin()
+  type: Method
+  source:
+    id: StopSpin
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 96
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void StopSpin()
+    content.vb: Sub StopSpin()
+  overload: H.Drawing3D.View.Base.ICameraController.StopSpin*
+- uid: H.Drawing3D.View.Base.ICameraController.UpdateRectangle(System.Windows.Rect)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.UpdateRectangle(System.Windows.Rect)
+  id: UpdateRectangle(System.Windows.Rect)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: UpdateRectangle(Rect)
+  nameWithType: ICameraController.UpdateRectangle(Rect)
+  fullName: H.Drawing3D.View.Base.ICameraController.UpdateRectangle(System.Windows.Rect)
+  type: Method
+  source:
+    id: UpdateRectangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 97
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void UpdateRectangle(Rect rect)
+    parameters:
+    - id: rect
+      type: System.Windows.Rect
+    content.vb: Sub UpdateRectangle(rect As Rect)
+  overload: H.Drawing3D.View.Base.ICameraController.UpdateRectangle*
+- uid: H.Drawing3D.View.Base.ICameraController.Zoom(System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.Zoom(System.Double)
+  id: Zoom(System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: Zoom(double)
+  nameWithType: ICameraController.Zoom(double)
+  fullName: H.Drawing3D.View.Base.ICameraController.Zoom(double)
+  type: Method
+  source:
+    id: Zoom
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 98
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void Zoom(double delta)
+    parameters:
+    - id: delta
+      type: System.Double
+    content.vb: Sub Zoom(delta As Double)
+  overload: H.Drawing3D.View.Base.ICameraController.Zoom*
+  nameWithType.vb: ICameraController.Zoom(Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.Zoom(Double)
+  name.vb: Zoom(Double)
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomExtents(System.Double)
+  commentId: M:H.Drawing3D.View.Base.ICameraController.ZoomExtents(System.Double)
+  id: ZoomExtents(System.Double)
+  parent: H.Drawing3D.View.Base.ICameraController
+  langs:
+  - csharp
+  - vb
+  name: ZoomExtents(double)
+  nameWithType: ICameraController.ZoomExtents(double)
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomExtents(double)
+  type: Method
+  source:
+    id: ZoomExtents
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\ICameraController.cs
+    startLine: 99
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  syntax:
+    content: void ZoomExtents(double animationTime = 200)
+    parameters:
+    - id: animationTime
+      type: System.Double
+    content.vb: Sub ZoomExtents(animationTime As Double = 200)
+  overload: H.Drawing3D.View.Base.ICameraController.ZoomExtents*
+  nameWithType.vb: ICameraController.ZoomExtents(Double)
+  fullName.vb: H.Drawing3D.View.Base.ICameraController.ZoomExtents(Double)
+  name.vb: ZoomExtents(Double)
+references:
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Back
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_
+  name: Back(ICameraController)
+  nameWithType: CameraControllerExtension.Back(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+    name: Back
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+    name: Back
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_
+  name: Bottom(ICameraController)
+  nameWithType: CameraControllerExtension.Bottom(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+    name: Bottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+    name: Bottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_
+  name: BottomBackLeft(ICameraController)
+  nameWithType: CameraControllerExtension.BottomBackLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_
+  name: BottomBackRight(ICameraController)
+  nameWithType: CameraControllerExtension.BottomBackRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  name: BottomFrontLeft(ICameraController)
+  nameWithType: CameraControllerExtension.BottomFrontLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_
+  name: BottomFrontRight(ICameraController)
+  nameWithType: CameraControllerExtension.BottomFrontRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Front
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_
+  name: Front(ICameraController)
+  nameWithType: CameraControllerExtension.Front(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+    name: Front
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+    name: Front
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricBottom(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricBottom(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricBottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricBottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricLeft(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricRight(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricTop(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricTop(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricTop
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricTop
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Left
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_
+  name: Left(ICameraController)
+  nameWithType: CameraControllerExtension.Left(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+    name: Left
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+    name: Left
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Right
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_
+  name: Right(ICameraController)
+  nameWithType: CameraControllerExtension.Right(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+    name: Right
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+    name: Right
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.Top
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_
+  name: Top(ICameraController)
+  nameWithType: CameraControllerExtension.Top(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+    name: Top
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+    name: Top
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_
+  name: TopBackLeft(ICameraController)
+  nameWithType: CameraControllerExtension.TopBackLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_
+  name: TopBackRight(ICameraController)
+  nameWithType: CameraControllerExtension.TopBackRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  name: TopFrontLeft(ICameraController)
+  nameWithType: CameraControllerExtension.TopFrontLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Base.ICameraController.H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+  parent: H.Drawing3D.View.Extensions.CameraControllerExtension
+  definition: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_
+  name: TopFrontRight(ICameraController)
+  nameWithType: CameraControllerExtension.TopFrontRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_
+  name: Back(ICameraController)
+  nameWithType: CameraControllerExtension.Back(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+    name: Back
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Back(H.Drawing3D.View.Base.ICameraController)
+    name: Back
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension
+  commentId: T:H.Drawing3D.View.Extensions.CameraControllerExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html
+  name: CameraControllerExtension
+  nameWithType: CameraControllerExtension
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_
+  name: Bottom(ICameraController)
+  nameWithType: CameraControllerExtension.Bottom(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+    name: Bottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Bottom(H.Drawing3D.View.Base.ICameraController)
+    name: Bottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_
+  name: BottomBackLeft(ICameraController)
+  nameWithType: CameraControllerExtension.BottomBackLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_
+  name: BottomBackRight(ICameraController)
+  nameWithType: CameraControllerExtension.BottomBackRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  name: BottomFrontLeft(ICameraController)
+  nameWithType: CameraControllerExtension.BottomFrontLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_
+  name: BottomFrontRight(ICameraController)
+  nameWithType: CameraControllerExtension.BottomFrontRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.BottomFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: BottomFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_
+  name: Front(ICameraController)
+  nameWithType: CameraControllerExtension.Front(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+    name: Front
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Front(H.Drawing3D.View.Base.ICameraController)
+    name: Front
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricBottom(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricBottom(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricBottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricBottom(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricBottom
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricLeft(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricLeft(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricRight(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricRight(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_
+  name: IsometricTop(ICameraController)
+  nameWithType: CameraControllerExtension.IsometricTop(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricTop
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.IsometricTop(H.Drawing3D.View.Base.ICameraController)
+    name: IsometricTop
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_
+  name: Left(ICameraController)
+  nameWithType: CameraControllerExtension.Left(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+    name: Left
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Left(H.Drawing3D.View.Base.ICameraController)
+    name: Left
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_
+  name: Right(ICameraController)
+  nameWithType: CameraControllerExtension.Right(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+    name: Right
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Right(H.Drawing3D.View.Base.ICameraController)
+    name: Right
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_
+  name: Top(ICameraController)
+  nameWithType: CameraControllerExtension.Top(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+    name: Top
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.Top(H.Drawing3D.View.Base.ICameraController)
+    name: Top
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_
+  name: TopBackLeft(ICameraController)
+  nameWithType: CameraControllerExtension.TopBackLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_
+  name: TopBackRight(ICameraController)
+  nameWithType: CameraControllerExtension.TopBackRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopBackRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopBackRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  name: TopFrontLeft(ICameraController)
+  nameWithType: CameraControllerExtension.TopFrontLeft(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontLeft(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontLeft
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+  commentId: M:H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_
+  name: TopFrontRight(ICameraController)
+  nameWithType: CameraControllerExtension.TopFrontRight(ICameraController)
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.CameraControllerExtension.TopFrontRight(H.Drawing3D.View.Base.ICameraController)
+    name: TopFrontRight
+    href: H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_
+  - name: (
+  - uid: H.Drawing3D.View.Base.ICameraController
+    name: ICameraController
+    href: H.Drawing3D.View.Base.ICameraController.html
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.View.Extensions
+  commentId: N:H.Drawing3D.View.Extensions
+  href: H.html
+  name: H.Drawing3D.View.Extensions
+  nameWithType: H.Drawing3D.View.Extensions
+  fullName: H.Drawing3D.View.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.View.Base.ICameraController.ActualCamera*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ActualCamera
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ActualCamera
+  name: ActualCamera
+  nameWithType: ICameraController.ActualCamera
+  fullName: H.Drawing3D.View.Base.ICameraController.ActualCamera
+- uid: System.Windows.Media.Media3D.ProjectionCamera
+  commentId: T:System.Windows.Media.Media3D.ProjectionCamera
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  name: ProjectionCamera
+  nameWithType: ProjectionCamera
+  fullName: System.Windows.Media.Media3D.ProjectionCamera
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.View.Base.ICameraController.Camera*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.Camera
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_Camera
+  name: Camera
+  nameWithType: ICameraController.Camera
+  fullName: H.Drawing3D.View.Base.ICameraController.Camera
+- uid: H.Drawing3D.View.Base.ICameraController.CameraLookDirection*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.CameraLookDirection
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_CameraLookDirection
+  name: CameraLookDirection
+  nameWithType: ICameraController.CameraLookDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraLookDirection
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: H.Drawing3D.View.Base.ICameraController.CameraMode*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.CameraMode
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_CameraMode
+  name: CameraMode
+  nameWithType: ICameraController.CameraMode
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraMode
+- uid: H.Drawing3D.View.Cameras.CameraMode
+  commentId: T:H.Drawing3D.View.Cameras.CameraMode
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.CameraMode.html
+  name: CameraMode
+  nameWithType: CameraMode
+  fullName: H.Drawing3D.View.Cameras.CameraMode
+- uid: H.Drawing3D.View.Cameras
+  commentId: N:H.Drawing3D.View.Cameras
+  href: H.html
+  name: H.Drawing3D.View.Cameras
+  nameWithType: H.Drawing3D.View.Cameras
+  fullName: H.Drawing3D.View.Cameras
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+- uid: H.Drawing3D.View.Base.ICameraController.CameraPosition*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.CameraPosition
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_CameraPosition
+  name: CameraPosition
+  nameWithType: ICameraController.CameraPosition
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraPosition
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: H.Drawing3D.View.Base.ICameraController.CameraRotationMode*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.CameraRotationMode
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_CameraRotationMode
+  name: CameraRotationMode
+  nameWithType: ICameraController.CameraRotationMode
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraRotationMode
+- uid: H.Drawing3D.View.Cameras.CameraRotationMode
+  commentId: T:H.Drawing3D.View.Cameras.CameraRotationMode
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.CameraRotationMode.html
+  name: CameraRotationMode
+  nameWithType: CameraRotationMode
+  fullName: H.Drawing3D.View.Cameras.CameraRotationMode
+- uid: H.Drawing3D.View.Base.ICameraController.CameraTarget*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.CameraTarget
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_CameraTarget
+  name: CameraTarget
+  nameWithType: ICameraController.CameraTarget
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraTarget
+- uid: H.Drawing3D.View.Base.ICameraController.CameraUpDirection*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.CameraUpDirection
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_CameraUpDirection
+  name: CameraUpDirection
+  nameWithType: ICameraController.CameraUpDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.CameraUpDirection
+- uid: H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ChangeFieldOfViewCursor
+  name: ChangeFieldOfViewCursor
+  nameWithType: ICameraController.ChangeFieldOfViewCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor
+- uid: System.Windows.Input.Cursor
+  commentId: T:System.Windows.Input.Cursor
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.cursor
+  name: Cursor
+  nameWithType: Cursor
+  fullName: System.Windows.Input.Cursor
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: H.Drawing3D.View.Base.ICameraController.DefaultCamera*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.DefaultCamera
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_DefaultCamera
+  name: DefaultCamera
+  nameWithType: ICameraController.DefaultCamera
+  fullName: H.Drawing3D.View.Base.ICameraController.DefaultCamera
+- uid: H.Drawing3D.View.Base.ICameraController.Enabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.Enabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_Enabled
+  name: Enabled
+  nameWithType: ICameraController.Enabled
+  fullName: H.Drawing3D.View.Base.ICameraController.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.View.Base.ICameraController.FixedRotationPoint*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.FixedRotationPoint
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_FixedRotationPoint
+  name: FixedRotationPoint
+  nameWithType: ICameraController.FixedRotationPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.FixedRotationPoint
+- uid: H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_FixedRotationPointEnabled
+  name: FixedRotationPointEnabled
+  nameWithType: ICameraController.FixedRotationPointEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.InertiaFactor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.InertiaFactor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_InertiaFactor
+  name: InertiaFactor
+  nameWithType: ICameraController.InertiaFactor
+  fullName: H.Drawing3D.View.Base.ICameraController.InertiaFactor
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Drawing3D.View.Base.ICameraController.InfiniteSpin*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.InfiniteSpin
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_InfiniteSpin
+  name: InfiniteSpin
+  nameWithType: ICameraController.InfiniteSpin
+  fullName: H.Drawing3D.View.Base.ICameraController.InfiniteSpin
+- uid: H.Drawing3D.View.Base.ICameraController.IsActive*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsActive
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsActive
+  name: IsActive
+  nameWithType: ICameraController.IsActive
+  fullName: H.Drawing3D.View.Base.ICameraController.IsActive
+- uid: H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsChangeFieldOfViewEnabled
+  name: IsChangeFieldOfViewEnabled
+  nameWithType: ICameraController.IsChangeFieldOfViewEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsInertiaEnabled
+  name: IsInertiaEnabled
+  nameWithType: ICameraController.IsInertiaEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.IsMoveEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsMoveEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsMoveEnabled
+  name: IsMoveEnabled
+  nameWithType: ICameraController.IsMoveEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsMoveEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.IsPanEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsPanEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsPanEnabled
+  name: IsPanEnabled
+  nameWithType: ICameraController.IsPanEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsPanEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.IsRotationEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsRotationEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsRotationEnabled
+  name: IsRotationEnabled
+  nameWithType: ICameraController.IsRotationEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsRotationEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsTouchZoomEnabled
+  name: IsTouchZoomEnabled
+  nameWithType: ICameraController.IsTouchZoomEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.IsZoomEnabled*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.IsZoomEnabled
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_IsZoomEnabled
+  name: IsZoomEnabled
+  nameWithType: ICameraController.IsZoomEnabled
+  fullName: H.Drawing3D.View.Base.ICameraController.IsZoomEnabled
+- uid: H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_LeftRightPanSensitivity
+  name: LeftRightPanSensitivity
+  nameWithType: ICameraController.LeftRightPanSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_LeftRightRotationSensitivity
+  name: LeftRightRotationSensitivity
+  nameWithType: ICameraController.LeftRightRotationSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.LimitFPS*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.LimitFPS
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_LimitFPS
+  name: LimitFPS
+  nameWithType: ICameraController.LimitFPS
+  fullName: H.Drawing3D.View.Base.ICameraController.LimitFPS
+- uid: H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_MaximumFieldOfView
+  name: MaximumFieldOfView
+  nameWithType: ICameraController.MaximumFieldOfView
+  fullName: H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView
+- uid: H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_MinimumFieldOfView
+  name: MinimumFieldOfView
+  nameWithType: ICameraController.MinimumFieldOfView
+  fullName: H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView
+- uid: H.Drawing3D.View.Base.ICameraController.ModelUpDirection*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ModelUpDirection
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ModelUpDirection
+  name: ModelUpDirection
+  nameWithType: ICameraController.ModelUpDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.ModelUpDirection
+- uid: H.Drawing3D.View.Base.ICameraController.MoveSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.MoveSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_MoveSensitivity
+  name: MoveSensitivity
+  nameWithType: ICameraController.MoveSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.MoveSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_PageUpDownZoomSensitivity
+  name: PageUpDownZoomSensitivity
+  nameWithType: ICameraController.PageUpDownZoomSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.PanCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.PanCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_PanCursor
+  name: PanCursor
+  nameWithType: ICameraController.PanCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.PanCursor
+- uid: H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_RotataAroundClosestVertexComplexity
+  name: RotataAroundClosestVertexComplexity
+  nameWithType: ICameraController.RotataAroundClosestVertexComplexity
+  fullName: H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_RotateAroundMouseDownPoint
+  name: RotateAroundMouseDownPoint
+  nameWithType: ICameraController.RotateAroundMouseDownPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint
+- uid: H.Drawing3D.View.Base.ICameraController.RotateCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.RotateCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_RotateCursor
+  name: RotateCursor
+  nameWithType: ICameraController.RotateCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.RotateCursor
+- uid: H.Drawing3D.View.Base.ICameraController.RotationSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.RotationSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_RotationSensitivity
+  name: RotationSensitivity
+  nameWithType: ICameraController.RotationSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.RotationSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.ShowCameraTarget*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ShowCameraTarget
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ShowCameraTarget
+  name: ShowCameraTarget
+  nameWithType: ICameraController.ShowCameraTarget
+  fullName: H.Drawing3D.View.Base.ICameraController.ShowCameraTarget
+- uid: H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_SnapMouseDownPoint
+  name: SnapMouseDownPoint
+  nameWithType: ICameraController.SnapMouseDownPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint
+- uid: H.Drawing3D.View.Base.ICameraController.SpinReleaseTime*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.SpinReleaseTime
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_SpinReleaseTime
+  name: SpinReleaseTime
+  nameWithType: ICameraController.SpinReleaseTime
+  fullName: H.Drawing3D.View.Base.ICameraController.SpinReleaseTime
+- uid: H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_UpDownPanSensitivity
+  name: UpDownPanSensitivity
+  nameWithType: ICameraController.UpDownPanSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_UpDownRotationSensitivity
+  name: UpDownRotationSensitivity
+  nameWithType: ICameraController.UpDownRotationSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity
+- uid: H.Drawing3D.View.Base.ICameraController.Viewport*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.Viewport
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_Viewport
+  name: Viewport
+  nameWithType: ICameraController.Viewport
+  fullName: H.Drawing3D.View.Base.ICameraController.Viewport
+- uid: System.Windows.Controls.Viewport3D
+  commentId: T:System.Windows.Controls.Viewport3D
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.viewport3d
+  name: Viewport3D
+  nameWithType: Viewport3D
+  fullName: System.Windows.Controls.Viewport3D
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ZoomAroundMouseDownPoint
+  name: ZoomAroundMouseDownPoint
+  nameWithType: ICameraController.ZoomAroundMouseDownPoint
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ZoomCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ZoomCursor
+  name: ZoomCursor
+  nameWithType: ICameraController.ZoomCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomCursor
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ZoomRectangleCursor
+  name: ZoomRectangleCursor
+  nameWithType: ICameraController.ZoomRectangleCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomSensitivity*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ZoomSensitivity
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ZoomSensitivity
+  name: ZoomSensitivity
+  nameWithType: ICameraController.ZoomSensitivity
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomSensitivity
+- uid: System.Windows.RoutedEventHandler
+  commentId: T:System.Windows.RoutedEventHandler
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler
+  name: RoutedEventHandler
+  nameWithType: RoutedEventHandler
+  fullName: System.Windows.RoutedEventHandler
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Drawing3D.View.Base.ICameraController.AddMoveForce*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.AddMoveForce
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_AddMoveForce_System_Double_System_Double_System_Double_
+  name: AddMoveForce
+  nameWithType: ICameraController.AddMoveForce
+  fullName: H.Drawing3D.View.Base.ICameraController.AddMoveForce
+- uid: H.Drawing3D.View.Base.ICameraController.AddPanForce*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.AddPanForce
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_AddPanForce_System_Double_System_Double_
+  name: AddPanForce
+  nameWithType: ICameraController.AddPanForce
+  fullName: H.Drawing3D.View.Base.ICameraController.AddPanForce
+- uid: H.Drawing3D.View.Base.ICameraController.AddRotateForce*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.AddRotateForce
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_AddRotateForce_System_Double_System_Double_
+  name: AddRotateForce
+  nameWithType: ICameraController.AddRotateForce
+  fullName: H.Drawing3D.View.Base.ICameraController.AddRotateForce
+- uid: H.Drawing3D.View.Base.ICameraController.AddZoomForce*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.AddZoomForce
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_AddZoomForce_System_Double_
+  name: AddZoomForce
+  nameWithType: ICameraController.AddZoomForce
+  fullName: H.Drawing3D.View.Base.ICameraController.AddZoomForce
+- uid: H.Drawing3D.View.Base.ICameraController.ChangeDirection*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ChangeDirection
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ChangeDirection_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: ChangeDirection
+  nameWithType: ICameraController.ChangeDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.ChangeDirection
+- uid: H.Drawing3D.View.Base.ICameraController.HideRectangle*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.HideRectangle
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_HideRectangle
+  name: HideRectangle
+  nameWithType: ICameraController.HideRectangle
+  fullName: H.Drawing3D.View.Base.ICameraController.HideRectangle
+- uid: H.Drawing3D.View.Base.ICameraController.HideTargetAdorner*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.HideTargetAdorner
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_HideTargetAdorner
+  name: HideTargetAdorner
+  nameWithType: ICameraController.HideTargetAdorner
+  fullName: H.Drawing3D.View.Base.ICameraController.HideTargetAdorner
+- uid: H.Drawing3D.View.Base.ICameraController.LookAt*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.LookAt
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_LookAt_System_Windows_Media_Media3D_Point3D_System_Double_
+  name: LookAt
+  nameWithType: ICameraController.LookAt
+  fullName: H.Drawing3D.View.Base.ICameraController.LookAt
+- uid: H.Drawing3D.View.Base.ICameraController.PushCameraSetting*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.PushCameraSetting
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_PushCameraSetting
+  name: PushCameraSetting
+  nameWithType: ICameraController.PushCameraSetting
+  fullName: H.Drawing3D.View.Base.ICameraController.PushCameraSetting
+- uid: H.Drawing3D.View.Base.ICameraController.ResetCamera*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ResetCamera
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ResetCamera
+  name: ResetCamera
+  nameWithType: ICameraController.ResetCamera
+  fullName: H.Drawing3D.View.Base.ICameraController.ResetCamera
+- uid: H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ResetCameraUpDirection
+  name: ResetCameraUpDirection
+  nameWithType: ICameraController.ResetCameraUpDirection
+  fullName: H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection
+- uid: H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_RestoreCameraSetting
+  name: RestoreCameraSetting
+  nameWithType: ICameraController.RestoreCameraSetting
+  fullName: H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting
+- uid: H.Drawing3D.View.Base.ICameraController.RestoreCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.RestoreCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_RestoreCursor
+  name: RestoreCursor
+  nameWithType: ICameraController.RestoreCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.RestoreCursor
+- uid: H.Drawing3D.View.Base.ICameraController.SetCursor*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.SetCursor
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_SetCursor_System_Windows_Input_Cursor_
+  name: SetCursor
+  nameWithType: ICameraController.SetCursor
+  fullName: H.Drawing3D.View.Base.ICameraController.SetCursor
+- uid: H.Drawing3D.View.Base.ICameraController.ShowRectangle*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ShowRectangle
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ShowRectangle_System_Windows_Rect_System_Windows_Media_Color_System_Windows_Media_Color_
+  name: ShowRectangle
+  nameWithType: ICameraController.ShowRectangle
+  fullName: H.Drawing3D.View.Base.ICameraController.ShowRectangle
+- uid: System.Windows.Rect
+  commentId: T:System.Windows.Rect
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.rect
+  name: Rect
+  nameWithType: Rect
+  fullName: System.Windows.Rect
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Drawing3D.View.Base.ICameraController.StartSpin*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.StartSpin
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_StartSpin_System_Windows_Vector_System_Windows_Point_System_Windows_Media_Media3D_Point3D_
+  name: StartSpin
+  nameWithType: ICameraController.StartSpin
+  fullName: H.Drawing3D.View.Base.ICameraController.StartSpin
+- uid: System.Windows.Vector
+  commentId: T:System.Windows.Vector
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.vector
+  name: Vector
+  nameWithType: Vector
+  fullName: System.Windows.Vector
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: H.Drawing3D.View.Base.ICameraController.StopSpin*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.StopSpin
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_StopSpin
+  name: StopSpin
+  nameWithType: ICameraController.StopSpin
+  fullName: H.Drawing3D.View.Base.ICameraController.StopSpin
+- uid: H.Drawing3D.View.Base.ICameraController.UpdateRectangle*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.UpdateRectangle
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_UpdateRectangle_System_Windows_Rect_
+  name: UpdateRectangle
+  nameWithType: ICameraController.UpdateRectangle
+  fullName: H.Drawing3D.View.Base.ICameraController.UpdateRectangle
+- uid: H.Drawing3D.View.Base.ICameraController.Zoom*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.Zoom
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_Zoom_System_Double_
+  name: Zoom
+  nameWithType: ICameraController.Zoom
+  fullName: H.Drawing3D.View.Base.ICameraController.Zoom
+- uid: H.Drawing3D.View.Base.ICameraController.ZoomExtents*
+  commentId: Overload:H.Drawing3D.View.Base.ICameraController.ZoomExtents
+  href: H.Drawing3D.View.Base.ICameraController.html#H_Drawing3D_View_Base_ICameraController_ZoomExtents_System_Double_
+  name: ZoomExtents
+  nameWithType: ICameraController.ZoomExtents
+  fullName: H.Drawing3D.View.Base.ICameraController.ZoomExtents

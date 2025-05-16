@@ -1,0 +1,768 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  id: Plane3D
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor
+  - H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  - H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal
+  - H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position
+  langs:
+  - csharp
+  - vb
+  name: Plane3D
+  nameWithType: Plane3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  type: Class
+  source:
+    id: Plane3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\Plane3D.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Represents a plane.
+  example: []
+  syntax:
+    content: public class Plane3D
+    content.vb: Public Class Plane3D
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor
+  id: '#ctor'
+  parent: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  langs:
+  - csharp
+  - vb
+  name: Plane3D()
+  nameWithType: Plane3D.Plane3D()
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Plane3D()
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\Plane3D.cs
+    startLine: 31
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.Shape.Geometry.Geometry.Plane3D" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public Plane3D()
+    content.vb: Public Sub New()
+  overload: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor*
+  nameWithType.vb: Plane3D.New()
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.New()
+  name.vb: New()
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  id: '#ctor(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)'
+  parent: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  langs:
+  - csharp
+  - vb
+  name: Plane3D(Point3D, Vector3D)
+  nameWithType: Plane3D.Plane3D(Point3D, Vector3D)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Plane3D(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\Plane3D.cs
+    startLine: 46
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.Shape.Geometry.Geometry.Plane3D" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public Plane3D(Point3D p0, Vector3D n)
+    parameters:
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+      description: The p0.
+    - id: n
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The n.
+    content.vb: Public Sub New(p0 As Point3D, n As Vector3D)
+  overload: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor*
+  nameWithType.vb: Plane3D.New(Point3D, Vector3D)
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.New(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D)
+  name.vb: New(Point3D, Vector3D)
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal
+  commentId: P:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal
+  id: Normal
+  parent: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Plane3D.Normal
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal
+  type: Property
+  source:
+    id: Normal
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\Plane3D.cs
+    startLine: 56
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets or sets the normal.
+  example: []
+  syntax:
+    content: public Vector3D Normal { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The normal.
+    content.vb: Public Property Normal As Vector3D
+  overload: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position
+  commentId: P:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position
+  id: Position
+  parent: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Plane3D.Position
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position
+  type: Property
+  source:
+    id: Position
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\Plane3D.cs
+    startLine: 67
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets or sets the position.
+  example: []
+  syntax:
+    content: public Point3D Position { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Point3D
+      description: The position.
+    content.vb: Public Property Position As Point3D
+  overload: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  id: LineIntersection(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  langs:
+  - csharp
+  - vb
+  name: LineIntersection(Point3D, Point3D)
+  nameWithType: Plane3D.LineIntersection(Point3D, Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: LineIntersection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\Plane3D.cs
+    startLine: 86
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Finds the intersection between the plane and a line.
+  example: []
+  syntax:
+    content: public Point3D? LineIntersection(Point3D la, Point3D lb)
+    parameters:
+    - id: la
+      type: System.Windows.Media.Media3D.Point3D
+      description: The first point defining the line.
+    - id: lb
+      type: System.Windows.Media.Media3D.Point3D
+      description: The second point defining the line.
+    return:
+      type: System.Nullable{System.Windows.Media.Media3D.Point3D}
+      description: The intersection point.
+    content.vb: Public Function LineIntersection(la As Point3D, lb As Point3D) As Point3D?
+  overload: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection*
+references:
+- uid: H.Drawing3D.Shape.Geometry.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry.Geometry
+  fullName: H.Drawing3D.Shape.Geometry.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  href: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html
+  name: Plane3D
+  nameWithType: Plane3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.#ctor
+  href: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html#H_Drawing3D_Shape_Geometry_Geometry_Plane3D__ctor
+  name: Plane3D
+  nameWithType: Plane3D.Plane3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Plane3D
+  nameWithType.vb: Plane3D.New
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.New
+  name.vb: New
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal
+  href: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html#H_Drawing3D_Shape_Geometry_Geometry_Plane3D_Normal
+  name: Normal
+  nameWithType: Plane3D.Normal
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Normal
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position
+  href: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html#H_Drawing3D_Shape_Geometry_Geometry_Plane3D_Position
+  name: Position
+  nameWithType: Plane3D.Position
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.Position
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection
+  href: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html#H_Drawing3D_Shape_Geometry_Geometry_Plane3D_LineIntersection_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_
+  name: LineIntersection
+  nameWithType: Plane3D.LineIntersection
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.LineIntersection
+- uid: System.Nullable{System.Windows.Media.Media3D.Point3D}
+  commentId: T:System.Nullable{System.Windows.Media.Media3D.Point3D}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D?
+  nameWithType: Point3D?
+  fullName: System.Windows.Media.Media3D.Point3D?
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '?'
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

@@ -1,0 +1,1110 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  id: BoundingSphere
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor(System.Windows.Media.Media3D.Point3D,System.Double)
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains(System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D(System.Windows.Media.Media3D.Rect3D)
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere,H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom(System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection(H.Drawing3D.Shape.Geometry.Geometry.Ray3D,System.Windows.Media.Media3D.Point3D[]@)
+  langs:
+  - csharp
+  - vb
+  name: BoundingSphere
+  nameWithType: BoundingSphere
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  type: Class
+  source:
+    id: BoundingSphere
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Represents a bounding sphere.
+  example: []
+  syntax:
+    content: public class BoundingSphere
+    content.vb: Public Class BoundingSphere
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor
+  id: '#ctor'
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: BoundingSphere()
+  nameWithType: BoundingSphere.BoundingSphere()
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.BoundingSphere()
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 37
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public BoundingSphere()
+    content.vb: Public Sub New()
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor*
+  nameWithType.vb: BoundingSphere.New()
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.New()
+  name.vb: New()
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor(System.Windows.Media.Media3D.Point3D,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor(System.Windows.Media.Media3D.Point3D,System.Double)
+  id: '#ctor(System.Windows.Media.Media3D.Point3D,System.Double)'
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: BoundingSphere(Point3D, double)
+  nameWithType: BoundingSphere.BoundingSphere(Point3D, double)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.BoundingSphere(System.Windows.Media.Media3D.Point3D, double)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 50
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public BoundingSphere(Point3D center, double diameter)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+      description: The center.
+    - id: diameter
+      type: System.Double
+      description: The diameter.
+    content.vb: Public Sub New(center As Point3D, diameter As Double)
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor*
+  nameWithType.vb: BoundingSphere.New(Point3D, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.New(System.Windows.Media.Media3D.Point3D, Double)
+  name.vb: New(Point3D, Double)
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center
+  commentId: P:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center
+  id: Center
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: BoundingSphere.Center
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center
+  type: Property
+  source:
+    id: Center
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 60
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets or sets the center of the sphere.
+  example: []
+  syntax:
+    content: public Point3D Center { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.Point3D
+      description: The center.
+    content.vb: Public Property Center As Point3D
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius
+  commentId: P:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius
+  id: Radius
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: Radius
+  nameWithType: BoundingSphere.Radius
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius
+  type: Property
+  source:
+    id: Radius
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 71
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets or sets the radius of the sphere.
+  example: []
+  syntax:
+    content: public double Radius { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+      description: The diameter.
+    content.vb: Public Property Radius As Double
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  id: CreateFromPoints(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D})
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: CreateFromPoints(IEnumerable<Point3D>)
+  nameWithType: BoundingSphere.CreateFromPoints(IEnumerable<Point3D>)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints(System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Point3D>)
+  type: Method
+  source:
+    id: CreateFromPoints
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 82
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Creates a bounding sphere from a collection of points.
+  example: []
+  syntax:
+    content: public static BoundingSphere CreateFromPoints(IEnumerable<Point3D> points)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D}
+      description: The points.
+    return:
+      type: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+      description: The bounding sphere.
+    content.vb: Public Shared Function CreateFromPoints(points As IEnumerable(Of Point3D)) As BoundingSphere
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints*
+  nameWithType.vb: BoundingSphere.CreateFromPoints(IEnumerable(Of Point3D))
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints(System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Point3D))
+  name.vb: CreateFromPoints(IEnumerable(Of Point3D))
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D(System.Windows.Media.Media3D.Rect3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D(System.Windows.Media.Media3D.Rect3D)
+  id: CreateFromRect3D(System.Windows.Media.Media3D.Rect3D)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: CreateFromRect3D(Rect3D)
+  nameWithType: BoundingSphere.CreateFromRect3D(Rect3D)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D(System.Windows.Media.Media3D.Rect3D)
+  type: Method
+  source:
+    id: CreateFromRect3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 96
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Creates a <xref href="H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere" data-throw-if-not-resolved="false"></xref> from a <xref href="System.Windows.Media.Media3D.Rect3D" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static BoundingSphere CreateFromRect3D(Rect3D rect)
+    parameters:
+    - id: rect
+      type: System.Windows.Media.Media3D.Rect3D
+      description: The 3D rectangle.
+    return:
+      type: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+      description: A sphere.
+    content.vb: Public Shared Function CreateFromRect3D(rect As Rect3D) As BoundingSphere
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere,H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere,H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  id: CreateMerged(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere,H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: CreateMerged(BoundingSphere, BoundingSphere)
+  nameWithType: BoundingSphere.CreateMerged(BoundingSphere, BoundingSphere)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere, H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  type: Method
+  source:
+    id: CreateMerged
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 117
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Creates a merged bounding sphere.
+  example: []
+  syntax:
+    content: public static BoundingSphere CreateMerged(BoundingSphere original, BoundingSphere additional)
+    parameters:
+    - id: original
+      type: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+      description: The original.
+    - id: additional
+      type: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+      description: The additional.
+    return:
+      type: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+      description: The merged bounding sphere.
+    content.vb: Public Shared Function CreateMerged(original As BoundingSphere, additional As BoundingSphere) As BoundingSphere
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains(System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains(System.Windows.Media.Media3D.Point3D)
+  id: Contains(System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: Contains(Point3D)
+  nameWithType: BoundingSphere.Contains(Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains(System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: Contains
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 149
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Determines if the specified point is inside the sphere.
+  example: []
+  syntax:
+    content: public bool Contains(Point3D point)
+    parameters:
+    - id: point
+      type: System.Windows.Media.Media3D.Point3D
+      description: The point.
+    return:
+      type: System.Boolean
+      description: True if the point is inside.
+    content.vb: Public Function Contains(point As Point3D) As Boolean
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom(System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom(System.Windows.Media.Media3D.Point3D)
+  id: DistanceFrom(System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: DistanceFrom(Point3D)
+  nameWithType: BoundingSphere.DistanceFrom(Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom(System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: DistanceFrom
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 163
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Calculates the distance from a point to the nearest point on the sphere surface.
+  example: []
+  syntax:
+    content: public double DistanceFrom(Point3D point)
+    parameters:
+    - id: point
+      type: System.Windows.Media.Media3D.Point3D
+      description: The point.
+    return:
+      type: System.Double
+      description: The distance.
+    content.vb: Public Function DistanceFrom(point As Point3D) As Double
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  id: Intersects(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: Intersects(BoundingSphere)
+  nameWithType: BoundingSphere.Intersects(BoundingSphere)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects(H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere)
+  type: Method
+  source:
+    id: Intersects
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 177
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Determines if the sphere intersects with the specified sphere.
+  example: []
+  syntax:
+    content: public bool Intersects(BoundingSphere sphere)
+    parameters:
+    - id: sphere
+      type: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+      description: The sphere to check against.
+    return:
+      type: System.Boolean
+      description: True if the spheres intersect.
+    content.vb: Public Function Intersects(sphere As BoundingSphere) As Boolean
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection(H.Drawing3D.Shape.Geometry.Geometry.Ray3D,System.Windows.Media.Media3D.Point3D[]@)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection(H.Drawing3D.Shape.Geometry.Geometry.Ray3D,System.Windows.Media.Media3D.Point3D[]@)
+  id: RayIntersection(H.Drawing3D.Shape.Geometry.Geometry.Ray3D,System.Windows.Media.Media3D.Point3D[]@)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  langs:
+  - csharp
+  - vb
+  name: RayIntersection(Ray3D, out Point3D[])
+  nameWithType: BoundingSphere.RayIntersection(Ray3D, out Point3D[])
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection(H.Drawing3D.Shape.Geometry.Geometry.Ray3D, out System.Windows.Media.Media3D.Point3D[])
+  type: Method
+  source:
+    id: RayIntersection
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\BoundingSphere.cs
+    startLine: 189
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets the intersection with the specified ray.
+  example: []
+  syntax:
+    content: public bool RayIntersection(Ray3D ray, out Point3D[] result)
+    parameters:
+    - id: ray
+      type: H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+      description: The ray.
+    - id: result
+      type: System.Windows.Media.Media3D.Point3D[]
+      description: The intersection point(s).
+    return:
+      type: System.Boolean
+      description: The intersection points sorted by distance from the ray origin.
+    content.vb: Public Function RayIntersection(ray As Ray3D, result As Point3D()) As Boolean
+  overload: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection*
+  nameWithType.vb: BoundingSphere.RayIntersection(Ray3D, Point3D())
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection(H.Drawing3D.Shape.Geometry.Geometry.Ray3D, System.Windows.Media.Media3D.Point3D())
+  name.vb: RayIntersection(Ray3D, Point3D())
+references:
+- uid: H.Drawing3D.Shape.Geometry.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry.Geometry
+  fullName: H.Drawing3D.Shape.Geometry.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html
+  name: BoundingSphere
+  nameWithType: BoundingSphere
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.#ctor
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere__ctor
+  name: BoundingSphere
+  nameWithType: BoundingSphere.BoundingSphere
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.BoundingSphere
+  nameWithType.vb: BoundingSphere.New
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.New
+  name.vb: New
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_Center
+  name: Center
+  nameWithType: BoundingSphere.Center
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Center
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_Radius
+  name: Radius
+  nameWithType: BoundingSphere.Radius
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Radius
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_CreateFromPoints_System_Collections_Generic_IEnumerable_System_Windows_Media_Media3D_Point3D__
+  name: CreateFromPoints
+  nameWithType: BoundingSphere.CreateFromPoints
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromPoints
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Point3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Point3D>
+  nameWithType: IEnumerable<Point3D>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Point3D>
+  nameWithType.vb: IEnumerable(Of Point3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Point3D)
+  name.vb: IEnumerable(Of Point3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Windows.Media.Media3D.Rect3D
+  commentId: T:System.Windows.Media.Media3D.Rect3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  name: Rect3D
+  nameWithType: Rect3D
+  fullName: System.Windows.Media.Media3D.Rect3D
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_CreateFromRect3D_System_Windows_Media_Media3D_Rect3D_
+  name: CreateFromRect3D
+  nameWithType: BoundingSphere.CreateFromRect3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateFromRect3D
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_CreateMerged_H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_
+  name: CreateMerged
+  nameWithType: BoundingSphere.CreateMerged
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.CreateMerged
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_Contains_System_Windows_Media_Media3D_Point3D_
+  name: Contains
+  nameWithType: BoundingSphere.Contains
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Contains
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_DistanceFrom_System_Windows_Media_Media3D_Point3D_
+  name: DistanceFrom
+  nameWithType: BoundingSphere.DistanceFrom
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.DistanceFrom
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_Intersects_H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_
+  name: Intersects
+  nameWithType: BoundingSphere.Intersects
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.Intersects
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html#H_Drawing3D_Shape_Geometry_Geometry_BoundingSphere_RayIntersection_H_Drawing3D_Shape_Geometry_Geometry_Ray3D_System_Windows_Media_Media3D_Point3D____
+  name: RayIntersection
+  nameWithType: BoundingSphere.RayIntersection
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.RayIntersection
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.Ray3D.html
+  name: Ray3D
+  nameWithType: Ray3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+- uid: System.Windows.Media.Media3D.Point3D[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D[]
+  nameWithType: Point3D[]
+  fullName: System.Windows.Media.Media3D.Point3D[]
+  nameWithType.vb: Point3D()
+  fullName.vb: System.Windows.Media.Media3D.Point3D()
+  name.vb: Point3D()
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: (
+  - name: )

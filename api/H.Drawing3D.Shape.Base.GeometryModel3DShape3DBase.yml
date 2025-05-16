@@ -1,0 +1,3278 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  id: GeometryModel3DShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  children:
+  - H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D
+  - H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault
+  - H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver
+  - H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect
+  langs:
+  - csharp
+  - vb
+  name: GeometryModel3DShape3DBase
+  nameWithType: GeometryModel3DShape3DBase
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  type: Class
+  source:
+    id: GeometryModel3DShape3DBase
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\GeometryModel3DShape3DBase.cs
+    startLine: 11
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  syntax:
+    content: 'public abstract class GeometryModel3DShape3DBase : SelectableShape3DBase<GeometryModel3D>, INotifyPropertyChanged, IDisplayShape3D, ICloneable, ITransformableShape3D, IMouseOverableShape3D, ISelectableShape3D, IMaterialShape3D, IShape3D'
+    content.vb: Public MustInherit Class GeometryModel3DShape3DBase Inherits SelectableShape3DBase(Of GeometryModel3D) Implements INotifyPropertyChanged, IDisplayShape3D, ICloneable, ITransformableShape3D, IMouseOverableShape3D, ISelectableShape3D, IMaterialShape3D, IShape3D
+  inheritance:
+  - System.Object
+  - H.Drawing3D.Shape.Mvvm.BindableBase
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  - H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  - H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  - H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  derivedClasses:
+  - H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - H.Drawing3D.Shape.Base.IDisplayShape3D
+  - System.ICloneable
+  - H.Drawing3D.Shape.Base.ITransformableShape3D
+  - H.Drawing3D.Shape.Base.IMouseOverableShape3D
+  - H.Drawing3D.Shape.Base.ISelectableShape3D
+  - H.Drawing3D.Shape.Base.IMaterialShape3D
+  - H.Drawing3D.Shape.Base.IShape3D
+  inheritedMembers:
+  - H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UseSelectable
+  - H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SelectedMaterial
+  - H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UseMouseOverable
+  - H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.MouseOverMaterial
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.GetTransform3D
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateTransform3D
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateTransform
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateTransform
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  - H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Material
+  - H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.BackMaterial
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.ShapeObject
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Drawing
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Model3D
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateModel3D
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  - H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Clone
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  - H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+  - H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+  - H.Drawing3D.Shape.Mvvm.BindableBase.Init
+  - H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+  - H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Drawing.ICameraViewport3D)
+  - H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Drawing.ICameraViewport3D)
+  - H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapesExtension.GetImage(System.Double,System.Double)
+  - H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(System.String,System.Double,System.Double)
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator
+  - H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver
+  commentId: M:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver
+  id: UpdateMouseOver
+  parent: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateMouseOver()
+  nameWithType: GeometryModel3DShape3DBase.UpdateMouseOver()
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver()
+  type: Method
+  source:
+    id: UpdateMouseOver
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\GeometryModel3DShape3DBase.cs
+    startLine: 13
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  example: []
+  syntax:
+    content: public override void UpdateMouseOver()
+    content.vb: Public Overrides Sub UpdateMouseOver()
+  overridden: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateMouseOver
+  overload: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver*
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect
+  commentId: M:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect
+  id: UpdateSelect
+  parent: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateSelect()
+  nameWithType: GeometryModel3DShape3DBase.UpdateSelect()
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect()
+  type: Method
+  source:
+    id: UpdateSelect
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\GeometryModel3DShape3DBase.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  example: []
+  syntax:
+    content: public override void UpdateSelect()
+    content.vb: Public Overrides Sub UpdateSelect()
+  overridden: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateSelect
+  overload: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect*
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault
+  commentId: M:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault
+  id: UpdateDefault
+  parent: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateDefault()
+  nameWithType: GeometryModel3DShape3DBase.UpdateDefault()
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault()
+  type: Method
+  source:
+    id: UpdateDefault
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\GeometryModel3DShape3DBase.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  example: []
+  syntax:
+    content: public override void UpdateDefault()
+    content.vb: Public Overrides Sub UpdateDefault()
+  overridden: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateDefault
+  overload: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault*
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D
+  commentId: M:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D
+  id: CreateModel3D
+  parent: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  langs:
+  - csharp
+  - vb
+  name: CreateModel3D()
+  nameWithType: GeometryModel3DShape3DBase.CreateModel3D()
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D()
+  type: Method
+  source:
+    id: CreateModel3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Base\GeometryModel3DShape3DBase.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Base
+  example: []
+  syntax:
+    content: protected override GeometryModel3D CreateModel3D()
+    return:
+      type: System.Windows.Media.Media3D.GeometryModel3D
+    content.vb: Protected Overrides Function CreateModel3D() As GeometryModel3D
+  overridden: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateModel3D
+  overload: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D*
+references:
+- uid: H.Drawing3D.Shape.Base
+  commentId: N:H.Drawing3D.Shape.Base
+  href: H.html
+  name: H.Drawing3D.Shape.Base
+  nameWithType: H.Drawing3D.Shape.Base
+  fullName: H.Drawing3D.Shape.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.BindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html
+  name: BindableBase
+  nameWithType: BindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html
+  name: CommandsBindableBase
+  nameWithType: CommandsBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  commentId: T:H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  parent: H.Drawing3D.Shape.Mvvm
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html
+  name: DisplayBindableBase
+  nameWithType: DisplayBindableBase
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  commentId: T:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  parent: H.Drawing3D.Shape.Base
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  name: Shape3DBase<GeometryModel3D>
+  nameWithType: Shape3DBase<GeometryModel3D>
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D)
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D)
+  name.vb: Shape3DBase(Of GeometryModel3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  - name: <
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  commentId: T:H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  parent: H.Drawing3D.Shape.Base
+  definition: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  name: MaterialShape3DBase<GeometryModel3D>
+  nameWithType: MaterialShape3DBase<GeometryModel3D>
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>
+  nameWithType.vb: MaterialShape3DBase(Of GeometryModel3D)
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D)
+  name.vb: MaterialShape3DBase(Of GeometryModel3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  - name: <
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  commentId: T:H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  parent: H.Drawing3D.Shape.Base
+  definition: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  name: TransformableShape3DBase<GeometryModel3D>
+  nameWithType: TransformableShape3DBase<GeometryModel3D>
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>
+  nameWithType.vb: TransformableShape3DBase(Of GeometryModel3D)
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D)
+  name.vb: TransformableShape3DBase(Of GeometryModel3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  - name: <
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  commentId: T:H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  parent: H.Drawing3D.Shape.Base
+  definition: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  name: MouseOverableShape3DBase<GeometryModel3D>
+  nameWithType: MouseOverableShape3DBase<GeometryModel3D>
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>
+  nameWithType.vb: MouseOverableShape3DBase(Of GeometryModel3D)
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D)
+  name.vb: MouseOverableShape3DBase(Of GeometryModel3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  - name: <
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: )
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  commentId: T:H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  parent: H.Drawing3D.Shape.Base
+  definition: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  name: SelectableShape3DBase<GeometryModel3D>
+  nameWithType: SelectableShape3DBase<GeometryModel3D>
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>
+  nameWithType.vb: SelectableShape3DBase(Of GeometryModel3D)
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D)
+  name.vb: SelectableShape3DBase(Of GeometryModel3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  - name: <
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.GeometryModel3D
+    name: GeometryModel3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  - name: )
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: H.Drawing3D.Shape.Base.IDisplayShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IDisplayShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IDisplayShape3D.html
+  name: IDisplayShape3D
+  nameWithType: IDisplayShape3D
+  fullName: H.Drawing3D.Shape.Base.IDisplayShape3D
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+  commentId: T:H.Drawing3D.Shape.Base.ITransformableShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  name: ITransformableShape3D
+  nameWithType: ITransformableShape3D
+  fullName: H.Drawing3D.Shape.Base.ITransformableShape3D
+- uid: H.Drawing3D.Shape.Base.IMouseOverableShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IMouseOverableShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IMouseOverableShape3D.html
+  name: IMouseOverableShape3D
+  nameWithType: IMouseOverableShape3D
+  fullName: H.Drawing3D.Shape.Base.IMouseOverableShape3D
+- uid: H.Drawing3D.Shape.Base.ISelectableShape3D
+  commentId: T:H.Drawing3D.Shape.Base.ISelectableShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.ISelectableShape3D.html
+  name: ISelectableShape3D
+  nameWithType: ISelectableShape3D
+  fullName: H.Drawing3D.Shape.Base.ISelectableShape3D
+- uid: H.Drawing3D.Shape.Base.IMaterialShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IMaterialShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IMaterialShape3D.html
+  name: IMaterialShape3D
+  nameWithType: IMaterialShape3D
+  fullName: H.Drawing3D.Shape.Base.IMaterialShape3D
+- uid: H.Drawing3D.Shape.Base.IShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IShape3D.html
+  name: IShape3D
+  nameWithType: IShape3D
+  fullName: H.Drawing3D.Shape.Base.IShape3D
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UseSelectable
+  commentId: P:H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UseSelectable
+  parent: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UseSelectable
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UseSelectable
+  name: UseSelectable
+  nameWithType: SelectableShape3DBase<GeometryModel3D>.UseSelectable
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.UseSelectable
+  nameWithType.vb: SelectableShape3DBase(Of GeometryModel3D).UseSelectable
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).UseSelectable
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SelectedMaterial
+  commentId: P:H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SelectedMaterial
+  parent: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.SelectedMaterial
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_SelectedMaterial
+  name: SelectedMaterial
+  nameWithType: SelectableShape3DBase<GeometryModel3D>.SelectedMaterial
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.SelectedMaterial
+  nameWithType.vb: SelectableShape3DBase(Of GeometryModel3D).SelectedMaterial
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).SelectedMaterial
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UseMouseOverable
+  commentId: P:H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UseMouseOverable
+  parent: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UseMouseOverable
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UseMouseOverable
+  name: UseMouseOverable
+  nameWithType: MouseOverableShape3DBase<GeometryModel3D>.UseMouseOverable
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.UseMouseOverable
+  nameWithType.vb: MouseOverableShape3DBase(Of GeometryModel3D).UseMouseOverable
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).UseMouseOverable
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.MouseOverMaterial
+  commentId: P:H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.MouseOverMaterial
+  parent: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.MouseOverMaterial
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_MouseOverMaterial
+  name: MouseOverMaterial
+  nameWithType: MouseOverableShape3DBase<GeometryModel3D>.MouseOverMaterial
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.MouseOverMaterial
+  nameWithType.vb: MouseOverableShape3DBase(Of GeometryModel3D).MouseOverMaterial
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).MouseOverMaterial
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.GetTransform3D
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.GetTransform3D
+  parent: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.GetTransform3D
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D
+  name: GetTransform3D()
+  nameWithType: TransformableShape3DBase<GeometryModel3D>.GetTransform3D()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.GetTransform3D()
+  nameWithType.vb: TransformableShape3DBase(Of GeometryModel3D).GetTransform3D()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).GetTransform3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.GetTransform3D
+    name: GetTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.GetTransform3D
+    name: GetTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateTransform3D
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateTransform3D
+  parent: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.CreateTransform3D
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D
+  name: CreateTransform3D()
+  nameWithType: TransformableShape3DBase<GeometryModel3D>.CreateTransform3D()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.CreateTransform3D()
+  nameWithType.vb: TransformableShape3DBase(Of GeometryModel3D).CreateTransform3D()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).CreateTransform3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateTransform3D
+    name: CreateTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateTransform3D
+    name: CreateTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateTransform
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateTransform
+  parent: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.UpdateTransform
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform
+  name: UpdateTransform()
+  nameWithType: TransformableShape3DBase<GeometryModel3D>.UpdateTransform()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.UpdateTransform()
+  nameWithType.vb: TransformableShape3DBase(Of GeometryModel3D).UpdateTransform()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).UpdateTransform()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateTransform
+    name: UpdateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateTransform
+    name: UpdateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateTransform
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateTransform
+  parent: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.InvalidateTransform
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform
+  name: InvalidateTransform()
+  nameWithType: TransformableShape3DBase<GeometryModel3D>.InvalidateTransform()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.InvalidateTransform()
+  nameWithType.vb: TransformableShape3DBase(Of GeometryModel3D).InvalidateTransform()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).InvalidateTransform()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateTransform
+    name: InvalidateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateTransform
+    name: InvalidateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  parent: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_
+  name: SetTransform(Transform3D)
+  nameWithType: TransformableShape3DBase<GeometryModel3D>.SetTransform(Transform3D)
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  nameWithType.vb: TransformableShape3DBase(Of GeometryModel3D).SetTransform(Transform3D)
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).SetTransform(System.Windows.Media.Media3D.Transform3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SetTransform(System.Windows.Media.Media3D.Transform3D)
+    name: SetTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.SetTransform(System.Windows.Media.Media3D.Transform3D)
+    name: SetTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Material
+  commentId: P:H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Material
+  parent: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.Material
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_Material
+  name: Material
+  nameWithType: MaterialShape3DBase<GeometryModel3D>.Material
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.Material
+  nameWithType.vb: MaterialShape3DBase(Of GeometryModel3D).Material
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).Material
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.BackMaterial
+  commentId: P:H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.BackMaterial
+  parent: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.BackMaterial
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_BackMaterial
+  name: BackMaterial
+  nameWithType: MaterialShape3DBase<GeometryModel3D>.BackMaterial
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.BackMaterial
+  nameWithType.vb: MaterialShape3DBase(Of GeometryModel3D).BackMaterial
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).BackMaterial
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.ShapeObject
+  commentId: P:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.ShapeObject
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.ShapeObject
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_ShapeObject
+  name: ShapeObject
+  nameWithType: Shape3DBase<GeometryModel3D>.ShapeObject
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.ShapeObject
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).ShapeObject
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).ShapeObject
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Drawing
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Drawing
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.Drawing
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Drawing
+  name: Drawing()
+  nameWithType: Shape3DBase<GeometryModel3D>.Drawing()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.Drawing()
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).Drawing()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).Drawing()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Drawing
+    name: Drawing
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Drawing
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Drawing
+    name: Drawing
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Drawing
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Model3D
+  commentId: P:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Model3D
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.Model3D
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Model3D
+  name: Model3D
+  nameWithType: Shape3DBase<GeometryModel3D>.Model3D
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.Model3D
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).Model3D
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).Model3D
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateModel3D
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateModel3D
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.InvalidateModel3D
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D
+  name: InvalidateModel3D()
+  nameWithType: Shape3DBase<GeometryModel3D>.InvalidateModel3D()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.InvalidateModel3D()
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).InvalidateModel3D()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).InvalidateModel3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateModel3D
+    name: InvalidateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.InvalidateModel3D
+    name: InvalidateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_
+  name: CameraUpdate(ProjectionCamera)
+  nameWithType: Shape3DBase<GeometryModel3D>.CameraUpdate(ProjectionCamera)
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).CameraUpdate(ProjectionCamera)
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+    name: CameraUpdate
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_
+  - name: (
+  - uid: System.Windows.Media.Media3D.ProjectionCamera
+    name: ProjectionCamera
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+    name: CameraUpdate
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_
+  - name: (
+  - uid: System.Windows.Media.Media3D.ProjectionCamera
+    name: ProjectionCamera
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Clone
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Clone
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.Clone
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone
+  name: Clone()
+  nameWithType: Shape3DBase<GeometryModel3D>.Clone()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.Clone()
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).Clone()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).Clone()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Clone
+    name: Clone
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.Clone
+    name: Clone
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ID
+  name: ID
+  nameWithType: DisplayBindableBase.ID
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ID
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Name
+  name: Name
+  nameWithType: DisplayBindableBase.Name
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Name
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Icon
+  name: Icon
+  nameWithType: DisplayBindableBase.Icon
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Icon
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ShortName
+  name: ShortName
+  nameWithType: DisplayBindableBase.ShortName
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.ShortName
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_GroupName
+  name: GroupName
+  nameWithType: DisplayBindableBase.GroupName
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.GroupName
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Description
+  name: Description
+  nameWithType: DisplayBindableBase.Description
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Description
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Order
+  name: Order
+  nameWithType: DisplayBindableBase.Order
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.Order
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  commentId: P:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefaultCommand
+  name: LoadDefaultCommand
+  nameWithType: DisplayBindableBase.LoadDefaultCommand
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefaultCommand
+- uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  commentId: M:H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+  parent: H.Drawing3D.Shape.Mvvm.DisplayBindableBase
+  href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefault
+  name: LoadDefault()
+  nameWithType: DisplayBindableBase.LoadDefault()
+  fullName: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+    name: LoadDefault
+    href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefault
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.LoadDefault
+    name: LoadDefault
+    href: H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefault
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+  commentId: P:H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+  parent: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_Commands
+  name: Commands
+  nameWithType: CommandsBindableBase.Commands
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.Commands
+- uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+  commentId: M:H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+  parent: H.Drawing3D.Shape.Mvvm.CommandsBindableBase
+  href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands
+  name: CreateCommands()
+  nameWithType: CommandsBindableBase.CreateCommands()
+  fullName: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+    name: CreateCommands
+    href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.CreateCommands
+    name: CreateCommands
+    href: H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase.Init
+  commentId: M:H.Drawing3D.Shape.Mvvm.BindableBase.Init
+  parent: H.Drawing3D.Shape.Mvvm.BindableBase
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init
+  name: Init()
+  nameWithType: BindableBase.Init()
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase.Init()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.Init
+    name: Init
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.Init
+    name: Init
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+  commentId: E:H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+  parent: H.Drawing3D.Shape.Mvvm.BindableBase
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BindableBase.PropertyChanged
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase.PropertyChanged
+- uid: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+  commentId: M:H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+  parent: H.Drawing3D.Shape.Mvvm.BindableBase
+  isExternal: true
+  href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_
+  name: RaisePropertyChanged(string)
+  nameWithType: BindableBase.RaisePropertyChanged(string)
+  fullName: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(string)
+  nameWithType.vb: BindableBase.RaisePropertyChanged(String)
+  fullName.vb: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(String)
+  name.vb: RaisePropertyChanged(String)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Mvvm.BindableBase.RaisePropertyChanged(System.String)
+    name: RaisePropertyChanged
+    href: H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: GetViewBound(IShape3D, ICameraViewport3D)
+  nameWithType: ShapeCameraViewport3DExtension.GetViewBound(IShape3D, ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D, H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewBound
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewBound
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  definition: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: GetViewCenter(IShape3D, ICameraViewport3D)
+  nameWithType: ShapeCameraViewport3DExtension.GetViewCenter(IShape3D, ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D, H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewCenter
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewCenter
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapesExtension.GetImage(System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  definition: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  name: GetImage(IShape3D, double, double)
+  nameWithType: ShapesExtension.GetImage(IShape3D, double, double)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D, double, double)
+  nameWithType.vb: ShapesExtension.GetImage(IShape3D, Double, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D, Double, Double)
+  name.vb: GetImage(IShape3D, Double, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+    name: GetImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+    name: GetImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Shape.Base.IShape3D.H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(System.String,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  definition: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  name: SaveToImage(IShape3D, string, double, double)
+  nameWithType: ShapesExtension.SaveToImage(IShape3D, string, double, double)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D, string, double, double)
+  nameWithType.vb: ShapesExtension.SaveToImage(IShape3D, String, Double, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D, String, Double, Double)
+  name.vb: SaveToImage(IShape3D, String, Double, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+    name: SaveToImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+    name: SaveToImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  name: CreateRotateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  nameWithType: ManipulatorExtension.CreateRotateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func<System.Windows.Media.Media3D.Rect3D, double>)
+  nameWithType.vb: ManipulatorExtension.CreateRotateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  fullName.vb: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func(Of System.Windows.Media.Media3D.Rect3D, Double))
+  name.vb: CreateRotateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateRotateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateRotateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateRotateXManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateRotateXManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateRotateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateRotateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  name: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  nameWithType: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func<System.Windows.Media.Media3D.Rect3D, double>)
+  nameWithType.vb: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  fullName.vb: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func(Of System.Windows.Media.Media3D.Rect3D, Double))
+  name.vb: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__
+  name: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>, Action<TranslateManipulator>, Action<TranslateManipulator, double>)
+  nameWithType: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>, Action<TranslateManipulator>, Action<TranslateManipulator, double>)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func<System.Windows.Media.Media3D.Rect3D, double>, System.Action<H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator>, System.Action<H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator, double>)
+  nameWithType.vb: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double), Action(Of TranslateManipulator), Action(Of TranslateManipulator, Double))
+  fullName.vb: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func(Of System.Windows.Media.Media3D.Rect3D, Double), System.Action(Of H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator), System.Action(Of H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator, Double))
+  name.vb: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double), Action(Of TranslateManipulator), Action(Of TranslateManipulator, Double))
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateTranslateXManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateTranslateXManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateTranslateYManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateTranslateYManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateYManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateYManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D.H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  parent: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  definition: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateTranslateZManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateTranslateZManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateZManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateZManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Shape.Mvvm
+  commentId: N:H.Drawing3D.Shape.Mvvm
+  href: H.html
+  name: H.Drawing3D.Shape.Mvvm
+  nameWithType: H.Drawing3D.Shape.Mvvm
+  fullName: H.Drawing3D.Shape.Mvvm
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Mvvm
+    name: Mvvm
+    href: H.Drawing3D.Shape.Mvvm.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Mvvm
+    name: Mvvm
+    href: H.Drawing3D.Shape.Mvvm.html
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.Shape3DBase`1
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  name: Shape3DBase<T>
+  nameWithType: Shape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>
+  nameWithType.vb: Shape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T)
+  name.vb: Shape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  name: MaterialShape3DBase<T>
+  nameWithType: MaterialShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<T>
+  nameWithType.vb: MaterialShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of T)
+  name.vb: MaterialShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  name: TransformableShape3DBase<T>
+  nameWithType: TransformableShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>
+  nameWithType.vb: TransformableShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T)
+  name.vb: TransformableShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  name: MouseOverableShape3DBase<T>
+  nameWithType: MouseOverableShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<T>
+  nameWithType.vb: MouseOverableShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of T)
+  name.vb: MouseOverableShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  name: SelectableShape3DBase<T>
+  nameWithType: SelectableShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<T>
+  nameWithType.vb: SelectableShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of T)
+  name.vb: SelectableShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UseSelectable
+  commentId: P:H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UseSelectable
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UseSelectable
+  name: UseSelectable
+  nameWithType: SelectableShape3DBase<T>.UseSelectable
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<T>.UseSelectable
+  nameWithType.vb: SelectableShape3DBase(Of T).UseSelectable
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of T).UseSelectable
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.SelectedMaterial
+  commentId: P:H.Drawing3D.Shape.Base.SelectableShape3DBase`1.SelectedMaterial
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_SelectedMaterial
+  name: SelectedMaterial
+  nameWithType: SelectableShape3DBase<T>.SelectedMaterial
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<T>.SelectedMaterial
+  nameWithType.vb: SelectableShape3DBase(Of T).SelectedMaterial
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of T).SelectedMaterial
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UseMouseOverable
+  commentId: P:H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UseMouseOverable
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UseMouseOverable
+  name: UseMouseOverable
+  nameWithType: MouseOverableShape3DBase<T>.UseMouseOverable
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<T>.UseMouseOverable
+  nameWithType.vb: MouseOverableShape3DBase(Of T).UseMouseOverable
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of T).UseMouseOverable
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.MouseOverMaterial
+  commentId: P:H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.MouseOverMaterial
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_MouseOverMaterial
+  name: MouseOverMaterial
+  nameWithType: MouseOverableShape3DBase<T>.MouseOverMaterial
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<T>.MouseOverMaterial
+  nameWithType.vb: MouseOverableShape3DBase(Of T).MouseOverMaterial
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of T).MouseOverMaterial
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.GetTransform3D
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase`1.GetTransform3D
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D
+  name: GetTransform3D()
+  nameWithType: TransformableShape3DBase<T>.GetTransform3D()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>.GetTransform3D()
+  nameWithType.vb: TransformableShape3DBase(Of T).GetTransform3D()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T).GetTransform3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.GetTransform3D
+    name: GetTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.GetTransform3D
+    name: GetTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.CreateTransform3D
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase`1.CreateTransform3D
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D
+  name: CreateTransform3D()
+  nameWithType: TransformableShape3DBase<T>.CreateTransform3D()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>.CreateTransform3D()
+  nameWithType.vb: TransformableShape3DBase(Of T).CreateTransform3D()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T).CreateTransform3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.CreateTransform3D
+    name: CreateTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.CreateTransform3D
+    name: CreateTransform3D
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.UpdateTransform
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase`1.UpdateTransform
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform
+  name: UpdateTransform()
+  nameWithType: TransformableShape3DBase<T>.UpdateTransform()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>.UpdateTransform()
+  nameWithType.vb: TransformableShape3DBase(Of T).UpdateTransform()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T).UpdateTransform()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.UpdateTransform
+    name: UpdateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.UpdateTransform
+    name: UpdateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.InvalidateTransform
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase`1.InvalidateTransform
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform
+  name: InvalidateTransform()
+  nameWithType: TransformableShape3DBase<T>.InvalidateTransform()
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>.InvalidateTransform()
+  nameWithType.vb: TransformableShape3DBase(Of T).InvalidateTransform()
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T).InvalidateTransform()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.InvalidateTransform
+    name: InvalidateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.InvalidateTransform
+    name: InvalidateTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  commentId: M:H.Drawing3D.Shape.Base.TransformableShape3DBase`1.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  isExternal: true
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_
+  name: SetTransform(Transform3D)
+  nameWithType: TransformableShape3DBase<T>.SetTransform(Transform3D)
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>.SetTransform(System.Windows.Media.Media3D.Transform3D)
+  nameWithType.vb: TransformableShape3DBase(Of T).SetTransform(Transform3D)
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T).SetTransform(System.Windows.Media.Media3D.Transform3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.SetTransform(System.Windows.Media.Media3D.Transform3D)
+    name: SetTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1.SetTransform(System.Windows.Media.Media3D.Transform3D)
+    name: SetTransform
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_
+  - name: (
+  - uid: System.Windows.Media.Media3D.Transform3D
+    name: Transform3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.transform3d
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.Material
+  commentId: P:H.Drawing3D.Shape.Base.MaterialShape3DBase`1.Material
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_Material
+  name: Material
+  nameWithType: MaterialShape3DBase<T>.Material
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<T>.Material
+  nameWithType.vb: MaterialShape3DBase(Of T).Material
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of T).Material
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.BackMaterial
+  commentId: P:H.Drawing3D.Shape.Base.MaterialShape3DBase`1.BackMaterial
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_BackMaterial
+  name: BackMaterial
+  nameWithType: MaterialShape3DBase<T>.BackMaterial
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<T>.BackMaterial
+  nameWithType.vb: MaterialShape3DBase(Of T).BackMaterial
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of T).BackMaterial
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.ShapeObject
+  commentId: P:H.Drawing3D.Shape.Base.Shape3DBase`1.ShapeObject
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_ShapeObject
+  name: ShapeObject
+  nameWithType: Shape3DBase<T>.ShapeObject
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.ShapeObject
+  nameWithType.vb: Shape3DBase(Of T).ShapeObject
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).ShapeObject
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Drawing
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase`1.Drawing
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Drawing
+  name: Drawing()
+  nameWithType: Shape3DBase<T>.Drawing()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.Drawing()
+  nameWithType.vb: Shape3DBase(Of T).Drawing()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).Drawing()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Drawing
+    name: Drawing
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Drawing
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Drawing
+    name: Drawing
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Drawing
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Model3D
+  commentId: P:H.Drawing3D.Shape.Base.Shape3DBase`1.Model3D
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Model3D
+  name: Model3D
+  nameWithType: Shape3DBase<T>.Model3D
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.Model3D
+  nameWithType.vb: Shape3DBase(Of T).Model3D
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).Model3D
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.InvalidateModel3D
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase`1.InvalidateModel3D
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D
+  name: InvalidateModel3D()
+  nameWithType: Shape3DBase<T>.InvalidateModel3D()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.InvalidateModel3D()
+  nameWithType.vb: Shape3DBase(Of T).InvalidateModel3D()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).InvalidateModel3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.InvalidateModel3D
+    name: InvalidateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.InvalidateModel3D
+    name: InvalidateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase`1.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  isExternal: true
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_
+  name: CameraUpdate(ProjectionCamera)
+  nameWithType: Shape3DBase<T>.CameraUpdate(ProjectionCamera)
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  nameWithType.vb: Shape3DBase(Of T).CameraUpdate(ProjectionCamera)
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+    name: CameraUpdate
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_
+  - name: (
+  - uid: System.Windows.Media.Media3D.ProjectionCamera
+    name: ProjectionCamera
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.CameraUpdate(System.Windows.Media.Media3D.ProjectionCamera)
+    name: CameraUpdate
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_
+  - name: (
+  - uid: System.Windows.Media.Media3D.ProjectionCamera
+    name: ProjectionCamera
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Clone
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase`1.Clone
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone
+  name: Clone()
+  nameWithType: Shape3DBase<T>.Clone()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.Clone()
+  nameWithType.vb: Shape3DBase(Of T).Clone()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).Clone()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Clone
+    name: Clone
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.Clone
+    name: Clone
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone
+  - name: (
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: GetViewBound(IShape3D, ICameraViewport3D)
+  nameWithType: ShapeCameraViewport3DExtension.GetViewBound(IShape3D, ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D, H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewBound
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewBound(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewBound
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  commentId: T:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html
+  name: ShapeCameraViewport3DExtension
+  nameWithType: ShapeCameraViewport3DExtension
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: GetViewCenter(IShape3D, ICameraViewport3D)
+  nameWithType: ShapeCameraViewport3DExtension.GetViewCenter(IShape3D, ICameraViewport3D)
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D, H.Drawing3D.Drawing.ICameraViewport3D)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewCenter
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.GetViewCenter(H.Drawing3D.Shape.Base.IShape3D,H.Drawing3D.Drawing.ICameraViewport3D)
+    name: GetViewCenter
+    href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: H.Drawing3D.Drawing.ICameraViewport3D
+    name: ICameraViewport3D
+    href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  name: GetImage(IShape3D, double, double)
+  nameWithType: ShapesExtension.GetImage(IShape3D, double, double)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D, double, double)
+  nameWithType.vb: ShapesExtension.GetImage(IShape3D, Double, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D, Double, Double)
+  name.vb: GetImage(IShape3D, Double, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+    name: GetImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+    name: GetImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapesExtension
+  commentId: T:H.Drawing3D.View.Extensions.ShapesExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html
+  name: ShapesExtension
+  nameWithType: ShapesExtension
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  isExternal: true
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  name: SaveToImage(IShape3D, string, double, double)
+  nameWithType: ShapesExtension.SaveToImage(IShape3D, string, double, double)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D, string, double, double)
+  nameWithType.vb: ShapesExtension.SaveToImage(IShape3D, String, Double, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D, String, Double, Double)
+  name.vb: SaveToImage(IShape3D, String, Double, Double)
+  spec.csharp:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+    name: SaveToImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+    name: SaveToImage
+    href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  isExternal: true
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  name: CreateRotateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  nameWithType: ManipulatorExtension.CreateRotateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func<System.Windows.Media.Media3D.Rect3D, double>)
+  nameWithType.vb: ManipulatorExtension.CreateRotateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  fullName.vb: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func(Of System.Windows.Media.Media3D.Rect3D, Double))
+  name.vb: CreateRotateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateRotateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateRotateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  commentId: T:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+  parent: H.Drawing3D.Drawable.Manipulatable
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html
+  name: ManipulatorExtension
+  nameWithType: ManipulatorExtension
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateRotateXManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateRotateXManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateRotateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateRotateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateRotateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+  isExternal: true
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  name: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  nameWithType: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func<System.Windows.Media.Media3D.Rect3D, double>)
+  nameWithType.vb: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  fullName.vb: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func(Of System.Windows.Media.Media3D.Rect3D, Double))
+  name.vb: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double))
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+  isExternal: true
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__
+  name: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>, Action<TranslateManipulator>, Action<TranslateManipulator, double>)
+  nameWithType: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func<Rect3D, double>, Action<TranslateManipulator>, Action<TranslateManipulator, double>)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func<System.Windows.Media.Media3D.Rect3D, double>, System.Action<H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator>, System.Action<H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator, double>)
+  nameWithType.vb: ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double), Action(Of TranslateManipulator), Action(Of TranslateManipulator, Double))
+  fullName.vb: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D, System.Windows.Media.Media3D.Vector3D, System.Func(Of System.Windows.Media.Media3D.Rect3D, Double), System.Action(Of H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator), System.Action(Of H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator, Double))
+  name.vb: CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func(Of Rect3D, Double), Action(Of TranslateManipulator), Action(Of TranslateManipulator, Double))
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D,System.Windows.Media.Media3D.Vector3D,System.Func{System.Windows.Media.Media3D.Rect3D,System.Double},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator},System.Action{H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator,System.Double})
+    name: CreateTranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Rect3D
+    name: Rect3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator
+    name: TranslateManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateTranslateXManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateTranslateXManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateXManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateXManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateTranslateYManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateTranslateYManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateYManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateYManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateYManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  commentId: M:H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  name: CreateTranslateZManipulator(ITransformableShape3D)
+  nameWithType: ManipulatorExtension.CreateTranslateZManipulator(ITransformableShape3D)
+  fullName: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateZManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.CreateTranslateZManipulator(H.Drawing3D.Shape.Base.ITransformableShape3D)
+    name: CreateTranslateZManipulator
+    href: H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+    name: ITransformableShape3D
+    href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.View.Extensions
+  commentId: N:H.Drawing3D.View.Extensions
+  href: H.html
+  name: H.Drawing3D.View.Extensions
+  nameWithType: H.Drawing3D.View.Extensions
+  fullName: H.Drawing3D.View.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+- uid: H.Drawing3D.Drawable.Manipulatable
+  commentId: N:H.Drawing3D.Drawable.Manipulatable
+  href: H.html
+  name: H.Drawing3D.Drawable.Manipulatable
+  nameWithType: H.Drawing3D.Drawable.Manipulatable
+  fullName: H.Drawing3D.Drawable.Manipulatable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable
+    name: Manipulatable
+    href: H.Drawing3D.Drawable.Manipulatable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Manipulatable
+    name: Manipulatable
+    href: H.Drawing3D.Drawable.Manipulatable.html
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateMouseOver
+  commentId: M:H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateMouseOver
+  parent: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UpdateMouseOver
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UpdateMouseOver
+  name: UpdateMouseOver()
+  nameWithType: MouseOverableShape3DBase<GeometryModel3D>.UpdateMouseOver()
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.UpdateMouseOver()
+  nameWithType.vb: MouseOverableShape3DBase(Of GeometryModel3D).UpdateMouseOver()
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).UpdateMouseOver()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateMouseOver
+    name: UpdateMouseOver
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UpdateMouseOver
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateMouseOver
+    name: UpdateMouseOver
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UpdateMouseOver
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver*
+  commentId: Overload:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver
+  href: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_UpdateMouseOver
+  name: UpdateMouseOver
+  nameWithType: GeometryModel3DShape3DBase.UpdateMouseOver
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateMouseOver
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UpdateMouseOver
+  commentId: M:H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UpdateMouseOver
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UpdateMouseOver
+  name: UpdateMouseOver()
+  nameWithType: MouseOverableShape3DBase<T>.UpdateMouseOver()
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<T>.UpdateMouseOver()
+  nameWithType.vb: MouseOverableShape3DBase(Of T).UpdateMouseOver()
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of T).UpdateMouseOver()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UpdateMouseOver
+    name: UpdateMouseOver
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UpdateMouseOver
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1.UpdateMouseOver
+    name: UpdateMouseOver
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UpdateMouseOver
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateSelect
+  commentId: M:H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateSelect
+  parent: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UpdateSelect
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UpdateSelect
+  name: UpdateSelect()
+  nameWithType: SelectableShape3DBase<GeometryModel3D>.UpdateSelect()
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.UpdateSelect()
+  nameWithType.vb: SelectableShape3DBase(Of GeometryModel3D).UpdateSelect()
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).UpdateSelect()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateSelect
+    name: UpdateSelect
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UpdateSelect
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateSelect
+    name: UpdateSelect
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UpdateSelect
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect*
+  commentId: Overload:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect
+  href: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_UpdateSelect
+  name: UpdateSelect
+  nameWithType: GeometryModel3DShape3DBase.UpdateSelect
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateSelect
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UpdateSelect
+  commentId: M:H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UpdateSelect
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UpdateSelect
+  name: UpdateSelect()
+  nameWithType: SelectableShape3DBase<T>.UpdateSelect()
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<T>.UpdateSelect()
+  nameWithType.vb: SelectableShape3DBase(Of T).UpdateSelect()
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of T).UpdateSelect()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UpdateSelect
+    name: UpdateSelect
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UpdateSelect
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1.UpdateSelect
+    name: UpdateSelect
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UpdateSelect
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateDefault
+  commentId: M:H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateDefault
+  parent: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.UpdateDefault
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_UpdateDefault
+  name: UpdateDefault()
+  nameWithType: MaterialShape3DBase<GeometryModel3D>.UpdateDefault()
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.UpdateDefault()
+  nameWithType.vb: MaterialShape3DBase(Of GeometryModel3D).UpdateDefault()
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).UpdateDefault()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateDefault
+    name: UpdateDefault
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_UpdateDefault
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.UpdateDefault
+    name: UpdateDefault
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_UpdateDefault
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault*
+  commentId: Overload:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault
+  href: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_UpdateDefault
+  name: UpdateDefault
+  nameWithType: GeometryModel3DShape3DBase.UpdateDefault
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.UpdateDefault
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.UpdateDefault
+  commentId: M:H.Drawing3D.Shape.Base.MaterialShape3DBase`1.UpdateDefault
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_UpdateDefault
+  name: UpdateDefault()
+  nameWithType: MaterialShape3DBase<T>.UpdateDefault()
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<T>.UpdateDefault()
+  nameWithType.vb: MaterialShape3DBase(Of T).UpdateDefault()
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of T).UpdateDefault()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.UpdateDefault
+    name: UpdateDefault
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_UpdateDefault
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1.UpdateDefault
+    name: UpdateDefault
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_UpdateDefault
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateModel3D
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateModel3D
+  parent: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}
+  definition: H.Drawing3D.Shape.Base.Shape3DBase`1.CreateModel3D
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CreateModel3D
+  name: CreateModel3D()
+  nameWithType: Shape3DBase<GeometryModel3D>.CreateModel3D()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<System.Windows.Media.Media3D.GeometryModel3D>.CreateModel3D()
+  nameWithType.vb: Shape3DBase(Of GeometryModel3D).CreateModel3D()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of System.Windows.Media.Media3D.GeometryModel3D).CreateModel3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateModel3D
+    name: CreateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CreateModel3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase{System.Windows.Media.Media3D.GeometryModel3D}.CreateModel3D
+    name: CreateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CreateModel3D
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D*
+  commentId: Overload:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D
+  href: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_CreateModel3D
+  name: CreateModel3D
+  nameWithType: GeometryModel3DShape3DBase.CreateModel3D
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.CreateModel3D
+- uid: System.Windows.Media.Media3D.GeometryModel3D
+  commentId: T:System.Windows.Media.Media3D.GeometryModel3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d
+  name: GeometryModel3D
+  nameWithType: GeometryModel3D
+  fullName: System.Windows.Media.Media3D.GeometryModel3D
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1.CreateModel3D
+  commentId: M:H.Drawing3D.Shape.Base.Shape3DBase`1.CreateModel3D
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CreateModel3D
+  name: CreateModel3D()
+  nameWithType: Shape3DBase<T>.CreateModel3D()
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>.CreateModel3D()
+  nameWithType.vb: Shape3DBase(Of T).CreateModel3D()
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T).CreateModel3D()
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.CreateModel3D
+    name: CreateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CreateModel3D
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1.CreateModel3D
+    name: CreateModel3D
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CreateModel3D
+  - name: (
+  - name: )
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d

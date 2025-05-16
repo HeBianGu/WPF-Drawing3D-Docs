@@ -1,0 +1,1373 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.ShapeBrushs
+  commentId: T:H.Drawing3D.Shape.ShapeBrushs
+  id: ShapeBrushs
+  parent: H.Drawing3D.Shape
+  children:
+  - H.Drawing3D.Shape.ShapeBrushs.Blue
+  - H.Drawing3D.Shape.ShapeBrushs.Brown
+  - H.Drawing3D.Shape.ShapeBrushs.Default
+  - H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear
+  - H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color)
+  - H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color,System.Windows.Media.Color,System.Action{System.Windows.Media.Brush})
+  - H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear
+  - H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear
+  - H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear
+  - H.Drawing3D.Shape.ShapeBrushs.GetStopped
+  - H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear
+  - H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush(System.Int32,System.Double)
+  - H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes(System.Double)
+  - H.Drawing3D.Shape.ShapeBrushs.Green
+  - H.Drawing3D.Shape.ShapeBrushs.LightGray
+  - H.Drawing3D.Shape.ShapeBrushs.MouseOver
+  - H.Drawing3D.Shape.ShapeBrushs.Orange
+  - H.Drawing3D.Shape.ShapeBrushs.Pink
+  - H.Drawing3D.Shape.ShapeBrushs.Purple
+  - H.Drawing3D.Shape.ShapeBrushs.Red
+  - H.Drawing3D.Shape.ShapeBrushs.Running
+  - H.Drawing3D.Shape.ShapeBrushs.Select
+  - H.Drawing3D.Shape.ShapeBrushs.ToMaterial(System.Windows.Media.Brush)
+  - H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  - H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  - H.Drawing3D.Shape.ShapeBrushs.Yellow
+  - H.Drawing3D.Shape.ShapeBrushs.defaultOpacity
+  langs:
+  - csharp
+  - vb
+  name: ShapeBrushs
+  nameWithType: ShapeBrushs
+  fullName: H.Drawing3D.Shape.ShapeBrushs
+  type: Class
+  source:
+    id: ShapeBrushs
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static class ShapeBrushs
+    content.vb: Public Module ShapeBrushs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.Shape.ShapeBrushs.defaultOpacity
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.defaultOpacity
+  id: defaultOpacity
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: defaultOpacity
+  nameWithType: ShapeBrushs.defaultOpacity
+  fullName: H.Drawing3D.Shape.ShapeBrushs.defaultOpacity
+  type: Field
+  source:
+    id: defaultOpacity
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public const double defaultOpacity = 1
+    return:
+      type: System.Double
+    content.vb: Public Const defaultOpacity As Double = 1
+- uid: H.Drawing3D.Shape.ShapeBrushs.Running
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Running
+  id: Running
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: ShapeBrushs.Running
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Running
+  type: Field
+  source:
+    id: Running
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 19
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Running
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Running As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Default
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Default
+  id: Default
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ShapeBrushs.Default
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Default
+  type: Field
+  source:
+    id: Default
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 20
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Default
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared [Default] As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Select
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Select
+  id: Select
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: ShapeBrushs.Select
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Select
+  type: Field
+  source:
+    id: Select
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 21
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Select
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared [Select] As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.MouseOver
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.MouseOver
+  id: MouseOver
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: MouseOver
+  nameWithType: ShapeBrushs.MouseOver
+  fullName: H.Drawing3D.Shape.ShapeBrushs.MouseOver
+  type: Field
+  source:
+    id: MouseOver
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush MouseOver
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared MouseOver As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Red
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Red
+  id: Red
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: ShapeBrushs.Red
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Red
+  type: Field
+  source:
+    id: Red
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 23
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Red
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Red As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Green
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Green
+  id: Green
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: ShapeBrushs.Green
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Green
+  type: Field
+  source:
+    id: Green
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Green
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Green As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Orange
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Orange
+  id: Orange
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: ShapeBrushs.Orange
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Orange
+  type: Field
+  source:
+    id: Orange
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 25
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Orange
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Orange As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Blue
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Blue
+  id: Blue
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: ShapeBrushs.Blue
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Blue
+  type: Field
+  source:
+    id: Blue
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 26
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Blue
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Blue As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Yellow
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Yellow
+  id: Yellow
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: ShapeBrushs.Yellow
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Yellow
+  type: Field
+  source:
+    id: Yellow
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 27
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Yellow
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Yellow As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Purple
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Purple
+  id: Purple
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: ShapeBrushs.Purple
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Purple
+  type: Field
+  source:
+    id: Purple
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 28
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Purple
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Purple As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Pink
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Pink
+  id: Pink
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: ShapeBrushs.Pink
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Pink
+  type: Field
+  source:
+    id: Pink
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Pink
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Pink As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.Brown
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.Brown
+  id: Brown
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: Brown
+  nameWithType: ShapeBrushs.Brown
+  fullName: H.Drawing3D.Shape.ShapeBrushs.Brown
+  type: Field
+  source:
+    id: Brown
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 30
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush Brown
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Brown As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.LightGray
+  commentId: F:H.Drawing3D.Shape.ShapeBrushs.LightGray
+  id: LightGray
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: LightGray
+  nameWithType: ShapeBrushs.LightGray
+  fullName: H.Drawing3D.Shape.ShapeBrushs.LightGray
+  type: Field
+  source:
+    id: LightGray
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 31
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush LightGray
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared LightGray As Brush
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes(System.Double)
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes(System.Double)
+  id: GetSystemBrushes(System.Double)
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetSystemBrushes(double)
+  nameWithType: ShapeBrushs.GetSystemBrushes(double)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes(double)
+  type: Method
+  source:
+    id: GetSystemBrushes
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 33
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static IEnumerable<Brush> GetSystemBrushes(double opacity = 1)
+    parameters:
+    - id: opacity
+      type: System.Double
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Brush}
+    content.vb: Public Shared Function GetSystemBrushes(opacity As Double = 1) As IEnumerable(Of Brush)
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes*
+  nameWithType.vb: ShapeBrushs.GetSystemBrushes(Double)
+  fullName.vb: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes(Double)
+  name.vb: GetSystemBrushes(Double)
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush(System.Int32,System.Double)
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush(System.Int32,System.Double)
+  id: GetSystemBrush(System.Int32,System.Double)
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetSystemBrush(int, double)
+  nameWithType: ShapeBrushs.GetSystemBrush(int, double)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush(int, double)
+  type: Method
+  source:
+    id: GetSystemBrush
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 82
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetSystemBrush(int index, double opacity = 1)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: opacity
+      type: System.Double
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetSystemBrush(index As Integer, opacity As Double = 1) As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush*
+  nameWithType.vb: ShapeBrushs.GetSystemBrush(Integer, Double)
+  fullName.vb: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush(Integer, Double)
+  name.vb: GetSystemBrush(Integer, Double)
+- uid: H.Drawing3D.Shape.ShapeBrushs.ToMaterial(System.Windows.Media.Brush)
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.ToMaterial(System.Windows.Media.Brush)
+  id: ToMaterial(System.Windows.Media.Brush)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: ToMaterial(Brush)
+  nameWithType: ShapeBrushs.ToMaterial(Brush)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.ToMaterial(System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: ToMaterial
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 88
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ToMaterial(this Brush brush)
+    parameters:
+    - id: brush
+      type: System.Windows.Media.Brush
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Function ToMaterial(brush As Brush) As Material
+  overload: H.Drawing3D.Shape.ShapeBrushs.ToMaterial*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color,System.Windows.Media.Color,System.Action{System.Windows.Media.Brush})
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color,System.Windows.Media.Color,System.Action{System.Windows.Media.Brush})
+  id: GetDefaultLinear(System.Windows.Media.Color,System.Windows.Media.Color,System.Action{System.Windows.Media.Brush})
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultLinear(Color, Color, Action<Brush>)
+  nameWithType: ShapeBrushs.GetDefaultLinear(Color, Color, Action<Brush>)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color, System.Windows.Media.Color, System.Action<System.Windows.Media.Brush>)
+  type: Method
+  source:
+    id: GetDefaultLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 96
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetDefaultLinear(Color color1, Color color2, Action<Brush> action = null)
+    parameters:
+    - id: color1
+      type: System.Windows.Media.Color
+    - id: color2
+      type: System.Windows.Media.Color
+    - id: action
+      type: System.Action{System.Windows.Media.Brush}
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetDefaultLinear(color1 As Color, color2 As Color, action As Action(Of Brush) = Nothing) As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear*
+  nameWithType.vb: ShapeBrushs.GetDefaultLinear(Color, Color, Action(Of Brush))
+  fullName.vb: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color, System.Windows.Media.Color, System.Action(Of System.Windows.Media.Brush))
+  name.vb: GetDefaultLinear(Color, Color, Action(Of Brush))
+- uid: H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  id: ToSwitchBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: ToSwitchBrush(SolidColorBrush, Color)
+  nameWithType: ShapeBrushs.ToSwitchBrush(SolidColorBrush, Color)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush(System.Windows.Media.SolidColorBrush, System.Windows.Media.Color)
+  type: Method
+  source:
+    id: ToSwitchBrush
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 117
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush ToSwitchBrush(this SolidColorBrush brush, Color toColor)
+    parameters:
+    - id: brush
+      type: System.Windows.Media.SolidColorBrush
+    - id: toColor
+      type: System.Windows.Media.Color
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function ToSwitchBrush(brush As SolidColorBrush, toColor As Color) As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush*
+- uid: H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  id: ToSwitchLinearBrush(System.Windows.Media.SolidColorBrush,System.Windows.Media.Color)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: ToSwitchLinearBrush(SolidColorBrush, Color)
+  nameWithType: ShapeBrushs.ToSwitchLinearBrush(SolidColorBrush, Color)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush(System.Windows.Media.SolidColorBrush, System.Windows.Media.Color)
+  type: Method
+  source:
+    id: ToSwitchLinearBrush
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 132
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush ToSwitchLinearBrush(this SolidColorBrush brush, Color toColor)
+    parameters:
+    - id: brush
+      type: System.Windows.Media.SolidColorBrush
+    - id: toColor
+      type: System.Windows.Media.Color
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function ToSwitchLinearBrush(brush As SolidColorBrush, toColor As Color) As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear
+  id: GetDefaultLinear
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultLinear()
+  nameWithType: ShapeBrushs.GetDefaultLinear()
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear()
+  type: Method
+  source:
+    id: GetDefaultLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 146
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetDefaultLinear()
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetDefaultLinear() As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color)
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color)
+  id: GetDefaultLinear(System.Windows.Media.Color)
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultLinear(Color)
+  nameWithType: ShapeBrushs.GetDefaultLinear(Color)
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear(System.Windows.Media.Color)
+  type: Method
+  source:
+    id: GetDefaultLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 151
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetDefaultLinear(Color color)
+    parameters:
+    - id: color
+      type: System.Windows.Media.Color
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetDefaultLinear(color As Color) As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear
+  id: GetSuccessLinear
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetSuccessLinear()
+  nameWithType: ShapeBrushs.GetSuccessLinear()
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear()
+  type: Method
+  source:
+    id: GetSuccessLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 156
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetSuccessLinear()
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetSuccessLinear() As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear
+  id: GetErrorLinear
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetErrorLinear()
+  nameWithType: ShapeBrushs.GetErrorLinear()
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear()
+  type: Method
+  source:
+    id: GetErrorLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 161
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetErrorLinear()
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetErrorLinear() As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetStopped
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetStopped
+  id: GetStopped
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetStopped()
+  nameWithType: ShapeBrushs.GetStopped()
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetStopped()
+  type: Method
+  source:
+    id: GetStopped
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 171
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetStopped()
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetStopped() As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetStopped*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear
+  id: GetSelectLinear
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetSelectLinear()
+  nameWithType: ShapeBrushs.GetSelectLinear()
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear()
+  type: Method
+  source:
+    id: GetSelectLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 178
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetSelectLinear()
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetSelectLinear() As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear*
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear
+  commentId: M:H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear
+  id: GetMouseOverLinear
+  parent: H.Drawing3D.Shape.ShapeBrushs
+  langs:
+  - csharp
+  - vb
+  name: GetMouseOverLinear()
+  nameWithType: ShapeBrushs.GetMouseOverLinear()
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear()
+  type: Method
+  source:
+    id: GetMouseOverLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeBrushs.cs
+    startLine: 183
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Brush GetMouseOverLinear()
+    return:
+      type: System.Windows.Media.Brush
+    content.vb: Public Shared Function GetMouseOverLinear() As Brush
+  overload: H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear*
+references:
+- uid: H.Drawing3D.Shape
+  commentId: N:H.Drawing3D.Shape
+  href: H.html
+  name: H.Drawing3D.Shape
+  nameWithType: H.Drawing3D.Shape
+  fullName: H.Drawing3D.Shape
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetSystemBrushes_System_Double_
+  name: GetSystemBrushes
+  nameWithType: ShapeBrushs.GetSystemBrushes
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrushes
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Brush}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Brush}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Brush>
+  nameWithType: IEnumerable<Brush>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Brush>
+  nameWithType.vb: IEnumerable(Of Brush)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Brush)
+  name.vb: IEnumerable(Of Brush)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Brush
+    name: Brush
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Brush
+    name: Brush
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetSystemBrush_System_Int32_System_Double_
+  name: GetSystemBrush
+  nameWithType: ShapeBrushs.GetSystemBrush
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSystemBrush
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: H.Drawing3D.Shape.ShapeBrushs.ToMaterial*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.ToMaterial
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_ToMaterial_System_Windows_Media_Brush_
+  name: ToMaterial
+  nameWithType: ShapeBrushs.ToMaterial
+  fullName: H.Drawing3D.Shape.ShapeBrushs.ToMaterial
+- uid: System.Windows.Media.Media3D.Material
+  commentId: T:System.Windows.Media.Media3D.Material
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.material
+  name: Material
+  nameWithType: Material
+  fullName: System.Windows.Media.Media3D.Material
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetDefaultLinear_System_Windows_Media_Color_System_Windows_Media_Color_System_Action_System_Windows_Media_Brush__
+  name: GetDefaultLinear
+  nameWithType: ShapeBrushs.GetDefaultLinear
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetDefaultLinear
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: System.Action{System.Windows.Media.Brush}
+  commentId: T:System.Action{System.Windows.Media.Brush}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Brush>
+  nameWithType: Action<Brush>
+  fullName: System.Action<System.Windows.Media.Brush>
+  nameWithType.vb: Action(Of Brush)
+  fullName.vb: System.Action(Of System.Windows.Media.Brush)
+  name.vb: Action(Of Brush)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Windows.Media.Brush
+    name: Brush
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Brush
+    name: Brush
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_ToSwitchBrush_System_Windows_Media_SolidColorBrush_System_Windows_Media_Color_
+  name: ToSwitchBrush
+  nameWithType: ShapeBrushs.ToSwitchBrush
+  fullName: H.Drawing3D.Shape.ShapeBrushs.ToSwitchBrush
+- uid: System.Windows.Media.SolidColorBrush
+  commentId: T:System.Windows.Media.SolidColorBrush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.solidcolorbrush
+  name: SolidColorBrush
+  nameWithType: SolidColorBrush
+  fullName: System.Windows.Media.SolidColorBrush
+- uid: H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_ToSwitchLinearBrush_System_Windows_Media_SolidColorBrush_System_Windows_Media_Color_
+  name: ToSwitchLinearBrush
+  nameWithType: ShapeBrushs.ToSwitchLinearBrush
+  fullName: H.Drawing3D.Shape.ShapeBrushs.ToSwitchLinearBrush
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetSuccessLinear
+  name: GetSuccessLinear
+  nameWithType: ShapeBrushs.GetSuccessLinear
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSuccessLinear
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetErrorLinear
+  name: GetErrorLinear
+  nameWithType: ShapeBrushs.GetErrorLinear
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetErrorLinear
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetStopped*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetStopped
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetStopped
+  name: GetStopped
+  nameWithType: ShapeBrushs.GetStopped
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetStopped
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetSelectLinear
+  name: GetSelectLinear
+  nameWithType: ShapeBrushs.GetSelectLinear
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetSelectLinear
+- uid: H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear*
+  commentId: Overload:H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear
+  href: H.Drawing3D.Shape.ShapeBrushs.html#H_Drawing3D_Shape_ShapeBrushs_GetMouseOverLinear
+  name: GetMouseOverLinear
+  nameWithType: ShapeBrushs.GetMouseOverLinear
+  fullName: H.Drawing3D.Shape.ShapeBrushs.GetMouseOverLinear

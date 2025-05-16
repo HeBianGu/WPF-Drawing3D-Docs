@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  id: ModelsSelectedByRectangleEventArgs
+  parent: H.Drawing3D.View.SelectionCommands
+  children:
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.#ctor(System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D},System.Windows.Rect)
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: ModelsSelectedByRectangleEventArgs
+  nameWithType: ModelsSelectedByRectangleEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  type: Class
+  source:
+    id: ModelsSelectedByRectangleEventArgs
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\ModelsSelectedByRectangleEventArgs.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Provides event data for the ModelsSelected event of the <xref href="H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class ModelsSelectedByRectangleEventArgs : ModelsSelectedEventArgs'
+    content.vb: Public Class ModelsSelectedByRectangleEventArgs Inherits ModelsSelectedEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  inheritedMembers:
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.SelectedModels
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.AreSortedByDistanceAscending
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.#ctor(System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D},System.Windows.Rect)
+  commentId: M:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.#ctor(System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D},System.Windows.Rect)
+  id: '#ctor(System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D},System.Windows.Rect)'
+  parent: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ModelsSelectedByRectangleEventArgs(IList<Model3D>, Rect)
+  nameWithType: ModelsSelectedByRectangleEventArgs.ModelsSelectedByRectangleEventArgs(IList<Model3D>, Rect)
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.ModelsSelectedByRectangleEventArgs(System.Collections.Generic.IList<System.Windows.Media.Media3D.Model3D>, System.Windows.Rect)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\ModelsSelectedByRectangleEventArgs.cs
+    startLine: 28
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs" data-throw-if-not-resolved="false"></xref> class.
+  remarks: For the models selected by rectangle, they are not sorted by distance in ascending order.
+  example: []
+  syntax:
+    content: public ModelsSelectedByRectangleEventArgs(IList<Model3D> selectedModels, Rect rectangle)
+    parameters:
+    - id: selectedModels
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D}
+      description: The selected models.
+    - id: rectangle
+      type: System.Windows.Rect
+      description: The selection rectangle.
+    content.vb: Public Sub New(selectedModels As IList(Of Model3D), rectangle As Rect)
+  overload: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.#ctor*
+  nameWithType.vb: ModelsSelectedByRectangleEventArgs.New(IList(Of Model3D), Rect)
+  fullName.vb: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.New(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Model3D), System.Windows.Rect)
+  name.vb: New(IList(Of Model3D), Rect)
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle
+  commentId: P:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle
+  id: Rectangle
+  parent: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: ModelsSelectedByRectangleEventArgs.Rectangle
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle
+  type: Property
+  source:
+    id: Rectangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\SelectionCommands\ModelsSelectedByRectangleEventArgs.cs
+    startLine: 37
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.SelectionCommands
+  summary: Gets the rectangle of selection.
+  example: []
+  syntax:
+    content: public Rect Rectangle { get; }
+    parameters: []
+    return:
+      type: System.Windows.Rect
+    content.vb: Public Property Rectangle As Rect
+  overload: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle*
+references:
+- uid: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand.html
+  name: RectangleSelectionCommand
+  nameWithType: RectangleSelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+- uid: H.Drawing3D.View.SelectionCommands
+  commentId: N:H.Drawing3D.View.SelectionCommands
+  href: H.html
+  name: H.Drawing3D.View.SelectionCommands
+  nameWithType: H.Drawing3D.View.SelectionCommands
+  fullName: H.Drawing3D.View.SelectionCommands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.SelectionCommands
+    name: SelectionCommands
+    href: H.Drawing3D.View.SelectionCommands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.SelectionCommands
+    name: SelectionCommands
+    href: H.Drawing3D.View.SelectionCommands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  parent: H.Drawing3D.View.SelectionCommands
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html
+  name: ModelsSelectedEventArgs
+  nameWithType: ModelsSelectedEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.SelectedModels
+  commentId: P:H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.SelectedModels
+  parent: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html#H_Drawing3D_View_SelectionCommands_ModelsSelectedEventArgs_SelectedModels
+  name: SelectedModels
+  nameWithType: ModelsSelectedEventArgs.SelectedModels
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.SelectedModels
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.AreSortedByDistanceAscending
+  commentId: P:H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.AreSortedByDistanceAscending
+  parent: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html#H_Drawing3D_View_SelectionCommands_ModelsSelectedEventArgs_AreSortedByDistanceAscending
+  name: AreSortedByDistanceAscending
+  nameWithType: ModelsSelectedEventArgs.AreSortedByDistanceAscending
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.AreSortedByDistanceAscending
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs.empty
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.html
+  name: ModelsSelectedByRectangleEventArgs
+  nameWithType: ModelsSelectedByRectangleEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.#ctor*
+  commentId: Overload:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.#ctor
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.html#H_Drawing3D_View_SelectionCommands_ModelsSelectedByRectangleEventArgs__ctor_System_Collections_Generic_IList_System_Windows_Media_Media3D_Model3D__System_Windows_Rect_
+  name: ModelsSelectedByRectangleEventArgs
+  nameWithType: ModelsSelectedByRectangleEventArgs.ModelsSelectedByRectangleEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.ModelsSelectedByRectangleEventArgs
+  nameWithType.vb: ModelsSelectedByRectangleEventArgs.New
+  fullName.vb: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.New
+  name.vb: New
+- uid: System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Media.Media3D.Model3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Model3D>
+  nameWithType: IList<Model3D>
+  fullName: System.Collections.Generic.IList<System.Windows.Media.Media3D.Model3D>
+  nameWithType.vb: IList(Of Model3D)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Model3D)
+  name.vb: IList(Of Model3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+- uid: System.Windows.Rect
+  commentId: T:System.Windows.Rect
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.rect
+  name: Rect
+  nameWithType: Rect
+  fullName: System.Windows.Rect
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle*
+  commentId: Overload:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.html#H_Drawing3D_View_SelectionCommands_ModelsSelectedByRectangleEventArgs_Rectangle
+  name: Rectangle
+  nameWithType: ModelsSelectedByRectangleEventArgs.Rectangle
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.Rectangle

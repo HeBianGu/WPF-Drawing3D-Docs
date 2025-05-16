@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Components.Plane.Presenters
+  commentId: N:H.Drawing3D.Components.Plane.Presenters
+  id: H.Drawing3D.Components.Plane.Presenters
+  children:
+  - H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Components.Plane.Presenters
+  nameWithType: H.Drawing3D.Components.Plane.Presenters
+  fullName: H.Drawing3D.Components.Plane.Presenters
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Components.Plane
+references:
+- uid: H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter
+  commentId: T:H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter
+  href: H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.html
+  name: PlaneVeiwPresenter
+  nameWithType: PlaneVeiwPresenter
+  fullName: H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter

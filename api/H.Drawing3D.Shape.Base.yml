@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Base
+  commentId: N:H.Drawing3D.Shape.Base
+  id: H.Drawing3D.Shape.Base
+  children:
+  - H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase
+  - H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase
+  - H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase
+  - H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  - H.Drawing3D.Shape.Base.IDisplayShape3D
+  - H.Drawing3D.Shape.Base.IGameShape3D
+  - H.Drawing3D.Shape.Base.IMaterialShape3D
+  - H.Drawing3D.Shape.Base.IMouseOverableShape3D
+  - H.Drawing3D.Shape.Base.IPlaneShape3D
+  - H.Drawing3D.Shape.Base.IPresenter2DShape3D
+  - H.Drawing3D.Shape.Base.ISelectableShape3D
+  - H.Drawing3D.Shape.Base.IShape3D
+  - H.Drawing3D.Shape.Base.IShape3DCreator
+  - H.Drawing3D.Shape.Base.ITransformableShape3D
+  - H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+  - H.Drawing3D.Shape.Base.MeshGeometryShape3DBase
+  - H.Drawing3D.Shape.Base.Model3DGroupShape3DBase
+  - H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+  - H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase
+  - H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+  - H.Drawing3D.Shape.Base.Shape3DBase`1
+  - H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Base
+  nameWithType: H.Drawing3D.Shape.Base
+  fullName: H.Drawing3D.Shape.Base
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase.html
+  name: DrawableModel3DGroupShape3DBase
+  nameWithType: DrawableModel3DGroupShape3DBase
+  fullName: H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase
+- uid: H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase.html
+  name: Geometry3DGeometryShape3DBase
+  nameWithType: Geometry3DGeometryShape3DBase
+  fullName: H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase
+- uid: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html
+  name: GeometryModel3DShape3DBase
+  nameWithType: GeometryModel3DShape3DBase
+  fullName: H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase
+- uid: H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase.html
+  name: DrawableGeometryModel3DShape3DBase
+  nameWithType: DrawableGeometryModel3DShape3DBase
+  fullName: H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase
+- uid: H.Drawing3D.Shape.Base.IDisplayShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IDisplayShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IDisplayShape3D.html
+  name: IDisplayShape3D
+  nameWithType: IDisplayShape3D
+  fullName: H.Drawing3D.Shape.Base.IDisplayShape3D
+- uid: H.Drawing3D.Shape.Base.IGameShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IGameShape3D
+  href: H.Drawing3D.Shape.Base.IGameShape3D.html
+  name: IGameShape3D
+  nameWithType: IGameShape3D
+  fullName: H.Drawing3D.Shape.Base.IGameShape3D
+- uid: H.Drawing3D.Shape.Base.IMaterialShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IMaterialShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IMaterialShape3D.html
+  name: IMaterialShape3D
+  nameWithType: IMaterialShape3D
+  fullName: H.Drawing3D.Shape.Base.IMaterialShape3D
+- uid: H.Drawing3D.Shape.Base.IMouseOverableShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IMouseOverableShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IMouseOverableShape3D.html
+  name: IMouseOverableShape3D
+  nameWithType: IMouseOverableShape3D
+  fullName: H.Drawing3D.Shape.Base.IMouseOverableShape3D
+- uid: H.Drawing3D.Shape.Base.IPlaneShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IPlaneShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IPlaneShape3D.html
+  name: IPlaneShape3D
+  nameWithType: IPlaneShape3D
+  fullName: H.Drawing3D.Shape.Base.IPlaneShape3D
+- uid: H.Drawing3D.Shape.Base.IPresenter2DShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IPresenter2DShape3D
+  href: H.Drawing3D.Shape.Base.IPresenter2DShape3D.html
+  name: IPresenter2DShape3D
+  nameWithType: IPresenter2DShape3D
+  fullName: H.Drawing3D.Shape.Base.IPresenter2DShape3D
+- uid: H.Drawing3D.Shape.Base.ISelectableShape3D
+  commentId: T:H.Drawing3D.Shape.Base.ISelectableShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.ISelectableShape3D.html
+  name: ISelectableShape3D
+  nameWithType: ISelectableShape3D
+  fullName: H.Drawing3D.Shape.Base.ISelectableShape3D
+- uid: H.Drawing3D.Shape.Base.IShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IShape3D.html
+  name: IShape3D
+  nameWithType: IShape3D
+  fullName: H.Drawing3D.Shape.Base.IShape3D
+- uid: H.Drawing3D.Shape.Base.IShape3DCreator
+  commentId: T:H.Drawing3D.Shape.Base.IShape3DCreator
+  href: H.Drawing3D.Shape.Base.IShape3DCreator.html
+  name: IShape3DCreator
+  nameWithType: IShape3DCreator
+  fullName: H.Drawing3D.Shape.Base.IShape3DCreator
+- uid: H.Drawing3D.Shape.Base.ITransformableShape3D
+  commentId: T:H.Drawing3D.Shape.Base.ITransformableShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.ITransformableShape3D.html
+  name: ITransformableShape3D
+  nameWithType: ITransformableShape3D
+  fullName: H.Drawing3D.Shape.Base.ITransformableShape3D
+- uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+  href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  name: MaterialShape3DBase<T>
+  nameWithType: MaterialShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.MaterialShape3DBase<T>
+  nameWithType.vb: MaterialShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.MaterialShape3DBase(Of T)
+  name.vb: MaterialShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MaterialShape3DBase`1
+    name: MaterialShape3DBase
+    href: H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.MeshGeometryShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.MeshGeometryShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.MeshGeometryShape3DBase.html
+  name: MeshGeometryShape3DBase
+  nameWithType: MeshGeometryShape3DBase
+  fullName: H.Drawing3D.Shape.Base.MeshGeometryShape3DBase
+- uid: H.Drawing3D.Shape.Base.Model3DGroupShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.Model3DGroupShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.Model3DGroupShape3DBase.html
+  name: Model3DGroupShape3DBase
+  nameWithType: Model3DGroupShape3DBase
+  fullName: H.Drawing3D.Shape.Base.Model3DGroupShape3DBase
+- uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  name: MouseOverableShape3DBase<T>
+  nameWithType: MouseOverableShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.MouseOverableShape3DBase<T>
+  nameWithType.vb: MouseOverableShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.MouseOverableShape3DBase(Of T)
+  name.vb: MouseOverableShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.MouseOverableShape3DBase`1
+    name: MouseOverableShape3DBase
+    href: H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase
+  commentId: T:H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase.html
+  name: PlaneBackgroundShape3DBase
+  nameWithType: PlaneBackgroundShape3DBase
+  fullName: H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase
+- uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  name: SelectableShape3DBase<T>
+  nameWithType: SelectableShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.SelectableShape3DBase<T>
+  nameWithType.vb: SelectableShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.SelectableShape3DBase(Of T)
+  name.vb: SelectableShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.SelectableShape3DBase`1
+    name: SelectableShape3DBase
+    href: H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.Shape3DBase`1
+  href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  name: Shape3DBase<T>
+  nameWithType: Shape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.Shape3DBase<T>
+  nameWithType.vb: Shape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.Shape3DBase(Of T)
+  name.vb: Shape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.Shape3DBase`1
+    name: Shape3DBase
+    href: H.Drawing3D.Shape.Base.Shape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+  commentId: T:H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+  href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  name: TransformableShape3DBase<T>
+  nameWithType: TransformableShape3DBase<T>
+  fullName: H.Drawing3D.Shape.Base.TransformableShape3DBase<T>
+  nameWithType.vb: TransformableShape3DBase(Of T)
+  fullName.vb: H.Drawing3D.Shape.Base.TransformableShape3DBase(Of T)
+  name.vb: TransformableShape3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Base.TransformableShape3DBase`1
+    name: TransformableShape3DBase
+    href: H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Base
+  commentId: N:H.Drawing3D.Shape.Base
+  href: H.html
+  name: H.Drawing3D.Shape.Base
+  nameWithType: H.Drawing3D.Shape.Base
+  fullName: H.Drawing3D.Shape.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html

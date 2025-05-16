@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RectangleShape3D | WPF-Drawing3D开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RectangleShape3D | WPF-Drawing3D开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-Drawing3D开发文档">
+            WPF-Drawing3D开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D">
+
+
+
+  <h1 id="H_Drawing3D_Shape_Shapes_RectangleShape3D" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D" class="text-break">
+Class RectangleShape3D  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Drawing3D.html">Drawing3D</a>.<a class="xref" href="H.Drawing3D.Shape.html">Shape</a>.<a class="xref" href="H.Drawing3D.Shape.Shapes.html">Shapes</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Drawing3D.Shape.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;长方形&quot;)]
+public class RectangleShape3D : Geometry3DGeometryShape3DBase, INotifyPropertyChanged, IDisplayShape3D, ICloneable, ITransformableShape3D, IMouseOverableShape3D, ISelectableShape3D, IMaterialShape3D, IShape3D</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html">BindableBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html">CommandsBindableBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html">DisplayBindableBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.Shape3DBase-1.html">Shape3DBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d">GeometryModel3D</a>&gt;</div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html">MaterialShape3DBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d">GeometryModel3D</a>&gt;</div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html">TransformableShape3DBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d">GeometryModel3D</a>&gt;</div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html">MouseOverableShape3DBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d">GeometryModel3D</a>&gt;</div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html">SelectableShape3DBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometrymodel3d">GeometryModel3D</a>&gt;</div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html">GeometryModel3DShape3DBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase.html">DrawableGeometryModel3DShape3DBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase.html">Geometry3DGeometryShape3DBase</a></div>
+      <div><span class="xref">RectangleShape3D</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.IDisplayShape3D.html">IDisplayShape3D</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.ITransformableShape3D.html">ITransformableShape3D</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.IMouseOverableShape3D.html">IMouseOverableShape3D</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.ISelectableShape3D.html">ISelectableShape3D</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.IMaterialShape3D.html">IMaterialShape3D</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Base.IShape3D.html">IShape3D</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase.html#H_Drawing3D_Shape_Base_Geometry3DGeometryShape3DBase_Draw_H_Drawing3D_Drawing_Base_IGeometryDrawing3D_">Geometry3DGeometryShape3DBase.Draw(IGeometryDrawing3D)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_DrawableGeometryModel3DShape3DBase_Drawing">DrawableGeometryModel3DShape3DBase.Drawing()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_UpdateMouseOver">GeometryModel3DShape3DBase.UpdateMouseOver()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_UpdateSelect">GeometryModel3DShape3DBase.UpdateSelect()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_UpdateDefault">GeometryModel3DShape3DBase.UpdateDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html#H_Drawing3D_Shape_Base_GeometryModel3DShape3DBase_CreateModel3D">GeometryModel3DShape3DBase.CreateModel3D()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_UseSelectable">SelectableShape3DBase&lt;GeometryModel3D&gt;.UseSelectable</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html#H_Drawing3D_Shape_Base_SelectableShape3DBase_1_SelectedMaterial">SelectableShape3DBase&lt;GeometryModel3D&gt;.SelectedMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_UseMouseOverable">MouseOverableShape3DBase&lt;GeometryModel3D&gt;.UseMouseOverable</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html#H_Drawing3D_Shape_Base_MouseOverableShape3DBase_1_MouseOverMaterial">MouseOverableShape3DBase&lt;GeometryModel3D&gt;.MouseOverMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_GetTransform3D">TransformableShape3DBase&lt;GeometryModel3D&gt;.GetTransform3D()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_CreateTransform3D">TransformableShape3DBase&lt;GeometryModel3D&gt;.CreateTransform3D()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_UpdateTransform">TransformableShape3DBase&lt;GeometryModel3D&gt;.UpdateTransform()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_InvalidateTransform">TransformableShape3DBase&lt;GeometryModel3D&gt;.InvalidateTransform()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html#H_Drawing3D_Shape_Base_TransformableShape3DBase_1_SetTransform_System_Windows_Media_Media3D_Transform3D_">TransformableShape3DBase&lt;GeometryModel3D&gt;.SetTransform(Transform3D)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_Material">MaterialShape3DBase&lt;GeometryModel3D&gt;.Material</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html#H_Drawing3D_Shape_Base_MaterialShape3DBase_1_BackMaterial">MaterialShape3DBase&lt;GeometryModel3D&gt;.BackMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_ShapeObject">Shape3DBase&lt;GeometryModel3D&gt;.ShapeObject</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Model3D">Shape3DBase&lt;GeometryModel3D&gt;.Model3D</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_InvalidateModel3D">Shape3DBase&lt;GeometryModel3D&gt;.InvalidateModel3D()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_CameraUpdate_System_Windows_Media_Media3D_ProjectionCamera_">Shape3DBase&lt;GeometryModel3D&gt;.CameraUpdate(ProjectionCamera)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Base.Shape3DBase-1.html#H_Drawing3D_Shape_Base_Shape3DBase_1_Clone">Shape3DBase&lt;GeometryModel3D&gt;.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ID">DisplayBindableBase.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Name">DisplayBindableBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Icon">DisplayBindableBase.Icon</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ShortName">DisplayBindableBase.ShortName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_GroupName">DisplayBindableBase.GroupName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Description">DisplayBindableBase.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Order">DisplayBindableBase.Order</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefaultCommand">DisplayBindableBase.LoadDefaultCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefault">DisplayBindableBase.LoadDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_Commands">CommandsBindableBase.Commands</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands">CommandsBindableBase.CreateCommands()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init">BindableBase.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_">BindableBase.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewBound_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_">ShapeCameraViewport3DExtension.GetViewBound(IShape3D, ICameraViewport3D)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html#H_Drawing3D_View_Extensions_ShapeCameraViewport3DExtension_GetViewCenter_H_Drawing3D_Shape_Base_IShape3D_H_Drawing3D_Drawing_ICameraViewport3D_">ShapeCameraViewport3DExtension.GetViewCenter(IShape3D, ICameraViewport3D)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_">ShapesExtension.GetImage(IShape3D, double, double)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_">ShapesExtension.SaveToImage(IShape3D, string, double, double)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__">ManipulatorExtension.CreateRotateManipulator(ITransformableShape3D, Vector3D, Func&lt;Rect3D, double&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateRotateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_">ManipulatorExtension.CreateRotateXManipulator(ITransformableShape3D)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__">ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func&lt;Rect3D, double&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_System_Windows_Media_Media3D_Vector3D_System_Func_System_Windows_Media_Media3D_Rect3D_System_Double__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator__System_Action_H_Drawing3D_Drawable_Manipulatable_Base_TranslateManipulator_System_Double__">ManipulatorExtension.CreateTranslateManipulator(ITransformableShape3D, Vector3D, Func&lt;Rect3D, double&gt;, Action&lt;TranslateManipulator&gt;, Action&lt;TranslateManipulator, double&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateXManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_">ManipulatorExtension.CreateTranslateXManipulator(ITransformableShape3D)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateYManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_">ManipulatorExtension.CreateTranslateYManipulator(ITransformableShape3D)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html#H_Drawing3D_Drawable_Manipulatable_ManipulatorExtension_CreateTranslateZManipulator_H_Drawing3D_Shape_Base_ITransformableShape3D_">ManipulatorExtension.CreateTranslateZManipulator(ITransformableShape3D)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D__ctor_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.#ctor*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D__ctor" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.#ctor">
+  RectangleShape3D()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectangleShape3D()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_DivLength_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.DivLength*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_DivLength" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.DivLength">
+  DivLength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DivLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_DivWidth_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.DivWidth*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_DivWidth" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.DivWidth">
+  DivWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DivWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Geometry3D_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Geometry3D*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Geometry3D" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Geometry3D">
+  Geometry3D
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Geometry3D Geometry3D { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.geometry3d">Geometry3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Length_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Length*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Length" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Length">
+  Length
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_LengthDirection_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.LengthDirection*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_LengthDirection" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.LengthDirection">
+  LengthDirection
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D LengthDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Normal_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Normal*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Normal" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Normal">
+  Normal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D Normal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Origin_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Origin*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Origin" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Origin">
+  Origin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Point3D Origin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Width_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Width*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Width" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Width">
+  Width
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Tessellate_" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Tessellate*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Shapes_RectangleShape3D_Tessellate" data-uid="H.Drawing3D.Shape.Shapes.RectangleShape3D.Tessellate">
+  Tessellate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MeshGeometry3D Tessellate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

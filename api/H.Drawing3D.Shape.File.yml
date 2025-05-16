@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.File
+  commentId: N:H.Drawing3D.Shape.File
+  id: H.Drawing3D.Shape.File
+  children:
+  - H.Drawing3D.Shape.File.AttachedProperties
+  - H.Drawing3D.Shape.File.FileModelCache
+  - H.Drawing3D.Shape.File.FileModelShape3D
+  - H.Drawing3D.Shape.File.FileModelShape3DExtensions
+  - H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension
+  - H.Drawing3D.Shape.File.GetFileModelShape3DsExtension
+  - H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension
+  - H.Drawing3D.Shape.File.IFileModelShape3D
+  - H.Drawing3D.Shape.File.Model3DExtension
+  - H.Drawing3D.Shape.File.PlaneFileModelShape3D
+  - H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.File
+  nameWithType: H.Drawing3D.Shape.File
+  fullName: H.Drawing3D.Shape.File
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape.File
+references:
+- uid: H.Drawing3D.Shape.File.AttachedProperties
+  commentId: T:H.Drawing3D.Shape.File.AttachedProperties
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.AttachedProperties.html
+  name: AttachedProperties
+  nameWithType: AttachedProperties
+  fullName: H.Drawing3D.Shape.File.AttachedProperties
+- uid: H.Drawing3D.Shape.File.FileModelCache
+  commentId: T:H.Drawing3D.Shape.File.FileModelCache
+  href: H.Drawing3D.Shape.File.FileModelCache.html
+  name: FileModelCache
+  nameWithType: FileModelCache
+  fullName: H.Drawing3D.Shape.File.FileModelCache
+- uid: H.Drawing3D.Shape.File.FileModelShape3D
+  commentId: T:H.Drawing3D.Shape.File.FileModelShape3D
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.FileModelShape3D.html
+  name: FileModelShape3D
+  nameWithType: FileModelShape3D
+  fullName: H.Drawing3D.Shape.File.FileModelShape3D
+- uid: H.Drawing3D.Shape.File.GetFileModelShape3DsExtension
+  commentId: T:H.Drawing3D.Shape.File.GetFileModelShape3DsExtension
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.GetFileModelShape3DsExtension.html
+  name: GetFileModelShape3DsExtension
+  nameWithType: GetFileModelShape3DsExtension
+  fullName: H.Drawing3D.Shape.File.GetFileModelShape3DsExtension
+- uid: H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension
+  commentId: T:H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension
+  href: H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension.html
+  name: GetFileModelShape3DStatesExtension
+  nameWithType: GetFileModelShape3DStatesExtension
+  fullName: H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension
+- uid: H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension
+  commentId: T:H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension.html
+  name: GetRandomPlaneShapesExtension
+  nameWithType: GetRandomPlaneShapesExtension
+  fullName: H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension
+- uid: H.Drawing3D.Shape.File.IFileModelShape3D
+  commentId: T:H.Drawing3D.Shape.File.IFileModelShape3D
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.IFileModelShape3D.html
+  name: IFileModelShape3D
+  nameWithType: IFileModelShape3D
+  fullName: H.Drawing3D.Shape.File.IFileModelShape3D
+- uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions
+  commentId: T:H.Drawing3D.Shape.File.FileModelShape3DExtensions
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html
+  name: FileModelShape3DExtensions
+  nameWithType: FileModelShape3DExtensions
+  fullName: H.Drawing3D.Shape.File.FileModelShape3DExtensions
+- uid: H.Drawing3D.Shape.File.Model3DExtension
+  commentId: T:H.Drawing3D.Shape.File.Model3DExtension
+  href: H.Drawing3D.Shape.File.Model3DExtension.html
+  name: Model3DExtension
+  nameWithType: Model3DExtension
+  fullName: H.Drawing3D.Shape.File.Model3DExtension
+- uid: H.Drawing3D.Shape.File.PlaneFileModelShape3D
+  commentId: T:H.Drawing3D.Shape.File.PlaneFileModelShape3D
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.PlaneFileModelShape3D.html
+  name: PlaneFileModelShape3D
+  nameWithType: PlaneFileModelShape3D
+  fullName: H.Drawing3D.Shape.File.PlaneFileModelShape3D
+- uid: H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D
+  commentId: T:H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D.html
+  name: RandomMaterialFileModelShape3D
+  nameWithType: RandomMaterialFileModelShape3D
+  fullName: H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D
+- uid: H.Drawing3D.Shape.File
+  commentId: N:H.Drawing3D.Shape.File
+  href: H.html
+  name: H.Drawing3D.Shape.File
+  nameWithType: H.Drawing3D.Shape.File
+  fullName: H.Drawing3D.Shape.File
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html

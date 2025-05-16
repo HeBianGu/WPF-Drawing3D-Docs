@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Views
+  commentId: N:H.Drawing3D.View.Views
+  id: H.Drawing3D.View.Views
+  children:
+  - H.Drawing3D.View.Views.CameraController
+  - H.Drawing3D.View.Views.GameShapesView3D
+  - H.Drawing3D.View.Views.LayerView3D
+  - H.Drawing3D.View.Views.MouseOverableShapesView3D
+  - H.Drawing3D.View.Views.Presenter2DView3D
+  - H.Drawing3D.View.Views.SelectableShapesView3D
+  - H.Drawing3D.View.Views.ShapeView3D
+  - H.Drawing3D.View.Views.ShapeView3DImage
+  - H.Drawing3D.View.Views.ShapesView3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.View.Views
+  nameWithType: H.Drawing3D.View.Views
+  fullName: H.Drawing3D.View.Views
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.View
+references:
+- uid: H.Drawing3D.View.Views.CameraController
+  commentId: T:H.Drawing3D.View.Views.CameraController
+  parent: H.Drawing3D.View.Views
+  href: H.Drawing3D.View.Views.CameraController.html
+  name: CameraController
+  nameWithType: CameraController
+  fullName: H.Drawing3D.View.Views.CameraController
+- uid: H.Drawing3D.View.Views.GameShapesView3D
+  commentId: T:H.Drawing3D.View.Views.GameShapesView3D
+  href: H.Drawing3D.View.Views.GameShapesView3D.html
+  name: GameShapesView3D
+  nameWithType: GameShapesView3D
+  fullName: H.Drawing3D.View.Views.GameShapesView3D
+- uid: H.Drawing3D.View.Views.LayerView3D
+  commentId: T:H.Drawing3D.View.Views.LayerView3D
+  parent: H.Drawing3D.View.Views
+  href: H.Drawing3D.View.Views.LayerView3D.html
+  name: LayerView3D
+  nameWithType: LayerView3D
+  fullName: H.Drawing3D.View.Views.LayerView3D
+- uid: H.Drawing3D.View.Views.MouseOverableShapesView3D
+  commentId: T:H.Drawing3D.View.Views.MouseOverableShapesView3D
+  parent: H.Drawing3D.View.Views
+  href: H.Drawing3D.View.Views.MouseOverableShapesView3D.html
+  name: MouseOverableShapesView3D
+  nameWithType: MouseOverableShapesView3D
+  fullName: H.Drawing3D.View.Views.MouseOverableShapesView3D
+- uid: H.Drawing3D.View.Views.Presenter2DView3D
+  commentId: T:H.Drawing3D.View.Views.Presenter2DView3D
+  parent: H.Drawing3D.View.Views
+  href: H.Drawing3D.View.Views.Presenter2DView3D.html
+  name: Presenter2DView3D
+  nameWithType: Presenter2DView3D
+  fullName: H.Drawing3D.View.Views.Presenter2DView3D
+- uid: H.Drawing3D.View.Views.SelectableShapesView3D
+  commentId: T:H.Drawing3D.View.Views.SelectableShapesView3D
+  parent: H.Drawing3D.View.Views
+  href: H.Drawing3D.View.Views.SelectableShapesView3D.html
+  name: SelectableShapesView3D
+  nameWithType: SelectableShapesView3D
+  fullName: H.Drawing3D.View.Views.SelectableShapesView3D
+- uid: H.Drawing3D.View.Views.ShapesView3D
+  commentId: T:H.Drawing3D.View.Views.ShapesView3D
+  parent: H.Drawing3D.View.Views
+  href: H.Drawing3D.View.Views.ShapesView3D.html
+  name: ShapesView3D
+  nameWithType: ShapesView3D
+  fullName: H.Drawing3D.View.Views.ShapesView3D
+- uid: H.Drawing3D.View.Views.ShapeView3D
+  commentId: T:H.Drawing3D.View.Views.ShapeView3D
+  href: H.Drawing3D.View.Views.ShapeView3D.html
+  name: ShapeView3D
+  nameWithType: ShapeView3D
+  fullName: H.Drawing3D.View.Views.ShapeView3D
+- uid: H.Drawing3D.View.Views.ShapeView3DImage
+  commentId: T:H.Drawing3D.View.Views.ShapeView3DImage
+  href: H.Drawing3D.View.Views.ShapeView3DImage.html
+  name: ShapeView3DImage
+  nameWithType: ShapeView3DImage
+  fullName: H.Drawing3D.View.Views.ShapeView3DImage
+- uid: H.Drawing3D.View.Views
+  commentId: N:H.Drawing3D.View.Views
+  href: H.html
+  name: H.Drawing3D.View.Views
+  nameWithType: H.Drawing3D.View.Views
+  fullName: H.Drawing3D.View.Views
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Views
+    name: Views
+    href: H.Drawing3D.View.Views.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Views
+    name: Views
+    href: H.Drawing3D.View.Views.html

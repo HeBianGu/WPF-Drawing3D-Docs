@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  id: H.Drawing3D.Drawing
+  children:
+  - H.Drawing3D.Drawing.DispatcherExtension
+  - H.Drawing3D.Drawing.GeometryDrawing3D
+  - H.Drawing3D.Drawing.GroupDrawing3D
+  - H.Drawing3D.Drawing.ICameraViewport3D
+  - H.Drawing3D.Drawing.IPresenter2DView3D
+  - H.Drawing3D.Drawing.Rect3DExtension
+  - H.Drawing3D.Drawing.Vector3DExtension
+  - H.Drawing3D.Drawing.Vector3Ds
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawing
+references:
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing.GeometryDrawing3D
+  commentId: T:H.Drawing3D.Drawing.GeometryDrawing3D
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.GeometryDrawing3D.html
+  name: GeometryDrawing3D
+  nameWithType: GeometryDrawing3D
+  fullName: H.Drawing3D.Drawing.GeometryDrawing3D
+- uid: H.Drawing3D.Drawing.GroupDrawing3D
+  commentId: T:H.Drawing3D.Drawing.GroupDrawing3D
+  href: H.Drawing3D.Drawing.GroupDrawing3D.html
+  name: GroupDrawing3D
+  nameWithType: GroupDrawing3D
+  fullName: H.Drawing3D.Drawing.GroupDrawing3D
+- uid: H.Drawing3D.Drawing.ICameraViewport3D
+  commentId: T:H.Drawing3D.Drawing.ICameraViewport3D
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  name: ICameraViewport3D
+  nameWithType: ICameraViewport3D
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D
+- uid: H.Drawing3D.Drawing.IPresenter2DView3D
+  commentId: T:H.Drawing3D.Drawing.IPresenter2DView3D
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.IPresenter2DView3D.html
+  name: IPresenter2DView3D
+  nameWithType: IPresenter2DView3D
+  fullName: H.Drawing3D.Drawing.IPresenter2DView3D
+- uid: H.Drawing3D.Drawing.Rect3DExtension
+  commentId: T:H.Drawing3D.Drawing.Rect3DExtension
+  href: H.Drawing3D.Drawing.Rect3DExtension.html
+  name: Rect3DExtension
+  nameWithType: Rect3DExtension
+  fullName: H.Drawing3D.Drawing.Rect3DExtension
+- uid: H.Drawing3D.Drawing.Vector3DExtension
+  commentId: T:H.Drawing3D.Drawing.Vector3DExtension
+  href: H.Drawing3D.Drawing.Vector3DExtension.html
+  name: Vector3DExtension
+  nameWithType: Vector3DExtension
+  fullName: H.Drawing3D.Drawing.Vector3DExtension
+- uid: H.Drawing3D.Drawing.Vector3Ds
+  commentId: T:H.Drawing3D.Drawing.Vector3Ds
+  href: H.Drawing3D.Drawing.Vector3Ds.html
+  name: Vector3Ds
+  nameWithType: Vector3Ds
+  fullName: H.Drawing3D.Drawing.Vector3Ds
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html

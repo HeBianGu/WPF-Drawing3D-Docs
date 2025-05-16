@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Shapes
+  commentId: N:H.Drawing3D.Shape.Shapes
+  id: H.Drawing3D.Shape.Shapes
+  children:
+  - H.Drawing3D.Shape.Shapes.ArrowShape3D
+  - H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D
+  - H.Drawing3D.Shape.Shapes.BoundingBoxShape3D
+  - H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D
+  - H.Drawing3D.Shape.Shapes.CubeShape3D
+  - H.Drawing3D.Shape.Shapes.EllipsoidShape3D
+  - H.Drawing3D.Shape.Shapes.GridLinesShape3D
+  - H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D
+  - H.Drawing3D.Shape.Shapes.IShapeGroupShape3D
+  - H.Drawing3D.Shape.Shapes.PanoramaCube3D
+  - H.Drawing3D.Shape.Shapes.PipeShape3D
+  - H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D
+  - H.Drawing3D.Shape.Shapes.PolyLineShape3D
+  - H.Drawing3D.Shape.Shapes.QuadShape3D
+  - H.Drawing3D.Shape.Shapes.RectangleShape3D
+  - H.Drawing3D.Shape.Shapes.SSShape3D
+  - H.Drawing3D.Shape.Shapes.ShapeGroupShape3D
+  - H.Drawing3D.Shape.Shapes.SphereShape3D
+  - H.Drawing3D.Shape.Shapes.TestGroupShape3D
+  - H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D
+  - H.Drawing3D.Shape.Shapes.TextShape3D
+  - H.Drawing3D.Shape.Shapes.TextShape3DBase
+  - H.Drawing3D.Shape.Shapes.TorusShape3D
+  - H.Drawing3D.Shape.Shapes.TruncatedConeShape3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Shapes
+  nameWithType: H.Drawing3D.Shape.Shapes
+  fullName: H.Drawing3D.Shape.Shapes
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Shapes.ArrowShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.ArrowShape3D
+  href: H.Drawing3D.Shape.Shapes.ArrowShape3D.html
+  name: ArrowShape3D
+  nameWithType: ArrowShape3D
+  fullName: H.Drawing3D.Shape.Shapes.ArrowShape3D
+- uid: H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D
+  href: H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D.html
+  name: AxisBoundingBoxShape3D
+  nameWithType: AxisBoundingBoxShape3D
+  fullName: H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D
+- uid: H.Drawing3D.Shape.Shapes.BoundingBoxShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.BoundingBoxShape3D
+  href: H.Drawing3D.Shape.Shapes.BoundingBoxShape3D.html
+  name: BoundingBoxShape3D
+  nameWithType: BoundingBoxShape3D
+  fullName: H.Drawing3D.Shape.Shapes.BoundingBoxShape3D
+- uid: H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D
+  href: H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D.html
+  name: CoordinateSystemShape3D
+  nameWithType: CoordinateSystemShape3D
+  fullName: H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D
+- uid: H.Drawing3D.Shape.Shapes.CubeShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.CubeShape3D
+  parent: H.Drawing3D.Shape.Shapes
+  href: H.Drawing3D.Shape.Shapes.CubeShape3D.html
+  name: CubeShape3D
+  nameWithType: CubeShape3D
+  fullName: H.Drawing3D.Shape.Shapes.CubeShape3D
+- uid: H.Drawing3D.Shape.Shapes.EllipsoidShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.EllipsoidShape3D
+  parent: H.Drawing3D.Shape.Shapes
+  href: H.Drawing3D.Shape.Shapes.EllipsoidShape3D.html
+  name: EllipsoidShape3D
+  nameWithType: EllipsoidShape3D
+  fullName: H.Drawing3D.Shape.Shapes.EllipsoidShape3D
+- uid: H.Drawing3D.Shape.Shapes.GridLinesShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.GridLinesShape3D
+  href: H.Drawing3D.Shape.Shapes.GridLinesShape3D.html
+  name: GridLinesShape3D
+  nameWithType: GridLinesShape3D
+  fullName: H.Drawing3D.Shape.Shapes.GridLinesShape3D
+- uid: H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D
+  parent: H.Drawing3D.Shape.Shapes
+  href: H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D.html
+  name: IPlaneBackgroundShape3D
+  nameWithType: IPlaneBackgroundShape3D
+  fullName: H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D
+- uid: H.Drawing3D.Shape.Shapes.PanoramaCube3D
+  commentId: T:H.Drawing3D.Shape.Shapes.PanoramaCube3D
+  href: H.Drawing3D.Shape.Shapes.PanoramaCube3D.html
+  name: PanoramaCube3D
+  nameWithType: PanoramaCube3D
+  fullName: H.Drawing3D.Shape.Shapes.PanoramaCube3D
+- uid: H.Drawing3D.Shape.Shapes.PipeShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.PipeShape3D
+  href: H.Drawing3D.Shape.Shapes.PipeShape3D.html
+  name: PipeShape3D
+  nameWithType: PipeShape3D
+  fullName: H.Drawing3D.Shape.Shapes.PipeShape3D
+- uid: H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D
+  href: H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D.html
+  name: PlaneBackgroundShape3D
+  nameWithType: PlaneBackgroundShape3D
+  fullName: H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D
+- uid: H.Drawing3D.Shape.Shapes.PolyLineShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.PolyLineShape3D
+  href: H.Drawing3D.Shape.Shapes.PolyLineShape3D.html
+  name: PolyLineShape3D
+  nameWithType: PolyLineShape3D
+  fullName: H.Drawing3D.Shape.Shapes.PolyLineShape3D
+- uid: H.Drawing3D.Shape.Shapes.QuadShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.QuadShape3D
+  href: H.Drawing3D.Shape.Shapes.QuadShape3D.html
+  name: QuadShape3D
+  nameWithType: QuadShape3D
+  fullName: H.Drawing3D.Shape.Shapes.QuadShape3D
+- uid: H.Drawing3D.Shape.Shapes.RectangleShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.RectangleShape3D
+  href: H.Drawing3D.Shape.Shapes.RectangleShape3D.html
+  name: RectangleShape3D
+  nameWithType: RectangleShape3D
+  fullName: H.Drawing3D.Shape.Shapes.RectangleShape3D
+- uid: H.Drawing3D.Shape.Shapes.IShapeGroupShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.IShapeGroupShape3D
+  parent: H.Drawing3D.Shape.Shapes
+  href: H.Drawing3D.Shape.Shapes.IShapeGroupShape3D.html
+  name: IShapeGroupShape3D
+  nameWithType: IShapeGroupShape3D
+  fullName: H.Drawing3D.Shape.Shapes.IShapeGroupShape3D
+- uid: H.Drawing3D.Shape.Shapes.ShapeGroupShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.ShapeGroupShape3D
+  href: H.Drawing3D.Shape.Shapes.ShapeGroupShape3D.html
+  name: ShapeGroupShape3D
+  nameWithType: ShapeGroupShape3D
+  fullName: H.Drawing3D.Shape.Shapes.ShapeGroupShape3D
+- uid: H.Drawing3D.Shape.Shapes.SphereShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.SphereShape3D
+  href: H.Drawing3D.Shape.Shapes.SphereShape3D.html
+  name: SphereShape3D
+  nameWithType: SphereShape3D
+  fullName: H.Drawing3D.Shape.Shapes.SphereShape3D
+- uid: H.Drawing3D.Shape.Shapes.SSShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.SSShape3D
+  href: H.Drawing3D.Shape.Shapes.SSShape3D.html
+  name: SSShape3D
+  nameWithType: SSShape3D
+  fullName: H.Drawing3D.Shape.Shapes.SSShape3D
+- uid: H.Drawing3D.Shape.Shapes.TestGroupShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.TestGroupShape3D
+  href: H.Drawing3D.Shape.Shapes.TestGroupShape3D.html
+  name: TestGroupShape3D
+  nameWithType: TestGroupShape3D
+  fullName: H.Drawing3D.Shape.Shapes.TestGroupShape3D
+- uid: H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D
+  href: H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D.html
+  name: TestMeshGeometryShape3D
+  nameWithType: TestMeshGeometryShape3D
+  fullName: H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D
+- uid: H.Drawing3D.Shape.Shapes.TextShape3DBase
+  commentId: T:H.Drawing3D.Shape.Shapes.TextShape3DBase
+  parent: H.Drawing3D.Shape.Shapes
+  href: H.Drawing3D.Shape.Shapes.TextShape3DBase.html
+  name: TextShape3DBase
+  nameWithType: TextShape3DBase
+  fullName: H.Drawing3D.Shape.Shapes.TextShape3DBase
+- uid: H.Drawing3D.Shape.Shapes.TextShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.TextShape3D
+  href: H.Drawing3D.Shape.Shapes.TextShape3D.html
+  name: TextShape3D
+  nameWithType: TextShape3D
+  fullName: H.Drawing3D.Shape.Shapes.TextShape3D
+- uid: H.Drawing3D.Shape.Shapes.TorusShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.TorusShape3D
+  href: H.Drawing3D.Shape.Shapes.TorusShape3D.html
+  name: TorusShape3D
+  nameWithType: TorusShape3D
+  fullName: H.Drawing3D.Shape.Shapes.TorusShape3D
+- uid: H.Drawing3D.Shape.Shapes.TruncatedConeShape3D
+  commentId: T:H.Drawing3D.Shape.Shapes.TruncatedConeShape3D
+  href: H.Drawing3D.Shape.Shapes.TruncatedConeShape3D.html
+  name: TruncatedConeShape3D
+  nameWithType: TruncatedConeShape3D
+  fullName: H.Drawing3D.Shape.Shapes.TruncatedConeShape3D
+- uid: H.Drawing3D.Shape.Shapes
+  commentId: N:H.Drawing3D.Shape.Shapes
+  href: H.html
+  name: H.Drawing3D.Shape.Shapes
+  nameWithType: H.Drawing3D.Shape.Shapes
+  fullName: H.Drawing3D.Shape.Shapes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Shapes
+    name: Shapes
+    href: H.Drawing3D.Shape.Shapes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Shapes
+    name: Shapes
+    href: H.Drawing3D.Shape.Shapes.html

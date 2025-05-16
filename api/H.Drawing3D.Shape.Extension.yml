@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Extension
+  commentId: N:H.Drawing3D.Shape.Extension
+  id: H.Drawing3D.Shape.Extension
+  children:
+  - H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension
+  - H.Drawing3D.Shape.Extension.GroupDrawing3DExtension
+  - H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D
+  - H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D
+  - H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Extension
+  nameWithType: H.Drawing3D.Shape.Extension
+  fullName: H.Drawing3D.Shape.Extension
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension
+  commentId: T:H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension
+  href: H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension.html
+  name: GeometryDrawing3DExtension
+  nameWithType: GeometryDrawing3DExtension
+  fullName: H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension
+- uid: H.Drawing3D.Shape.Extension.GroupDrawing3DExtension
+  commentId: T:H.Drawing3D.Shape.Extension.GroupDrawing3DExtension
+  parent: H.Drawing3D.Shape.Extension
+  href: H.Drawing3D.Shape.Extension.GroupDrawing3DExtension.html
+  name: GroupDrawing3DExtension
+  nameWithType: GroupDrawing3DExtension
+  fullName: H.Drawing3D.Shape.Extension.GroupDrawing3DExtension
+- uid: H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D
+  commentId: T:H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D
+  parent: H.Drawing3D.Shape.Extension
+  href: H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D.html
+  name: IMeshGeometryDrawing3D
+  nameWithType: IMeshGeometryDrawing3D
+  fullName: H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D
+- uid: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension
+  commentId: T:H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension
+  parent: H.Drawing3D.Shape.Extension
+  href: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension.html
+  name: MeshGeometryDrawing3DExtension
+  nameWithType: MeshGeometryDrawing3DExtension
+  fullName: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension
+- uid: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D
+  commentId: T:H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D
+  href: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D.html
+  name: MeshGeometryDrawing3D
+  nameWithType: MeshGeometryDrawing3D
+  fullName: H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D
+- uid: H.Drawing3D.Shape.Extension
+  commentId: N:H.Drawing3D.Shape.Extension
+  href: H.html
+  name: H.Drawing3D.Shape.Extension
+  nameWithType: H.Drawing3D.Shape.Extension
+  fullName: H.Drawing3D.Shape.Extension
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Extension
+    name: Extension
+    href: H.Drawing3D.Shape.Extension.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Extension
+    name: Extension
+    href: H.Drawing3D.Shape.Extension.html

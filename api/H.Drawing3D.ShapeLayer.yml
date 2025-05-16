@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.ShapeLayer
+  commentId: N:H.Drawing3D.ShapeLayer
+  id: H.Drawing3D.ShapeLayer
+  children:
+  - H.Drawing3D.ShapeLayer.ShapesLayer
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.ShapeLayer
+  nameWithType: H.Drawing3D.ShapeLayer
+  fullName: H.Drawing3D.ShapeLayer
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+references:
+- uid: H.Drawing3D.ShapeLayer.ShapesLayer
+  commentId: T:H.Drawing3D.ShapeLayer.ShapesLayer
+  href: H.Drawing3D.ShapeLayer.ShapesLayer.html
+  name: ShapesLayer
+  nameWithType: ShapesLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapesLayer

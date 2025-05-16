@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View
+  commentId: N:H.Drawing3D.View
+  id: H.Drawing3D.View
+  children:
+  - H.Drawing3D.View.CameraViewport3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.View
+  nameWithType: H.Drawing3D.View
+  fullName: H.Drawing3D.View
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.View
+references:
+- uid: H.Drawing3D.View.CameraViewport3D
+  commentId: T:H.Drawing3D.View.CameraViewport3D
+  parent: H.Drawing3D.View
+  href: H.Drawing3D.View.CameraViewport3D.html
+  name: CameraViewport3D
+  nameWithType: CameraViewport3D
+  fullName: H.Drawing3D.View.CameraViewport3D
+- uid: H.Drawing3D.View
+  commentId: N:H.Drawing3D.View
+  href: H.html
+  name: H.Drawing3D.View
+  nameWithType: H.Drawing3D.View
+  fullName: H.Drawing3D.View
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html

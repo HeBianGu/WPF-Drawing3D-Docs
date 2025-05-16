@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer
+  commentId: N:H.Drawing3D.ShapeLayer.ShapeLayer
+  id: H.Drawing3D.ShapeLayer.ShapeLayer
+  children:
+  - H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+  - H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.ShapeLayer.ShapeLayer
+  nameWithType: H.Drawing3D.ShapeLayer.ShapeLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+references:
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+  commentId: T:H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+  parent: H.Drawing3D.ShapeLayer.ShapeLayer
+  href: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer.html
+  name: IShapeLayer
+  nameWithType: IShapeLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  commentId: T:H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+  parent: H.Drawing3D.ShapeLayer.ShapeLayer
+  href: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.html
+  name: ShapesLayerBase
+  nameWithType: ShapesLayerBase
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase
+- uid: H.Drawing3D.ShapeLayer.ShapeLayer
+  commentId: N:H.Drawing3D.ShapeLayer.ShapeLayer
+  href: H.html
+  name: H.Drawing3D.ShapeLayer.ShapeLayer
+  nameWithType: H.Drawing3D.ShapeLayer.ShapeLayer
+  fullName: H.Drawing3D.ShapeLayer.ShapeLayer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.ShapeLayer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.ShapeLayer.html

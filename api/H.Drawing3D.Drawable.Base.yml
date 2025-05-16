@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawable.Base
+  commentId: N:H.Drawing3D.Drawable.Base
+  id: H.Drawing3D.Drawable.Base
+  children:
+  - H.Drawing3D.Drawable.Base.MouseOverableStateBase
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawable.Base
+  nameWithType: H.Drawing3D.Drawable.Base
+  fullName: H.Drawing3D.Drawable.Base
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawable
+references:
+- uid: H.Drawing3D.Drawable.Base.MouseOverableStateBase
+  commentId: T:H.Drawing3D.Drawable.Base.MouseOverableStateBase
+  parent: H.Drawing3D.Drawable.Base
+  href: H.Drawing3D.Drawable.Base.MouseOverableStateBase.html
+  name: MouseOverableStateBase
+  nameWithType: MouseOverableStateBase
+  fullName: H.Drawing3D.Drawable.Base.MouseOverableStateBase
+- uid: H.Drawing3D.Drawable.Base
+  commentId: N:H.Drawing3D.Drawable.Base
+  href: H.html
+  name: H.Drawing3D.Drawable.Base
+  nameWithType: H.Drawing3D.Drawable.Base
+  fullName: H.Drawing3D.Drawable.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Base
+    name: Base
+    href: H.Drawing3D.Drawable.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  - name: .
+  - uid: H.Drawing3D.Drawable.Base
+    name: Base
+    href: H.Drawing3D.Drawable.Base.html

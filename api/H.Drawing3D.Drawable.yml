@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawable
+  commentId: N:H.Drawing3D.Drawable
+  id: H.Drawing3D.Drawable
+  children:
+  - H.Drawing3D.Drawable.DrawableShapeLayer
+  - H.Drawing3D.Drawable.ISelectableState
+  - H.Drawing3D.Drawable.Presenterable2DState
+  - H.Drawing3D.Drawable.SelectableStateBase
+  - H.Drawing3D.Drawable.Sphere
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawable
+  nameWithType: H.Drawing3D.Drawable
+  fullName: H.Drawing3D.Drawable
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawable
+references:
+- uid: H.Drawing3D.Drawable.DrawableShapeLayer
+  commentId: T:H.Drawing3D.Drawable.DrawableShapeLayer
+  href: H.Drawing3D.Drawable.DrawableShapeLayer.html
+  name: DrawableShapeLayer
+  nameWithType: DrawableShapeLayer
+  fullName: H.Drawing3D.Drawable.DrawableShapeLayer
+- uid: H.Drawing3D.Drawable.Presenterable2DState
+  commentId: T:H.Drawing3D.Drawable.Presenterable2DState
+  href: H.Drawing3D.Drawable.Presenterable2DState.html
+  name: Presenterable2DState
+  nameWithType: Presenterable2DState
+  fullName: H.Drawing3D.Drawable.Presenterable2DState
+- uid: H.Drawing3D.Drawable.ISelectableState
+  commentId: T:H.Drawing3D.Drawable.ISelectableState
+  parent: H.Drawing3D.Drawable
+  href: H.Drawing3D.Drawable.ISelectableState.html
+  name: ISelectableState
+  nameWithType: ISelectableState
+  fullName: H.Drawing3D.Drawable.ISelectableState
+- uid: H.Drawing3D.Drawable.SelectableStateBase
+  commentId: T:H.Drawing3D.Drawable.SelectableStateBase
+  parent: H.Drawing3D.Drawable
+  href: H.Drawing3D.Drawable.SelectableStateBase.html
+  name: SelectableStateBase
+  nameWithType: SelectableStateBase
+  fullName: H.Drawing3D.Drawable.SelectableStateBase
+- uid: H.Drawing3D.Drawable.Sphere
+  commentId: T:H.Drawing3D.Drawable.Sphere
+  href: H.Drawing3D.Drawable.Sphere.html
+  name: Sphere
+  nameWithType: Sphere
+  fullName: H.Drawing3D.Drawable.Sphere
+- uid: H.Drawing3D.Drawable
+  commentId: N:H.Drawing3D.Drawable
+  href: H.html
+  name: H.Drawing3D.Drawable
+  nameWithType: H.Drawing3D.Drawable
+  fullName: H.Drawing3D.Drawable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawable
+    name: Drawable
+    href: H.Drawing3D.Drawable.html

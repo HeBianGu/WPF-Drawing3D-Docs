@@ -1,0 +1,1361 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  commentId: T:H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  id: MeshGeometryHelper
+  parent: H.Drawing3D.Shape.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Windows.Media.Media3D.MeshGeometry3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Windows.Media.Media3D.Point3DCollection@,System.Windows.Media.Int32Collection@,System.Windows.Media.PointCollection@,System.Windows.Media.Media3D.Vector3DCollection@)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles(System.Collections.Generic.IList{System.Int32},System.Int32)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  - H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate(System.Windows.Media.Media3D.MeshGeometry3D)
+  langs:
+  - csharp
+  - vb
+  name: MeshGeometryHelper
+  nameWithType: MeshGeometryHelper
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  type: Class
+  source:
+    id: MeshGeometryHelper
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 47
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Provides helper methods for mesh geometries.
+  example: []
+  syntax:
+    content: public static class MeshGeometryHelper
+    content.vb: Public Module MeshGeometryHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: CalculateNormals(System.Windows.Media.Media3D.MeshGeometry3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: CalculateNormals(MeshGeometry3D)
+  nameWithType: MeshGeometryHelper.CalculateNormals(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: CalculateNormals
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 62
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Calculates the normal vectors.
+  example: []
+  syntax:
+    content: public static Vector3DCollection CalculateNormals(this MeshGeometry3D mesh)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The mesh.
+    return:
+      type: System.Windows.Media.Media3D.Vector3DCollection
+      description: Collection of normal vectors.
+    content.vb: Public Shared Function CalculateNormals(mesh As MeshGeometry3D) As Vector3DCollection
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32})
+  id: CalculateNormals(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: CalculateNormals(IList<Point3D>, IList<int>)
+  nameWithType: MeshGeometryHelper.CalculateNormals(IList<Point3D>, IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: CalculateNormals
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 79
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Calculates the normal vectors.
+  example: []
+  syntax:
+    content: public static Vector3DCollection CalculateNormals(IList<Point3D> positions, IList<int> triangleIndices)
+    parameters:
+    - id: positions
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+      description: The positions.
+    - id: triangleIndices
+      type: System.Collections.Generic.IList{System.Int32}
+      description: The triangle indices.
+    return:
+      type: System.Windows.Media.Media3D.Vector3DCollection
+      description: Collection of normal vectors.
+    content.vb: Public Shared Function CalculateNormals(positions As IList(Of Point3D), triangleIndices As IList(Of Integer)) As Vector3DCollection
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals*
+  nameWithType.vb: MeshGeometryHelper.CalculateNormals(IList(Of Point3D), IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of Integer))
+  name.vb: CalculateNormals(IList(Of Point3D), IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: FindBorderEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: FindBorderEdges(MeshGeometry3D)
+  nameWithType: MeshGeometryHelper.FindBorderEdges(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: FindBorderEdges
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 123
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Finds edges that are only connected to one triangle.
+  example: []
+  syntax:
+    content: public static Int32Collection FindBorderEdges(this MeshGeometry3D mesh)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: A mesh geometry.
+    return:
+      type: System.Windows.Media.Int32Collection
+      description: The edge indices for the edges that are only used by one triangle.
+    content.vb: Public Shared Function FindBorderEdges(mesh As MeshGeometry3D) As Int32Collection
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: FindEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: FindEdges(MeshGeometry3D)
+  nameWithType: MeshGeometryHelper.FindEdges(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: FindEdges
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 172
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Finds all edges in the mesh (each edge is only included once).
+  example: []
+  syntax:
+    content: public static Int32Collection FindEdges(this MeshGeometry3D mesh)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: A mesh geometry.
+    return:
+      type: System.Windows.Media.Int32Collection
+      description: The edge indices (minimum index first).
+    content.vb: Public Shared Function FindEdges(mesh As MeshGeometry3D) As Int32Collection
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  id: FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: FindSharpEdges(MeshGeometry3D, double)
+  nameWithType: MeshGeometryHelper.FindSharpEdges(MeshGeometry3D, double)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D, double)
+  type: Method
+  source:
+    id: FindSharpEdges
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 222
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: >-
+    Finds all edges where the angle between adjacent triangle normal vectors.
+
+    is larger than minimumAngle
+  example: []
+  syntax:
+    content: public static Int32Collection FindSharpEdges(this MeshGeometry3D mesh, double minimumAngle)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: A mesh geometry.
+    - id: minimumAngle
+      type: System.Double
+      description: The minimum angle between the normal vectors of two adjacent triangles (degrees).
+    return:
+      type: System.Windows.Media.Int32Collection
+      description: The edge indices.
+    content.vb: Public Shared Function FindSharpEdges(mesh As MeshGeometry3D, minimumAngle As Double) As Int32Collection
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges*
+  nameWithType.vb: MeshGeometryHelper.FindSharpEdges(MeshGeometry3D, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D, Double)
+  name.vb: FindSharpEdges(MeshGeometry3D, Double)
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: NoSharedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: NoSharedVertices(MeshGeometry3D)
+  nameWithType: MeshGeometryHelper.NoSharedVertices(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: NoSharedVertices
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 282
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Creates a new mesh where no vertices are shared.
+  example: []
+  syntax:
+    content: public static MeshGeometry3D NoSharedVertices(this MeshGeometry3D input)
+    parameters:
+    - id: input
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The input mesh.
+    return:
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: A new mesh.
+    content.vb: Public Shared Function NoSharedVertices(input As MeshGeometry3D) As MeshGeometry3D
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  id: Simplify(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: Simplify(MeshGeometry3D, double)
+  nameWithType: MeshGeometryHelper.Simplify(MeshGeometry3D, double)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify(System.Windows.Media.Media3D.MeshGeometry3D, double)
+  type: Method
+  source:
+    id: Simplify
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 349
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Simplifies the specified mesh.
+  example: []
+  syntax:
+    content: public static MeshGeometry3D Simplify(this MeshGeometry3D mesh, double eps)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The mesh.
+    - id: eps
+      type: System.Double
+      description: The tolerance.
+    return:
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: A simplified mesh.
+    content.vb: Public Shared Function Simplify(mesh As MeshGeometry3D, eps As Double) As MeshGeometry3D
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify*
+  nameWithType.vb: MeshGeometryHelper.Simplify(MeshGeometry3D, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify(System.Windows.Media.Media3D.MeshGeometry3D, Double)
+  name.vb: Simplify(MeshGeometry3D, Double)
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: Validate(System.Windows.Media.Media3D.MeshGeometry3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: Validate(MeshGeometry3D)
+  nameWithType: MeshGeometryHelper.Validate(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: Validate
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 402
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Validates the specified mesh.
+  example: []
+  syntax:
+    content: public static string Validate(this MeshGeometry3D mesh)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The mesh.
+    return:
+      type: System.String
+      description: Validation report or null if no issues were found.
+    content.vb: Public Shared Function Validate(mesh As MeshGeometry3D) As String
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  id: Cut(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: Cut(MeshGeometry3D, Point3D, Vector3D)
+  nameWithType: MeshGeometryHelper.Cut(MeshGeometry3D, Point3D, Vector3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut(System.Windows.Media.Media3D.MeshGeometry3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D)
+  type: Method
+  source:
+    id: Cut
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 449
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Cuts the mesh with the specified plane.
+  example: []
+  syntax:
+    content: public static MeshGeometry3D Cut(this MeshGeometry3D mesh, Point3D plane, Vector3D normal)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The mesh.
+    - id: plane
+      type: System.Windows.Media.Media3D.Point3D
+      description: The plane origin.
+    - id: normal
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The plane normal.
+    return:
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The <xref href="System.Windows.Media.Media3D.MeshGeometry3D" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Cut(mesh As MeshGeometry3D, plane As Point3D, normal As Vector3D) As MeshGeometry3D
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  id: GetContourSegments(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: GetContourSegments(MeshGeometry3D, Point3D, Vector3D)
+  nameWithType: MeshGeometryHelper.GetContourSegments(MeshGeometry3D, Point3D, Vector3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments(System.Windows.Media.Media3D.MeshGeometry3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D)
+  type: Method
+  source:
+    id: GetContourSegments
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 523
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Gets the contour segments.
+  example: []
+  syntax:
+    content: public static IList<Point3D> GetContourSegments(this MeshGeometry3D mesh, Point3D plane, Vector3D normal)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: The mesh.
+    - id: plane
+      type: System.Windows.Media.Media3D.Point3D
+      description: The plane origin.
+    - id: normal
+      type: System.Windows.Media.Media3D.Vector3D
+      description: The plane normal.
+    return:
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+      description: The segments of the contour.
+    content.vb: Public Shared Function GetContourSegments(mesh As MeshGeometry3D, plane As Point3D, normal As Vector3D) As IList(Of Point3D)
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double)
+  id: CombineSegments(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double)
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: CombineSegments(IList<Point3D>, double)
+  nameWithType: MeshGeometryHelper.CombineSegments(IList<Point3D>, double)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, double)
+  type: Method
+  source:
+    id: CombineSegments
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 555
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Combines the segments.
+  example: []
+  syntax:
+    content: public static IEnumerable<IList<Point3D>> CombineSegments(IList<Point3D> segments, double eps)
+    parameters:
+    - id: segments
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+      description: The segments.
+    - id: eps
+      type: System.Double
+      description: The tolerance.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}}
+      description: Enumerated connected contour curves.
+    content.vb: Public Shared Function CombineSegments(segments As IList(Of Point3D), eps As Double) As IEnumerable(Of IList(Of Point3D))
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments*
+  nameWithType.vb: MeshGeometryHelper.CombineSegments(IList(Of Point3D), Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), Double)
+  name.vb: CombineSegments(IList(Of Point3D), Double)
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: RemoveIsolatedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveIsolatedVertices(MeshGeometry3D)
+  nameWithType: MeshGeometryHelper.RemoveIsolatedVertices(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: RemoveIsolatedVertices
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 706
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Remove isolated(not connected to any triangles) vertices
+  example: []
+  syntax:
+    content: public static MeshGeometry3D RemoveIsolatedVertices(this MeshGeometry3D mesh)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: ''
+    return:
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+      description: ''
+    content.vb: Public Shared Function RemoveIsolatedVertices(mesh As MeshGeometry3D) As MeshGeometry3D
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices*
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Windows.Media.Media3D.Point3DCollection@,System.Windows.Media.Int32Collection@,System.Windows.Media.PointCollection@,System.Windows.Media.Media3D.Vector3DCollection@)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Windows.Media.Media3D.Point3DCollection@,System.Windows.Media.Int32Collection@,System.Windows.Media.PointCollection@,System.Windows.Media.Media3D.Vector3DCollection@)
+  id: RemoveIsolatedVertices(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Windows.Media.Media3D.Point3DCollection@,System.Windows.Media.Int32Collection@,System.Windows.Media.PointCollection@,System.Windows.Media.Media3D.Vector3DCollection@)
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveIsolatedVertices(IList<Point3D>, IList<int>, IList<Point>, IList<Vector3D>, out Point3DCollection, out Int32Collection, out PointCollection, out Vector3DCollection)
+  nameWithType: MeshGeometryHelper.RemoveIsolatedVertices(IList<Point3D>, IList<int>, IList<Point>, IList<Vector3D>, out Point3DCollection, out Int32Collection, out PointCollection, out Vector3DCollection)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<int>, System.Collections.Generic.IList<System.Windows.Point>, System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, out System.Windows.Media.Media3D.Point3DCollection, out System.Windows.Media.Int32Collection, out System.Windows.Media.PointCollection, out System.Windows.Media.Media3D.Vector3DCollection)
+  type: Method
+  source:
+    id: RemoveIsolatedVertices
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 724
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: Remove isolated(not connected to any triangles) vertices
+  example: []
+  syntax:
+    content: public static void RemoveIsolatedVertices(IList<Point3D> vertices, IList<int> triangles, IList<Point> texture, IList<Vector3D> normals, out Point3DCollection verticesOut, out Int32Collection trianglesOut, out PointCollection textureOut, out Vector3DCollection normalOut)
+    parameters:
+    - id: vertices
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+      description: ''
+    - id: triangles
+      type: System.Collections.Generic.IList{System.Int32}
+      description: ''
+    - id: texture
+      type: System.Collections.Generic.IList{System.Windows.Point}
+      description: ''
+    - id: normals
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+      description: ''
+    - id: verticesOut
+      type: System.Windows.Media.Media3D.Point3DCollection
+      description: ''
+    - id: trianglesOut
+      type: System.Windows.Media.Int32Collection
+      description: ''
+    - id: textureOut
+      type: System.Windows.Media.PointCollection
+      description: ''
+    - id: normalOut
+      type: System.Windows.Media.Media3D.Vector3DCollection
+      description: ''
+    content.vb: Public Shared Sub RemoveIsolatedVertices(vertices As IList(Of Point3D), triangles As IList(Of Integer), texture As IList(Of Point), normals As IList(Of Vector3D), verticesOut As Point3DCollection, trianglesOut As Int32Collection, textureOut As PointCollection, normalOut As Vector3DCollection)
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices*
+  nameWithType.vb: MeshGeometryHelper.RemoveIsolatedVertices(IList(Of Point3D), IList(Of Integer), IList(Of Point), IList(Of Vector3D), Point3DCollection, Int32Collection, PointCollection, Vector3DCollection)
+  fullName.vb: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of System.Windows.Point), System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Windows.Media.Media3D.Point3DCollection, System.Windows.Media.Int32Collection, System.Windows.Media.PointCollection, System.Windows.Media.Media3D.Vector3DCollection)
+  name.vb: RemoveIsolatedVertices(IList(Of Point3D), IList(Of Integer), IList(Of Point), IList(Of Vector3D), Point3DCollection, Int32Collection, PointCollection, Vector3DCollection)
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles(System.Collections.Generic.IList{System.Int32},System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles(System.Collections.Generic.IList{System.Int32},System.Int32)
+  id: RemoveOutOfRangeTriangles(System.Collections.Generic.IList{System.Int32},System.Int32)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.Geometry.MeshGeometryHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveOutOfRangeTriangles(IList<int>, int)
+  nameWithType: MeshGeometryHelper.RemoveOutOfRangeTriangles(IList<int>, int)
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles(System.Collections.Generic.IList<int>, int)
+  type: Method
+  source:
+    id: RemoveOutOfRangeTriangles
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\MeshGeometryHelper.cs
+    startLine: 794
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  summary: ''
+  example: []
+  syntax:
+    content: public static void RemoveOutOfRangeTriangles(this IList<int> triangles, int numVerts)
+    parameters:
+    - id: triangles
+      type: System.Collections.Generic.IList{System.Int32}
+      description: ''
+    - id: numVerts
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub RemoveOutOfRangeTriangles(triangles As IList(Of Integer), numVerts As Integer)
+  overload: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles*
+  nameWithType.vb: MeshGeometryHelper.RemoveOutOfRangeTriangles(IList(Of Integer), Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles(System.Collections.Generic.IList(Of Integer), Integer)
+  name.vb: RemoveOutOfRangeTriangles(IList(Of Integer), Integer)
+references:
+- uid: H.Drawing3D.Shape.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry
+  fullName: H.Drawing3D.Shape.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CalculateNormals_System_Windows_Media_Media3D_MeshGeometry3D_
+  name: CalculateNormals
+  nameWithType: MeshGeometryHelper.CalculateNormals
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals
+- uid: System.Windows.Media.Media3D.MeshGeometry3D
+  commentId: T:System.Windows.Media.Media3D.MeshGeometry3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d
+  name: MeshGeometry3D
+  nameWithType: MeshGeometry3D
+  fullName: System.Windows.Media.Media3D.MeshGeometry3D
+- uid: System.Windows.Media.Media3D.Vector3DCollection
+  commentId: T:System.Windows.Media.Media3D.Vector3DCollection
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3dcollection
+  name: Vector3DCollection
+  nameWithType: Vector3DCollection
+  fullName: System.Windows.Media.Media3D.Vector3DCollection
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Point3D>
+  nameWithType: IList<Point3D>
+  fullName: System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>
+  nameWithType.vb: IList(Of Point3D)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D)
+  name.vb: IList(Of Point3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+- uid: System.Collections.Generic.IList{System.Int32}
+  commentId: T:System.Collections.Generic.IList{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<int>
+  nameWithType: IList<int>
+  fullName: System.Collections.Generic.IList<int>
+  nameWithType.vb: IList(Of Integer)
+  fullName.vb: System.Collections.Generic.IList(Of Integer)
+  name.vb: IList(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindBorderEdges_System_Windows_Media_Media3D_MeshGeometry3D_
+  name: FindBorderEdges
+  nameWithType: MeshGeometryHelper.FindBorderEdges
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges
+- uid: System.Windows.Media.Int32Collection
+  commentId: T:System.Windows.Media.Int32Collection
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.int32collection
+  name: Int32Collection
+  nameWithType: Int32Collection
+  fullName: System.Windows.Media.Int32Collection
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindEdges_System_Windows_Media_Media3D_MeshGeometry3D_
+  name: FindEdges
+  nameWithType: MeshGeometryHelper.FindEdges
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindSharpEdges_System_Windows_Media_Media3D_MeshGeometry3D_System_Double_
+  name: FindSharpEdges
+  nameWithType: MeshGeometryHelper.FindSharpEdges
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_NoSharedVertices_System_Windows_Media_Media3D_MeshGeometry3D_
+  name: NoSharedVertices
+  nameWithType: MeshGeometryHelper.NoSharedVertices
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Simplify_System_Windows_Media_Media3D_MeshGeometry3D_System_Double_
+  name: Simplify
+  nameWithType: MeshGeometryHelper.Simplify
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Validate_System_Windows_Media_Media3D_MeshGeometry3D_
+  name: Validate
+  nameWithType: MeshGeometryHelper.Validate
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Cut_System_Windows_Media_Media3D_MeshGeometry3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_
+  name: Cut
+  nameWithType: MeshGeometryHelper.Cut
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_GetContourSegments_System_Windows_Media_Media3D_MeshGeometry3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_
+  name: GetContourSegments
+  nameWithType: MeshGeometryHelper.GetContourSegments
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CombineSegments_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Double_
+  name: CombineSegments
+  nameWithType: MeshGeometryHelper.CombineSegments
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IList<Point3D>>
+  nameWithType: IEnumerable<IList<Point3D>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>>
+  nameWithType.vb: IEnumerable(Of IList(Of Point3D))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D))
+  name.vb: IEnumerable(Of IList(Of Point3D))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveIsolatedVertices_System_Windows_Media_Media3D_MeshGeometry3D_
+  name: RemoveIsolatedVertices
+  nameWithType: MeshGeometryHelper.RemoveIsolatedVertices
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices
+- uid: System.Collections.Generic.IList{System.Windows.Point}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Point}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Point>
+  nameWithType: IList<Point>
+  fullName: System.Collections.Generic.IList<System.Windows.Point>
+  nameWithType.vb: IList(Of Point)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Point)
+  name.vb: IList(Of Point)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Vector3D>
+  nameWithType: IList<Vector3D>
+  fullName: System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>
+  nameWithType.vb: IList(Of Vector3D)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D)
+  name.vb: IList(Of Vector3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: )
+- uid: System.Windows.Media.Media3D.Point3DCollection
+  commentId: T:System.Windows.Media.Media3D.Point3DCollection
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3dcollection
+  name: Point3DCollection
+  nameWithType: Point3DCollection
+  fullName: System.Windows.Media.Media3D.Point3DCollection
+- uid: System.Windows.Media.PointCollection
+  commentId: T:System.Windows.Media.PointCollection
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.pointcollection
+  name: PointCollection
+  nameWithType: PointCollection
+  fullName: System.Windows.Media.PointCollection
+- uid: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles
+  href: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html#H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveOutOfRangeTriangles_System_Collections_Generic_IList_System_Int32__System_Int32_
+  name: RemoveOutOfRangeTriangles
+  nameWithType: MeshGeometryHelper.RemoveOutOfRangeTriangles
+  fullName: H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

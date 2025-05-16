@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Helper
+  commentId: N:H.Drawing3D.Shape.Helper
+  id: H.Drawing3D.Shape.Helper
+  children:
+  - H.Drawing3D.Shape.Helper.ContourHelper
+  - H.Drawing3D.Shape.Helper.DoubleKeyDictionary`3
+  - H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  - H.Drawing3D.Shape.Helper.MathHelper
+  - H.Drawing3D.Shape.Helper.Noise2d
+  - H.Drawing3D.Shape.Helper.TextCreator
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Helper
+  nameWithType: H.Drawing3D.Shape.Helper
+  fullName: H.Drawing3D.Shape.Helper
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Helper.ContourHelper
+  commentId: T:H.Drawing3D.Shape.Helper.ContourHelper
+  href: H.Drawing3D.Shape.Helper.ContourHelper.html
+  name: ContourHelper
+  nameWithType: ContourHelper
+  fullName: H.Drawing3D.Shape.Helper.ContourHelper
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyDictionary`3
+  commentId: T:H.Drawing3D.Shape.Helper.DoubleKeyDictionary`3
+  parent: H.Drawing3D.Shape.Helper
+  href: H.Drawing3D.Shape.Helper.DoubleKeyDictionary-3.html
+  name: DoubleKeyDictionary<K, T, V>
+  nameWithType: DoubleKeyDictionary<K, T, V>
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyDictionary<K, T, V>
+  nameWithType.vb: DoubleKeyDictionary(Of K, T, V)
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyDictionary(Of K, T, V)
+  name.vb: DoubleKeyDictionary(Of K, T, V)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyDictionary`3
+    name: DoubleKeyDictionary
+    href: H.Drawing3D.Shape.Helper.DoubleKeyDictionary-3.html
+  - name: <
+  - name: K
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyDictionary`3
+    name: DoubleKeyDictionary
+    href: H.Drawing3D.Shape.Helper.DoubleKeyDictionary-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: K
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: )
+- uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  commentId: T:H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+  href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html
+  name: DoubleKeyPairValue<K, T, V>
+  nameWithType: DoubleKeyPairValue<K, T, V>
+  fullName: H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>
+  nameWithType.vb: DoubleKeyPairValue(Of K, T, V)
+  fullName.vb: H.Drawing3D.Shape.Helper.DoubleKeyPairValue(Of K, T, V)
+  name.vb: DoubleKeyPairValue(Of K, T, V)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+    name: DoubleKeyPairValue
+    href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html
+  - name: <
+  - name: K
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Shape.Helper.DoubleKeyPairValue`3
+    name: DoubleKeyPairValue
+    href: H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: K
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: )
+- uid: H.Drawing3D.Shape.Helper.MathHelper
+  commentId: T:H.Drawing3D.Shape.Helper.MathHelper
+  href: H.Drawing3D.Shape.Helper.MathHelper.html
+  name: MathHelper
+  nameWithType: MathHelper
+  fullName: H.Drawing3D.Shape.Helper.MathHelper
+- uid: H.Drawing3D.Shape.Helper.Noise2d
+  commentId: T:H.Drawing3D.Shape.Helper.Noise2d
+  href: H.Drawing3D.Shape.Helper.Noise2d.html
+  name: Noise2d
+  nameWithType: Noise2d
+  fullName: H.Drawing3D.Shape.Helper.Noise2d
+- uid: H.Drawing3D.Shape.Helper.TextCreator
+  commentId: T:H.Drawing3D.Shape.Helper.TextCreator
+  href: H.Drawing3D.Shape.Helper.TextCreator.html
+  name: TextCreator
+  nameWithType: TextCreator
+  fullName: H.Drawing3D.Shape.Helper.TextCreator
+- uid: H.Drawing3D.Shape.Helper
+  commentId: N:H.Drawing3D.Shape.Helper
+  href: H.html
+  name: H.Drawing3D.Shape.Helper
+  nameWithType: H.Drawing3D.Shape.Helper
+  fullName: H.Drawing3D.Shape.Helper
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Helper
+    name: Helper
+    href: H.Drawing3D.Shape.Helper.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Helper
+    name: Helper
+    href: H.Drawing3D.Shape.Helper.html

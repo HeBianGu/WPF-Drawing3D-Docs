@@ -1,0 +1,1352 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.ShapeMaterials
+  commentId: T:H.Drawing3D.Shape.ShapeMaterials
+  id: ShapeMaterials
+  parent: H.Drawing3D.Shape
+  children:
+  - H.Drawing3D.Shape.ShapeMaterials.Default
+  - H.Drawing3D.Shape.ShapeMaterials.Error
+  - H.Drawing3D.Shape.ShapeMaterials.ErrorEmissiveFlash
+  - H.Drawing3D.Shape.ShapeMaterials.ErrorFlash
+  - H.Drawing3D.Shape.ShapeMaterials.ErrorSwitch
+  - H.Drawing3D.Shape.ShapeMaterials.Fatal
+  - H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse
+  - H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular
+  - H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse
+  - H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials
+  - H.Drawing3D.Shape.ShapeMaterials.MouseOver
+  - H.Drawing3D.Shape.ShapeMaterials.Ready
+  - H.Drawing3D.Shape.ShapeMaterials.Running
+  - H.Drawing3D.Shape.ShapeMaterials.RunningEmissiveFlash
+  - H.Drawing3D.Shape.ShapeMaterials.RunningFlash
+  - H.Drawing3D.Shape.ShapeMaterials.RunningSwitch
+  - H.Drawing3D.Shape.ShapeMaterials.Select
+  - H.Drawing3D.Shape.ShapeMaterials.Stop
+  - H.Drawing3D.Shape.ShapeMaterials.Success
+  - H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush)
+  - H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush,System.Windows.Media.Color)
+  - H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup)
+  - H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  - H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush,System.Windows.Media.Brush)
+  - H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.SolidColorBrush,System.Double,System.Double,System.Double)
+  - H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup)
+  - H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  - H.Drawing3D.Shape.ShapeMaterials.Warn
+  langs:
+  - csharp
+  - vb
+  name: ShapeMaterials
+  nameWithType: ShapeMaterials
+  fullName: H.Drawing3D.Shape.ShapeMaterials
+  type: Class
+  source:
+    id: ShapeMaterials
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 15
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static class ShapeMaterials
+    content.vb: Public Module ShapeMaterials
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.Shape.ShapeMaterials.Default
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Default
+  id: Default
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ShapeMaterials.Default
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Default
+  type: Field
+  source:
+    id: Default
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 20
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Default
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared [Default] As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Select
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Select
+  id: Select
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: ShapeMaterials.Select
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Select
+  type: Field
+  source:
+    id: Select
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Select
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared [Select] As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.MouseOver
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.MouseOver
+  id: MouseOver
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: MouseOver
+  nameWithType: ShapeMaterials.MouseOver
+  fullName: H.Drawing3D.Shape.ShapeMaterials.MouseOver
+  type: Field
+  source:
+    id: MouseOver
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 23
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material MouseOver
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared MouseOver As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Success
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Success
+  id: Success
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: ShapeMaterials.Success
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Success
+  type: Field
+  source:
+    id: Success
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Success
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Success As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Warn
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Warn
+  id: Warn
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: ShapeMaterials.Warn
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Warn
+  type: Field
+  source:
+    id: Warn
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 25
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Warn
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Warn As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Fatal
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Fatal
+  id: Fatal
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: ShapeMaterials.Fatal
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Fatal
+  type: Field
+  source:
+    id: Fatal
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 26
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Fatal
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Fatal As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Ready
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Ready
+  id: Ready
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: ShapeMaterials.Ready
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Ready
+  type: Field
+  source:
+    id: Ready
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 27
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Ready
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Ready As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Stop
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Stop
+  id: Stop
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: ShapeMaterials.Stop
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Stop
+  type: Field
+  source:
+    id: Stop
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 28
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Stop
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared [Stop] As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.ErrorEmissiveFlash
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.ErrorEmissiveFlash
+  id: ErrorEmissiveFlash
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ErrorEmissiveFlash
+  nameWithType: ShapeMaterials.ErrorEmissiveFlash
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ErrorEmissiveFlash
+  type: Field
+  source:
+    id: ErrorEmissiveFlash
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 34
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  summary: EmissiveFlash性能不是太好慎用
+  example: []
+  syntax:
+    content: public static Material ErrorEmissiveFlash
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared ErrorEmissiveFlash As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.ErrorSwitch
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.ErrorSwitch
+  id: ErrorSwitch
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ErrorSwitch
+  nameWithType: ShapeMaterials.ErrorSwitch
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ErrorSwitch
+  type: Field
+  source:
+    id: ErrorSwitch
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 35
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ErrorSwitch
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared ErrorSwitch As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.ErrorFlash
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.ErrorFlash
+  id: ErrorFlash
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ErrorFlash
+  nameWithType: ShapeMaterials.ErrorFlash
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ErrorFlash
+  type: Field
+  source:
+    id: ErrorFlash
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 36
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ErrorFlash
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared ErrorFlash As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Error
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Error
+  id: Error
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ShapeMaterials.Error
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Error
+  type: Field
+  source:
+    id: Error
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 37
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Error
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared [Error] As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.RunningEmissiveFlash
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.RunningEmissiveFlash
+  id: RunningEmissiveFlash
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: RunningEmissiveFlash
+  nameWithType: ShapeMaterials.RunningEmissiveFlash
+  fullName: H.Drawing3D.Shape.ShapeMaterials.RunningEmissiveFlash
+  type: Field
+  source:
+    id: RunningEmissiveFlash
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 44
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  summary: EmissiveFlash性能不是太好慎用
+  example: []
+  syntax:
+    content: public static Material RunningEmissiveFlash
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared RunningEmissiveFlash As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.RunningSwitch
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.RunningSwitch
+  id: RunningSwitch
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: RunningSwitch
+  nameWithType: ShapeMaterials.RunningSwitch
+  fullName: H.Drawing3D.Shape.ShapeMaterials.RunningSwitch
+  type: Field
+  source:
+    id: RunningSwitch
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 45
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material RunningSwitch
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared RunningSwitch As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.RunningFlash
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.RunningFlash
+  id: RunningFlash
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: RunningFlash
+  nameWithType: ShapeMaterials.RunningFlash
+  fullName: H.Drawing3D.Shape.ShapeMaterials.RunningFlash
+  type: Field
+  source:
+    id: RunningFlash
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 46
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material RunningFlash
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared RunningFlash As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.Running
+  commentId: F:H.Drawing3D.Shape.ShapeMaterials.Running
+  id: Running
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: ShapeMaterials.Running
+  fullName: H.Drawing3D.Shape.ShapeMaterials.Running
+  type: Field
+  source:
+    id: Running
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 47
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material Running
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Running As Material
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush,System.Windows.Media.Color)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush,System.Windows.Media.Color)
+  id: ToDiffuse(System.Windows.Media.Brush,System.Windows.Media.Color)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToDiffuse(Brush, Color)
+  nameWithType: ShapeMaterials.ToDiffuse(Brush, Color)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush, System.Windows.Media.Color)
+  type: Method
+  source:
+    id: ToDiffuse
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 51
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup ToDiffuse(this Brush brush, Color color)
+    parameters:
+    - id: brush
+      type: System.Windows.Media.Brush
+    - id: color
+      type: System.Windows.Media.Color
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function ToDiffuse(brush As Brush, color As Color) As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse*
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush)
+  id: ToDiffuse(System.Windows.Media.Brush)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToDiffuse(Brush)
+  nameWithType: ShapeMaterials.ToDiffuse(Brush)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse(System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: ToDiffuse
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 65
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup ToDiffuse(this Brush brush)
+    parameters:
+    - id: brush
+      type: System.Windows.Media.Brush
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function ToDiffuse(brush As Brush) As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse*
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials
+  id: GetSystemMaterials
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: GetSystemMaterials()
+  nameWithType: ShapeMaterials.GetSystemMaterials()
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials()
+  type: Method
+  source:
+    id: GetSystemMaterials
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 70
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static IEnumerable<Tuple<string, Material>> GetSystemMaterials()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Windows.Media.Media3D.Material}}
+    content.vb: Public Shared Function GetSystemMaterials() As IEnumerable(Of Tuple(Of String, Material))
+  overload: H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials*
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse
+  id: GetDefaultDiffuse
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultDiffuse()
+  nameWithType: ShapeMaterials.GetDefaultDiffuse()
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse()
+  type: Method
+  source:
+    id: GetDefaultDiffuse
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 80
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup GetDefaultDiffuse()
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function GetDefaultDiffuse() As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse*
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse
+  id: GetSelectDiffuse
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: GetSelectDiffuse()
+  nameWithType: ShapeMaterials.GetSelectDiffuse()
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse()
+  type: Method
+  source:
+    id: GetSelectDiffuse
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 85
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup GetSelectDiffuse()
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function GetSelectDiffuse() As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse*
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  id: ToSpecular(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToSpecular(MaterialGroup, Brush)
+  nameWithType: ShapeMaterials.ToSpecular(MaterialGroup, Brush)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup, System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: ToSpecular
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 91
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup ToSpecular(this MaterialGroup group, Brush brush)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.MaterialGroup
+    - id: brush
+      type: System.Windows.Media.Brush
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function ToSpecular(group As MaterialGroup, brush As Brush) As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToSpecular*
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup)
+  id: ToSpecular(System.Windows.Media.Media3D.MaterialGroup)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToSpecular(MaterialGroup)
+  nameWithType: ShapeMaterials.ToSpecular(MaterialGroup)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToSpecular(System.Windows.Media.Media3D.MaterialGroup)
+  type: Method
+  source:
+    id: ToSpecular
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 101
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup ToSpecular(this MaterialGroup group)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.MaterialGroup
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function ToSpecular(group As MaterialGroup) As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToSpecular*
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular
+  id: GetDefaultSpecular
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultSpecular()
+  nameWithType: ShapeMaterials.GetDefaultSpecular()
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular()
+  type: Method
+  source:
+    id: GetDefaultSpecular
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 106
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static MaterialGroup GetDefaultSpecular()
+    return:
+      type: System.Windows.Media.Media3D.MaterialGroup
+    content.vb: Public Shared Function GetDefaultSpecular() As MaterialGroup
+  overload: H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular*
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush,System.Windows.Media.Brush)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush,System.Windows.Media.Brush)
+  id: ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush,System.Windows.Media.Brush)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToEmissive(MaterialGroup, Brush, Brush)
+  nameWithType: ShapeMaterials.ToEmissive(MaterialGroup, Brush, Brush)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup, System.Windows.Media.Brush, System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: ToEmissive
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 112
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ToEmissive(this MaterialGroup group, Brush specular, Brush brush)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.MaterialGroup
+    - id: specular
+      type: System.Windows.Media.Brush
+    - id: brush
+      type: System.Windows.Media.Brush
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Function ToEmissive(group As MaterialGroup, specular As Brush, brush As Brush) As Material
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToEmissive*
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  id: ToEmissive(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.Brush)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToEmissive(MaterialGroup, Brush)
+  nameWithType: ShapeMaterials.ToEmissive(MaterialGroup, Brush)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup, System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: ToEmissive
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 120
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ToEmissive(this MaterialGroup group, Brush brush)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.MaterialGroup
+    - id: brush
+      type: System.Windows.Media.Brush
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Function ToEmissive(group As MaterialGroup, brush As Brush) As Material
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToEmissive*
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.SolidColorBrush,System.Double,System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.SolidColorBrush,System.Double,System.Double,System.Double)
+  id: ToEmissiveFlash(System.Windows.Media.Media3D.MaterialGroup,System.Windows.Media.SolidColorBrush,System.Double,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToEmissiveFlash(MaterialGroup, SolidColorBrush, double, double, double)
+  nameWithType: ShapeMaterials.ToEmissiveFlash(MaterialGroup, SolidColorBrush, double, double, double)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash(System.Windows.Media.Media3D.MaterialGroup, System.Windows.Media.SolidColorBrush, double, double, double)
+  type: Method
+  source:
+    id: ToEmissiveFlash
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 126
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ToEmissiveFlash(this MaterialGroup group, SolidColorBrush brush, double fromOpacity = 0.8, double toOpacity = 0, double second = 1)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.MaterialGroup
+    - id: brush
+      type: System.Windows.Media.SolidColorBrush
+    - id: fromOpacity
+      type: System.Double
+    - id: toOpacity
+      type: System.Double
+    - id: second
+      type: System.Double
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Function ToEmissiveFlash(group As MaterialGroup, brush As SolidColorBrush, fromOpacity As Double = 0.8, toOpacity As Double = 0, second As Double = 1) As Material
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash*
+  nameWithType.vb: ShapeMaterials.ToEmissiveFlash(MaterialGroup, SolidColorBrush, Double, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash(System.Windows.Media.Media3D.MaterialGroup, System.Windows.Media.SolidColorBrush, Double, Double, Double)
+  name.vb: ToEmissiveFlash(MaterialGroup, SolidColorBrush, Double, Double, Double)
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup)
+  commentId: M:H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup)
+  id: ToEmissive(System.Windows.Media.Media3D.MaterialGroup)
+  isExtensionMethod: true
+  parent: H.Drawing3D.Shape.ShapeMaterials
+  langs:
+  - csharp
+  - vb
+  name: ToEmissive(MaterialGroup)
+  nameWithType: ShapeMaterials.ToEmissive(MaterialGroup)
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToEmissive(System.Windows.Media.Media3D.MaterialGroup)
+  type: Method
+  source:
+    id: ToEmissive
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\ShapeMaterials.cs
+    startLine: 144
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape
+  syntax:
+    content: public static Material ToEmissive(this MaterialGroup group)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.MaterialGroup
+    return:
+      type: System.Windows.Media.Media3D.Material
+    content.vb: Public Shared Function ToEmissive(group As MaterialGroup) As Material
+  overload: H.Drawing3D.Shape.ShapeMaterials.ToEmissive*
+references:
+- uid: H.Drawing3D.Shape
+  commentId: N:H.Drawing3D.Shape
+  href: H.html
+  name: H.Drawing3D.Shape
+  nameWithType: H.Drawing3D.Shape
+  fullName: H.Drawing3D.Shape
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Media.Media3D.Material
+  commentId: T:System.Windows.Media.Media3D.Material
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.material
+  name: Material
+  nameWithType: Material
+  fullName: System.Windows.Media.Media3D.Material
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.ToDiffuse
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_ToDiffuse_System_Windows_Media_Brush_System_Windows_Media_Color_
+  name: ToDiffuse
+  nameWithType: ShapeMaterials.ToDiffuse
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToDiffuse
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: System.Windows.Media.Media3D.MaterialGroup
+  commentId: T:System.Windows.Media.Media3D.MaterialGroup
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.materialgroup
+  name: MaterialGroup
+  nameWithType: MaterialGroup
+  fullName: System.Windows.Media.Media3D.MaterialGroup
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_GetSystemMaterials
+  name: GetSystemMaterials
+  nameWithType: ShapeMaterials.GetSystemMaterials
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetSystemMaterials
+- uid: System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Windows.Media.Media3D.Material}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Windows.Media.Media3D.Material}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Tuple<string, Material>>
+  nameWithType: IEnumerable<Tuple<string, Material>>
+  fullName: System.Collections.Generic.IEnumerable<System.Tuple<string, System.Windows.Media.Media3D.Material>>
+  nameWithType.vb: IEnumerable(Of Tuple(Of String, Material))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Tuple(Of String, System.Windows.Media.Media3D.Material))
+  name.vb: IEnumerable(Of Tuple(Of String, Material))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Material
+    name: Material
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.material
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Material
+    name: Material
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.material
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_GetDefaultDiffuse
+  name: GetDefaultDiffuse
+  nameWithType: ShapeMaterials.GetDefaultDiffuse
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetDefaultDiffuse
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_GetSelectDiffuse
+  name: GetSelectDiffuse
+  nameWithType: ShapeMaterials.GetSelectDiffuse
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetSelectDiffuse
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToSpecular*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.ToSpecular
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_ToSpecular_System_Windows_Media_Media3D_MaterialGroup_System_Windows_Media_Brush_
+  name: ToSpecular
+  nameWithType: ShapeMaterials.ToSpecular
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToSpecular
+- uid: H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_GetDefaultSpecular
+  name: GetDefaultSpecular
+  nameWithType: ShapeMaterials.GetDefaultSpecular
+  fullName: H.Drawing3D.Shape.ShapeMaterials.GetDefaultSpecular
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToEmissive*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.ToEmissive
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_ToEmissive_System_Windows_Media_Media3D_MaterialGroup_System_Windows_Media_Brush_System_Windows_Media_Brush_
+  name: ToEmissive
+  nameWithType: ShapeMaterials.ToEmissive
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToEmissive
+- uid: H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash*
+  commentId: Overload:H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash
+  href: H.Drawing3D.Shape.ShapeMaterials.html#H_Drawing3D_Shape_ShapeMaterials_ToEmissiveFlash_System_Windows_Media_Media3D_MaterialGroup_System_Windows_Media_SolidColorBrush_System_Double_System_Double_System_Double_
+  name: ToEmissiveFlash
+  nameWithType: ShapeMaterials.ToEmissiveFlash
+  fullName: H.Drawing3D.Shape.ShapeMaterials.ToEmissiveFlash
+- uid: System.Windows.Media.SolidColorBrush
+  commentId: T:System.Windows.Media.SolidColorBrush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.solidcolorbrush
+  name: SolidColorBrush
+  nameWithType: SolidColorBrush
+  fullName: System.Windows.Media.SolidColorBrush
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

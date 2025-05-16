@@ -1,0 +1,3650 @@
+{
+  "source_base_path": "D:/GitHub/WPF-Drawing3D-Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Source/WPF-Drawing3D/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Source/WPF-Drawing3D/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Components.Plane.MovePlaneShapeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Components.Plane.MovePlaneShapeState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Components.Plane.MovePlaneShapeState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Components.Plane.PlaneLayerView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Components.Plane.PlaneLayerView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Components.Plane.PlaneLayerView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Components.Plane.Presenters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Components.Plane.Presenters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Components.Plane.Presenters",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Components.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Components.Plane.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Components.Plane",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Base.MouseOverableStateBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Base.MouseOverableStateBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Base.MouseOverableStateBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.DrawableShapeLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.DrawableShapeLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.DrawableShapeLayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.ISelectableState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.ISelectableState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.ISelectableState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Drawable.Manipulatable.Base.BindableRotateManipulator.yml\" sourcestartlinenumber=\"1\">Represents a visual element containing a manipulator that can rotate around an axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.BindableTranslateManipulator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.CombinedManipulator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.IManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.IManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.IManipulator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.ManipulableShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.Manipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.Manipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.Manipulator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Drawable.Manipulatable.Base.Manipulator.yml\" sourcestartlinenumber=\"1\">Provides an abstract base class for manipulators.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Drawable.Manipulatable.Base.RotateManipulator.yml\" sourcestartlinenumber=\"1\">Represents a visual element containing a manipulator that can rotate around an axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Drawable.Manipulatable.Base.TranslateManipulator.yml\" sourcestartlinenumber=\"1\">Represents a visual element that contains a manipulator that can translate along an axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.GetManipulableFileModelShape3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.IManipulableShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.ManipulableState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.ManipulableState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.ManipulableState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.ManipulableStateBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.ManipulatorExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.MovePlaneShapeState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulableFileModelShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulablePlaneFileModelShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableCubeShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Shapes.ManipulatableEllipsoidShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Shapes.TransformManipulatableCubeShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.Shapes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable.Shapes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Manipulatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Manipulatable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Manipulatable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Presenterable2DState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Presenterable2DState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Presenterable2DState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.SelectableStateBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.SelectableStateBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.SelectableStateBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.Sphere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.Sphere.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable.Sphere",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Base.Drawing3DBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Base.Drawing3DBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Base.Drawing3DBase<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Base.Drawing3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Base.Drawing3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Base.Drawing3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Base.IDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Base.IDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Base.IDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Base.IGeometryDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Base.IGeometryDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Base.IGeometryDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Base.IGroupDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Base.IGroupDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Base.IGroupDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.DispatcherExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.DispatcherExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.DispatcherExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.GeometryDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.GeometryDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.GeometryDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.GroupDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.GroupDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.GroupDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.ICameraViewport3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.ICameraViewport3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.ICameraViewport3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.IPresenter2DView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.IPresenter2DView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.IPresenter2DView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Rect3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Rect3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Rect3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Vector3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Vector3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Vector3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.Vector3Ds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.Vector3Ds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing.Vector3Ds",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Drawing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Drawing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Drawing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.DrawableGeometryModel3DShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.DrawableModel3DGroupShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.Geometry3DGeometryShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.GeometryModel3DShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IDisplayShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IDisplayShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IDisplayShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IGameShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IGameShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IGameShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IMaterialShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IMaterialShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IMaterialShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IMouseOverableShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IMouseOverableShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IMouseOverableShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IPlaneShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IPlaneShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IPlaneShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IPresenter2DShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IPresenter2DShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IPresenter2DShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.ISelectableShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.ISelectableShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.ISelectableShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.IShape3DCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.IShape3DCreator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.IShape3DCreator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.ITransformableShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.ITransformableShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.ITransformableShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.MaterialShape3DBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.MaterialShape3DBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.MaterialShape3DBase<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.MeshGeometryShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.MeshGeometryShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.MeshGeometryShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.Model3DGroupShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.Model3DGroupShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.Model3DGroupShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.MouseOverableShape3DBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.MouseOverableShape3DBase<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.PlaneBackgroundShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.SelectableShape3DBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.SelectableShape3DBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.SelectableShape3DBase<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.Shape3DBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.Shape3DBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.Shape3DBase<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.TransformableShape3DBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.TransformableShape3DBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base.TransformableShape3DBase<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Extension.GeometryDrawing3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Extension.GroupDrawing3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Extension.GroupDrawing3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Extension.GroupDrawing3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Extension.IMeshGeometryDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Extension.MeshGeometryDrawing3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Extension.MeshGeometryDrawing3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Extension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Extension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ExtensionMethods.AnimationExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ExtensionMethods.Matrix3DExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.ExtensionMethods.Point3DExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"System.Windows.Media.Media3D.Point3D\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.ExtensionMethods.Vector3DExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"System.Windows.Media.Media3D.Vector3D\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ExtensionMethods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ExtensionMethods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.AttachedProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.AttachedProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.AttachedProperties",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.AttachedProperties.yml\" sourcestartlinenumber=\"1\">Provides attached properties.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.FileModelCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.FileModelCache.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.FileModelCache",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.FileModelShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.FileModelShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.FileModelShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.FileModelShape3DExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.FileModelShape3DExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.FileModelShape3DExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.GetFileModelShape3DStatesExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.GetFileModelShape3DsExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.GetFileModelShape3DsExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.GetFileModelShape3DsExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.GetRandomPlaneShapesExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.IFileModelShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.IFileModelShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.IFileModelShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.IModelReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.IModelReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.IModelReader",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.IModelReader.yml\" sourcestartlinenumber=\"1\">Interface for model readers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.Importers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.Importers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.Importers",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.Importers.yml\" sourcestartlinenumber=\"1\">Contains a list of all supported importers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.ModelImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.ModelImporter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.ModelImporter",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.ModelImporter.yml\" sourcestartlinenumber=\"1\">Imports a model from a file.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.ObjReader.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.ObjReader.Group.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.ObjReader.Group",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.ObjReader.Group.yml\" sourcestartlinenumber=\"1\">Represents a group in the obj file.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition.yml\" sourcestartlinenumber=\"1\">A material definition.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.ObjReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.ObjReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.ObjReader",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.ObjReader.yml\" sourcestartlinenumber=\"1\">A Wavefront .obj file reader.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.StudioReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.StudioReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers.StudioReader",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.File.Importers.StudioReader.yml\" sourcestartlinenumber=\"1\">A 3D Studio file reader.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Importers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Importers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Importers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.Model3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.Model3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.Model3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.PlaneFileModelShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.PlaneFileModelShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.PlaneFileModelShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File.RandomMaterialFileModelShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.File.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.File",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.BoxFaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.BoxFaces.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.BoxFaces",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.BoxFaces.yml\" sourcestartlinenumber=\"1\">Box face enumeration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.CuttingEarsTriangulator.yml\" sourcestartlinenumber=\"1\">Provides a cutting ears triangulation algorithm for simple polygons with no holes. O(n^2)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.yml\" sourcestartlinenumber=\"1\">Represents a bounding sphere.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.LineSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry.LineSegment",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Geometry.LineSegment.yml\" sourcestartlinenumber=\"1\">Represents a line segment in two-dimensional space.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Mesh3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Mesh3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry.Mesh3D",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Geometry.Mesh3D.yml\" sourcestartlinenumber=\"1\">Represents a 3D mesh for polygon models containing faces with any number of vertices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Plane3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry.Plane3D",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Geometry.Plane3D.yml\" sourcestartlinenumber=\"1\">Represents a plane.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Ray3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Ray3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry.Ray3D",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Geometry.Ray3D.yml\" sourcestartlinenumber=\"1\">Represents a 3D ray.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.Triangle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry.Triangle",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Geometry.Triangle.yml\" sourcestartlinenumber=\"1\">Represents a triangle in two-dimensional space.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Geometry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Geometry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.IMeshBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.IMeshBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.IMeshBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.MeshBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.MeshBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.MeshBuilder",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.MeshBuilder.yml\" sourcestartlinenumber=\"1\">Builds MeshGeometry3D objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.MeshFaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.MeshFaces.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.MeshFaces",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.MeshFaces.yml\" sourcestartlinenumber=\"1\">MeshFaces.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.MeshGeometryHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.MeshGeometryHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.MeshGeometryHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.MeshGeometryHelper.yml\" sourcestartlinenumber=\"1\">Provides helper methods for mesh geometries.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.MeshSimplification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.MeshSimplification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.MeshSimplification",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.MeshSimplification.yml\" sourcestartlinenumber=\"1\">Fast-Quadric-Mesh-Simplification, port from <a href=\"https://github.com/sp4cerat/Fast-Quadric-Mesh-Simplification\" sourcefile=\"api/H.Drawing3D.Shape.Geometry.MeshSimplification.yml\" sourcestartlinenumber=\"1\">https://github.com/sp4cerat/Fast-Quadric-Mesh-Simplification</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Polygon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Polygon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Polygon",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Polygon.yml\" sourcestartlinenumber=\"1\">Represents a 2D polygon.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.Polygon3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.Polygon3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.Polygon3D",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.Polygon3D.yml\" sourcestartlinenumber=\"1\">Represents a 3D polygon.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Geometry.SweepLinePolygonTriangulator.yml\" sourcestartlinenumber=\"1\">Triangulate a simple Polygon with the Sweep-Line Algorithm</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Geometry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Geometry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.ContourHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.ContourHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper.ContourHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Helper.ContourHelper.yml\" sourcestartlinenumber=\"1\">Provides functionality to calculate a contour slice through a 3 vertex facet.(Modified from HelixToolkit.Wpf version)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.DoubleKeyDictionary-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.DoubleKeyDictionary-3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper.DoubleKeyDictionary<K, T, V>",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Helper.DoubleKeyDictionary-3.yml\" sourcestartlinenumber=\"1\">A double key dictionary.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper.DoubleKeyPairValue<K, T, V>",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Helper.DoubleKeyPairValue-3.yml\" sourcestartlinenumber=\"1\">Represents two keys and a value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.MathHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.MathHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper.MathHelper",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.Noise2d.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.Noise2d.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper.Noise2d",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Helper.Noise2d.yml\" sourcestartlinenumber=\"1\">implements improved Perlin noise in 2D.\nTranscribed from <a href=\"http://www.siafoo.net/snippet/144?nolinenos#perlin2003\" sourcefile=\"api/H.Drawing3D.Shape.Helper.Noise2d.yml\" sourcestartlinenumber=\"2\">http://www.siafoo.net/snippet/144?nolinenos#perlin2003</a>\nFrom StackOverflow: <a href=\"https://stackoverflow.com/questions/8659351/2d-perlin-noise\" sourcefile=\"api/H.Drawing3D.Shape.Helper.Noise2d.yml\" sourcestartlinenumber=\"3\">https://stackoverflow.com/questions/8659351/2d-perlin-noise</a></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.TextCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.TextCreator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper.TextCreator",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Helper.TextCreator.yml\" sourcestartlinenumber=\"1\">Creates text label models or visuals.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Helper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Helper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.Attributes.IDAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.Attributes.IconAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.BindableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.BindableBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.BindableBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.CommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.CommandBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.CommandBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.CommandsBindableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.CommandsBindableBase",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Mvvm.CommandsBindableBase.yml\" sourcestartlinenumber=\"1\">提供了创建命令的基类，用于绑定到视图模型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.DisplayBindableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.DisplayBindableBase",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.Shape.Mvvm.DisplayBindableBase.yml\" sourcestartlinenumber=\"1\">提供显示相关功能的可绑定基类。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.DisplayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.DisplayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.DisplayCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.IDisplayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.IDisplayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.IDisplayCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.RelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.RelayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm.RelayCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Mvvm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Mvvm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Mvvm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ShapeBrushs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ShapeBrushs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ShapeBrushs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ShapeColors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ShapeColors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ShapeColors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ShapeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ShapeExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ShapeExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.ShapeMaterials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.ShapeMaterials.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.ShapeMaterials",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.ArrowShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.ArrowShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.ArrowShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.AxisBoundingBoxShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.BoundingBoxShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.BoundingBoxShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.BoundingBoxShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.CoordinateSystemShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.CubeShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.CubeShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.CubeShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.EllipsoidShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.EllipsoidShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.EllipsoidShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.GridLinesShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.GridLinesShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.GridLinesShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.IPlaneBackgroundShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.IShapeGroupShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.IShapeGroupShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.IShapeGroupShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.PanoramaCube3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.PanoramaCube3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.PanoramaCube3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.PipeShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.PipeShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.PipeShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.PlaneBackgroundShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.PolyLineShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.PolyLineShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.PolyLineShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.QuadShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.QuadShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.QuadShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.RectangleShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.RectangleShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.RectangleShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.SSShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.SSShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.SSShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.ShapeGroupShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.ShapeGroupShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.ShapeGroupShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.SphereShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.SphereShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.SphereShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.TestGroupShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.TestGroupShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.TestGroupShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.TestMeshGeometryShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.TextShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.TextShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.TextShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.TextShape3DBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.TextShape3DBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.TextShape3DBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.TorusShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.TorusShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.TorusShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.TruncatedConeShape3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.TruncatedConeShape3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes.TruncatedConeShape3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.Shapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.Shapes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape.Shapes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.Shape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.Shape.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.Shape",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer.ICameraUpdateLayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.ILayer3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.ILayer3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer.ILayer3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer.Layer3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.LayerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.LayerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer.LayerBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer.ShapeLayerBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.Layer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.Layer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.Layer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.ShapeLayer.IShapeLayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.ShapeLayer.ShapesLayerBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.ShapeLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.ShapeLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.ShapeLayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.ShapesLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.ShapesLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer.ShapesLayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.ShapeLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.ShapeLayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.ShapeLayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.CameraHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.CameraHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.CameraHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.CameraHelper.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Windows.Media.Media3D.Camera\" data-throw-if-not-resolved=\"false\"></xref> derived classes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.HelixToolkitException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.HelixToolkitException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.HelixToolkitException",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.HelixToolkitException.yml\" sourcestartlinenumber=\"1\">Represents errors that occurs in the Helix 3D Toolkit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.IBoundsIgnoredVisual3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.IBoundsIgnoredVisual3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.IBoundsIgnoredVisual3D",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.IBoundsIgnoredVisual3D.yml\" sourcestartlinenumber=\"1\">Defines the visual3D type that its bounds will be ignored.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.ICameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.ICameraController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.ICameraController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.IControlableCameraViewport3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.IControlableCameraViewport3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.IControlableCameraViewport3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.ILayerView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.ILayerView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.ILayerView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.IShapesView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.IShapesView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.IShapesView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.IView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.IView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.IView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.InputBindingX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.InputBindingX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.InputBindingX",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.InputBindingX.yml\" sourcestartlinenumber=\"1\">Input binding supporting binding the Gezture.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.LayerView3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.LayerView3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.LayerView3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.LineSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.LineSegment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.LineSegment",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.LineSegment.yml\" sourcestartlinenumber=\"1\">Represents a line segment in two-dimensional space.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Model3DHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Model3DHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Model3DHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Model3DHelper.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Windows.Media.Media3D.Model3D\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Ray3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Ray3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Ray3D",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Ray3D.yml\" sourcestartlinenumber=\"1\">Represents a 3D ray.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.RectangleAdorner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.RectangleAdorner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.RectangleAdorner",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.RectangleAdorner.yml\" sourcestartlinenumber=\"1\">An adorner showing a rectangle with a crosshair in the middle. This is shown when zooming a rectangle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.RenderingEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.RenderingEventListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.RenderingEventListener",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.RenderingEventListener.yml\" sourcestartlinenumber=\"1\">Provides a weak event listener that pass the CompositionTarget.Rendering event to the specified handler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.RenderingEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.RenderingEventManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.RenderingEventManager",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.RenderingEventManager.yml\" sourcestartlinenumber=\"1\">Represents a weak event manager for the CompositionTarget.Rendering event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.SelectionHitMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.SelectionHitMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.SelectionHitMode",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.SelectionHitMode.yml\" sourcestartlinenumber=\"1\">Specifies the selection hit mode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Transform3DHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Transform3DHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Transform3DHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Transform3DHelper.yml\" sourcestartlinenumber=\"1\">Helper methods for Transform3D.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Triangle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Triangle",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Triangle.yml\" sourcestartlinenumber=\"1\">Represents a triangle in two-dimensional space.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Viewport3DHelper.HitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Viewport3DHelper.HitResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Viewport3DHelper.HitResult",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Viewport3DHelper.HitResult.yml\" sourcestartlinenumber=\"1\">A hit result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Viewport3DHelper.RectangleHitResult.yml\" sourcestartlinenumber=\"1\">Represents a rectangle hit result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Viewport3DHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Viewport3DHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Viewport3DHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Viewport3DHelper.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Windows.Controls.Viewport3D\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.Visual3DHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.Visual3DHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.Visual3DHelper",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.Visual3DHelper.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Windows.Media.Media3D.Visual3D\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.WeakEventListener-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.WeakEventListener-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.WeakEventListener<TEventManager, TEventArgs>",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.WeakEventListener-2.yml\" sourcestartlinenumber=\"1\">Provides a weak event listener that pass the events of the specified event manager to the specified event handler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.WeakEventManagerBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.WeakEventManagerBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base.WeakEventManagerBase<TManager>",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Base.WeakEventManagerBase-1.yml\" sourcestartlinenumber=\"1\">Provides a generic base class for weak event managers that handle static events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.CameraViewport3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.CameraViewport3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.CameraViewport3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Cameras.CameraMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Cameras.CameraMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Cameras.CameraMode",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Cameras.CameraMode.yml\" sourcestartlinenumber=\"1\">Camera movement modes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Cameras.CameraRotationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Cameras.CameraRotationMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Cameras.CameraRotationMode",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Cameras.CameraRotationMode.yml\" sourcestartlinenumber=\"1\">Camera rotation modes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Cameras.CameraSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Cameras.CameraSetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Cameras.CameraSetting",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Cameras.CameraSetting.yml\" sourcestartlinenumber=\"1\">Represents a camera state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Cameras.ManipulationEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Cameras.ManipulationEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Cameras.ManipulationEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Cameras.ManipulationEventArgs.yml\" sourcestartlinenumber=\"1\">Provides data for the manipulation events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Cameras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Cameras.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Cameras",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Extensions.CameraControllerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Extensions.CameraControllerExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Extensions.CameraControllerExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Extensions.CameraViewport3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Extensions.CameraViewport3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Extensions.CameraViewport3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Extensions.ShapesExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Extensions.ShapesExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Extensions.ShapesExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for the ModelsSelected event of the <xref href=\"H.Drawing3D.View.SelectionCommands.PointSelectionCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for the ModelsSelected event of the <xref href=\"H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for the ModelsSelected event of the <xref href=\"H.Drawing3D.View.SelectionCommands.SelectionCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.PointSelectionCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.PointSelectionCommand",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.PointSelectionCommand.yml\" sourcestartlinenumber=\"1\">Provides a command that raises an event returning the hit models at the mouse location when the mouse button is clicked.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand.yml\" sourcestartlinenumber=\"1\">Provides a command that shows a rectangle when the mouse is dragged and raises an event returning the models contained in the rectangle\nwhen the mouse button is released.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.SelectionCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.SelectionCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.SelectionCommand",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.SelectionCommand.yml\" sourcestartlinenumber=\"1\">Provides an abstract base class for mouse selection commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for the VisualsSelected event of the <xref href=\"H.Drawing3D.View.SelectionCommands.PointSelectionCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for the VisualsSelected event of the <xref href=\"H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.yml\" sourcestartlinenumber=\"1\">Provides event data for the VisualsSelected event of the <xref href=\"H.Drawing3D.View.SelectionCommands.SelectionCommand\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.SelectionCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.SelectionCommands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.SelectionCommands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.CameraController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.CameraController",
+      "Summary": "<p sourcefile=\"api/H.Drawing3D.View.Views.CameraController.yml\" sourcestartlinenumber=\"1\">Provides a control that manipulates the camera by mouse and keyboard gestures.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.GameShapesView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.GameShapesView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.GameShapesView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.LayerView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.LayerView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.LayerView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.MouseOverableShapesView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.MouseOverableShapesView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.MouseOverableShapesView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.Presenter2DView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.Presenter2DView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.Presenter2DView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.SelectableShapesView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.SelectableShapesView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.SelectableShapesView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.ShapeView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.ShapeView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.ShapeView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.ShapeView3DImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.ShapeView3DImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.ShapeView3DImage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.ShapesView3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.ShapesView3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views.ShapesView3D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.Views.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View.Views",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/H.Drawing3D.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/H.Drawing3D.View.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "H.Drawing3D.View",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.LwoReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.LwoReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.LwoReader",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.LwoReader.yml\" sourcestartlinenumber=\"1\">LWO (Lightwave object) file reader</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.ModelReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.ModelReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.ModelReader",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.ModelReader.yml\" sourcestartlinenumber=\"1\">Class ModelReader.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.OffReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.OffReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.OffReader",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.OffReader.yml\" sourcestartlinenumber=\"1\">Provides an Object File Format (OFF) reader.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyDataTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyDataTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader.PlyDataTypes",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.PlyDataTypes.yml\" sourcestartlinenumber=\"1\">Specifies the types of ply data types.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader.PlyElement",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.PlyElement.yml\" sourcestartlinenumber=\"1\">Represents a ply element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyFormatTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyFormatTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader.PlyFormatTypes",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.PlyFormatTypes.yml\" sourcestartlinenumber=\"1\">Specifies the types of ply model formats.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader.PlyHeader",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.PlyHeader.yml\" sourcestartlinenumber=\"1\">Represents the header of a ply file.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyHeaderItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyHeaderItems.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader.PlyHeaderItems",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.PlyHeaderItems.yml\" sourcestartlinenumber=\"1\">Specifies the types of items in a ply header.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.PlyProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader.PlyProperty",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.PlyProperty.yml\" sourcestartlinenumber=\"1\">Represents a property of a <xref href=\"HelixToolkit.Wpf.PlyReader.PlyElement\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.PlyReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.PlyReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.PlyReader",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.PlyReader.yml\" sourcestartlinenumber=\"1\">Polygon File Format Reader.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.StLReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.StLReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf.StLReader",
+      "Summary": "<p sourcefile=\"api/HelixToolkit.Wpf.StLReader.yml\" sourcestartlinenumber=\"1\">Provides an importer for StereoLithography .StL files.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HelixToolkit.Wpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HelixToolkit.Wpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HelixToolkit.Wpf",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

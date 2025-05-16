@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  id: ILayer3D
+  parent: H.Drawing3D.ShapeLayer.Layer
+  children:
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D
+  langs:
+  - csharp
+  - vb
+  name: ILayer3D
+  nameWithType: ILayer3D
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  type: Interface
+  source:
+    id: ILayer3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\ILayer3D.cs
+    startLine: 13
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: public interface ILayer3D
+    content.vb: Public Interface ILayer3D
+  extensionMethods:
+  - H.Drawing3D.ShapeLayer.Layer.ILayer3D.H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  id: InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  langs:
+  - csharp
+  - vb
+  name: InitView(ICameraViewport3D)
+  nameWithType: ILayer3D.InitView(ICameraViewport3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView(H.Drawing3D.Drawing.ICameraViewport3D)
+  type: Method
+  source:
+    id: InitView
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\ILayer3D.cs
+    startLine: 15
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void InitView(ICameraViewport3D view)
+    parameters:
+    - id: view
+      type: H.Drawing3D.Drawing.ICameraViewport3D
+    content.vb: Sub InitView(view As ICameraViewport3D)
+  overload: H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView*
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D
+  commentId: P:H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D
+  id: ModelVisual3D
+  parent: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  langs:
+  - csharp
+  - vb
+  name: ModelVisual3D
+  nameWithType: ILayer3D.ModelVisual3D
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D
+  type: Property
+  source:
+    id: ModelVisual3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\ILayer3D.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: ModelVisual3D ModelVisual3D { get; }
+    parameters: []
+    return:
+      type: System.Windows.Media.Media3D.ModelVisual3D
+    content.vb: ReadOnly Property ModelVisual3D As ModelVisual3D
+  overload: H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D*
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing
+  id: Drawing
+  parent: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  langs:
+  - csharp
+  - vb
+  name: Drawing()
+  nameWithType: ILayer3D.Drawing()
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing()
+  type: Method
+  source:
+    id: Drawing
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\ILayer3D.cs
+    startLine: 17
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void Drawing()
+    content.vb: Sub Drawing()
+  overload: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing*
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear
+  id: Clear
+  parent: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: ILayer3D.Clear()
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\ILayer3D.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void Clear()
+    content.vb: Sub Clear()
+  overload: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear*
+references:
+- uid: H.Drawing3D.ShapeLayer.Layer
+  commentId: N:H.Drawing3D.ShapeLayer.Layer
+  href: H.html
+  name: H.Drawing3D.ShapeLayer.Layer
+  nameWithType: H.Drawing3D.ShapeLayer.Layer
+  fullName: H.Drawing3D.ShapeLayer.Layer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.Layer
+    name: Layer
+    href: H.Drawing3D.ShapeLayer.Layer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.Layer
+    name: Layer
+    href: H.Drawing3D.ShapeLayer.Layer.html
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  parent: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+  definition: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  name: RefreshDrawing(ILayer3D)
+  nameWithType: Layer3DExtension.RefreshDrawing(ILayer3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  name: RefreshDrawing(ILayer3D)
+  nameWithType: Layer3DExtension.RefreshDrawing(ILayer3D)
+  fullName: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+  spec.csharp:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.RefreshDrawing(H.Drawing3D.ShapeLayer.Layer.ILayer3D)
+    name: RefreshDrawing
+    href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html#H_Drawing3D_ShapeLayer_Layer_Layer3DExtension_RefreshDrawing_H_Drawing3D_ShapeLayer_Layer_ILayer3D_
+  - name: (
+  - uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D
+    name: ILayer3D
+    href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html
+  - name: )
+- uid: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+  parent: H.Drawing3D.ShapeLayer.Layer
+  href: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension.html
+  name: Layer3DExtension
+  nameWithType: Layer3DExtension
+  fullName: H.Drawing3D.ShapeLayer.Layer.Layer3DExtension
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView
+  href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html#H_Drawing3D_ShapeLayer_Layer_ILayer3D_InitView_H_Drawing3D_Drawing_ICameraViewport3D_
+  name: InitView
+  nameWithType: ILayer3D.InitView
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.InitView
+- uid: H.Drawing3D.Drawing.ICameraViewport3D
+  commentId: T:H.Drawing3D.Drawing.ICameraViewport3D
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.ICameraViewport3D.html
+  name: ICameraViewport3D
+  nameWithType: ICameraViewport3D
+  fullName: H.Drawing3D.Drawing.ICameraViewport3D
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D
+  href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html#H_Drawing3D_ShapeLayer_Layer_ILayer3D_ModelVisual3D
+  name: ModelVisual3D
+  nameWithType: ILayer3D.ModelVisual3D
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.ModelVisual3D
+- uid: System.Windows.Media.Media3D.ModelVisual3D
+  commentId: T:System.Windows.Media.Media3D.ModelVisual3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.modelvisual3d
+  name: ModelVisual3D
+  nameWithType: ModelVisual3D
+  fullName: System.Windows.Media.Media3D.ModelVisual3D
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing
+  href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html#H_Drawing3D_ShapeLayer_Layer_ILayer3D_Drawing
+  name: Drawing
+  nameWithType: ILayer3D.Drawing
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Drawing
+- uid: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear
+  href: H.Drawing3D.ShapeLayer.Layer.ILayer3D.html#H_Drawing3D_ShapeLayer_Layer_ILayer3D_Clear
+  name: Clear
+  nameWithType: ILayer3D.Clear
+  fullName: H.Drawing3D.ShapeLayer.Layer.ILayer3D.Clear

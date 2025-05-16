@@ -1,0 +1,2439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ICameraController | WPF-Drawing3D开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ICameraController | WPF-Drawing3D开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-Drawing3D开发文档">
+            WPF-Drawing3D开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Drawing3D.View.Base.ICameraController">
+
+
+
+  <h1 id="H_Drawing3D_View_Base_ICameraController" data-uid="H.Drawing3D.View.Base.ICameraController" class="text-break">
+Interface ICameraController  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Drawing3D.html">Drawing3D</a>.<a class="xref" href="H.Drawing3D.View.html">View</a>.<a class="xref" href="H.Drawing3D.View.Base.html">Base</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Drawing3D.View.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICameraController</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Back_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.Back(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Bottom_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.Bottom(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackLeft_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.BottomBackLeft(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomBackRight_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.BottomBackRight(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontLeft_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.BottomFrontLeft(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_BottomFrontRight_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.BottomFrontRight(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Front_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.Front(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricBottom_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.IsometricBottom(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricLeft_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.IsometricLeft(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricRight_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.IsometricRight(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_IsometricTop_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.IsometricTop(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Left_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.Left(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Right_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.Right(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_Top_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.Top(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackLeft_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.TopBackLeft(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopBackRight_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.TopBackRight(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontLeft_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.TopFrontLeft(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.View.Extensions.CameraControllerExtension.html#H_Drawing3D_View_Extensions_CameraControllerExtension_TopFrontRight_H_Drawing3D_View_Base_ICameraController_">CameraControllerExtension.TopFrontRight(ICameraController)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ActualCamera_" data-uid="H.Drawing3D.View.Base.ICameraController.ActualCamera*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ActualCamera" data-uid="H.Drawing3D.View.Base.ICameraController.ActualCamera">
+  ActualCamera
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ProjectionCamera ActualCamera { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera">ProjectionCamera</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_Camera_" data-uid="H.Drawing3D.View.Base.ICameraController.Camera*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_Camera" data-uid="H.Drawing3D.View.Base.ICameraController.Camera">
+  Camera
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ProjectionCamera Camera { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera">ProjectionCamera</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_CameraLookDirection_" data-uid="H.Drawing3D.View.Base.ICameraController.CameraLookDirection*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_CameraLookDirection" data-uid="H.Drawing3D.View.Base.ICameraController.CameraLookDirection">
+  CameraLookDirection
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3D CameraLookDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_CameraMode_" data-uid="H.Drawing3D.View.Base.ICameraController.CameraMode*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_CameraMode" data-uid="H.Drawing3D.View.Base.ICameraController.CameraMode">
+  CameraMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CameraMode CameraMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Drawing3D.View.Cameras.CameraMode.html">CameraMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_CameraPosition_" data-uid="H.Drawing3D.View.Base.ICameraController.CameraPosition*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_CameraPosition" data-uid="H.Drawing3D.View.Base.ICameraController.CameraPosition">
+  CameraPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Point3D CameraPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_CameraRotationMode_" data-uid="H.Drawing3D.View.Base.ICameraController.CameraRotationMode*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_CameraRotationMode" data-uid="H.Drawing3D.View.Base.ICameraController.CameraRotationMode">
+  CameraRotationMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CameraRotationMode CameraRotationMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Drawing3D.View.Cameras.CameraRotationMode.html">CameraRotationMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_CameraTarget_" data-uid="H.Drawing3D.View.Base.ICameraController.CameraTarget*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_CameraTarget" data-uid="H.Drawing3D.View.Base.ICameraController.CameraTarget">
+  CameraTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Point3D CameraTarget { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_CameraUpDirection_" data-uid="H.Drawing3D.View.Base.ICameraController.CameraUpDirection*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_CameraUpDirection" data-uid="H.Drawing3D.View.Base.ICameraController.CameraUpDirection">
+  CameraUpDirection
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3D CameraUpDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ChangeFieldOfViewCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ChangeFieldOfViewCursor" data-uid="H.Drawing3D.View.Base.ICameraController.ChangeFieldOfViewCursor">
+  ChangeFieldOfViewCursor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Cursor ChangeFieldOfViewCursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_DefaultCamera_" data-uid="H.Drawing3D.View.Base.ICameraController.DefaultCamera*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_DefaultCamera" data-uid="H.Drawing3D.View.Base.ICameraController.DefaultCamera">
+  DefaultCamera
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ProjectionCamera DefaultCamera { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.projectioncamera">ProjectionCamera</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_Enabled_" data-uid="H.Drawing3D.View.Base.ICameraController.Enabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_Enabled" data-uid="H.Drawing3D.View.Base.ICameraController.Enabled">
+  Enabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Enabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_FixedRotationPoint_" data-uid="H.Drawing3D.View.Base.ICameraController.FixedRotationPoint*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_FixedRotationPoint" data-uid="H.Drawing3D.View.Base.ICameraController.FixedRotationPoint">
+  FixedRotationPoint
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Point3D FixedRotationPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_FixedRotationPointEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_FixedRotationPointEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.FixedRotationPointEnabled">
+  FixedRotationPointEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool FixedRotationPointEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_InertiaFactor_" data-uid="H.Drawing3D.View.Base.ICameraController.InertiaFactor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_InertiaFactor" data-uid="H.Drawing3D.View.Base.ICameraController.InertiaFactor">
+  InertiaFactor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double InertiaFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_InfiniteSpin_" data-uid="H.Drawing3D.View.Base.ICameraController.InfiniteSpin*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_InfiniteSpin" data-uid="H.Drawing3D.View.Base.ICameraController.InfiniteSpin">
+  InfiniteSpin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool InfiniteSpin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsActive_" data-uid="H.Drawing3D.View.Base.ICameraController.IsActive*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsActive" data-uid="H.Drawing3D.View.Base.ICameraController.IsActive">
+  IsActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsChangeFieldOfViewEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsChangeFieldOfViewEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsChangeFieldOfViewEnabled">
+  IsChangeFieldOfViewEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsChangeFieldOfViewEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsInertiaEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsInertiaEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsInertiaEnabled">
+  IsInertiaEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsInertiaEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsMoveEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsMoveEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsMoveEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsMoveEnabled">
+  IsMoveEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsMoveEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsPanEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsPanEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsPanEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsPanEnabled">
+  IsPanEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsPanEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsRotationEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsRotationEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsRotationEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsRotationEnabled">
+  IsRotationEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsRotationEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsTouchZoomEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsTouchZoomEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsTouchZoomEnabled">
+  IsTouchZoomEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsTouchZoomEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_IsZoomEnabled_" data-uid="H.Drawing3D.View.Base.ICameraController.IsZoomEnabled*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_IsZoomEnabled" data-uid="H.Drawing3D.View.Base.ICameraController.IsZoomEnabled">
+  IsZoomEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsZoomEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_LeftRightPanSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_LeftRightPanSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.LeftRightPanSensitivity">
+  LeftRightPanSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double LeftRightPanSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_LeftRightRotationSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_LeftRightRotationSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.LeftRightRotationSensitivity">
+  LeftRightRotationSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double LeftRightRotationSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_LimitFPS_" data-uid="H.Drawing3D.View.Base.ICameraController.LimitFPS*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_LimitFPS" data-uid="H.Drawing3D.View.Base.ICameraController.LimitFPS">
+  LimitFPS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool LimitFPS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_MaximumFieldOfView_" data-uid="H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_MaximumFieldOfView" data-uid="H.Drawing3D.View.Base.ICameraController.MaximumFieldOfView">
+  MaximumFieldOfView
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double MaximumFieldOfView { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_MinimumFieldOfView_" data-uid="H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_MinimumFieldOfView" data-uid="H.Drawing3D.View.Base.ICameraController.MinimumFieldOfView">
+  MinimumFieldOfView
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double MinimumFieldOfView { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ModelUpDirection_" data-uid="H.Drawing3D.View.Base.ICameraController.ModelUpDirection*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ModelUpDirection" data-uid="H.Drawing3D.View.Base.ICameraController.ModelUpDirection">
+  ModelUpDirection
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3D ModelUpDirection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_MoveSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.MoveSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_MoveSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.MoveSensitivity">
+  MoveSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double MoveSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_PageUpDownZoomSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_PageUpDownZoomSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.PageUpDownZoomSensitivity">
+  PageUpDownZoomSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double PageUpDownZoomSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_PanCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.PanCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_PanCursor" data-uid="H.Drawing3D.View.Base.ICameraController.PanCursor">
+  PanCursor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Cursor PanCursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_RotataAroundClosestVertexComplexity_" data-uid="H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_RotataAroundClosestVertexComplexity" data-uid="H.Drawing3D.View.Base.ICameraController.RotataAroundClosestVertexComplexity">
+  RotataAroundClosestVertexComplexity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int RotataAroundClosestVertexComplexity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_RotateAroundMouseDownPoint_" data-uid="H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_RotateAroundMouseDownPoint" data-uid="H.Drawing3D.View.Base.ICameraController.RotateAroundMouseDownPoint">
+  RotateAroundMouseDownPoint
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>按鼠标位置旋转</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RotateAroundMouseDownPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_RotateCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.RotateCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_RotateCursor" data-uid="H.Drawing3D.View.Base.ICameraController.RotateCursor">
+  RotateCursor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Cursor RotateCursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_RotationSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.RotationSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_RotationSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.RotationSensitivity">
+  RotationSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double RotationSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ShowCameraTarget_" data-uid="H.Drawing3D.View.Base.ICameraController.ShowCameraTarget*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ShowCameraTarget" data-uid="H.Drawing3D.View.Base.ICameraController.ShowCameraTarget">
+  ShowCameraTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ShowCameraTarget { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_SnapMouseDownPoint_" data-uid="H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_SnapMouseDownPoint" data-uid="H.Drawing3D.View.Base.ICameraController.SnapMouseDownPoint">
+  SnapMouseDownPoint
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool SnapMouseDownPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_SpinReleaseTime_" data-uid="H.Drawing3D.View.Base.ICameraController.SpinReleaseTime*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_SpinReleaseTime" data-uid="H.Drawing3D.View.Base.ICameraController.SpinReleaseTime">
+  SpinReleaseTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int SpinReleaseTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_UpDownPanSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_UpDownPanSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.UpDownPanSensitivity">
+  UpDownPanSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double UpDownPanSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_UpDownRotationSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_UpDownRotationSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.UpDownRotationSensitivity">
+  UpDownRotationSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double UpDownRotationSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_Viewport_" data-uid="H.Drawing3D.View.Base.ICameraController.Viewport*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_Viewport" data-uid="H.Drawing3D.View.Base.ICameraController.Viewport">
+  Viewport
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Viewport3D Viewport { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.viewport3d">Viewport3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ZoomAroundMouseDownPoint_" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ZoomAroundMouseDownPoint" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomAroundMouseDownPoint">
+  ZoomAroundMouseDownPoint
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>按鼠标位置缩放</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ZoomAroundMouseDownPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ZoomCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ZoomCursor" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomCursor">
+  ZoomCursor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Cursor ZoomCursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ZoomRectangleCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ZoomRectangleCursor" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomRectangleCursor">
+  ZoomRectangleCursor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Cursor ZoomRectangleCursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ZoomSensitivity_" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomSensitivity*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ZoomSensitivity" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomSensitivity">
+  ZoomSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double ZoomSensitivity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddMoveForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddMoveForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddMoveForce_System_Double_System_Double_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Double,System.Double,System.Double)">
+  AddMoveForce(double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddMoveForce(double dx, double dy, double dz)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>dy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>dz</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddMoveForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddMoveForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddMoveForce_System_Windows_Media_Media3D_Vector3D_" data-uid="H.Drawing3D.View.Base.ICameraController.AddMoveForce(System.Windows.Media.Media3D.Vector3D)">
+  AddMoveForce(Vector3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddMoveForce(Vector3D delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddPanForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddPanForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddPanForce_System_Double_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Double,System.Double)">
+  AddPanForce(double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPanForce(double dx, double dy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>dy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddPanForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddPanForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddPanForce_System_Windows_Media_Media3D_Vector3D_" data-uid="H.Drawing3D.View.Base.ICameraController.AddPanForce(System.Windows.Media.Media3D.Vector3D)">
+  AddPanForce(Vector3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPanForce(Vector3D pan)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddRotateForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddRotateForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddRotateForce_System_Double_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.AddRotateForce(System.Double,System.Double)">
+  AddRotateForce(double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddRotateForce(double dx, double dy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>dy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddZoomForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddZoomForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddZoomForce_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double)">
+  AddZoomForce(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddZoomForce(double delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_AddZoomForce_" data-uid="H.Drawing3D.View.Base.ICameraController.AddZoomForce*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_AddZoomForce_System_Double_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.View.Base.ICameraController.AddZoomForce(System.Double,System.Windows.Media.Media3D.Point3D)">
+  AddZoomForce(double, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddZoomForce(double delta, Point3D zoomOrigin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>zoomOrigin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ChangeDirection_" data-uid="H.Drawing3D.View.Base.ICameraController.ChangeDirection*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ChangeDirection_System_Windows_Media_Media3D_Vector3D_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Double)">
+  ChangeDirection(Vector3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ChangeDirection(Vector3D lookDir, double animationTime = 500)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lookDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>animationTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ChangeDirection_" data-uid="H.Drawing3D.View.Base.ICameraController.ChangeDirection*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ChangeDirection_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.ChangeDirection(System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)">
+  ChangeDirection(Vector3D, Vector3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ChangeDirection(Vector3D lookDir, Vector3D upDir, double animationTime = 500)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lookDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>upDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+    <dt><code>animationTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_HideRectangle_" data-uid="H.Drawing3D.View.Base.ICameraController.HideRectangle*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_HideRectangle" data-uid="H.Drawing3D.View.Base.ICameraController.HideRectangle">
+  HideRectangle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HideRectangle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_HideTargetAdorner_" data-uid="H.Drawing3D.View.Base.ICameraController.HideTargetAdorner*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_HideTargetAdorner" data-uid="H.Drawing3D.View.Base.ICameraController.HideTargetAdorner">
+  HideTargetAdorner()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HideTargetAdorner()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_LookAt_" data-uid="H.Drawing3D.View.Base.ICameraController.LookAt*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_LookAt_System_Windows_Media_Media3D_Point3D_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.LookAt(System.Windows.Media.Media3D.Point3D,System.Double)">
+  LookAt(Point3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LookAt(Point3D target, double animationTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+    <dt><code>animationTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_PushCameraSetting_" data-uid="H.Drawing3D.View.Base.ICameraController.PushCameraSetting*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_PushCameraSetting" data-uid="H.Drawing3D.View.Base.ICameraController.PushCameraSetting">
+  PushCameraSetting()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PushCameraSetting()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ResetCamera_" data-uid="H.Drawing3D.View.Base.ICameraController.ResetCamera*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ResetCamera" data-uid="H.Drawing3D.View.Base.ICameraController.ResetCamera">
+  ResetCamera()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetCamera()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ResetCameraUpDirection_" data-uid="H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ResetCameraUpDirection" data-uid="H.Drawing3D.View.Base.ICameraController.ResetCameraUpDirection">
+  ResetCameraUpDirection()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetCameraUpDirection()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_RestoreCameraSetting_" data-uid="H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_RestoreCameraSetting" data-uid="H.Drawing3D.View.Base.ICameraController.RestoreCameraSetting">
+  RestoreCameraSetting()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RestoreCameraSetting()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_RestoreCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.RestoreCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_RestoreCursor" data-uid="H.Drawing3D.View.Base.ICameraController.RestoreCursor">
+  RestoreCursor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RestoreCursor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_SetCursor_" data-uid="H.Drawing3D.View.Base.ICameraController.SetCursor*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_SetCursor_System_Windows_Input_Cursor_" data-uid="H.Drawing3D.View.Base.ICameraController.SetCursor(System.Windows.Input.Cursor)">
+  SetCursor(Cursor)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCursor(Cursor cursor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cursor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ShowRectangle_" data-uid="H.Drawing3D.View.Base.ICameraController.ShowRectangle*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ShowRectangle_System_Windows_Rect_System_Windows_Media_Color_System_Windows_Media_Color_" data-uid="H.Drawing3D.View.Base.ICameraController.ShowRectangle(System.Windows.Rect,System.Windows.Media.Color,System.Windows.Media.Color)">
+  ShowRectangle(Rect, Color, Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowRectangle(Rect rect, Color color1, Color color2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.rect">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd></dd>
+    <dt><code>color2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_StartSpin_" data-uid="H.Drawing3D.View.Base.ICameraController.StartSpin*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_StartSpin_System_Windows_Vector_System_Windows_Point_System_Windows_Media_Media3D_Point3D_" data-uid="H.Drawing3D.View.Base.ICameraController.StartSpin(System.Windows.Vector,System.Windows.Point,System.Windows.Media.Media3D.Point3D)">
+  StartSpin(Vector, Point, Point3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartSpin(Vector speed, Point position, Point3D aroundPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.vector">Vector</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>aroundPoint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_StopSpin_" data-uid="H.Drawing3D.View.Base.ICameraController.StopSpin*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_StopSpin" data-uid="H.Drawing3D.View.Base.ICameraController.StopSpin">
+  StopSpin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StopSpin()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_UpdateRectangle_" data-uid="H.Drawing3D.View.Base.ICameraController.UpdateRectangle*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_UpdateRectangle_System_Windows_Rect_" data-uid="H.Drawing3D.View.Base.ICameraController.UpdateRectangle(System.Windows.Rect)">
+  UpdateRectangle(Rect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateRectangle(Rect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.rect">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_Zoom_" data-uid="H.Drawing3D.View.Base.ICameraController.Zoom*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_Zoom_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.Zoom(System.Double)">
+  Zoom(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Zoom(double delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_View_Base_ICameraController_ZoomExtents_" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomExtents*"></a>
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ZoomExtents_System_Double_" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomExtents(System.Double)">
+  ZoomExtents(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ZoomExtents(double animationTime = 200)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animationTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_LookAtChanged" data-uid="H.Drawing3D.View.Base.ICameraController.LookAtChanged">
+  LookAtChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler LookAtChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="H_Drawing3D_View_Base_ICameraController_ZoomedByRectangle" data-uid="H.Drawing3D.View.Base.ICameraController.ZoomedByRectangle">
+  ZoomedByRectangle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler ZoomedByRectangle</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

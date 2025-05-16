@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.SelectionCommands
+  commentId: N:H.Drawing3D.View.SelectionCommands
+  id: H.Drawing3D.View.SelectionCommands
+  children:
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  - H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  - H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  - H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+  - H.Drawing3D.View.SelectionCommands.SelectionCommand
+  - H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs
+  - H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs
+  - H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.View.SelectionCommands
+  nameWithType: H.Drawing3D.View.SelectionCommands
+  fullName: H.Drawing3D.View.SelectionCommands
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.View
+references:
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs.html
+  name: ModelsSelectedByPointEventArgs
+  nameWithType: ModelsSelectedByPointEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByPointEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs.html
+  name: ModelsSelectedByRectangleEventArgs
+  nameWithType: ModelsSelectedByRectangleEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedByRectangleEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+  parent: H.Drawing3D.View.SelectionCommands
+  href: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs.html
+  name: ModelsSelectedEventArgs
+  nameWithType: ModelsSelectedEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.ModelsSelectedEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.PointSelectionCommand.html
+  name: PointSelectionCommand
+  nameWithType: PointSelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.PointSelectionCommand
+- uid: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+  href: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand.html
+  name: RectangleSelectionCommand
+  nameWithType: RectangleSelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.RectangleSelectionCommand
+- uid: H.Drawing3D.View.SelectionCommands.SelectionCommand
+  commentId: T:H.Drawing3D.View.SelectionCommands.SelectionCommand
+  parent: H.Drawing3D.View.SelectionCommands
+  href: H.Drawing3D.View.SelectionCommands.SelectionCommand.html
+  name: SelectionCommand
+  nameWithType: SelectionCommand
+  fullName: H.Drawing3D.View.SelectionCommands.SelectionCommand
+- uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs
+  href: H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs.html
+  name: VisualsSelectedByPointEventArgs
+  nameWithType: VisualsSelectedByPointEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.VisualsSelectedByPointEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs
+  href: H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs.html
+  name: VisualsSelectedByRectangleEventArgs
+  nameWithType: VisualsSelectedByRectangleEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.VisualsSelectedByRectangleEventArgs
+- uid: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+  commentId: T:H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+  parent: H.Drawing3D.View.SelectionCommands
+  href: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs.html
+  name: VisualsSelectedEventArgs
+  nameWithType: VisualsSelectedEventArgs
+  fullName: H.Drawing3D.View.SelectionCommands.VisualsSelectedEventArgs
+- uid: H.Drawing3D.View.SelectionCommands
+  commentId: N:H.Drawing3D.View.SelectionCommands
+  href: H.html
+  name: H.Drawing3D.View.SelectionCommands
+  nameWithType: H.Drawing3D.View.SelectionCommands
+  fullName: H.Drawing3D.View.SelectionCommands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.SelectionCommands
+    name: SelectionCommands
+    href: H.Drawing3D.View.SelectionCommands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.SelectionCommands
+    name: SelectionCommands
+    href: H.Drawing3D.View.SelectionCommands.html

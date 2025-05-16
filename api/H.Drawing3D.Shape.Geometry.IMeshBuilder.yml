@@ -1,0 +1,3398 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  commentId: T:H.Drawing3D.Shape.Geometry.IMeshBuilder
+  id: IMeshBuilder
+  parent: H.Drawing3D.Shape.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox(System.Windows.Media.Media3D.Rect3D,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Rect3D,H.Drawing3D.Shape.Geometry.BoxFaces)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube(H.Drawing3D.Shape.Geometry.BoxFaces)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,System.Int32,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Point)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes(System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars(System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation(System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces,System.Int32,System.Int32,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Windows.Media.Media3D.Point3D[0:,0:],System.Windows.Point[0:,0:],System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Double},System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Double})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus(System.Double,System.Double,System.Int32,System.Int32)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Int32})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double[],System.Double[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Windows.Media.Media3D.MeshGeometry3D)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale(System.Double,System.Double,System.Double)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear(System.Boolean)
+  - H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IMeshBuilder
+  nameWithType: IMeshBuilder
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  type: Interface
+  source:
+    id: IMeshBuilder
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 13
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: public interface IMeshBuilder
+    content.vb: Public Interface IMeshBuilder
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  id: AddArrow(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddArrow(Point3D, Point3D, double, double, int)
+  nameWithType: IMeshBuilder.AddArrow(Point3D, Point3D, double, double, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, double, double, int)
+  type: Method
+  source:
+    id: AddArrow
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 15
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddArrow(Point3D point1, Point3D point2, double diameter, double headLength = 3, int thetaDiv = 18)
+    parameters:
+    - id: point1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: point2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: diameter
+      type: System.Double
+    - id: headLength
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddArrow(point1 As Point3D, point2 As Point3D, diameter As Double, headLength As Double = 3, thetaDiv As Integer = 18)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow*
+  nameWithType.vb: IMeshBuilder.AddArrow(Point3D, Point3D, Double, Double, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, Double, Double, Integer)
+  name.vb: AddArrow(Point3D, Point3D, Double, Double, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox(System.Windows.Media.Media3D.Rect3D,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox(System.Windows.Media.Media3D.Rect3D,System.Double)
+  id: AddBoundingBox(System.Windows.Media.Media3D.Rect3D,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddBoundingBox(Rect3D, double)
+  nameWithType: IMeshBuilder.AddBoundingBox(Rect3D, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox(System.Windows.Media.Media3D.Rect3D, double)
+  type: Method
+  source:
+    id: AddBoundingBox
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddBoundingBox(Rect3D boundingBox, double diameter)
+    parameters:
+    - id: boundingBox
+      type: System.Windows.Media.Media3D.Rect3D
+    - id: diameter
+      type: System.Double
+    content.vb: Sub AddBoundingBox(boundingBox As Rect3D, diameter As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox*
+  nameWithType.vb: IMeshBuilder.AddBoundingBox(Rect3D, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox(System.Windows.Media.Media3D.Rect3D, Double)
+  name.vb: AddBoundingBox(Rect3D, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double)
+  id: AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddBox(Point3D, double, double, double)
+  nameWithType: IMeshBuilder.AddBox(Point3D, double, double, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D, double, double, double)
+  type: Method
+  source:
+    id: AddBox
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 17
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddBox(Point3D center, double xlength, double ylength, double zlength)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: xlength
+      type: System.Double
+    - id: ylength
+      type: System.Double
+    - id: zlength
+      type: System.Double
+    content.vb: Sub AddBox(center As Point3D, xlength As Double, ylength As Double, zlength As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*
+  nameWithType.vb: IMeshBuilder.AddBox(Point3D, Double, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D, Double, Double, Double)
+  name.vb: AddBox(Point3D, Double, Double, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  id: AddBox(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddBox(Point3D, double, double, double, BoxFaces)
+  nameWithType: IMeshBuilder.AddBox(Point3D, double, double, double, BoxFaces)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D, double, double, double, H.Drawing3D.Shape.Geometry.BoxFaces)
+  type: Method
+  source:
+    id: AddBox
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddBox(Point3D center, double xlength, double ylength, double zlength, BoxFaces faces)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: xlength
+      type: System.Double
+    - id: ylength
+      type: System.Double
+    - id: zlength
+      type: System.Double
+    - id: faces
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+    content.vb: Sub AddBox(center As Point3D, xlength As Double, ylength As Double, zlength As Double, faces As BoxFaces)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*
+  nameWithType.vb: IMeshBuilder.AddBox(Point3D, Double, Double, Double, BoxFaces)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D, Double, Double, Double, H.Drawing3D.Shape.Geometry.BoxFaces)
+  name.vb: AddBox(Point3D, Double, Double, Double, BoxFaces)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  id: AddBox(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,H.Drawing3D.Shape.Geometry.BoxFaces)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddBox(Point3D, Vector3D, Vector3D, double, double, double, BoxFaces)
+  nameWithType: IMeshBuilder.AddBox(Point3D, Vector3D, Vector3D, double, double, double, BoxFaces)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double, double, double, H.Drawing3D.Shape.Geometry.BoxFaces)
+  type: Method
+  source:
+    id: AddBox
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 19
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddBox(Point3D center, Vector3D x, Vector3D y, double xlength, double ylength, double zlength, BoxFaces faces = BoxFaces.All)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: x
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: y
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: xlength
+      type: System.Double
+    - id: ylength
+      type: System.Double
+    - id: zlength
+      type: System.Double
+    - id: faces
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+    content.vb: Sub AddBox(center As Point3D, x As Vector3D, y As Vector3D, xlength As Double, ylength As Double, zlength As Double, faces As BoxFaces = BoxFaces.All)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*
+  nameWithType.vb: IMeshBuilder.AddBox(Point3D, Vector3D, Vector3D, Double, Double, Double, BoxFaces)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double, Double, Double, H.Drawing3D.Shape.Geometry.BoxFaces)
+  name.vb: AddBox(Point3D, Vector3D, Vector3D, Double, Double, Double, BoxFaces)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Rect3D,H.Drawing3D.Shape.Geometry.BoxFaces)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Rect3D,H.Drawing3D.Shape.Geometry.BoxFaces)
+  id: AddBox(System.Windows.Media.Media3D.Rect3D,H.Drawing3D.Shape.Geometry.BoxFaces)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddBox(Rect3D, BoxFaces)
+  nameWithType: IMeshBuilder.AddBox(Rect3D, BoxFaces)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox(System.Windows.Media.Media3D.Rect3D, H.Drawing3D.Shape.Geometry.BoxFaces)
+  type: Method
+  source:
+    id: AddBox
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 20
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddBox(Rect3D rectangle, BoxFaces faces = BoxFaces.All)
+    parameters:
+    - id: rectangle
+      type: System.Windows.Media.Media3D.Rect3D
+    - id: faces
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+    content.vb: Sub AddBox(rectangle As Rect3D, faces As BoxFaces = BoxFaces.All)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean,System.Int32)
+  id: AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCone(Point3D, Point3D, double, bool, int)
+  nameWithType: IMeshBuilder.AddCone(Point3D, Point3D, double, bool, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, double, bool, int)
+  type: Method
+  source:
+    id: AddCone
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 21
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddCone(Point3D origin, Point3D apex, double baseRadius, bool baseCap, int thetaDiv)
+    parameters:
+    - id: origin
+      type: System.Windows.Media.Media3D.Point3D
+    - id: apex
+      type: System.Windows.Media.Media3D.Point3D
+    - id: baseRadius
+      type: System.Double
+    - id: baseCap
+      type: System.Boolean
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddCone(origin As Point3D, apex As Point3D, baseRadius As Double, baseCap As Boolean, thetaDiv As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone*
+  nameWithType.vb: IMeshBuilder.AddCone(Point3D, Point3D, Double, Boolean, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, Double, Boolean, Integer)
+  name.vb: AddCone(Point3D, Point3D, Double, Boolean, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Int32)
+  id: AddCone(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCone(Point3D, Vector3D, double, double, double, bool, bool, int)
+  nameWithType: IMeshBuilder.AddCone(Point3D, Vector3D, double, double, double, bool, bool, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, double, double, double, bool, bool, int)
+  type: Method
+  source:
+    id: AddCone
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 22
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddCone(Point3D origin, Vector3D direction, double baseRadius, double topRadius, double height, bool baseCap, bool topCap, int thetaDiv)
+    parameters:
+    - id: origin
+      type: System.Windows.Media.Media3D.Point3D
+    - id: direction
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: baseRadius
+      type: System.Double
+    - id: topRadius
+      type: System.Double
+    - id: height
+      type: System.Double
+    - id: baseCap
+      type: System.Boolean
+    - id: topCap
+      type: System.Boolean
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddCone(origin As Point3D, direction As Vector3D, baseRadius As Double, topRadius As Double, height As Double, baseCap As Boolean, topCap As Boolean, thetaDiv As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone*
+  nameWithType.vb: IMeshBuilder.AddCone(Point3D, Vector3D, Double, Double, Double, Boolean, Boolean, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, Double, Double, Double, Boolean, Boolean, Integer)
+  name.vb: AddCone(Point3D, Vector3D, Double, Double, Double, Boolean, Boolean, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube(H.Drawing3D.Shape.Geometry.BoxFaces)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube(H.Drawing3D.Shape.Geometry.BoxFaces)
+  id: AddCube(H.Drawing3D.Shape.Geometry.BoxFaces)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCube(BoxFaces)
+  nameWithType: IMeshBuilder.AddCube(BoxFaces)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube(H.Drawing3D.Shape.Geometry.BoxFaces)
+  type: Method
+  source:
+    id: AddCube
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 23
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddCube(BoxFaces faces = BoxFaces.All)
+    parameters:
+    - id: faces
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+    content.vb: Sub AddCube(faces As BoxFaces = BoxFaces.All)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double)
+  id: AddCubeFace(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCubeFace(Point3D, Vector3D, Vector3D, double, double, double)
+  nameWithType: IMeshBuilder.AddCubeFace(Point3D, Vector3D, Vector3D, double, double, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double, double, double)
+  type: Method
+  source:
+    id: AddCubeFace
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddCubeFace(Point3D center, Vector3D normal, Vector3D up, double dist, double width, double height)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: normal
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: up
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: dist
+      type: System.Double
+    - id: width
+      type: System.Double
+    - id: height
+      type: System.Double
+    content.vb: Sub AddCubeFace(center As Point3D, normal As Vector3D, up As Vector3D, dist As Double, width As Double, height As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace*
+  nameWithType.vb: IMeshBuilder.AddCubeFace(Point3D, Vector3D, Vector3D, Double, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double, Double, Double)
+  name.vb: AddCubeFace(Point3D, Vector3D, Vector3D, Double, Double, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Boolean,System.Boolean)
+  id: AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCylinder(Point3D, Point3D, double, int, bool, bool)
+  nameWithType: IMeshBuilder.AddCylinder(Point3D, Point3D, double, int, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, double, int, bool, bool)
+  type: Method
+  source:
+    id: AddCylinder
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 25
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddCylinder(Point3D p1, Point3D p2, double radius = 1, int thetaDiv = 32, bool cap1 = true, bool cap2 = true)
+    parameters:
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: radius
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    - id: cap1
+      type: System.Boolean
+    - id: cap2
+      type: System.Boolean
+    content.vb: Sub AddCylinder(p1 As Point3D, p2 As Point3D, radius As Double = 1, thetaDiv As Integer = 32, cap1 As Boolean = True, cap2 As Boolean = True)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder*
+  nameWithType.vb: IMeshBuilder.AddCylinder(Point3D, Point3D, Double, Integer, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, Double, Integer, Boolean, Boolean)
+  name.vb: AddCylinder(Point3D, Point3D, Double, Integer, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  id: AddCylinder(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCylinder(Point3D, Point3D, double, int)
+  nameWithType: IMeshBuilder.AddCylinder(Point3D, Point3D, double, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, double, int)
+  type: Method
+  source:
+    id: AddCylinder
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 26
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddCylinder(Point3D p1, Point3D p2, double diameter, int thetaDiv)
+    parameters:
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: diameter
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddCylinder(p1 As Point3D, p2 As Point3D, diameter As Double, thetaDiv As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder*
+  nameWithType.vb: IMeshBuilder.AddCylinder(Point3D, Point3D, Double, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, Double, Integer)
+  name.vb: AddCylinder(Point3D, Point3D, Double, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: AddDodecahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddDodecahedron(Point3D, Vector3D, Vector3D, double)
+  nameWithType: IMeshBuilder.AddDodecahedron(Point3D, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: AddDodecahedron
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 27
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddDodecahedron(Point3D center, Vector3D forward, Vector3D up, double sideLength)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: forward
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: up
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: sideLength
+      type: System.Double
+    content.vb: Sub AddDodecahedron(center As Point3D, forward As Vector3D, up As Vector3D, sideLength As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron*
+  nameWithType.vb: IMeshBuilder.AddDodecahedron(Point3D, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: AddDodecahedron(Point3D, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  id: AddEdges(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddEdges(IList<Point3D>, IList<int>, double, int)
+  nameWithType: IMeshBuilder.AddEdges(IList<Point3D>, IList<int>, double, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<int>, double, int)
+  type: Method
+  source:
+    id: AddEdges
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 28
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddEdges(IList<Point3D> points, IList<int> edges, double diameter, int thetaDiv)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: edges
+      type: System.Collections.Generic.IList{System.Int32}
+    - id: diameter
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddEdges(points As IList(Of Point3D), edges As IList(Of Integer), diameter As Double, thetaDiv As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges*
+  nameWithType.vb: IMeshBuilder.AddEdges(IList(Of Point3D), IList(Of Integer), Double, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of Integer), Double, Integer)
+  name.vb: AddEdges(IList(Of Point3D), IList(Of Integer), Double, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,System.Int32,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,System.Int32,System.Int32)
+  id: AddEllipsoid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Double,System.Int32,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddEllipsoid(Point3D, double, double, double, int, int)
+  nameWithType: IMeshBuilder.AddEllipsoid(Point3D, double, double, double, int, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid(System.Windows.Media.Media3D.Point3D, double, double, double, int, int)
+  type: Method
+  source:
+    id: AddEllipsoid
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 29
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddEllipsoid(Point3D center, double radiusx, double radiusy, double radiusz, int thetaDiv = 20, int phiDiv = 10)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: radiusx
+      type: System.Double
+    - id: radiusy
+      type: System.Double
+    - id: radiusz
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    - id: phiDiv
+      type: System.Int32
+    content.vb: Sub AddEllipsoid(center As Point3D, radiusx As Double, radiusy As Double, radiusz As Double, thetaDiv As Integer = 20, phiDiv As Integer = 10)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid*
+  nameWithType.vb: IMeshBuilder.AddEllipsoid(Point3D, Double, Double, Double, Integer, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid(System.Windows.Media.Media3D.Point3D, Double, Double, Double, Integer, Integer)
+  name.vb: AddEllipsoid(Point3D, Double, Double, Double, Integer, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  id: AddExtrudedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddExtrudedGeometry(IList<Point>, Vector3D, Point3D, Point3D)
+  nameWithType: IMeshBuilder.AddExtrudedGeometry(IList<Point>, Vector3D, Point3D, Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry(System.Collections.Generic.IList<System.Windows.Point>, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: AddExtrudedGeometry
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 30
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddExtrudedGeometry(IList<Point> points, Vector3D xaxis, Point3D p0, Point3D p1)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: xaxis
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub AddExtrudedGeometry(points As IList(Of Point), xaxis As Vector3D, p0 As Point3D, p1 As Point3D)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry*
+  nameWithType.vb: IMeshBuilder.AddExtrudedGeometry(IList(Of Point), Vector3D, Point3D, Point3D)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry(System.Collections.Generic.IList(Of System.Windows.Point), System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  name.vb: AddExtrudedGeometry(IList(Of Point), Vector3D, Point3D, Point3D)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  id: AddExtrudedSegments(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddExtrudedSegments(IList<Point>, Vector3D, Point3D, Point3D)
+  nameWithType: IMeshBuilder.AddExtrudedSegments(IList<Point>, Vector3D, Point3D, Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments(System.Collections.Generic.IList<System.Windows.Point>, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: AddExtrudedSegments
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 31
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddExtrudedSegments(IList<Point> points, Vector3D axisX, Point3D p0, Point3D p1)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: axisX
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub AddExtrudedSegments(points As IList(Of Point), axisX As Vector3D, p0 As Point3D, p1 As Point3D)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments*
+  nameWithType.vb: IMeshBuilder.AddExtrudedSegments(IList(Of Point), Vector3D, Point3D, Point3D)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments(System.Collections.Generic.IList(Of System.Windows.Point), System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  name.vb: AddExtrudedSegments(IList(Of Point), Vector3D, Point3D, Point3D)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX
+  id: AddFaceNX
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddFaceNX()
+  nameWithType: IMeshBuilder.AddFaceNX()
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX()
+  type: Method
+  source:
+    id: AddFaceNX
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 32
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddFaceNX()
+    content.vb: Sub AddFaceNX()
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY
+  id: AddFaceNY
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddFaceNY()
+  nameWithType: IMeshBuilder.AddFaceNY()
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY()
+  type: Method
+  source:
+    id: AddFaceNY
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 33
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddFaceNY()
+    content.vb: Sub AddFaceNY()
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ
+  id: AddFaceNZ
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddFaceNZ()
+  nameWithType: IMeshBuilder.AddFaceNZ()
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ()
+  type: Method
+  source:
+    id: AddFaceNZ
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 34
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddFaceNZ()
+    content.vb: Sub AddFaceNZ()
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX
+  id: AddFacePX
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddFacePX()
+  nameWithType: IMeshBuilder.AddFacePX()
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX()
+  type: Method
+  source:
+    id: AddFacePX
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 35
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddFacePX()
+    content.vb: Sub AddFacePX()
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY
+  id: AddFacePY
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddFacePY()
+  nameWithType: IMeshBuilder.AddFacePY()
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY()
+  type: Method
+  source:
+    id: AddFacePY
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 36
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddFacePY()
+    content.vb: Sub AddFacePY()
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ
+  id: AddFacePZ
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddFacePZ()
+  nameWithType: IMeshBuilder.AddFacePZ()
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ()
+  type: Method
+  source:
+    id: AddFacePZ
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 37
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddFacePZ()
+    content.vb: Sub AddFacePZ()
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}})
+  id: AddLoftedGeometry(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}},System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddLoftedGeometry(IList<IList<Point3D>>, IList<IList<Vector3D>>, IList<IList<Point>>)
+  nameWithType: IMeshBuilder.AddLoftedGeometry(IList<IList<Point3D>>, IList<IList<Vector3D>>, IList<IList<Point>>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry(System.Collections.Generic.IList<System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>>, System.Collections.Generic.IList<System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>>, System.Collections.Generic.IList<System.Collections.Generic.IList<System.Windows.Point>>)
+  type: Method
+  source:
+    id: AddLoftedGeometry
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 38
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddLoftedGeometry(IList<IList<Point3D>> positionsList, IList<IList<Vector3D>> normalList, IList<IList<Point>> textureCoordinateList)
+    parameters:
+    - id: positionsList
+      type: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}}
+    - id: normalList
+      type: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}}
+    - id: textureCoordinateList
+      type: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}}
+    content.vb: Sub AddLoftedGeometry(positionsList As IList(Of IList(Of Point3D)), normalList As IList(Of IList(Of Vector3D)), textureCoordinateList As IList(Of IList(Of Point)))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry*
+  nameWithType.vb: IMeshBuilder.AddLoftedGeometry(IList(Of IList(Of Point3D)), IList(Of IList(Of Vector3D)), IList(Of IList(Of Point)))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry(System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D)), System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D)), System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of System.Windows.Point)))
+  name.vb: AddLoftedGeometry(IList(Of IList(Of Point3D)), IList(Of IList(Of Vector3D)), IList(Of IList(Of Point)))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Point)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Point)
+  id: AddNode(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Point)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddNode(Point3D, Vector3D, Point)
+  nameWithType: IMeshBuilder.AddNode(Point3D, Vector3D, Point)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Point)
+  type: Method
+  source:
+    id: AddNode
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 39
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddNode(Point3D position, Vector3D normal, Point textureCoordinate)
+    parameters:
+    - id: position
+      type: System.Windows.Media.Media3D.Point3D
+    - id: normal
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: textureCoordinate
+      type: System.Windows.Point
+    content.vb: Sub AddNode(position As Point3D, normal As Vector3D, textureCoordinate As Point)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double)
+  id: AddOctahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddOctahedron(Point3D, Vector3D, Vector3D, double, double)
+  nameWithType: IMeshBuilder.AddOctahedron(Point3D, Vector3D, Vector3D, double, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double, double)
+  type: Method
+  source:
+    id: AddOctahedron
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 40
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddOctahedron(Point3D center, Vector3D forward, Vector3D up, double sideLength, double height)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: forward
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: up
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: sideLength
+      type: System.Double
+    - id: height
+      type: System.Double
+    content.vb: Sub AddOctahedron(center As Point3D, forward As Vector3D, up As Vector3D, sideLength As Double, height As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron*
+  nameWithType.vb: IMeshBuilder.AddOctahedron(Point3D, Vector3D, Vector3D, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double, Double)
+  name.vb: AddOctahedron(Point3D, Vector3D, Vector3D, Double, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  id: AddPipe(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPipe(Point3D, Point3D, double, double, int)
+  nameWithType: IMeshBuilder.AddPipe(Point3D, Point3D, double, double, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, double, double, int)
+  type: Method
+  source:
+    id: AddPipe
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 41
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPipe(Point3D point1, Point3D point2, double innerDiameter, double diameter, int thetaDiv)
+    parameters:
+    - id: point1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: point2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: innerDiameter
+      type: System.Double
+    - id: diameter
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddPipe(point1 As Point3D, point2 As Point3D, innerDiameter As Double, diameter As Double, thetaDiv As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe*
+  nameWithType.vb: IMeshBuilder.AddPipe(Point3D, Point3D, Double, Double, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, Double, Double, Integer)
+  name.vb: AddPipe(Point3D, Point3D, Double, Double, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes(System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes(System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  id: AddPipes(System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Int32},System.Double,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPipes(IList<Vector3D>, IList<int>, double, int)
+  nameWithType: IMeshBuilder.AddPipes(IList<Vector3D>, IList<int>, double, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes(System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, System.Collections.Generic.IList<int>, double, int)
+  type: Method
+  source:
+    id: AddPipes
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 42
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPipes(IList<Vector3D> points, IList<int> edges, double diameter = 1, int thetaDiv = 32)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+    - id: edges
+      type: System.Collections.Generic.IList{System.Int32}
+    - id: diameter
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddPipes(points As IList(Of Vector3D), edges As IList(Of Integer), diameter As Double = 1, thetaDiv As Integer = 32)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes*
+  nameWithType.vb: IMeshBuilder.AddPipes(IList(Of Vector3D), IList(Of Integer), Double, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Collections.Generic.IList(Of Integer), Double, Integer)
+  name.vb: AddPipes(IList(Of Vector3D), IList(Of Integer), Double, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Int32})
+  id: AddPolygon(System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPolygon(IList<int>)
+  nameWithType: IMeshBuilder.AddPolygon(IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: AddPolygon
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 43
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPolygon(IList<int> vertexIndices)
+    parameters:
+    - id: vertexIndices
+      type: System.Collections.Generic.IList{System.Int32}
+    content.vb: Sub AddPolygon(vertexIndices As IList(Of Integer))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*
+  nameWithType.vb: IMeshBuilder.AddPolygon(IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddPolygon(IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D)
+  id: AddPolygon(System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPolygon(IList<Point>, Vector3D, Vector3D, Point3D)
+  nameWithType: IMeshBuilder.AddPolygon(IList<Point>, Vector3D, Vector3D, Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList<System.Windows.Point>, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: AddPolygon
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 44
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPolygon(IList<Point> points, Vector3D axisX, Vector3D axisY, Point3D origin)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: axisX
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: axisY
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: origin
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub AddPolygon(points As IList(Of Point), axisX As Vector3D, axisY As Vector3D, origin As Point3D)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*
+  nameWithType.vb: IMeshBuilder.AddPolygon(IList(Of Point), Vector3D, Vector3D, Point3D)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList(Of System.Windows.Point), System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Point3D)
+  name.vb: AddPolygon(IList(Of Point), Vector3D, Vector3D, Point3D)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D})
+  id: AddPolygon(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPolygon(IList<Point3D>)
+  nameWithType: IMeshBuilder.AddPolygon(IList<Point3D>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>)
+  type: Method
+  source:
+    id: AddPolygon
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 45
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPolygon(IList<Point3D> points)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    content.vb: Sub AddPolygon(points As IList(Of Point3D))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*
+  nameWithType.vb: IMeshBuilder.AddPolygon(IList(Of Point3D))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D))
+  name.vb: AddPolygon(IList(Of Point3D))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars(System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars(System.Collections.Generic.IList{System.Int32})
+  id: AddPolygonByCuttingEars(System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPolygonByCuttingEars(IList<int>)
+  nameWithType: IMeshBuilder.AddPolygonByCuttingEars(IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: AddPolygonByCuttingEars
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 46
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPolygonByCuttingEars(IList<int> vertexIndices)
+    parameters:
+    - id: vertexIndices
+      type: System.Collections.Generic.IList{System.Int32}
+    content.vb: Sub AddPolygonByCuttingEars(vertexIndices As IList(Of Integer))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars*
+  nameWithType.vb: IMeshBuilder.AddPolygonByCuttingEars(IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddPolygonByCuttingEars(IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation(System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation(System.Collections.Generic.IList{System.Int32})
+  id: AddPolygonByTriangulation(System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPolygonByTriangulation(IList<int>)
+  nameWithType: IMeshBuilder.AddPolygonByTriangulation(IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: AddPolygonByTriangulation
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 47
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPolygonByTriangulation(IList<int> vertexIndices)
+    parameters:
+    - id: vertexIndices
+      type: System.Collections.Generic.IList{System.Int32}
+    content.vb: Sub AddPolygonByTriangulation(vertexIndices As IList(Of Integer))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation*
+  nameWithType.vb: IMeshBuilder.AddPolygonByTriangulation(IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddPolygonByTriangulation(IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Boolean)
+  id: AddPyramid(System.Windows.Media.Media3D.Point3D,System.Double,System.Double,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPyramid(Point3D, double, double, bool)
+  nameWithType: IMeshBuilder.AddPyramid(Point3D, double, double, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D, double, double, bool)
+  type: Method
+  source:
+    id: AddPyramid
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 48
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPyramid(Point3D center, double sideLength, double height, bool closeBase = false)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: sideLength
+      type: System.Double
+    - id: height
+      type: System.Double
+    - id: closeBase
+      type: System.Boolean
+    content.vb: Sub AddPyramid(center As Point3D, sideLength As Double, height As Double, closeBase As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid*
+  nameWithType.vb: IMeshBuilder.AddPyramid(Point3D, Double, Double, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D, Double, Double, Boolean)
+  name.vb: AddPyramid(Point3D, Double, Double, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Boolean)
+  id: AddPyramid(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double,System.Double,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPyramid(Point3D, Vector3D, Vector3D, double, double, bool)
+  nameWithType: IMeshBuilder.AddPyramid(Point3D, Vector3D, Vector3D, double, double, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double, double, bool)
+  type: Method
+  source:
+    id: AddPyramid
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 49
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddPyramid(Point3D center, Vector3D forward, Vector3D up, double sideLength, double height, bool closeBase = false)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: forward
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: up
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: sideLength
+      type: System.Double
+    - id: height
+      type: System.Double
+    - id: closeBase
+      type: System.Boolean
+    content.vb: Sub AddPyramid(center As Point3D, forward As Vector3D, up As Vector3D, sideLength As Double, height As Double, closeBase As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid*
+  nameWithType.vb: IMeshBuilder.AddPyramid(Point3D, Vector3D, Vector3D, Double, Double, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double, Double, Boolean)
+  name.vb: AddPyramid(Point3D, Vector3D, Vector3D, Double, Double, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Collections.Generic.IList{System.Int32})
+  id: AddQuad(System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddQuad(IList<int>)
+  nameWithType: IMeshBuilder.AddQuad(IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: AddQuad
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 50
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddQuad(IList<int> vertexIndices)
+    parameters:
+    - id: vertexIndices
+      type: System.Collections.Generic.IList{System.Int32}
+    content.vb: Sub AddQuad(vertexIndices As IList(Of Integer))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*
+  nameWithType.vb: IMeshBuilder.AddQuad(IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddQuad(IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  id: AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddQuad(Point3D, Point3D, Point3D, Point3D)
+  nameWithType: IMeshBuilder.AddQuad(Point3D, Point3D, Point3D, Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: AddQuad
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 51
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddQuad(Point3D p0, Point3D p1, Point3D p2, Point3D p3)
+    parameters:
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p3
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub AddQuad(p0 As Point3D, p1 As Point3D, p2 As Point3D, p3 As Point3D)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  id: AddQuad(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddQuad(Point3D, Point3D, Point3D, Point3D, Point, Point, Point, Point)
+  nameWithType: IMeshBuilder.AddQuad(Point3D, Point3D, Point3D, Point3D, Point, Point, Point, Point)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Point, System.Windows.Point, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    id: AddQuad
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 52
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddQuad(Point3D p0, Point3D p1, Point3D p2, Point3D p3, Point uv0, Point uv1, Point uv2, Point uv3)
+    parameters:
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p3
+      type: System.Windows.Media.Media3D.Point3D
+    - id: uv0
+      type: System.Windows.Point
+    - id: uv1
+      type: System.Windows.Point
+    - id: uv2
+      type: System.Windows.Point
+    - id: uv3
+      type: System.Windows.Point
+    content.vb: Sub AddQuad(p0 As Point3D, p1 As Point3D, p2 As Point3D, p3 As Point3D, uv0 As Point, uv1 As Point, uv2 As Point, uv3 As Point)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  id: AddQuads(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddQuads(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  nameWithType: IMeshBuilder.AddQuads(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, System.Collections.Generic.IList<System.Windows.Point>)
+  type: Method
+  source:
+    id: AddQuads
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 53
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddQuads(IList<Point3D> quadPositions, IList<Vector3D> quadNormals, IList<Point> quadTextureCoordinates)
+    parameters:
+    - id: quadPositions
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: quadNormals
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+    - id: quadTextureCoordinates
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    content.vb: Sub AddQuads(quadPositions As IList(Of Point3D), quadNormals As IList(Of Vector3D), quadTextureCoordinates As IList(Of Point))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads*
+  nameWithType.vb: IMeshBuilder.AddQuads(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Collections.Generic.IList(Of System.Windows.Point))
+  name.vb: AddQuads(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces,System.Int32,System.Int32,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces,System.Int32,System.Int32,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean)
+  id: AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces,System.Int32,System.Int32,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRectangularMesh(BoxFaces, int, int, double, double, bool, bool, bool)
+  nameWithType: IMeshBuilder.AddRectangularMesh(BoxFaces, int, int, double, double, bool, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces, int, int, double, double, bool, bool, bool)
+  type: Method
+  source:
+    id: AddRectangularMesh
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 54
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRectangularMesh(BoxFaces plane, int columns, int rows, double width, double height, bool flipTriangles = false, bool flipTexCoordsUAxis = false, bool flipTexCoordsVAxis = false)
+    parameters:
+    - id: plane
+      type: H.Drawing3D.Shape.Geometry.BoxFaces
+    - id: columns
+      type: System.Int32
+    - id: rows
+      type: System.Int32
+    - id: width
+      type: System.Double
+    - id: height
+      type: System.Double
+    - id: flipTriangles
+      type: System.Boolean
+    - id: flipTexCoordsUAxis
+      type: System.Boolean
+    - id: flipTexCoordsVAxis
+      type: System.Boolean
+    content.vb: Sub AddRectangularMesh(plane As BoxFaces, columns As Integer, rows As Integer, width As Double, height As Double, flipTriangles As Boolean = False, flipTexCoordsUAxis As Boolean = False, flipTexCoordsVAxis As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*
+  nameWithType.vb: IMeshBuilder.AddRectangularMesh(BoxFaces, Integer, Integer, Double, Double, Boolean, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(H.Drawing3D.Shape.Geometry.BoxFaces, Integer, Integer, Double, Double, Boolean, Boolean, Boolean)
+  name.vb: AddRectangularMesh(BoxFaces, Integer, Integer, Double, Double, Boolean, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32)
+  id: AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRectangularMesh(IList<Point3D>, int)
+  nameWithType: IMeshBuilder.AddRectangularMesh(IList<Point3D>, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, int)
+  type: Method
+  source:
+    id: AddRectangularMesh
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 55
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRectangularMesh(IList<Point3D> points, int columns)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: columns
+      type: System.Int32
+    content.vb: Sub AddRectangularMesh(points As IList(Of Point3D), columns As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*
+  nameWithType.vb: IMeshBuilder.AddRectangularMesh(IList(Of Point3D), Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), Integer)
+  name.vb: AddRectangularMesh(IList(Of Point3D), Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32,System.Boolean)
+  id: AddRectangularMesh(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Int32,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRectangularMesh(IList<Point3D>, int, bool)
+  nameWithType: IMeshBuilder.AddRectangularMesh(IList<Point3D>, int, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, int, bool)
+  type: Method
+  source:
+    id: AddRectangularMesh
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 56
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRectangularMesh(IList<Point3D> points, int columns, bool flipTriangles = false)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: columns
+      type: System.Int32
+    - id: flipTriangles
+      type: System.Boolean
+    content.vb: Sub AddRectangularMesh(points As IList(Of Point3D), columns As Integer, flipTriangles As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*
+  nameWithType.vb: IMeshBuilder.AddRectangularMesh(IList(Of Point3D), Integer, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), Integer, Boolean)
+  name.vb: AddRectangularMesh(IList(Of Point3D), Integer, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Windows.Media.Media3D.Point3D[0:,0:],System.Windows.Point[0:,0:],System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Windows.Media.Media3D.Point3D[0:,0:],System.Windows.Point[0:,0:],System.Boolean,System.Boolean)
+  id: AddRectangularMesh(System.Windows.Media.Media3D.Point3D[0:,0:],System.Windows.Point[0:,0:],System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRectangularMesh(Point3D[,], Point[,], bool, bool)
+  nameWithType: IMeshBuilder.AddRectangularMesh(Point3D[,], Point[,], bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Windows.Media.Media3D.Point3D[,], System.Windows.Point[,], bool, bool)
+  type: Method
+  source:
+    id: AddRectangularMesh
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 57
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRectangularMesh(Point3D[,] points, Point[,] texCoords = null, bool closed0 = false, bool closed1 = false)
+    parameters:
+    - id: points
+      type: System.Windows.Media.Media3D.Point3D[,]
+    - id: texCoords
+      type: System.Windows.Point[,]
+    - id: closed0
+      type: System.Boolean
+    - id: closed1
+      type: System.Boolean
+    content.vb: Sub AddRectangularMesh(points As Point3D(,), texCoords As Point(,) = Nothing, closed0 As Boolean = False, closed1 As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*
+  nameWithType.vb: IMeshBuilder.AddRectangularMesh(Point3D(,), Point(,), Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh(System.Windows.Media.Media3D.Point3D(,), System.Windows.Point(,), Boolean, Boolean)
+  name.vb: AddRectangularMesh(Point3D(,), Point(,), Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean)
+  id: AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRectangularMeshTriangleIndices(int, int, int, bool)
+  nameWithType: IMeshBuilder.AddRectangularMeshTriangleIndices(int, int, int, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(int, int, int, bool)
+  type: Method
+  source:
+    id: AddRectangularMeshTriangleIndices
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 58
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRectangularMeshTriangleIndices(int index0, int rows, int columns, bool isSpherical = false)
+    parameters:
+    - id: index0
+      type: System.Int32
+    - id: rows
+      type: System.Int32
+    - id: columns
+      type: System.Int32
+    - id: isSpherical
+      type: System.Boolean
+    content.vb: Sub AddRectangularMeshTriangleIndices(index0 As Integer, rows As Integer, columns As Integer, isSpherical As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices*
+  nameWithType.vb: IMeshBuilder.AddRectangularMeshTriangleIndices(Integer, Integer, Integer, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(Integer, Integer, Integer, Boolean)
+  name.vb: AddRectangularMeshTriangleIndices(Integer, Integer, Integer, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  id: AddRectangularMeshTriangleIndices(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRectangularMeshTriangleIndices(int, int, int, bool, bool)
+  nameWithType: IMeshBuilder.AddRectangularMeshTriangleIndices(int, int, int, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(int, int, int, bool, bool)
+  type: Method
+  source:
+    id: AddRectangularMeshTriangleIndices
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 59
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRectangularMeshTriangleIndices(int index0, int rows, int columns, bool rowsClosed, bool columnsClosed)
+    parameters:
+    - id: index0
+      type: System.Int32
+    - id: rows
+      type: System.Int32
+    - id: columns
+      type: System.Int32
+    - id: rowsClosed
+      type: System.Boolean
+    - id: columnsClosed
+      type: System.Boolean
+    content.vb: Sub AddRectangularMeshTriangleIndices(index0 As Integer, rows As Integer, columns As Integer, rowsClosed As Boolean, columnsClosed As Boolean)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices*
+  nameWithType.vb: IMeshBuilder.AddRectangularMeshTriangleIndices(Integer, Integer, Integer, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices(Integer, Integer, Integer, Boolean, Boolean)
+  name.vb: AddRectangularMeshTriangleIndices(Integer, Integer, Integer, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean)
+  id: AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D,System.Double,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRegularIcosahedron(Point3D, double, bool)
+  nameWithType: IMeshBuilder.AddRegularIcosahedron(Point3D, double, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D, double, bool)
+  type: Method
+  source:
+    id: AddRegularIcosahedron
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 60
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRegularIcosahedron(Point3D center, double radius, bool shareVertices)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: radius
+      type: System.Double
+    - id: shareVertices
+      type: System.Boolean
+    content.vb: Sub AddRegularIcosahedron(center As Point3D, radius As Double, shareVertices As Boolean)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron*
+  nameWithType.vb: IMeshBuilder.AddRegularIcosahedron(Point3D, Double, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron(System.Windows.Media.Media3D.Point3D, Double, Boolean)
+  name.vb: AddRegularIcosahedron(Point3D, Double, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Double},System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Double},System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Int32)
+  id: AddRevolvedGeometry(System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Double},System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRevolvedGeometry(IList<Point>, IList<double>, Point3D, Vector3D, int)
+  nameWithType: IMeshBuilder.AddRevolvedGeometry(IList<Point>, IList<double>, Point3D, Vector3D, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry(System.Collections.Generic.IList<System.Windows.Point>, System.Collections.Generic.IList<double>, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, int)
+  type: Method
+  source:
+    id: AddRevolvedGeometry
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 61
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddRevolvedGeometry(IList<Point> points, IList<double> textureValues, Point3D origin, Vector3D direction, int thetaDiv)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: textureValues
+      type: System.Collections.Generic.IList{System.Double}
+    - id: origin
+      type: System.Windows.Media.Media3D.Point3D
+    - id: direction
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: thetaDiv
+      type: System.Int32
+    content.vb: Sub AddRevolvedGeometry(points As IList(Of Point), textureValues As IList(Of Double), origin As Point3D, direction As Vector3D, thetaDiv As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry*
+  nameWithType.vb: IMeshBuilder.AddRevolvedGeometry(IList(Of Point), IList(Of Double), Point3D, Vector3D, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry(System.Collections.Generic.IList(Of System.Windows.Point), System.Collections.Generic.IList(Of Double), System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, Integer)
+  name.vb: AddRevolvedGeometry(IList(Of Point), IList(Of Double), Point3D, Vector3D, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Int32)
+  id: AddSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddSphere(Point3D, double, int, int)
+  nameWithType: IMeshBuilder.AddSphere(Point3D, double, int, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere(System.Windows.Media.Media3D.Point3D, double, int, int)
+  type: Method
+  source:
+    id: AddSphere
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 62
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddSphere(Point3D center, double radius = 1, int thetaDiv = 32, int phiDiv = 32)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: radius
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    - id: phiDiv
+      type: System.Int32
+    content.vb: Sub AddSphere(center As Point3D, radius As Double = 1, thetaDiv As Integer = 32, phiDiv As Integer = 32)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere*
+  nameWithType.vb: IMeshBuilder.AddSphere(Point3D, Double, Integer, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere(System.Windows.Media.Media3D.Point3D, Double, Integer, Integer)
+  name.vb: AddSphere(Point3D, Double, Integer, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  id: AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D,System.Double,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddSubdivisionSphere(Point3D, double, int)
+  nameWithType: IMeshBuilder.AddSubdivisionSphere(Point3D, double, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D, double, int)
+  type: Method
+  source:
+    id: AddSubdivisionSphere
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 63
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddSubdivisionSphere(Point3D center, double radius, int subdivisions)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: radius
+      type: System.Double
+    - id: subdivisions
+      type: System.Int32
+    content.vb: Sub AddSubdivisionSphere(center As Point3D, radius As Double, subdivisions As Integer)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere*
+  nameWithType.vb: IMeshBuilder.AddSubdivisionSphere(Point3D, Double, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere(System.Windows.Media.Media3D.Point3D, Double, Integer)
+  name.vb: AddSubdivisionSphere(Point3D, Double, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Double})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Double})
+  id: AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Double})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddSurfaceOfRevolution(Point3D, Vector3D, IList<Point>, IList<int>, int, IList<double>)
+  nameWithType: IMeshBuilder.AddSurfaceOfRevolution(Point3D, Vector3D, IList<Point>, IList<int>, int, IList<double>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Collections.Generic.IList<System.Windows.Point>, System.Collections.Generic.IList<int>, int, System.Collections.Generic.IList<double>)
+  type: Method
+  source:
+    id: AddSurfaceOfRevolution
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 64
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddSurfaceOfRevolution(Point3D origin, Vector3D axis, IList<Point> section, IList<int> sectionIndices, int thetaDiv = 37, IList<double> textureValues = null)
+    parameters:
+    - id: origin
+      type: System.Windows.Media.Media3D.Point3D
+    - id: axis
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: section
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: sectionIndices
+      type: System.Collections.Generic.IList{System.Int32}
+    - id: thetaDiv
+      type: System.Int32
+    - id: textureValues
+      type: System.Collections.Generic.IList{System.Double}
+    content.vb: Sub AddSurfaceOfRevolution(origin As Point3D, axis As Vector3D, section As IList(Of Point), sectionIndices As IList(Of Integer), thetaDiv As Integer = 37, textureValues As IList(Of Double) = Nothing)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution*
+  nameWithType.vb: IMeshBuilder.AddSurfaceOfRevolution(Point3D, Vector3D, IList(Of Point), IList(Of Integer), Integer, IList(Of Double))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Collections.Generic.IList(Of System.Windows.Point), System.Collections.Generic.IList(Of Integer), Integer, System.Collections.Generic.IList(Of Double))
+  name.vb: AddSurfaceOfRevolution(Point3D, Vector3D, IList(Of Point), IList(Of Integer), Integer, IList(Of Double))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  id: AddTetrahedron(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTetrahedron(Point3D, Vector3D, Vector3D, double)
+  nameWithType: IMeshBuilder.AddTetrahedron(Point3D, Vector3D, Vector3D, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, double)
+  type: Method
+  source:
+    id: AddTetrahedron
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 65
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTetrahedron(Point3D center, Vector3D forward, Vector3D up, double sideLength)
+    parameters:
+    - id: center
+      type: System.Windows.Media.Media3D.Point3D
+    - id: forward
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: up
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: sideLength
+      type: System.Double
+    content.vb: Sub AddTetrahedron(center As Point3D, forward As Vector3D, up As Vector3D, sideLength As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron*
+  nameWithType.vb: IMeshBuilder.AddTetrahedron(Point3D, Vector3D, Vector3D, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Vector3D, System.Windows.Media.Media3D.Vector3D, Double)
+  name.vb: AddTetrahedron(Point3D, Vector3D, Vector3D, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus(System.Double,System.Double,System.Int32,System.Int32)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus(System.Double,System.Double,System.Int32,System.Int32)
+  id: AddTorus(System.Double,System.Double,System.Int32,System.Int32)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTorus(double, double, int, int)
+  nameWithType: IMeshBuilder.AddTorus(double, double, int, int)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus(double, double, int, int)
+  type: Method
+  source:
+    id: AddTorus
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 66
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTorus(double torusDiameter, double tubeDiameter, int thetaDiv = 36, int phiDiv = 24)
+    parameters:
+    - id: torusDiameter
+      type: System.Double
+    - id: tubeDiameter
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    - id: phiDiv
+      type: System.Int32
+    content.vb: Sub AddTorus(torusDiameter As Double, tubeDiameter As Double, thetaDiv As Integer = 36, phiDiv As Integer = 24)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus*
+  nameWithType.vb: IMeshBuilder.AddTorus(Double, Double, Integer, Integer)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus(Double, Double, Integer, Integer)
+  name.vb: AddTorus(Double, Double, Integer, Integer)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Collections.Generic.IList{System.Int32})
+  id: AddTriangle(System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangle(IList<int>)
+  nameWithType: IMeshBuilder.AddTriangle(IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: AddTriangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 67
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangle(IList<int> vertexIndices)
+    parameters:
+    - id: vertexIndices
+      type: System.Collections.Generic.IList{System.Int32}
+    content.vb: Sub AddTriangle(vertexIndices As IList(Of Integer))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*
+  nameWithType.vb: IMeshBuilder.AddTriangle(IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddTriangle(IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  id: AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangle(Point3D, Point3D, Point3D)
+  nameWithType: IMeshBuilder.AddTriangle(Point3D, Point3D, Point3D)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D)
+  type: Method
+  source:
+    id: AddTriangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 68
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangle(Point3D p0, Point3D p1, Point3D p2)
+    parameters:
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p2
+      type: System.Windows.Media.Media3D.Point3D
+    content.vb: Sub AddTriangle(p0 As Point3D, p1 As Point3D, p2 As Point3D)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  id: AddTriangle(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangle(Point3D, Point3D, Point3D, Point, Point, Point)
+  nameWithType: IMeshBuilder.AddTriangle(Point3D, Point3D, Point3D, Point, Point, Point)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle(System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Media.Media3D.Point3D, System.Windows.Point, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    id: AddTriangle
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 69
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangle(Point3D p0, Point3D p1, Point3D p2, Point uv0, Point uv1, Point uv2)
+    parameters:
+    - id: p0
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p1
+      type: System.Windows.Media.Media3D.Point3D
+    - id: p2
+      type: System.Windows.Media.Media3D.Point3D
+    - id: uv0
+      type: System.Windows.Point
+    - id: uv1
+      type: System.Windows.Point
+    - id: uv2
+      type: System.Windows.Point
+    content.vb: Sub AddTriangle(p0 As Point3D, p1 As Point3D, p2 As Point3D, uv0 As Point, uv1 As Point, uv2 As Point)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Int32})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Int32})
+  id: AddTriangleFan(System.Collections.Generic.IList{System.Int32})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangleFan(IList<int>)
+  nameWithType: IMeshBuilder.AddTriangleFan(IList<int>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    id: AddTriangleFan
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 70
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangleFan(IList<int> vertices)
+    parameters:
+    - id: vertices
+      type: System.Collections.Generic.IList{System.Int32}
+    content.vb: Sub AddTriangleFan(vertices As IList(Of Integer))
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan*
+  nameWithType.vb: IMeshBuilder.AddTriangleFan(IList(Of Integer))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddTriangleFan(IList(Of Integer))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  id: AddTriangleFan(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangleFan(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  nameWithType: IMeshBuilder.AddTriangleFan(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, System.Collections.Generic.IList<System.Windows.Point>)
+  type: Method
+  source:
+    id: AddTriangleFan
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 71
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangleFan(IList<Point3D> fanPositions, IList<Vector3D> fanNormals = null, IList<Point> fanTextureCoordinates = null)
+    parameters:
+    - id: fanPositions
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: fanNormals
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+    - id: fanTextureCoordinates
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    content.vb: Sub AddTriangleFan(fanPositions As IList(Of Point3D), fanNormals As IList(Of Vector3D) = Nothing, fanTextureCoordinates As IList(Of Point) = Nothing)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan*
+  nameWithType.vb: IMeshBuilder.AddTriangleFan(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Collections.Generic.IList(Of System.Windows.Point))
+  name.vb: AddTriangleFan(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  id: AddTriangles(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangles(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  nameWithType: IMeshBuilder.AddTriangles(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, System.Collections.Generic.IList<System.Windows.Point>)
+  type: Method
+  source:
+    id: AddTriangles
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 72
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangles(IList<Point3D> trianglePositions, IList<Vector3D> triangleNormals = null, IList<Point> triangleTextureCoordinates = null)
+    parameters:
+    - id: trianglePositions
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: triangleNormals
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+    - id: triangleTextureCoordinates
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    content.vb: Sub AddTriangles(trianglePositions As IList(Of Point3D), triangleNormals As IList(Of Vector3D) = Nothing, triangleTextureCoordinates As IList(Of Point) = Nothing)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles*
+  nameWithType.vb: IMeshBuilder.AddTriangles(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Collections.Generic.IList(Of System.Windows.Point))
+  name.vb: AddTriangles(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  id: AddTriangleStrip(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTriangleStrip(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  nameWithType: IMeshBuilder.AddTriangleStrip(IList<Point3D>, IList<Vector3D>, IList<Point>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, System.Collections.Generic.IList<System.Windows.Point>)
+  type: Method
+  source:
+    id: AddTriangleStrip
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 73
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTriangleStrip(IList<Point3D> stripPositions, IList<Vector3D> stripNormals = null, IList<Point> stripTextureCoordinates = null)
+    parameters:
+    - id: stripPositions
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: stripNormals
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+    - id: stripTextureCoordinates
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    content.vb: Sub AddTriangleStrip(stripPositions As IList(Of Point3D), stripNormals As IList(Of Vector3D) = Nothing, stripTextureCoordinates As IList(Of Point) = Nothing)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip*
+  nameWithType.vb: IMeshBuilder.AddTriangleStrip(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Collections.Generic.IList(Of System.Windows.Point))
+  name.vb: AddTriangleStrip(IList(Of Point3D), IList(Of Vector3D), IList(Of Point))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  id: AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTube(IList<Point3D>, double, int, bool, bool, bool)
+  nameWithType: IMeshBuilder.AddTube(IList<Point3D>, double, int, bool, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, double, int, bool, bool, bool)
+  type: Method
+  source:
+    id: AddTube
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 74
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTube(IList<Point3D> path, double diameter, int thetaDiv, bool isTubeClosed, bool frontCap = false, bool backCap = false)
+    parameters:
+    - id: path
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: diameter
+      type: System.Double
+    - id: thetaDiv
+      type: System.Int32
+    - id: isTubeClosed
+      type: System.Boolean
+    - id: frontCap
+      type: System.Boolean
+    - id: backCap
+      type: System.Boolean
+    content.vb: Sub AddTube(path As IList(Of Point3D), diameter As Double, thetaDiv As Integer, isTubeClosed As Boolean, frontCap As Boolean = False, backCap As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*
+  nameWithType.vb: IMeshBuilder.AddTube(IList(Of Point3D), Double, Integer, Boolean, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), Double, Integer, Boolean, Boolean, Boolean)
+  name.vb: AddTube(IList(Of Point3D), Double, Integer, Boolean, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double[],System.Double[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double[],System.Double[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  id: AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double[],System.Double[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTube(IList<Point3D>, double[], double[], int, bool, bool, bool)
+  nameWithType: IMeshBuilder.AddTube(IList<Point3D>, double[], double[], int, bool, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, double[], double[], int, bool, bool, bool)
+  type: Method
+  source:
+    id: AddTube
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 75
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTube(IList<Point3D> path, double[] values, double[] diameters, int thetaDiv, bool isTubeClosed, bool frontCap = false, bool backCap = false)
+    parameters:
+    - id: path
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: values
+      type: System.Double[]
+    - id: diameters
+      type: System.Double[]
+    - id: thetaDiv
+      type: System.Int32
+    - id: isTubeClosed
+      type: System.Boolean
+    - id: frontCap
+      type: System.Boolean
+    - id: backCap
+      type: System.Boolean
+    content.vb: Sub AddTube(path As IList(Of Point3D), values As Double(), diameters As Double(), thetaDiv As Integer, isTubeClosed As Boolean, frontCap As Boolean = False, backCap As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*
+  nameWithType.vb: IMeshBuilder.AddTube(IList(Of Point3D), Double(), Double(), Integer, Boolean, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), Double(), Double(), Integer, Boolean, Boolean, Boolean)
+  name.vb: AddTube(IList(Of Point3D), Double(), Double(), Integer, Boolean, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Windows.Media.Media3D.Vector3D,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTube(IList<Point3D>, IList<double>, IList<double>, IList<double>, IList<Point>, Vector3D, bool, bool, bool, bool)
+  nameWithType: IMeshBuilder.AddTube(IList<Point3D>, IList<double>, IList<double>, IList<double>, IList<Point>, Vector3D, bool, bool, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<double>, System.Collections.Generic.IList<double>, System.Collections.Generic.IList<double>, System.Collections.Generic.IList<System.Windows.Point>, System.Windows.Media.Media3D.Vector3D, bool, bool, bool, bool)
+  type: Method
+  source:
+    id: AddTube
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 76
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTube(IList<Point3D> path, IList<double> angles, IList<double> values, IList<double> diameters, IList<Point> section, Vector3D sectionXAxis, bool isTubeClosed, bool isSectionClosed, bool frontCap = false, bool backCap = false)
+    parameters:
+    - id: path
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: angles
+      type: System.Collections.Generic.IList{System.Double}
+    - id: values
+      type: System.Collections.Generic.IList{System.Double}
+    - id: diameters
+      type: System.Collections.Generic.IList{System.Double}
+    - id: section
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: sectionXAxis
+      type: System.Windows.Media.Media3D.Vector3D
+    - id: isTubeClosed
+      type: System.Boolean
+    - id: isSectionClosed
+      type: System.Boolean
+    - id: frontCap
+      type: System.Boolean
+    - id: backCap
+      type: System.Boolean
+    content.vb: Sub AddTube(path As IList(Of Point3D), angles As IList(Of Double), values As IList(Of Double), diameters As IList(Of Double), section As IList(Of Point), sectionXAxis As Vector3D, isTubeClosed As Boolean, isSectionClosed As Boolean, frontCap As Boolean = False, backCap As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*
+  nameWithType.vb: IMeshBuilder.AddTube(IList(Of Point3D), IList(Of Double), IList(Of Double), IList(Of Double), IList(Of Point), Vector3D, Boolean, Boolean, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of Double), System.Collections.Generic.IList(Of Double), System.Collections.Generic.IList(Of Double), System.Collections.Generic.IList(Of System.Windows.Point), System.Windows.Media.Media3D.Vector3D, Boolean, Boolean, Boolean, Boolean)
+  name.vb: AddTube(IList(Of Point3D), IList(Of Double), IList(Of Double), IList(Of Double), IList(Of Point), Vector3D, Boolean, Boolean, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: AddTube(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Double},System.Collections.Generic.IList{System.Windows.Point},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddTube(IList<Point3D>, IList<double>, IList<double>, IList<Point>, bool, bool, bool, bool)
+  nameWithType: IMeshBuilder.AddTube(IList<Point3D>, IList<double>, IList<double>, IList<Point>, bool, bool, bool, bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<double>, System.Collections.Generic.IList<double>, System.Collections.Generic.IList<System.Windows.Point>, bool, bool, bool, bool)
+  type: Method
+  source:
+    id: AddTube
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 77
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void AddTube(IList<Point3D> path, IList<double> values, IList<double> diameters, IList<Point> section, bool isTubeClosed, bool isSectionClosed, bool frontCap = false, bool backCap = false)
+    parameters:
+    - id: path
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: values
+      type: System.Collections.Generic.IList{System.Double}
+    - id: diameters
+      type: System.Collections.Generic.IList{System.Double}
+    - id: section
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    - id: isTubeClosed
+      type: System.Boolean
+    - id: isSectionClosed
+      type: System.Boolean
+    - id: frontCap
+      type: System.Boolean
+    - id: backCap
+      type: System.Boolean
+    content.vb: Sub AddTube(path As IList(Of Point3D), values As IList(Of Double), diameters As IList(Of Double), section As IList(Of Point), isTubeClosed As Boolean, isSectionClosed As Boolean, frontCap As Boolean = False, backCap As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*
+  nameWithType.vb: IMeshBuilder.AddTube(IList(Of Point3D), IList(Of Double), IList(Of Double), IList(Of Point), Boolean, Boolean, Boolean, Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of Double), System.Collections.Generic.IList(Of Double), System.Collections.Generic.IList(Of System.Windows.Point), Boolean, Boolean, Boolean, Boolean)
+  name.vb: AddTube(IList(Of Point3D), IList(Of Double), IList(Of Double), IList(Of Point), Boolean, Boolean, Boolean, Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  id: Append(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Collections.Generic.IList{System.Windows.Point})
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(IList<Point3D>, IList<int>, IList<Vector3D>, IList<Point>)
+  nameWithType: IMeshBuilder.Append(IList<Point3D>, IList<int>, IList<Vector3D>, IList<Point>)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>, System.Collections.Generic.IList<int>, System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>, System.Collections.Generic.IList<System.Windows.Point>)
+  type: Method
+  source:
+    id: Append
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 78
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void Append(IList<Point3D> positionsToAppend, IList<int> triangleIndicesToAppend, IList<Vector3D> normalsToAppend = null, IList<Point> textureCoordinatesToAppend = null)
+    parameters:
+    - id: positionsToAppend
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+    - id: triangleIndicesToAppend
+      type: System.Collections.Generic.IList{System.Int32}
+    - id: normalsToAppend
+      type: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+    - id: textureCoordinatesToAppend
+      type: System.Collections.Generic.IList{System.Windows.Point}
+    content.vb: Sub Append(positionsToAppend As IList(Of Point3D), triangleIndicesToAppend As IList(Of Integer), normalsToAppend As IList(Of Vector3D) = Nothing, textureCoordinatesToAppend As IList(Of Point) = Nothing)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append*
+  nameWithType.vb: IMeshBuilder.Append(IList(Of Point3D), IList(Of Integer), IList(Of Vector3D), IList(Of Point))
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D), System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D), System.Collections.Generic.IList(Of System.Windows.Point))
+  name.vb: Append(IList(Of Point3D), IList(Of Integer), IList(Of Vector3D), IList(Of Point))
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Windows.Media.Media3D.MeshGeometry3D)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Windows.Media.Media3D.MeshGeometry3D)
+  id: Append(System.Windows.Media.Media3D.MeshGeometry3D)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(MeshGeometry3D)
+  nameWithType: IMeshBuilder.Append(MeshGeometry3D)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append(System.Windows.Media.Media3D.MeshGeometry3D)
+  type: Method
+  source:
+    id: Append
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 79
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void Append(MeshGeometry3D mesh)
+    parameters:
+    - id: mesh
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+    content.vb: Sub Append(mesh As MeshGeometry3D)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append*
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale(System.Double,System.Double,System.Double)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale(System.Double,System.Double,System.Double)
+  id: Scale(System.Double,System.Double,System.Double)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: Scale(double, double, double)
+  nameWithType: IMeshBuilder.Scale(double, double, double)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale(double, double, double)
+  type: Method
+  source:
+    id: Scale
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 80
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void Scale(double scaleX, double scaleY, double scaleZ)
+    parameters:
+    - id: scaleX
+      type: System.Double
+    - id: scaleY
+      type: System.Double
+    - id: scaleZ
+      type: System.Double
+    content.vb: Sub Scale(scaleX As Double, scaleY As Double, scaleZ As Double)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale*
+  nameWithType.vb: IMeshBuilder.Scale(Double, Double, Double)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale(Double, Double, Double)
+  name.vb: Scale(Double, Double, Double)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear(System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear(System.Boolean)
+  id: SubdivideLinear(System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: SubdivideLinear(bool)
+  nameWithType: IMeshBuilder.SubdivideLinear(bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear(bool)
+  type: Method
+  source:
+    id: SubdivideLinear
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 81
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: void SubdivideLinear(bool barycentric = false)
+    parameters:
+    - id: barycentric
+      type: System.Boolean
+    content.vb: Sub SubdivideLinear(barycentric As Boolean = False)
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear*
+  nameWithType.vb: IMeshBuilder.SubdivideLinear(Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear(Boolean)
+  name.vb: SubdivideLinear(Boolean)
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh(System.Boolean)
+  commentId: M:H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh(System.Boolean)
+  id: ToMesh(System.Boolean)
+  parent: H.Drawing3D.Shape.Geometry.IMeshBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToMesh(bool)
+  nameWithType: IMeshBuilder.ToMesh(bool)
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh(bool)
+  type: Method
+  source:
+    id: ToMesh
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\IMeshBuilder.cs
+    startLine: 82
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry
+  syntax:
+    content: MeshGeometry3D ToMesh(bool freeze = false)
+    parameters:
+    - id: freeze
+      type: System.Boolean
+    return:
+      type: System.Windows.Media.Media3D.MeshGeometry3D
+    content.vb: Function ToMesh(freeze As Boolean = False) As MeshGeometry3D
+  overload: H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh*
+  nameWithType.vb: IMeshBuilder.ToMesh(Boolean)
+  fullName.vb: H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh(Boolean)
+  name.vb: ToMesh(Boolean)
+references:
+- uid: H.Drawing3D.Shape.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry
+  fullName: H.Drawing3D.Shape.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddArrow_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Int32_
+  name: AddArrow
+  nameWithType: IMeshBuilder.AddArrow
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddArrow
+- uid: System.Windows.Media.Media3D.Point3D
+  commentId: T:System.Windows.Media.Media3D.Point3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D
+  nameWithType: Point3D
+  fullName: System.Windows.Media.Media3D.Point3D
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBoundingBox_System_Windows_Media_Media3D_Rect3D_System_Double_
+  name: AddBoundingBox
+  nameWithType: IMeshBuilder.AddBoundingBox
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBoundingBox
+- uid: System.Windows.Media.Media3D.Rect3D
+  commentId: T:System.Windows.Media.Media3D.Rect3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.rect3d
+  name: Rect3D
+  nameWithType: Rect3D
+  fullName: System.Windows.Media.Media3D.Rect3D
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddBox_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Double_
+  name: AddBox
+  nameWithType: IMeshBuilder.AddBox
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddBox
+- uid: H.Drawing3D.Shape.Geometry.BoxFaces
+  commentId: T:H.Drawing3D.Shape.Geometry.BoxFaces
+  parent: H.Drawing3D.Shape.Geometry
+  href: H.Drawing3D.Shape.Geometry.BoxFaces.html
+  name: BoxFaces
+  nameWithType: BoxFaces
+  fullName: H.Drawing3D.Shape.Geometry.BoxFaces
+- uid: System.Windows.Media.Media3D.Vector3D
+  commentId: T:System.Windows.Media.Media3D.Vector3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  name: Vector3D
+  nameWithType: Vector3D
+  fullName: System.Windows.Media.Media3D.Vector3D
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCone_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Boolean_System_Int32_
+  name: AddCone
+  nameWithType: IMeshBuilder.AddCone
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCone
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCube_H_Drawing3D_Shape_Geometry_BoxFaces_
+  name: AddCube
+  nameWithType: IMeshBuilder.AddCube
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCube
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCubeFace_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_System_Double_
+  name: AddCubeFace
+  nameWithType: IMeshBuilder.AddCubeFace
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCubeFace
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddCylinder_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_System_Boolean_System_Boolean_
+  name: AddCylinder
+  nameWithType: IMeshBuilder.AddCylinder
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddCylinder
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddDodecahedron_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: AddDodecahedron
+  nameWithType: IMeshBuilder.AddDodecahedron
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddDodecahedron
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddEdges_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Int32__System_Double_System_Int32_
+  name: AddEdges
+  nameWithType: IMeshBuilder.AddEdges
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEdges
+- uid: System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Point3D>
+  nameWithType: IList<Point3D>
+  fullName: System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>
+  nameWithType.vb: IList(Of Point3D)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D)
+  name.vb: IList(Of Point3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+- uid: System.Collections.Generic.IList{System.Int32}
+  commentId: T:System.Collections.Generic.IList{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<int>
+  nameWithType: IList<int>
+  fullName: System.Collections.Generic.IList<int>
+  nameWithType.vb: IList(Of Integer)
+  fullName.vb: System.Collections.Generic.IList(Of Integer)
+  name.vb: IList(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddEllipsoid_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Double_System_Int32_System_Int32_
+  name: AddEllipsoid
+  nameWithType: IMeshBuilder.AddEllipsoid
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddEllipsoid
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddExtrudedGeometry_System_Collections_Generic_IList_System_Windows_Point__System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_
+  name: AddExtrudedGeometry
+  nameWithType: IMeshBuilder.AddExtrudedGeometry
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedGeometry
+- uid: System.Collections.Generic.IList{System.Windows.Point}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Point}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Point>
+  nameWithType: IList<Point>
+  fullName: System.Collections.Generic.IList<System.Windows.Point>
+  nameWithType.vb: IList(Of Point)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Point)
+  name.vb: IList(Of Point)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddExtrudedSegments_System_Collections_Generic_IList_System_Windows_Point__System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_
+  name: AddExtrudedSegments
+  nameWithType: IMeshBuilder.AddExtrudedSegments
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddExtrudedSegments
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNX
+  name: AddFaceNX
+  nameWithType: IMeshBuilder.AddFaceNX
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNX
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNY
+  name: AddFaceNY
+  nameWithType: IMeshBuilder.AddFaceNY
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNY
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFaceNZ
+  name: AddFaceNZ
+  nameWithType: IMeshBuilder.AddFaceNZ
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFaceNZ
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePX
+  name: AddFacePX
+  nameWithType: IMeshBuilder.AddFacePX
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePX
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePY
+  name: AddFacePY
+  nameWithType: IMeshBuilder.AddFacePY
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePY
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddFacePZ
+  name: AddFacePZ
+  nameWithType: IMeshBuilder.AddFacePZ
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddFacePZ
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddLoftedGeometry_System_Collections_Generic_IList_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D___System_Collections_Generic_IList_System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D___System_Collections_Generic_IList_System_Collections_Generic_IList_System_Windows_Point___
+  name: AddLoftedGeometry
+  nameWithType: IMeshBuilder.AddLoftedGeometry
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddLoftedGeometry
+- uid: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}}
+  commentId: T:System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<IList<Point3D>>
+  nameWithType: IList<IList<Point3D>>
+  fullName: System.Collections.Generic.IList<System.Collections.Generic.IList<System.Windows.Media.Media3D.Point3D>>
+  nameWithType.vb: IList(Of IList(Of Point3D))
+  fullName.vb: System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Point3D))
+  name.vb: IList(Of IList(Of Point3D))
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}}
+  commentId: T:System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<IList<Vector3D>>
+  nameWithType: IList<IList<Vector3D>>
+  fullName: System.Collections.Generic.IList<System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>>
+  nameWithType.vb: IList(Of IList(Of Vector3D))
+  fullName.vb: System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D))
+  name.vb: IList(Of IList(Of Vector3D))
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}}
+  commentId: T:System.Collections.Generic.IList{System.Collections.Generic.IList{System.Windows.Point}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<IList<Point>>
+  nameWithType: IList<IList<Point>>
+  fullName: System.Collections.Generic.IList<System.Collections.Generic.IList<System.Windows.Point>>
+  nameWithType.vb: IList(Of IList(Of Point))
+  fullName.vb: System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of System.Windows.Point))
+  name.vb: IList(Of IList(Of Point))
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: )
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddNode_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Point_
+  name: AddNode
+  nameWithType: IMeshBuilder.AddNode
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddNode
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddOctahedron_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_System_Double_
+  name: AddOctahedron
+  nameWithType: IMeshBuilder.AddOctahedron
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddOctahedron
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPipe_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Int32_
+  name: AddPipe
+  nameWithType: IMeshBuilder.AddPipe
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipe
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPipes_System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Int32__System_Double_System_Int32_
+  name: AddPipes
+  nameWithType: IMeshBuilder.AddPipes
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPipes
+- uid: System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+  commentId: T:System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<Vector3D>
+  nameWithType: IList<Vector3D>
+  fullName: System.Collections.Generic.IList<System.Windows.Media.Media3D.Vector3D>
+  nameWithType.vb: IList(Of Vector3D)
+  fullName.vb: System.Collections.Generic.IList(Of System.Windows.Media.Media3D.Vector3D)
+  name.vb: IList(Of Vector3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Vector3D
+    name: Vector3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygon_System_Collections_Generic_IList_System_Int32__
+  name: AddPolygon
+  nameWithType: IMeshBuilder.AddPolygon
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygon
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygonByCuttingEars_System_Collections_Generic_IList_System_Int32__
+  name: AddPolygonByCuttingEars
+  nameWithType: IMeshBuilder.AddPolygonByCuttingEars
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByCuttingEars
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPolygonByTriangulation_System_Collections_Generic_IList_System_Int32__
+  name: AddPolygonByTriangulation
+  nameWithType: IMeshBuilder.AddPolygonByTriangulation
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPolygonByTriangulation
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddPyramid_System_Windows_Media_Media3D_Point3D_System_Double_System_Double_System_Boolean_
+  name: AddPyramid
+  nameWithType: IMeshBuilder.AddPyramid
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddPyramid
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuad_System_Collections_Generic_IList_System_Int32__
+  name: AddQuad
+  nameWithType: IMeshBuilder.AddQuad
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuad
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddQuads_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__
+  name: AddQuads
+  nameWithType: IMeshBuilder.AddQuads
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddQuads
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMesh_H_Drawing3D_Shape_Geometry_BoxFaces_System_Int32_System_Int32_System_Double_System_Double_System_Boolean_System_Boolean_System_Boolean_
+  name: AddRectangularMesh
+  nameWithType: IMeshBuilder.AddRectangularMesh
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMesh
+- uid: System.Windows.Media.Media3D.Point3D[,]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  name: Point3D[,]
+  nameWithType: Point3D[,]
+  fullName: System.Windows.Media.Media3D.Point3D[,]
+  nameWithType.vb: Point3D(,)
+  fullName.vb: System.Windows.Media.Media3D.Point3D(,)
+  name.vb: Point3D(,)
+  spec.csharp:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: '['
+  - name: ','
+  - name: ']'
+  spec.vb:
+  - uid: System.Windows.Media.Media3D.Point3D
+    name: Point3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d
+  - name: (
+  - name: ','
+  - name: )
+- uid: System.Windows.Point[,]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point[,]
+  nameWithType: Point[,]
+  fullName: System.Windows.Point[,]
+  nameWithType.vb: Point(,)
+  fullName.vb: System.Windows.Point(,)
+  name.vb: Point(,)
+  spec.csharp:
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: '['
+  - name: ','
+  - name: ']'
+  spec.vb:
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: (
+  - name: ','
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRectangularMeshTriangleIndices_System_Int32_System_Int32_System_Int32_System_Boolean_
+  name: AddRectangularMeshTriangleIndices
+  nameWithType: IMeshBuilder.AddRectangularMeshTriangleIndices
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRectangularMeshTriangleIndices
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRegularIcosahedron_System_Windows_Media_Media3D_Point3D_System_Double_System_Boolean_
+  name: AddRegularIcosahedron
+  nameWithType: IMeshBuilder.AddRegularIcosahedron
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRegularIcosahedron
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddRevolvedGeometry_System_Collections_Generic_IList_System_Windows_Point__System_Collections_Generic_IList_System_Double__System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Int32_
+  name: AddRevolvedGeometry
+  nameWithType: IMeshBuilder.AddRevolvedGeometry
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddRevolvedGeometry
+- uid: System.Collections.Generic.IList{System.Double}
+  commentId: T:System.Collections.Generic.IList{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<double>
+  nameWithType: IList<double>
+  fullName: System.Collections.Generic.IList<double>
+  nameWithType.vb: IList(Of Double)
+  fullName.vb: System.Collections.Generic.IList(Of Double)
+  name.vb: IList(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSphere_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_System_Int32_
+  name: AddSphere
+  nameWithType: IMeshBuilder.AddSphere
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSphere
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSubdivisionSphere_System_Windows_Media_Media3D_Point3D_System_Double_System_Int32_
+  name: AddSubdivisionSphere
+  nameWithType: IMeshBuilder.AddSubdivisionSphere
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSubdivisionSphere
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddSurfaceOfRevolution_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Collections_Generic_IList_System_Windows_Point__System_Collections_Generic_IList_System_Int32__System_Int32_System_Collections_Generic_IList_System_Double__
+  name: AddSurfaceOfRevolution
+  nameWithType: IMeshBuilder.AddSurfaceOfRevolution
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddSurfaceOfRevolution
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTetrahedron_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_System_Windows_Media_Media3D_Vector3D_System_Double_
+  name: AddTetrahedron
+  nameWithType: IMeshBuilder.AddTetrahedron
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTetrahedron
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTorus_System_Double_System_Double_System_Int32_System_Int32_
+  name: AddTorus
+  nameWithType: IMeshBuilder.AddTorus
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTorus
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangle_System_Collections_Generic_IList_System_Int32__
+  name: AddTriangle
+  nameWithType: IMeshBuilder.AddTriangle
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangle
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleFan_System_Collections_Generic_IList_System_Int32__
+  name: AddTriangleFan
+  nameWithType: IMeshBuilder.AddTriangleFan
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleFan
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangles_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__
+  name: AddTriangles
+  nameWithType: IMeshBuilder.AddTriangles
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangles
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTriangleStrip_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__
+  name: AddTriangleStrip
+  nameWithType: IMeshBuilder.AddTriangleStrip
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTriangleStrip
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_AddTube_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Double_System_Int32_System_Boolean_System_Boolean_System_Boolean_
+  name: AddTube
+  nameWithType: IMeshBuilder.AddTube
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.AddTube
+- uid: System.Double[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double[]
+  nameWithType: double[]
+  fullName: double[]
+  nameWithType.vb: Double()
+  fullName.vb: Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: (
+  - name: )
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.Append
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_Append_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Collections_Generic_IList_System_Windows_Point__
+  name: Append
+  nameWithType: IMeshBuilder.Append
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.Append
+- uid: System.Windows.Media.Media3D.MeshGeometry3D
+  commentId: T:System.Windows.Media.Media3D.MeshGeometry3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d
+  name: MeshGeometry3D
+  nameWithType: MeshGeometry3D
+  fullName: System.Windows.Media.Media3D.MeshGeometry3D
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_Scale_System_Double_System_Double_System_Double_
+  name: Scale
+  nameWithType: IMeshBuilder.Scale
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.Scale
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_SubdivideLinear_System_Boolean_
+  name: SubdivideLinear
+  nameWithType: IMeshBuilder.SubdivideLinear
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.SubdivideLinear
+- uid: H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh
+  href: H.Drawing3D.Shape.Geometry.IMeshBuilder.html#H_Drawing3D_Shape_Geometry_IMeshBuilder_ToMesh_System_Boolean_
+  name: ToMesh
+  nameWithType: IMeshBuilder.ToMesh
+  fullName: H.Drawing3D.Shape.Geometry.IMeshBuilder.ToMesh

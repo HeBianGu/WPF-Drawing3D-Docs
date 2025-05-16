@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  commentId: T:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  id: IMouseLayer3D
+  parent: H.Drawing3D.ShapeLayer.Layer
+  children:
+  - H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  - H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave(System.Windows.Input.MouseEventArgs)
+  - H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  - H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: IMouseLayer3D
+  nameWithType: IMouseLayer3D
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  type: Interface
+  source:
+    id: IMouseLayer3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\IMouseLayer3D.cs
+    startLine: 11
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: public interface IMouseLayer3D
+    content.vb: Public Interface IMouseLayer3D
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  id: OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  parent: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  langs:
+  - csharp
+  - vb
+  name: OnMouseDown(MouseButtonEventArgs)
+  nameWithType: IMouseLayer3D.OnMouseDown(MouseButtonEventArgs)
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    id: OnMouseDown
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\IMouseLayer3D.cs
+    startLine: 13
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void OnMouseDown(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+    content.vb: Sub OnMouseDown(e As MouseButtonEventArgs)
+  overload: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown*
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  id: OnMouseMove(System.Windows.Input.MouseEventArgs)
+  parent: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  langs:
+  - csharp
+  - vb
+  name: OnMouseMove(MouseEventArgs)
+  nameWithType: IMouseLayer3D.OnMouseMove(MouseEventArgs)
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove(System.Windows.Input.MouseEventArgs)
+  type: Method
+  source:
+    id: OnMouseMove
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\IMouseLayer3D.cs
+    startLine: 14
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void OnMouseMove(MouseEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseEventArgs
+    content.vb: Sub OnMouseMove(e As MouseEventArgs)
+  overload: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove*
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  id: OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  parent: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  langs:
+  - csharp
+  - vb
+  name: OnMouseUp(MouseButtonEventArgs)
+  nameWithType: IMouseLayer3D.OnMouseUp(MouseButtonEventArgs)
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)
+  type: Method
+  source:
+    id: OnMouseUp
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\IMouseLayer3D.cs
+    startLine: 15
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void OnMouseUp(MouseButtonEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseButtonEventArgs
+    content.vb: Sub OnMouseUp(e As MouseButtonEventArgs)
+  overload: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp*
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave(System.Windows.Input.MouseEventArgs)
+  commentId: M:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave(System.Windows.Input.MouseEventArgs)
+  id: OnMouseLeave(System.Windows.Input.MouseEventArgs)
+  parent: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D
+  langs:
+  - csharp
+  - vb
+  name: OnMouseLeave(MouseEventArgs)
+  nameWithType: IMouseLayer3D.OnMouseLeave(MouseEventArgs)
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave(System.Windows.Input.MouseEventArgs)
+  type: Method
+  source:
+    id: OnMouseLeave
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Layer\H.Drawing3D.ShapeLayer\Layer\IMouseLayer3D.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.ShapeLayer
+  namespace: H.Drawing3D.ShapeLayer.Layer
+  syntax:
+    content: void OnMouseLeave(MouseEventArgs e)
+    parameters:
+    - id: e
+      type: System.Windows.Input.MouseEventArgs
+    content.vb: Sub OnMouseLeave(e As MouseEventArgs)
+  overload: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave*
+references:
+- uid: H.Drawing3D.ShapeLayer.Layer
+  commentId: N:H.Drawing3D.ShapeLayer.Layer
+  href: H.html
+  name: H.Drawing3D.ShapeLayer.Layer
+  nameWithType: H.Drawing3D.ShapeLayer.Layer
+  fullName: H.Drawing3D.ShapeLayer.Layer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.Layer
+    name: Layer
+    href: H.Drawing3D.ShapeLayer.Layer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer
+    name: ShapeLayer
+    href: H.Drawing3D.ShapeLayer.html
+  - name: .
+  - uid: H.Drawing3D.ShapeLayer.Layer
+    name: Layer
+    href: H.Drawing3D.ShapeLayer.Layer.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown
+  href: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.html#H_Drawing3D_ShapeLayer_Layer_IMouseLayer3D_OnMouseDown_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseDown
+  nameWithType: IMouseLayer3D.OnMouseDown
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseDown
+- uid: System.Windows.Input.MouseButtonEventArgs
+  commentId: T:System.Windows.Input.MouseButtonEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs
+  name: MouseButtonEventArgs
+  nameWithType: MouseButtonEventArgs
+  fullName: System.Windows.Input.MouseButtonEventArgs
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove
+  href: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.html#H_Drawing3D_ShapeLayer_Layer_IMouseLayer3D_OnMouseMove_System_Windows_Input_MouseEventArgs_
+  name: OnMouseMove
+  nameWithType: IMouseLayer3D.OnMouseMove
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseMove
+- uid: System.Windows.Input.MouseEventArgs
+  commentId: T:System.Windows.Input.MouseEventArgs
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs
+  name: MouseEventArgs
+  nameWithType: MouseEventArgs
+  fullName: System.Windows.Input.MouseEventArgs
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp
+  href: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.html#H_Drawing3D_ShapeLayer_Layer_IMouseLayer3D_OnMouseUp_System_Windows_Input_MouseButtonEventArgs_
+  name: OnMouseUp
+  nameWithType: IMouseLayer3D.OnMouseUp
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseUp
+- uid: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave*
+  commentId: Overload:H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave
+  href: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.html#H_Drawing3D_ShapeLayer_Layer_IMouseLayer3D_OnMouseLeave_System_Windows_Input_MouseEventArgs_
+  name: OnMouseLeave
+  nameWithType: IMouseLayer3D.OnMouseLeave
+  fullName: H.Drawing3D.ShapeLayer.Layer.IMouseLayer3D.OnMouseLeave

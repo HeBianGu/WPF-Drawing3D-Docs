@@ -1,0 +1,949 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Extensions.ShapesExtension
+  commentId: T:H.Drawing3D.View.Extensions.ShapesExtension
+  id: ShapesExtension
+  parent: H.Drawing3D.View.Extensions
+  children:
+  - H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Windows.Media.Media3D.Model3D)
+  - H.Drawing3D.View.Extensions.ShapesExtension.Contains(System.Windows.Media.Media3D.Model3DGroup,System.Windows.Media.Media3D.Model3D)
+  - H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  - H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  - H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D})
+  - H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D})
+  - H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D})
+  langs:
+  - csharp
+  - vb
+  name: ShapesExtension
+  nameWithType: ShapesExtension
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension
+  type: Class
+  source:
+    id: ShapesExtension
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 14
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static class ShapesExtension
+    content.vb: Public Module ShapesExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D})
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D})
+  id: UpdateMouseOver(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: UpdateMouseOver(IEnumerable<IShape3D>, IEnumerable<Model3D>, IEnumerable<IShape3D>)
+  nameWithType: ShapesExtension.UpdateMouseOver(IEnumerable<IShape3D>, IEnumerable<Model3D>, IEnumerable<IShape3D>)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver(System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.IShape3D>, System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Model3D>, System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.IShape3D>)
+  type: Method
+  source:
+    id: UpdateMouseOver
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static IEnumerable<IShape3D> UpdateMouseOver(this IEnumerable<IShape3D> shapes, IEnumerable<Model3D> models, IEnumerable<IShape3D> exceptShapes = null)
+    parameters:
+    - id: shapes
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+    - id: models
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+    - id: exceptShapes
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+    content.vb: Public Shared Function UpdateMouseOver(shapes As IEnumerable(Of IShape3D), models As IEnumerable(Of Model3D), exceptShapes As IEnumerable(Of IShape3D) = Nothing) As IEnumerable(Of IShape3D)
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver*
+  nameWithType.vb: ShapesExtension.UpdateMouseOver(IEnumerable(Of IShape3D), IEnumerable(Of Model3D), IEnumerable(Of IShape3D))
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver(System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.IShape3D), System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Model3D), System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.IShape3D))
+  name.vb: UpdateMouseOver(IEnumerable(Of IShape3D), IEnumerable(Of Model3D), IEnumerable(Of IShape3D))
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Windows.Media.Media3D.Model3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Windows.Media.Media3D.Model3D)
+  id: ContainGroup(System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D},System.Windows.Media.Media3D.Model3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: ContainGroup(IEnumerable<Model3D>, Model3D)
+  nameWithType: ShapesExtension.ContainGroup(IEnumerable<Model3D>, Model3D)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup(System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Model3D>, System.Windows.Media.Media3D.Model3D)
+  type: Method
+  source:
+    id: ContainGroup
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 32
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static bool ContainGroup(this IEnumerable<Model3D> models, Model3D target)
+    parameters:
+    - id: models
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+    - id: target
+      type: System.Windows.Media.Media3D.Model3D
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ContainGroup(models As IEnumerable(Of Model3D), target As Model3D) As Boolean
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup*
+  nameWithType.vb: ShapesExtension.ContainGroup(IEnumerable(Of Model3D), Model3D)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup(System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Model3D), System.Windows.Media.Media3D.Model3D)
+  name.vb: ContainGroup(IEnumerable(Of Model3D), Model3D)
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D})
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D})
+  id: UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: UpdateSelect(IEnumerable<IShape3D>, IEnumerable<Model3D>)
+  nameWithType: ShapesExtension.UpdateSelect(IEnumerable<IShape3D>, IEnumerable<Model3D>)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.IShape3D>, System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Model3D>)
+  type: Method
+  source:
+    id: UpdateSelect
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 46
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static IEnumerable<IShape3D> UpdateSelect(this IEnumerable<IShape3D> shapes, IEnumerable<Model3D> models)
+    parameters:
+    - id: shapes
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+    - id: models
+      type: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+    content.vb: Public Shared Function UpdateSelect(shapes As IEnumerable(Of IShape3D), models As IEnumerable(Of Model3D)) As IEnumerable(Of IShape3D)
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect*
+  nameWithType.vb: ShapesExtension.UpdateSelect(IEnumerable(Of IShape3D), IEnumerable(Of Model3D))
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.IShape3D), System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Model3D))
+  name.vb: UpdateSelect(IEnumerable(Of IShape3D), IEnumerable(Of Model3D))
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.Contains(System.Windows.Media.Media3D.Model3DGroup,System.Windows.Media.Media3D.Model3D)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.Contains(System.Windows.Media.Media3D.Model3DGroup,System.Windows.Media.Media3D.Model3D)
+  id: Contains(System.Windows.Media.Media3D.Model3DGroup,System.Windows.Media.Media3D.Model3D)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: Contains(Model3DGroup, Model3D)
+  nameWithType: ShapesExtension.Contains(Model3DGroup, Model3D)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.Contains(System.Windows.Media.Media3D.Model3DGroup, System.Windows.Media.Media3D.Model3D)
+  type: Method
+  source:
+    id: Contains
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 54
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static bool Contains(this Model3DGroup group, Model3D model)
+    parameters:
+    - id: group
+      type: System.Windows.Media.Media3D.Model3DGroup
+    - id: model
+      type: System.Windows.Media.Media3D.Model3D
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Contains(group As Model3DGroup, model As Model3D) As Boolean
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.Contains*
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D})
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D})
+  id: UpdateSelect(System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D},System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D})
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: UpdateSelect(IEnumerable<IShape3D>, IEnumerable<ISelectableShape3D>)
+  nameWithType: ShapesExtension.UpdateSelect(IEnumerable<IShape3D>, IEnumerable<ISelectableShape3D>)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.IShape3D>, System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.ISelectableShape3D>)
+  type: Method
+  source:
+    id: UpdateSelect
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 71
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static void UpdateSelect(this IEnumerable<IShape3D> shapes, IEnumerable<ISelectableShape3D> selects)
+    parameters:
+    - id: shapes
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+    - id: selects
+      type: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D}
+    content.vb: Public Shared Sub UpdateSelect(shapes As IEnumerable(Of IShape3D), selects As IEnumerable(Of ISelectableShape3D))
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect*
+  nameWithType.vb: ShapesExtension.UpdateSelect(IEnumerable(Of IShape3D), IEnumerable(Of ISelectableShape3D))
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect(System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.IShape3D), System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.ISelectableShape3D))
+  name.vb: UpdateSelect(IEnumerable(Of IShape3D), IEnumerable(Of ISelectableShape3D))
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  id: GetImage(H.Drawing3D.Shape.Base.IShape3D,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: GetImage(IShape3D, double, double)
+  nameWithType: ShapesExtension.GetImage(IShape3D, double, double)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D, double, double)
+  type: Method
+  source:
+    id: GetImage
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 85
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static RenderTargetBitmap GetImage(this IShape3D shape, double width = 500, double height = 500)
+    parameters:
+    - id: shape
+      type: H.Drawing3D.Shape.Base.IShape3D
+    - id: width
+      type: System.Double
+    - id: height
+      type: System.Double
+    return:
+      type: System.Windows.Media.Imaging.RenderTargetBitmap
+    content.vb: Public Shared Function GetImage(shape As IShape3D, width As Double = 500, height As Double = 500) As RenderTargetBitmap
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.GetImage*
+  nameWithType.vb: ShapesExtension.GetImage(IShape3D, Double, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.GetImage(H.Drawing3D.Shape.Base.IShape3D, Double, Double)
+  name.vb: GetImage(IShape3D, Double, Double)
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  commentId: M:H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  id: SaveToImage(H.Drawing3D.Shape.Base.IShape3D,System.String,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: SaveToImage(IShape3D, string, double, double)
+  nameWithType: ShapesExtension.SaveToImage(IShape3D, string, double, double)
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D, string, double, double)
+  type: Method
+  source:
+    id: SaveToImage
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Extensions\ShapesExtension.cs
+    startLine: 98
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Extensions
+  syntax:
+    content: public static string SaveToImage(this IShape3D shape, string filePath, double width = 500, double height = 500)
+    parameters:
+    - id: shape
+      type: H.Drawing3D.Shape.Base.IShape3D
+    - id: filePath
+      type: System.String
+    - id: width
+      type: System.Double
+    - id: height
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Shared Function SaveToImage(shape As IShape3D, filePath As String, width As Double = 500, height As Double = 500) As String
+  overload: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage*
+  nameWithType.vb: ShapesExtension.SaveToImage(IShape3D, String, Double, Double)
+  fullName.vb: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage(H.Drawing3D.Shape.Base.IShape3D, String, Double, Double)
+  name.vb: SaveToImage(IShape3D, String, Double, Double)
+references:
+- uid: H.Drawing3D.View.Extensions
+  commentId: N:H.Drawing3D.View.Extensions
+  href: H.html
+  name: H.Drawing3D.View.Extensions
+  nameWithType: H.Drawing3D.View.Extensions
+  fullName: H.Drawing3D.View.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver*
+  commentId: Overload:H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_UpdateMouseOver_System_Collections_Generic_IEnumerable_H_Drawing3D_Shape_Base_IShape3D__System_Collections_Generic_IEnumerable_System_Windows_Media_Media3D_Model3D__System_Collections_Generic_IEnumerable_H_Drawing3D_Shape_Base_IShape3D__
+  name: UpdateMouseOver
+  nameWithType: ShapesExtension.UpdateMouseOver
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.UpdateMouseOver
+- uid: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.IShape3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IShape3D>
+  nameWithType: IEnumerable<IShape3D>
+  fullName: System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.IShape3D>
+  nameWithType.vb: IEnumerable(Of IShape3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.IShape3D)
+  name.vb: IEnumerable(Of IShape3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.IShape3D
+    name: IShape3D
+    href: H.Drawing3D.Shape.Base.IShape3D.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Media.Media3D.Model3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Model3D>
+  nameWithType: IEnumerable<Model3D>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Media.Media3D.Model3D>
+  nameWithType.vb: IEnumerable(Of Model3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Media.Media3D.Model3D)
+  name.vb: IEnumerable(Of Model3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Media.Media3D.Model3D
+    name: Model3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup*
+  commentId: Overload:H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_ContainGroup_System_Collections_Generic_IEnumerable_System_Windows_Media_Media3D_Model3D__System_Windows_Media_Media3D_Model3D_
+  name: ContainGroup
+  nameWithType: ShapesExtension.ContainGroup
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.ContainGroup
+- uid: System.Windows.Media.Media3D.Model3D
+  commentId: T:System.Windows.Media.Media3D.Model3D
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3d
+  name: Model3D
+  nameWithType: Model3D
+  fullName: System.Windows.Media.Media3D.Model3D
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Windows.Media.Media3D
+  commentId: N:System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Media3D
+  nameWithType: System.Windows.Media.Media3D
+  fullName: System.Windows.Media.Media3D
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Media3D
+    name: Media3D
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect*
+  commentId: Overload:H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_UpdateSelect_System_Collections_Generic_IEnumerable_H_Drawing3D_Shape_Base_IShape3D__System_Collections_Generic_IEnumerable_System_Windows_Media_Media3D_Model3D__
+  name: UpdateSelect
+  nameWithType: ShapesExtension.UpdateSelect
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.UpdateSelect
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.Contains*
+  commentId: Overload:H.Drawing3D.View.Extensions.ShapesExtension.Contains
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_Contains_System_Windows_Media_Media3D_Model3DGroup_System_Windows_Media_Media3D_Model3D_
+  name: Contains
+  nameWithType: ShapesExtension.Contains
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.Contains
+- uid: System.Windows.Media.Media3D.Model3DGroup
+  commentId: T:System.Windows.Media.Media3D.Model3DGroup
+  parent: System.Windows.Media.Media3D
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.model3dgroup
+  name: Model3DGroup
+  nameWithType: Model3DGroup
+  fullName: System.Windows.Media.Media3D.Model3DGroup
+- uid: System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Drawing3D.Shape.Base.ISelectableShape3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ISelectableShape3D>
+  nameWithType: IEnumerable<ISelectableShape3D>
+  fullName: System.Collections.Generic.IEnumerable<H.Drawing3D.Shape.Base.ISelectableShape3D>
+  nameWithType.vb: IEnumerable(Of ISelectableShape3D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Drawing3D.Shape.Base.ISelectableShape3D)
+  name.vb: IEnumerable(Of ISelectableShape3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Drawing3D.Shape.Base.ISelectableShape3D
+    name: ISelectableShape3D
+    href: H.Drawing3D.Shape.Base.ISelectableShape3D.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Drawing3D.Shape.Base.ISelectableShape3D
+    name: ISelectableShape3D
+    href: H.Drawing3D.Shape.Base.ISelectableShape3D.html
+  - name: )
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.GetImage*
+  commentId: Overload:H.Drawing3D.View.Extensions.ShapesExtension.GetImage
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_GetImage_H_Drawing3D_Shape_Base_IShape3D_System_Double_System_Double_
+  name: GetImage
+  nameWithType: ShapesExtension.GetImage
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.GetImage
+- uid: H.Drawing3D.Shape.Base.IShape3D
+  commentId: T:H.Drawing3D.Shape.Base.IShape3D
+  parent: H.Drawing3D.Shape.Base
+  href: H.Drawing3D.Shape.Base.IShape3D.html
+  name: IShape3D
+  nameWithType: IShape3D
+  fullName: H.Drawing3D.Shape.Base.IShape3D
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Windows.Media.Imaging.RenderTargetBitmap
+  commentId: T:System.Windows.Media.Imaging.RenderTargetBitmap
+  parent: System.Windows.Media.Imaging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.rendertargetbitmap
+  name: RenderTargetBitmap
+  nameWithType: RenderTargetBitmap
+  fullName: System.Windows.Media.Imaging.RenderTargetBitmap
+- uid: H.Drawing3D.Shape.Base
+  commentId: N:H.Drawing3D.Shape.Base
+  href: H.html
+  name: H.Drawing3D.Shape.Base
+  nameWithType: H.Drawing3D.Shape.Base
+  fullName: H.Drawing3D.Shape.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Base
+    name: Base
+    href: H.Drawing3D.Shape.Base.html
+- uid: System.Windows.Media.Imaging
+  commentId: N:System.Windows.Media.Imaging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media.Imaging
+  nameWithType: System.Windows.Media.Imaging
+  fullName: System.Windows.Media.Imaging
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Imaging
+    name: Imaging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.imaging
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  - name: .
+  - uid: System.Windows.Media.Imaging
+    name: Imaging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.imaging
+- uid: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage*
+  commentId: Overload:H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html#H_Drawing3D_View_Extensions_ShapesExtension_SaveToImage_H_Drawing3D_Shape_Base_IShape3D_System_String_System_Double_System_Double_
+  name: SaveToImage
+  nameWithType: ShapesExtension.SaveToImage
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension.SaveToImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

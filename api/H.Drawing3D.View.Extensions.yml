@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Extensions
+  commentId: N:H.Drawing3D.View.Extensions
+  id: H.Drawing3D.View.Extensions
+  children:
+  - H.Drawing3D.View.Extensions.CameraControllerExtension
+  - H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  - H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  - H.Drawing3D.View.Extensions.ShapesExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.View.Extensions
+  nameWithType: H.Drawing3D.View.Extensions
+  fullName: H.Drawing3D.View.Extensions
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.View
+references:
+- uid: H.Drawing3D.View.Extensions.CameraControllerExtension
+  commentId: T:H.Drawing3D.View.Extensions.CameraControllerExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.CameraControllerExtension.html
+  name: CameraControllerExtension
+  nameWithType: CameraControllerExtension
+  fullName: H.Drawing3D.View.Extensions.CameraControllerExtension
+- uid: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  commentId: T:H.Drawing3D.View.Extensions.CameraViewport3DExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.CameraViewport3DExtension.html
+  name: CameraViewport3DExtension
+  nameWithType: CameraViewport3DExtension
+  fullName: H.Drawing3D.View.Extensions.CameraViewport3DExtension
+- uid: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  commentId: T:H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension.html
+  name: ShapeCameraViewport3DExtension
+  nameWithType: ShapeCameraViewport3DExtension
+  fullName: H.Drawing3D.View.Extensions.ShapeCameraViewport3DExtension
+- uid: H.Drawing3D.View.Extensions.ShapesExtension
+  commentId: T:H.Drawing3D.View.Extensions.ShapesExtension
+  parent: H.Drawing3D.View.Extensions
+  href: H.Drawing3D.View.Extensions.ShapesExtension.html
+  name: ShapesExtension
+  nameWithType: ShapesExtension
+  fullName: H.Drawing3D.View.Extensions.ShapesExtension
+- uid: H.Drawing3D.View.Extensions
+  commentId: N:H.Drawing3D.View.Extensions
+  href: H.html
+  name: H.Drawing3D.View.Extensions
+  nameWithType: H.Drawing3D.View.Extensions
+  fullName: H.Drawing3D.View.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Extensions
+    name: Extensions
+    href: H.Drawing3D.View.Extensions.html

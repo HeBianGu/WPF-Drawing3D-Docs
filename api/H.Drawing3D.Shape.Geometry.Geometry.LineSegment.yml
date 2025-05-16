@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  id: LineSegment
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.Geometry.LineSegment.#ctor(System.Windows.Point,System.Windows.Point)
+  - H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  - H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith(H.Drawing3D.Shape.Geometry.Geometry.LineSegment)
+  - H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1
+  - H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2
+  langs:
+  - csharp
+  - vb
+  name: LineSegment
+  nameWithType: LineSegment
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  type: Class
+  source:
+    id: LineSegment
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\LineSegment.cs
+    startLine: 16
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Represents a line segment in two-dimensional space.
+  example: []
+  syntax:
+    content: public class LineSegment
+    content.vb: Public Class LineSegment
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.#ctor(System.Windows.Point,System.Windows.Point)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.#ctor(System.Windows.Point,System.Windows.Point)
+  id: '#ctor(System.Windows.Point,System.Windows.Point)'
+  parent: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  langs:
+  - csharp
+  - vb
+  name: LineSegment(Point, Point)
+  nameWithType: LineSegment.LineSegment(Point, Point)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.LineSegment(System.Windows.Point, System.Windows.Point)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\LineSegment.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Initializes a new instance of the <xref href="H.Drawing3D.Shape.Geometry.Geometry.LineSegment" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public LineSegment(Point p1, Point p2)
+    parameters:
+    - id: p1
+      type: System.Windows.Point
+      description: The first point of the line segment.
+    - id: p2
+      type: System.Windows.Point
+      description: The second point of the line segment.
+    content.vb: Public Sub New(p1 As Point, p2 As Point)
+  overload: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.#ctor*
+  nameWithType.vb: LineSegment.New(Point, Point)
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.New(System.Windows.Point, System.Windows.Point)
+  name.vb: New(Point, Point)
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1
+  commentId: P:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1
+  id: P1
+  parent: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  langs:
+  - csharp
+  - vb
+  name: P1
+  nameWithType: LineSegment.P1
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1
+  type: Property
+  source:
+    id: P1
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\LineSegment.cs
+    startLine: 34
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets the first point of the line segment.
+  example: []
+  syntax:
+    content: public Point P1 { get; }
+    parameters: []
+    return:
+      type: System.Windows.Point
+      description: The point.
+    content.vb: Public ReadOnly Property P1 As Point
+  overload: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2
+  commentId: P:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2
+  id: P2
+  parent: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  langs:
+  - csharp
+  - vb
+  name: P2
+  nameWithType: LineSegment.P2
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2
+  type: Property
+  source:
+    id: P2
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\LineSegment.cs
+    startLine: 40
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Gets the second point of the line segment.
+  example: []
+  syntax:
+    content: public Point P2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.Point
+      description: The point.
+    content.vb: Public ReadOnly Property P2 As Point
+  overload: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  id: AreLineSegmentsIntersecting(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  langs:
+  - csharp
+  - vb
+  name: AreLineSegmentsIntersecting(Point, Point, Point, Point)
+  nameWithType: LineSegment.AreLineSegmentsIntersecting(Point, Point, Point, Point)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting(System.Windows.Point, System.Windows.Point, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    id: AreLineSegmentsIntersecting
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\LineSegment.cs
+    startLine: 52
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Checks if there are any intersections of two line segments.
+  example: []
+  syntax:
+    content: public static bool AreLineSegmentsIntersecting(Point a1, Point a2, Point b1, Point b2)
+    parameters:
+    - id: a1
+      type: System.Windows.Point
+      description: One vertex of line a.
+    - id: a2
+      type: System.Windows.Point
+      description: The other vertex of the line a.
+    - id: b1
+      type: System.Windows.Point
+      description: One vertex of line b.
+    - id: b2
+      type: System.Windows.Point
+      description: The other vertex of the line b.
+    return:
+      type: System.Boolean
+      description: <code>true</code>, if the two lines are crossed. Otherwise, it returns <code>false</code>.
+    content.vb: Public Shared Function AreLineSegmentsIntersecting(a1 As Point, a2 As Point, b1 As Point, b2 As Point) As Boolean
+  overload: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting*
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith(H.Drawing3D.Shape.Geometry.Geometry.LineSegment)
+  commentId: M:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith(H.Drawing3D.Shape.Geometry.Geometry.LineSegment)
+  id: IntersectsWith(H.Drawing3D.Shape.Geometry.Geometry.LineSegment)
+  parent: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  langs:
+  - csharp
+  - vb
+  name: IntersectsWith(LineSegment)
+  nameWithType: LineSegment.IntersectsWith(LineSegment)
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith(H.Drawing3D.Shape.Geometry.Geometry.LineSegment)
+  type: Method
+  source:
+    id: IntersectsWith
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape\Geometry\Geometry\LineSegment.cs
+    startLine: 68
+  assemblies:
+  - H.Drawing3D.Shape
+  namespace: H.Drawing3D.Shape.Geometry.Geometry
+  summary: Indicates whether the specified line segment intersects with the current line segment.
+  example: []
+  syntax:
+    content: public bool IntersectsWith(LineSegment other)
+    parameters:
+    - id: other
+      type: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+      description: The line segment to check.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified line segment intersects with the current line segment; otherwise <code>false</code>.
+    content.vb: Public Function IntersectsWith(other As LineSegment) As Boolean
+  overload: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith*
+references:
+- uid: H.Drawing3D.Shape.Geometry.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry.Geometry
+  fullName: H.Drawing3D.Shape.Geometry.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html
+  name: LineSegment
+  nameWithType: LineSegment
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.#ctor*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.#ctor
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html#H_Drawing3D_Shape_Geometry_Geometry_LineSegment__ctor_System_Windows_Point_System_Windows_Point_
+  name: LineSegment
+  nameWithType: LineSegment.LineSegment
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.LineSegment
+  nameWithType.vb: LineSegment.New
+  fullName.vb: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.New
+  name.vb: New
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html#H_Drawing3D_Shape_Geometry_Geometry_LineSegment_P1
+  name: P1
+  nameWithType: LineSegment.P1
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P1
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html#H_Drawing3D_Shape_Geometry_Geometry_LineSegment_P2
+  name: P2
+  nameWithType: LineSegment.P2
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.P2
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html#H_Drawing3D_Shape_Geometry_Geometry_LineSegment_AreLineSegmentsIntersecting_System_Windows_Point_System_Windows_Point_System_Windows_Point_System_Windows_Point_
+  name: AreLineSegmentsIntersecting
+  nameWithType: LineSegment.AreLineSegmentsIntersecting
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.AreLineSegmentsIntersecting
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith*
+  commentId: Overload:H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html#H_Drawing3D_Shape_Geometry_Geometry_LineSegment_IntersectsWith_H_Drawing3D_Shape_Geometry_Geometry_LineSegment_
+  name: IntersectsWith
+  nameWithType: LineSegment.IntersectsWith
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.IntersectsWith

@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.File.IFileModelShape3D
+  commentId: T:H.Drawing3D.Shape.File.IFileModelShape3D
+  id: IFileModelShape3D
+  parent: H.Drawing3D.Shape.File
+  children:
+  - H.Drawing3D.Shape.File.IFileModelShape3D.Source
+  langs:
+  - csharp
+  - vb
+  name: IFileModelShape3D
+  nameWithType: IFileModelShape3D
+  fullName: H.Drawing3D.Shape.File.IFileModelShape3D
+  type: Interface
+  source:
+    id: IFileModelShape3D
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\IFileModelShape3D.cs
+    startLine: 13
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: H.Drawing3D.Shape.File
+  syntax:
+    content: public interface IFileModelShape3D
+    content.vb: Public Interface IFileModelShape3D
+  extensionMethods:
+  - H.Drawing3D.Shape.File.IFileModelShape3D.H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: H.Drawing3D.Shape.File.IFileModelShape3D.Source
+  commentId: P:H.Drawing3D.Shape.File.IFileModelShape3D.Source
+  id: Source
+  parent: H.Drawing3D.Shape.File.IFileModelShape3D
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: IFileModelShape3D.Source
+  fullName: H.Drawing3D.Shape.File.IFileModelShape3D.Source
+  type: Property
+  source:
+    id: Source
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\IFileModelShape3D.cs
+    startLine: 15
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: H.Drawing3D.Shape.File
+  syntax:
+    content: string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Source As String
+  overload: H.Drawing3D.Shape.File.IFileModelShape3D.Source*
+references:
+- uid: H.Drawing3D.Shape.File
+  commentId: N:H.Drawing3D.Shape.File
+  href: H.html
+  name: H.Drawing3D.Shape.File
+  nameWithType: H.Drawing3D.Shape.File
+  fullName: H.Drawing3D.Shape.File
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+- uid: H.Drawing3D.Shape.File.IFileModelShape3D.H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile
+  commentId: M:H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+  parent: H.Drawing3D.Shape.File.FileModelShape3DExtensions
+  definition: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+  href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html#H_Drawing3D_Shape_File_FileModelShape3DExtensions_GetImageFile_H_Drawing3D_Shape_File_IFileModelShape3D_
+  name: GetImageFile(IFileModelShape3D)
+  nameWithType: FileModelShape3DExtensions.GetImageFile(IFileModelShape3D)
+  fullName: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+    name: GetImageFile
+    href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html#H_Drawing3D_Shape_File_FileModelShape3DExtensions_GetImageFile_H_Drawing3D_Shape_File_IFileModelShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.File.IFileModelShape3D
+    name: IFileModelShape3D
+    href: H.Drawing3D.Shape.File.IFileModelShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+    name: GetImageFile
+    href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html#H_Drawing3D_Shape_File_FileModelShape3DExtensions_GetImageFile_H_Drawing3D_Shape_File_IFileModelShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.File.IFileModelShape3D
+    name: IFileModelShape3D
+    href: H.Drawing3D.Shape.File.IFileModelShape3D.html
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+  commentId: M:H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+  href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html#H_Drawing3D_Shape_File_FileModelShape3DExtensions_GetImageFile_H_Drawing3D_Shape_File_IFileModelShape3D_
+  name: GetImageFile(IFileModelShape3D)
+  nameWithType: FileModelShape3DExtensions.GetImageFile(IFileModelShape3D)
+  fullName: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+    name: GetImageFile
+    href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html#H_Drawing3D_Shape_File_FileModelShape3DExtensions_GetImageFile_H_Drawing3D_Shape_File_IFileModelShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.File.IFileModelShape3D
+    name: IFileModelShape3D
+    href: H.Drawing3D.Shape.File.IFileModelShape3D.html
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions.GetImageFile(H.Drawing3D.Shape.File.IFileModelShape3D)
+    name: GetImageFile
+    href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html#H_Drawing3D_Shape_File_FileModelShape3DExtensions_GetImageFile_H_Drawing3D_Shape_File_IFileModelShape3D_
+  - name: (
+  - uid: H.Drawing3D.Shape.File.IFileModelShape3D
+    name: IFileModelShape3D
+    href: H.Drawing3D.Shape.File.IFileModelShape3D.html
+  - name: )
+- uid: H.Drawing3D.Shape.File.FileModelShape3DExtensions
+  commentId: T:H.Drawing3D.Shape.File.FileModelShape3DExtensions
+  parent: H.Drawing3D.Shape.File
+  href: H.Drawing3D.Shape.File.FileModelShape3DExtensions.html
+  name: FileModelShape3DExtensions
+  nameWithType: FileModelShape3DExtensions
+  fullName: H.Drawing3D.Shape.File.FileModelShape3DExtensions
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.Shape.File.IFileModelShape3D.Source*
+  commentId: Overload:H.Drawing3D.Shape.File.IFileModelShape3D.Source
+  href: H.Drawing3D.Shape.File.IFileModelShape3D.html#H_Drawing3D_Shape_File_IFileModelShape3D_Source
+  name: Source
+  nameWithType: IFileModelShape3D.Source
+  fullName: H.Drawing3D.Shape.File.IFileModelShape3D.Source
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

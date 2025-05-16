@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.Geometry.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry.Geometry
+  id: H.Drawing3D.Shape.Geometry.Geometry
+  children:
+  - H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  - H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  - H.Drawing3D.Shape.Geometry.Geometry.Mesh3D
+  - H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  - H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+  - H.Drawing3D.Shape.Geometry.Geometry.Triangle
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.Geometry.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry.Geometry
+  fullName: H.Drawing3D.Shape.Geometry.Geometry
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape
+references:
+- uid: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere.html
+  name: BoundingSphere
+  nameWithType: BoundingSphere
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.BoundingSphere
+- uid: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.LineSegment.html
+  name: LineSegment
+  nameWithType: LineSegment
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.LineSegment
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Mesh3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Mesh3D
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.Mesh3D.html
+  name: Mesh3D
+  nameWithType: Mesh3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Mesh3D
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+  href: H.Drawing3D.Shape.Geometry.Geometry.Plane3D.html
+  name: Plane3D
+  nameWithType: Plane3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Plane3D
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+  parent: H.Drawing3D.Shape.Geometry.Geometry
+  href: H.Drawing3D.Shape.Geometry.Geometry.Ray3D.html
+  name: Ray3D
+  nameWithType: Ray3D
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Ray3D
+- uid: H.Drawing3D.Shape.Geometry.Geometry.Triangle
+  commentId: T:H.Drawing3D.Shape.Geometry.Geometry.Triangle
+  href: H.Drawing3D.Shape.Geometry.Geometry.Triangle.html
+  name: Triangle
+  nameWithType: Triangle
+  fullName: H.Drawing3D.Shape.Geometry.Geometry.Triangle
+- uid: H.Drawing3D.Shape.Geometry.Geometry
+  commentId: N:H.Drawing3D.Shape.Geometry.Geometry
+  href: H.html
+  name: H.Drawing3D.Shape.Geometry.Geometry
+  nameWithType: H.Drawing3D.Shape.Geometry.Geometry
+  fullName: H.Drawing3D.Shape.Geometry.Geometry
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.html
+  - name: .
+  - uid: H.Drawing3D.Shape.Geometry.Geometry
+    name: Geometry
+    href: H.Drawing3D.Shape.Geometry.Geometry.html

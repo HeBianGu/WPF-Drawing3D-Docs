@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Drawing.Base
+  commentId: N:H.Drawing3D.Drawing.Base
+  id: H.Drawing3D.Drawing.Base
+  children:
+  - H.Drawing3D.Drawing.Base.Drawing3DBase
+  - H.Drawing3D.Drawing.Base.Drawing3DBase`1
+  - H.Drawing3D.Drawing.Base.IDrawing3D
+  - H.Drawing3D.Drawing.Base.IGeometryDrawing3D
+  - H.Drawing3D.Drawing.Base.IGroupDrawing3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Drawing.Base
+  nameWithType: H.Drawing3D.Drawing.Base
+  fullName: H.Drawing3D.Drawing.Base
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Drawing
+references:
+- uid: H.Drawing3D.Drawing.Base.Drawing3DBase
+  commentId: T:H.Drawing3D.Drawing.Base.Drawing3DBase
+  parent: H.Drawing3D.Drawing.Base
+  href: H.Drawing3D.Drawing.Base.Drawing3DBase.html
+  name: Drawing3DBase
+  nameWithType: Drawing3DBase
+  fullName: H.Drawing3D.Drawing.Base.Drawing3DBase
+- uid: H.Drawing3D.Drawing.Base.Drawing3DBase`1
+  commentId: T:H.Drawing3D.Drawing.Base.Drawing3DBase`1
+  href: H.Drawing3D.Drawing.Base.Drawing3DBase-1.html
+  name: Drawing3DBase<T>
+  nameWithType: Drawing3DBase<T>
+  fullName: H.Drawing3D.Drawing.Base.Drawing3DBase<T>
+  nameWithType.vb: Drawing3DBase(Of T)
+  fullName.vb: H.Drawing3D.Drawing.Base.Drawing3DBase(Of T)
+  name.vb: Drawing3DBase(Of T)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.Base.Drawing3DBase`1
+    name: Drawing3DBase
+    href: H.Drawing3D.Drawing.Base.Drawing3DBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.Base.Drawing3DBase`1
+    name: Drawing3DBase
+    href: H.Drawing3D.Drawing.Base.Drawing3DBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Drawing3D.Drawing.Base.IDrawing3D
+  commentId: T:H.Drawing3D.Drawing.Base.IDrawing3D
+  parent: H.Drawing3D.Drawing.Base
+  href: H.Drawing3D.Drawing.Base.IDrawing3D.html
+  name: IDrawing3D
+  nameWithType: IDrawing3D
+  fullName: H.Drawing3D.Drawing.Base.IDrawing3D
+- uid: H.Drawing3D.Drawing.Base.IGeometryDrawing3D
+  commentId: T:H.Drawing3D.Drawing.Base.IGeometryDrawing3D
+  parent: H.Drawing3D.Drawing.Base
+  href: H.Drawing3D.Drawing.Base.IGeometryDrawing3D.html
+  name: IGeometryDrawing3D
+  nameWithType: IGeometryDrawing3D
+  fullName: H.Drawing3D.Drawing.Base.IGeometryDrawing3D
+- uid: H.Drawing3D.Drawing.Base.IGroupDrawing3D
+  commentId: T:H.Drawing3D.Drawing.Base.IGroupDrawing3D
+  parent: H.Drawing3D.Drawing.Base
+  href: H.Drawing3D.Drawing.Base.IGroupDrawing3D.html
+  name: IGroupDrawing3D
+  nameWithType: IGroupDrawing3D
+  fullName: H.Drawing3D.Drawing.Base.IGroupDrawing3D
+- uid: H.Drawing3D.Drawing.Base
+  commentId: N:H.Drawing3D.Drawing.Base
+  href: H.html
+  name: H.Drawing3D.Drawing.Base
+  nameWithType: H.Drawing3D.Drawing.Base
+  fullName: H.Drawing3D.Drawing.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  - name: .
+  - uid: H.Drawing3D.Drawing.Base
+    name: Base
+    href: H.Drawing3D.Drawing.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  - name: .
+  - uid: H.Drawing3D.Drawing.Base
+    name: Base
+    href: H.Drawing3D.Drawing.Base.html

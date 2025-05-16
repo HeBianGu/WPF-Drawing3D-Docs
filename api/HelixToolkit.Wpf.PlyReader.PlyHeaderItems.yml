@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  id: PlyReader.PlyHeaderItems
+  parent: HelixToolkit.Wpf
+  children:
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.comment
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.element
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.end_header
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.format
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.obj_info
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.ply
+  - HelixToolkit.Wpf.PlyReader.PlyHeaderItems.property
+  langs:
+  - csharp
+  - vb
+  name: PlyReader.PlyHeaderItems
+  nameWithType: PlyReader.PlyHeaderItems
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  type: Enum
+  source:
+    id: PlyHeaderItems
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 370
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: Specifies the types of items in a ply header.
+  example: []
+  syntax:
+    content: public enum PlyReader.PlyHeaderItems
+    content.vb: Public Enum PlyReader.PlyHeaderItems
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.ply
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.ply
+  id: ply
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: ply
+  nameWithType: PlyReader.PlyHeaderItems.ply
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.ply
+  type: Field
+  source:
+    id: ply
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 375
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The beginning of a ply file.
+  example: []
+  syntax:
+    content: ply = 0
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.format
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.format
+  id: format
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: format
+  nameWithType: PlyReader.PlyHeaderItems.format
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.format
+  type: Field
+  source:
+    id: format
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 379
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The format of a ply file.
+  example: []
+  syntax:
+    content: format = 1
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.comment
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.comment
+  id: comment
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: comment
+  nameWithType: PlyReader.PlyHeaderItems.comment
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.comment
+  type: Field
+  source:
+    id: comment
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 383
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: A comment in a ply file.
+  example: []
+  syntax:
+    content: comment = 2
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.obj_info
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.obj_info
+  id: obj_info
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: obj_info
+  nameWithType: PlyReader.PlyHeaderItems.obj_info
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.obj_info
+  type: Field
+  source:
+    id: obj_info
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 387
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: An object info in a ply header
+  example: []
+  syntax:
+    content: obj_info = 3
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.element
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.element
+  id: element
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: element
+  nameWithType: PlyReader.PlyHeaderItems.element
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.element
+  type: Field
+  source:
+    id: element
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 391
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The declaration of an element.
+  example: []
+  syntax:
+    content: element = 4
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.property
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.property
+  id: property
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: property
+  nameWithType: PlyReader.PlyHeaderItems.property
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.property
+  type: Field
+  source:
+    id: property
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 395
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The property to be attached to an element.
+  example: []
+  syntax:
+    content: property = 5
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.end_header
+  commentId: F:HelixToolkit.Wpf.PlyReader.PlyHeaderItems.end_header
+  id: end_header
+  parent: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  langs:
+  - csharp
+  - vb
+  name: end_header
+  nameWithType: PlyReader.PlyHeaderItems.end_header
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.end_header
+  type: Field
+  source:
+    id: end_header
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\Shape\H.Drawing3D.Shape.File\Importers\PlyReader.cs
+    startLine: 399
+  assemblies:
+  - H.Drawing3D.Shape.File
+  namespace: HelixToolkit.Wpf
+  summary: The end of header declaration.
+  example: []
+  syntax:
+    content: end_header = 6
+    return:
+      type: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+references:
+- uid: HelixToolkit.Wpf
+  commentId: N:HelixToolkit.Wpf
+  href: HelixToolkit.html
+  name: HelixToolkit.Wpf
+  nameWithType: HelixToolkit.Wpf
+  fullName: HelixToolkit.Wpf
+  spec.csharp:
+  - uid: HelixToolkit
+    name: HelixToolkit
+    href: HelixToolkit.html
+  - name: .
+  - uid: HelixToolkit.Wpf
+    name: Wpf
+    href: HelixToolkit.Wpf.html
+  spec.vb:
+  - uid: HelixToolkit
+    name: HelixToolkit
+    href: HelixToolkit.html
+  - name: .
+  - uid: HelixToolkit.Wpf
+    name: Wpf
+    href: HelixToolkit.Wpf.html
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  commentId: T:HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  parent: HelixToolkit.Wpf
+  href: HelixToolkit.Wpf.PlyReader.html
+  name: PlyReader.PlyHeaderItems
+  nameWithType: PlyReader.PlyHeaderItems
+  fullName: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+  spec.csharp:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+    name: PlyHeaderItems
+    href: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.html
+  spec.vb:
+  - uid: HelixToolkit.Wpf.PlyReader
+    name: PlyReader
+    href: HelixToolkit.Wpf.PlyReader.html
+  - name: .
+  - uid: HelixToolkit.Wpf.PlyReader.PlyHeaderItems
+    name: PlyHeaderItems
+    href: HelixToolkit.Wpf.PlyReader.PlyHeaderItems.html

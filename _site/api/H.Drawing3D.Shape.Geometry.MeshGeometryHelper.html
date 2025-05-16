@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MeshGeometryHelper | WPF-Drawing3D开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MeshGeometryHelper | WPF-Drawing3D开发文档 ">
+      
+      <meta name="description" content="Provides helper methods for mesh geometries.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-Drawing3D开发文档">
+            WPF-Drawing3D开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper">
+
+
+
+  <h1 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper" class="text-break">
+Class MeshGeometryHelper  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Drawing3D.html">Drawing3D</a>.<a class="xref" href="H.Drawing3D.Shape.html">Shape</a>.<a class="xref" href="H.Drawing3D.Shape.Geometry.html">Geometry</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Drawing3D.Shape.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides helper methods for mesh geometries.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MeshGeometryHelper</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MeshGeometryHelper</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CalculateNormals_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CalculateNormals_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Int32__" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32})">
+  CalculateNormals(IList&lt;Point3D&gt;, IList&lt;int&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the normal vectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3DCollection CalculateNormals(IList&lt;Point3D&gt; positions, IList&lt;int&gt; triangleIndices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>positions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd><p>The positions.</p>
+</dd>
+    <dt><code>triangleIndices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>The triangle indices.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3dcollection">Vector3DCollection</a></dt>
+    <dd><p>Collection of normal vectors.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CalculateNormals_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CalculateNormals_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CalculateNormals(System.Windows.Media.Media3D.MeshGeometry3D)">
+  CalculateNormals(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the normal vectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3DCollection CalculateNormals(this MeshGeometry3D mesh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The mesh.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3dcollection">Vector3DCollection</a></dt>
+    <dd><p>Collection of normal vectors.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CombineSegments_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_CombineSegments_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Double_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.CombineSegments(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Double)">
+  CombineSegments(IList&lt;Point3D&gt;, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Combines the segments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IList&lt;Point3D&gt;&gt; CombineSegments(IList&lt;Point3D&gt; segments, double eps)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>segments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd><p>The segments.</p>
+</dd>
+    <dt><code>eps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The tolerance.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;&gt;</dt>
+    <dd><p>Enumerated connected contour curves.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Cut_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Cut_System_Windows_Media_Media3D_MeshGeometry3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Cut(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)">
+  Cut(MeshGeometry3D, Point3D, Vector3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cuts the mesh with the specified plane.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MeshGeometry3D Cut(this MeshGeometry3D mesh, Point3D plane, Vector3D normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The mesh.</p>
+</dd>
+    <dt><code>plane</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd><p>The plane origin.</p>
+</dd>
+    <dt><code>normal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd><p>The plane normal.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindBorderEdges_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindBorderEdges_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindBorderEdges(System.Windows.Media.Media3D.MeshGeometry3D)">
+  FindBorderEdges(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds edges that are only connected to one triangle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Int32Collection FindBorderEdges(this MeshGeometry3D mesh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>A mesh geometry.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.int32collection">Int32Collection</a></dt>
+    <dd><p>The edge indices for the edges that are only used by one triangle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindEdges_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindEdges_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindEdges(System.Windows.Media.Media3D.MeshGeometry3D)">
+  FindEdges(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds all edges in the mesh (each edge is only included once).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Int32Collection FindEdges(this MeshGeometry3D mesh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>A mesh geometry.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.int32collection">Int32Collection</a></dt>
+    <dd><p>The edge indices (minimum index first).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindSharpEdges_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_FindSharpEdges_System_Windows_Media_Media3D_MeshGeometry3D_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.FindSharpEdges(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)">
+  FindSharpEdges(MeshGeometry3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds all edges where the angle between adjacent triangle normal vectors.
+is larger than minimumAngle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Int32Collection FindSharpEdges(this MeshGeometry3D mesh, double minimumAngle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>A mesh geometry.</p>
+</dd>
+    <dt><code>minimumAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The minimum angle between the normal vectors of two adjacent triangles (degrees).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.int32collection">Int32Collection</a></dt>
+    <dd><p>The edge indices.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_GetContourSegments_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_GetContourSegments_System_Windows_Media_Media3D_MeshGeometry3D_System_Windows_Media_Media3D_Point3D_System_Windows_Media_Media3D_Vector3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.GetContourSegments(System.Windows.Media.Media3D.MeshGeometry3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Vector3D)">
+  GetContourSegments(MeshGeometry3D, Point3D, Vector3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the contour segments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;Point3D&gt; GetContourSegments(this MeshGeometry3D mesh, Point3D plane, Vector3D normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The mesh.</p>
+</dd>
+    <dt><code>plane</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd><p>The plane origin.</p>
+</dd>
+    <dt><code>normal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd><p>The plane normal.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd><p>The segments of the contour.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_NoSharedVertices_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_NoSharedVertices_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.NoSharedVertices(System.Windows.Media.Media3D.MeshGeometry3D)">
+  NoSharedVertices(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new mesh where no vertices are shared.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MeshGeometry3D NoSharedVertices(this MeshGeometry3D input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The input mesh.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>A new mesh.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveIsolatedVertices_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveIsolatedVertices_System_Collections_Generic_IList_System_Windows_Media_Media3D_Point3D__System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Windows_Point__System_Collections_Generic_IList_System_Windows_Media_Media3D_Vector3D__System_Windows_Media_Media3D_Point3DCollection__System_Windows_Media_Int32Collection__System_Windows_Media_PointCollection__System_Windows_Media_Media3D_Vector3DCollection__" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Collections.Generic.IList{System.Windows.Media.Media3D.Point3D},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Windows.Point},System.Collections.Generic.IList{System.Windows.Media.Media3D.Vector3D},System.Windows.Media.Media3D.Point3DCollection@,System.Windows.Media.Int32Collection@,System.Windows.Media.PointCollection@,System.Windows.Media.Media3D.Vector3DCollection@)">
+  RemoveIsolatedVertices(IList&lt;Point3D&gt;, IList&lt;int&gt;, IList&lt;Point&gt;, IList&lt;Vector3D&gt;, out Point3DCollection, out Int32Collection, out PointCollection, out Vector3DCollection)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove isolated(not connected to any triangles) vertices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveIsolatedVertices(IList&lt;Point3D&gt; vertices, IList&lt;int&gt; triangles, IList&lt;Point&gt; texture, IList&lt;Vector3D&gt; normals, out Point3DCollection verticesOut, out Int32Collection trianglesOut, out PointCollection textureOut, out Vector3DCollection normalOut)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>triangles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>texture</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>normals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>verticesOut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3dcollection">Point3DCollection</a></dt>
+    <dd></dd>
+    <dt><code>trianglesOut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.int32collection">Int32Collection</a></dt>
+    <dd></dd>
+    <dt><code>textureOut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.pointcollection">PointCollection</a></dt>
+    <dd></dd>
+    <dt><code>normalOut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3dcollection">Vector3DCollection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveIsolatedVertices_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveIsolatedVertices_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveIsolatedVertices(System.Windows.Media.Media3D.MeshGeometry3D)">
+  RemoveIsolatedVertices(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove isolated(not connected to any triangles) vertices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MeshGeometry3D RemoveIsolatedVertices(this MeshGeometry3D mesh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveOutOfRangeTriangles_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_RemoveOutOfRangeTriangles_System_Collections_Generic_IList_System_Int32__System_Int32_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.RemoveOutOfRangeTriangles(System.Collections.Generic.IList{System.Int32},System.Int32)">
+  RemoveOutOfRangeTriangles(IList&lt;int&gt;, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveOutOfRangeTriangles(this IList&lt;int&gt; triangles, int numVerts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>triangles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>numVerts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Simplify_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Simplify_System_Windows_Media_Media3D_MeshGeometry3D_System_Double_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Simplify(System.Windows.Media.Media3D.MeshGeometry3D,System.Double)">
+  Simplify(MeshGeometry3D, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Simplifies the specified mesh.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MeshGeometry3D Simplify(this MeshGeometry3D mesh, double eps)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The mesh.</p>
+</dd>
+    <dt><code>eps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The tolerance.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>A simplified mesh.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Validate_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate*"></a>
+
+  <h3 id="H_Drawing3D_Shape_Geometry_MeshGeometryHelper_Validate_System_Windows_Media_Media3D_MeshGeometry3D_" data-uid="H.Drawing3D.Shape.Geometry.MeshGeometryHelper.Validate(System.Windows.Media.Media3D.MeshGeometry3D)">
+  Validate(MeshGeometry3D)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Validates the specified mesh.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Validate(this MeshGeometry3D mesh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mesh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.meshgeometry3d">MeshGeometry3D</a></dt>
+    <dd><p>The mesh.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Validation report or null if no issues were found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

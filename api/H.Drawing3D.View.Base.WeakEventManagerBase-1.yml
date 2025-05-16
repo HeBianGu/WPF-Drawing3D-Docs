@@ -1,0 +1,1447 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  commentId: T:H.Drawing3D.View.Base.WeakEventManagerBase`1
+  id: WeakEventManagerBase`1
+  parent: H.Drawing3D.View.Base
+  children:
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.AddListener(System.Windows.IWeakEventListener)
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.Handler(System.Object,System.EventArgs)
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.RemoveListener(System.Windows.IWeakEventListener)
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening(System.Object)
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening
+  - H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: WeakEventManagerBase<TManager>
+  nameWithType: WeakEventManagerBase<TManager>
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>
+  type: Class
+  source:
+    id: WeakEventManagerBase
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 18
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Provides a generic base class for weak event managers that handle static events.
+  example: []
+  syntax:
+    content: 'public abstract class WeakEventManagerBase<TManager> : WeakEventManager where TManager : WeakEventManagerBase<TManager>, new()'
+    typeParameters:
+    - id: TManager
+      description: The type of the manager.
+    content.vb: Public MustInherit Class WeakEventManagerBase(Of TManager As {WeakEventManagerBase(Of TManager), New}) Inherits WeakEventManager
+  inheritance:
+  - System.Object
+  - System.Windows.Threading.DispatcherObject
+  - System.Windows.WeakEventManager
+  derivedClasses:
+  - H.Drawing3D.View.Base.RenderingEventManager
+  inheritedMembers:
+  - System.Windows.WeakEventManager.DeliverEvent(System.Object,System.EventArgs)
+  - System.Windows.WeakEventManager.DeliverEventToList(System.Object,System.EventArgs,System.Windows.WeakEventManager.ListenerList)
+  - System.Windows.WeakEventManager.GetCurrentManager(System.Type)
+  - System.Windows.WeakEventManager.NewListenerList
+  - System.Windows.WeakEventManager.ProtectedAddHandler(System.Object,System.Delegate)
+  - System.Windows.WeakEventManager.ProtectedAddListener(System.Object,System.Windows.IWeakEventListener)
+  - System.Windows.WeakEventManager.ProtectedRemoveHandler(System.Object,System.Delegate)
+  - System.Windows.WeakEventManager.ProtectedRemoveListener(System.Object,System.Windows.IWeakEventListener)
+  - System.Windows.WeakEventManager.Purge(System.Object,System.Object,System.Boolean)
+  - System.Windows.WeakEventManager.Remove(System.Object)
+  - System.Windows.WeakEventManager.ScheduleCleanup
+  - System.Windows.WeakEventManager.SetCurrentManager(System.Type,System.Windows.WeakEventManager)
+  - System.Windows.WeakEventManager.Item(System.Object)
+  - System.Windows.WeakEventManager.ReadLock
+  - System.Windows.WeakEventManager.WriteLock
+  - System.Windows.Threading.DispatcherObject.Dispatcher
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: WeakEventManagerBase(Of TManager)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager)
+  name.vb: WeakEventManagerBase(Of TManager)
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.AddListener(System.Windows.IWeakEventListener)
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.AddListener(System.Windows.IWeakEventListener)
+  id: AddListener(System.Windows.IWeakEventListener)
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: AddListener(IWeakEventListener)
+  nameWithType: WeakEventManagerBase<TManager>.AddListener(IWeakEventListener)
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.AddListener(System.Windows.IWeakEventListener)
+  type: Method
+  source:
+    id: AddListener
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 24
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Adds the specified listener.
+  example: []
+  syntax:
+    content: public static void AddListener(IWeakEventListener listener)
+    parameters:
+    - id: listener
+      type: System.Windows.IWeakEventListener
+      description: The listener.
+    content.vb: Public Shared Sub AddListener(listener As IWeakEventListener)
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.AddListener*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).AddListener(IWeakEventListener)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).AddListener(System.Windows.IWeakEventListener)
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.RemoveListener(System.Windows.IWeakEventListener)
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.RemoveListener(System.Windows.IWeakEventListener)
+  id: RemoveListener(System.Windows.IWeakEventListener)
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveListener(IWeakEventListener)
+  nameWithType: WeakEventManagerBase<TManager>.RemoveListener(IWeakEventListener)
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.RemoveListener(System.Windows.IWeakEventListener)
+  type: Method
+  source:
+    id: RemoveListener
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 33
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Removes the specified listener.
+  example: []
+  syntax:
+    content: public static void RemoveListener(IWeakEventListener listener)
+    parameters:
+    - id: listener
+      type: System.Windows.IWeakEventListener
+      description: The listener.
+    content.vb: Public Shared Sub RemoveListener(listener As IWeakEventListener)
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.RemoveListener*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).RemoveListener(IWeakEventListener)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).RemoveListener(System.Windows.IWeakEventListener)
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening(System.Object)
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening(System.Object)
+  id: StartListening(System.Object)
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: StartListening(object)
+  nameWithType: WeakEventManagerBase<TManager>.StartListening(object)
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.StartListening(object)
+  type: Method
+  source:
+    id: StartListening
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 62
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: When overridden in a derived class, starts listening for the event being managed. After <xref href="System.Windows.WeakEventManager.StartListening(System.Object)" data-throw-if-not-resolved="false"></xref>  is first called, the manager should be in the state of calling <xref href="System.Windows.WeakEventManager.DeliverEvent(System.Object%2cSystem.EventArgs)" data-throw-if-not-resolved="false"></xref> or <xref href="System.Windows.WeakEventManager.DeliverEventToList(System.Object%2cSystem.EventArgs%2cSystem.Windows.WeakEventManager.ListenerList)" data-throw-if-not-resolved="false"></xref> whenever the relevant event from the provided source is handled.
+  example: []
+  syntax:
+    content: protected override sealed void StartListening(object source)
+    parameters:
+    - id: source
+      type: System.Object
+      description: The source to begin listening on.
+    content.vb: Protected NotOverridable Overrides Sub StartListening(source As Object)
+  overridden: System.Windows.WeakEventManager.StartListening(System.Object)
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).StartListening(Object)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).StartListening(Object)
+  name.vb: StartListening(Object)
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening(System.Object)
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening(System.Object)
+  id: StopListening(System.Object)
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: StopListening(object)
+  nameWithType: WeakEventManagerBase<TManager>.StopListening(object)
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.StopListening(object)
+  type: Method
+  source:
+    id: StopListening
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 71
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: When overridden in a derived class, stops listening on the provided source for the event being managed.
+  example: []
+  syntax:
+    content: protected override sealed void StopListening(object source)
+    parameters:
+    - id: source
+      type: System.Object
+      description: The source to stop listening on.
+    content.vb: Protected NotOverridable Overrides Sub StopListening(source As Object)
+  overridden: System.Windows.WeakEventManager.StopListening(System.Object)
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).StopListening(Object)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).StopListening(Object)
+  name.vb: StopListening(Object)
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.Handler(System.Object,System.EventArgs)
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.Handler(System.Object,System.EventArgs)
+  id: Handler(System.Object,System.EventArgs)
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: Handler(object, EventArgs)
+  nameWithType: WeakEventManagerBase<TManager>.Handler(object, EventArgs)
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.Handler(object, System.EventArgs)
+  type: Method
+  source:
+    id: Handler
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 81
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Handlers the specified sender.
+  example: []
+  syntax:
+    content: protected void Handler(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: The sender.
+    - id: e
+      type: System.EventArgs
+      description: The <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+    content.vb: Protected Sub Handler(sender As Object, e As EventArgs)
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.Handler*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).Handler(Object, EventArgs)
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).Handler(Object, System.EventArgs)
+  name.vb: Handler(Object, EventArgs)
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening
+  id: StartListening
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: StartListening()
+  nameWithType: WeakEventManagerBase<TManager>.StartListening()
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.StartListening()
+  type: Method
+  source:
+    id: StartListening
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 89
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Starts the listening.
+  example: []
+  syntax:
+    content: protected abstract void StartListening()
+    content.vb: Protected MustOverride Sub StartListening()
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).StartListening()
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).StartListening()
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening
+  commentId: M:H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening
+  id: StopListening
+  parent: H.Drawing3D.View.Base.WeakEventManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: StopListening()
+  nameWithType: WeakEventManagerBase<TManager>.StopListening()
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.StopListening()
+  type: Method
+  source:
+    id: StopListening
+    path: D:\GitHub\WPF-Drawing3D-Docs\Source\WPF-Drawing3D\Source\View\H.Drawing3D.View\Base\WeakEventManagerBase{TManager}.cs
+    startLine: 94
+  assemblies:
+  - H.Drawing3D.View
+  namespace: H.Drawing3D.View.Base
+  summary: Stops the listening.
+  example: []
+  syntax:
+    content: protected abstract void StopListening()
+    content.vb: Protected MustOverride Sub StopListening()
+  overload: H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening*
+  nameWithType.vb: WeakEventManagerBase(Of TManager).StopListening()
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).StopListening()
+references:
+- uid: H.Drawing3D.View.Base
+  commentId: N:H.Drawing3D.View.Base
+  href: H.html
+  name: H.Drawing3D.View.Base
+  nameWithType: H.Drawing3D.View.Base
+  fullName: H.Drawing3D.View.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Base
+    name: Base
+    href: H.Drawing3D.View.Base.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Windows.Threading.DispatcherObject
+  commentId: T:System.Windows.Threading.DispatcherObject
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject
+  name: DispatcherObject
+  nameWithType: DispatcherObject
+  fullName: System.Windows.Threading.DispatcherObject
+- uid: System.Windows.WeakEventManager
+  commentId: T:System.Windows.WeakEventManager
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager
+  name: WeakEventManager
+  nameWithType: WeakEventManager
+  fullName: System.Windows.WeakEventManager
+- uid: System.Windows.WeakEventManager.DeliverEvent(System.Object,System.EventArgs)
+  commentId: M:System.Windows.WeakEventManager.DeliverEvent(System.Object,System.EventArgs)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.deliverevent
+  name: DeliverEvent(object, EventArgs)
+  nameWithType: WeakEventManager.DeliverEvent(object, EventArgs)
+  fullName: System.Windows.WeakEventManager.DeliverEvent(object, System.EventArgs)
+  nameWithType.vb: WeakEventManager.DeliverEvent(Object, EventArgs)
+  fullName.vb: System.Windows.WeakEventManager.DeliverEvent(Object, System.EventArgs)
+  name.vb: DeliverEvent(Object, EventArgs)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.DeliverEvent(System.Object,System.EventArgs)
+    name: DeliverEvent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.deliverevent
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.DeliverEvent(System.Object,System.EventArgs)
+    name: DeliverEvent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.deliverevent
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: )
+- uid: System.Windows.WeakEventManager.DeliverEventToList(System.Object,System.EventArgs,System.Windows.WeakEventManager.ListenerList)
+  commentId: M:System.Windows.WeakEventManager.DeliverEventToList(System.Object,System.EventArgs,System.Windows.WeakEventManager.ListenerList)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.delivereventtolist
+  name: DeliverEventToList(object, EventArgs, ListenerList)
+  nameWithType: WeakEventManager.DeliverEventToList(object, EventArgs, WeakEventManager.ListenerList)
+  fullName: System.Windows.WeakEventManager.DeliverEventToList(object, System.EventArgs, System.Windows.WeakEventManager.ListenerList)
+  nameWithType.vb: WeakEventManager.DeliverEventToList(Object, EventArgs, WeakEventManager.ListenerList)
+  fullName.vb: System.Windows.WeakEventManager.DeliverEventToList(Object, System.EventArgs, System.Windows.WeakEventManager.ListenerList)
+  name.vb: DeliverEventToList(Object, EventArgs, ListenerList)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.DeliverEventToList(System.Object,System.EventArgs,System.Windows.WeakEventManager.ListenerList)
+    name: DeliverEventToList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.delivereventtolist
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: ','
+  - name: " "
+  - uid: System.Windows.WeakEventManager.ListenerList
+    name: ListenerList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.listenerlist
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.DeliverEventToList(System.Object,System.EventArgs,System.Windows.WeakEventManager.ListenerList)
+    name: DeliverEventToList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.delivereventtolist
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.EventArgs
+    name: EventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  - name: ','
+  - name: " "
+  - uid: System.Windows.WeakEventManager.ListenerList
+    name: ListenerList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.listenerlist
+  - name: )
+- uid: System.Windows.WeakEventManager.GetCurrentManager(System.Type)
+  commentId: M:System.Windows.WeakEventManager.GetCurrentManager(System.Type)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.getcurrentmanager
+  name: GetCurrentManager(Type)
+  nameWithType: WeakEventManager.GetCurrentManager(Type)
+  fullName: System.Windows.WeakEventManager.GetCurrentManager(System.Type)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.GetCurrentManager(System.Type)
+    name: GetCurrentManager
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.getcurrentmanager
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.GetCurrentManager(System.Type)
+    name: GetCurrentManager
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.getcurrentmanager
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Windows.WeakEventManager.NewListenerList
+  commentId: M:System.Windows.WeakEventManager.NewListenerList
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.newlistenerlist
+  name: NewListenerList()
+  nameWithType: WeakEventManager.NewListenerList()
+  fullName: System.Windows.WeakEventManager.NewListenerList()
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.NewListenerList
+    name: NewListenerList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.newlistenerlist
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.NewListenerList
+    name: NewListenerList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.newlistenerlist
+  - name: (
+  - name: )
+- uid: System.Windows.WeakEventManager.ProtectedAddHandler(System.Object,System.Delegate)
+  commentId: M:System.Windows.WeakEventManager.ProtectedAddHandler(System.Object,System.Delegate)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedaddhandler
+  name: ProtectedAddHandler(object, Delegate)
+  nameWithType: WeakEventManager.ProtectedAddHandler(object, Delegate)
+  fullName: System.Windows.WeakEventManager.ProtectedAddHandler(object, System.Delegate)
+  nameWithType.vb: WeakEventManager.ProtectedAddHandler(Object, Delegate)
+  fullName.vb: System.Windows.WeakEventManager.ProtectedAddHandler(Object, System.Delegate)
+  name.vb: ProtectedAddHandler(Object, Delegate)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.ProtectedAddHandler(System.Object,System.Delegate)
+    name: ProtectedAddHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedaddhandler
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.ProtectedAddHandler(System.Object,System.Delegate)
+    name: ProtectedAddHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedaddhandler
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: )
+- uid: System.Windows.WeakEventManager.ProtectedAddListener(System.Object,System.Windows.IWeakEventListener)
+  commentId: M:System.Windows.WeakEventManager.ProtectedAddListener(System.Object,System.Windows.IWeakEventListener)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedaddlistener
+  name: ProtectedAddListener(object, IWeakEventListener)
+  nameWithType: WeakEventManager.ProtectedAddListener(object, IWeakEventListener)
+  fullName: System.Windows.WeakEventManager.ProtectedAddListener(object, System.Windows.IWeakEventListener)
+  nameWithType.vb: WeakEventManager.ProtectedAddListener(Object, IWeakEventListener)
+  fullName.vb: System.Windows.WeakEventManager.ProtectedAddListener(Object, System.Windows.IWeakEventListener)
+  name.vb: ProtectedAddListener(Object, IWeakEventListener)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.ProtectedAddListener(System.Object,System.Windows.IWeakEventListener)
+    name: ProtectedAddListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedaddlistener
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.IWeakEventListener
+    name: IWeakEventListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.iweakeventlistener
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.ProtectedAddListener(System.Object,System.Windows.IWeakEventListener)
+    name: ProtectedAddListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedaddlistener
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.IWeakEventListener
+    name: IWeakEventListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.iweakeventlistener
+  - name: )
+- uid: System.Windows.WeakEventManager.ProtectedRemoveHandler(System.Object,System.Delegate)
+  commentId: M:System.Windows.WeakEventManager.ProtectedRemoveHandler(System.Object,System.Delegate)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedremovehandler
+  name: ProtectedRemoveHandler(object, Delegate)
+  nameWithType: WeakEventManager.ProtectedRemoveHandler(object, Delegate)
+  fullName: System.Windows.WeakEventManager.ProtectedRemoveHandler(object, System.Delegate)
+  nameWithType.vb: WeakEventManager.ProtectedRemoveHandler(Object, Delegate)
+  fullName.vb: System.Windows.WeakEventManager.ProtectedRemoveHandler(Object, System.Delegate)
+  name.vb: ProtectedRemoveHandler(Object, Delegate)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.ProtectedRemoveHandler(System.Object,System.Delegate)
+    name: ProtectedRemoveHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedremovehandler
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.ProtectedRemoveHandler(System.Object,System.Delegate)
+    name: ProtectedRemoveHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedremovehandler
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Delegate
+    name: Delegate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.delegate
+  - name: )
+- uid: System.Windows.WeakEventManager.ProtectedRemoveListener(System.Object,System.Windows.IWeakEventListener)
+  commentId: M:System.Windows.WeakEventManager.ProtectedRemoveListener(System.Object,System.Windows.IWeakEventListener)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedremovelistener
+  name: ProtectedRemoveListener(object, IWeakEventListener)
+  nameWithType: WeakEventManager.ProtectedRemoveListener(object, IWeakEventListener)
+  fullName: System.Windows.WeakEventManager.ProtectedRemoveListener(object, System.Windows.IWeakEventListener)
+  nameWithType.vb: WeakEventManager.ProtectedRemoveListener(Object, IWeakEventListener)
+  fullName.vb: System.Windows.WeakEventManager.ProtectedRemoveListener(Object, System.Windows.IWeakEventListener)
+  name.vb: ProtectedRemoveListener(Object, IWeakEventListener)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.ProtectedRemoveListener(System.Object,System.Windows.IWeakEventListener)
+    name: ProtectedRemoveListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedremovelistener
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.IWeakEventListener
+    name: IWeakEventListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.iweakeventlistener
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.ProtectedRemoveListener(System.Object,System.Windows.IWeakEventListener)
+    name: ProtectedRemoveListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.protectedremovelistener
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.IWeakEventListener
+    name: IWeakEventListener
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.iweakeventlistener
+  - name: )
+- uid: System.Windows.WeakEventManager.Purge(System.Object,System.Object,System.Boolean)
+  commentId: M:System.Windows.WeakEventManager.Purge(System.Object,System.Object,System.Boolean)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.purge
+  name: Purge(object, object, bool)
+  nameWithType: WeakEventManager.Purge(object, object, bool)
+  fullName: System.Windows.WeakEventManager.Purge(object, object, bool)
+  nameWithType.vb: WeakEventManager.Purge(Object, Object, Boolean)
+  fullName.vb: System.Windows.WeakEventManager.Purge(Object, Object, Boolean)
+  name.vb: Purge(Object, Object, Boolean)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.Purge(System.Object,System.Object,System.Boolean)
+    name: Purge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.purge
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.Purge(System.Object,System.Object,System.Boolean)
+    name: Purge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.purge
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Windows.WeakEventManager.Remove(System.Object)
+  commentId: M:System.Windows.WeakEventManager.Remove(System.Object)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.remove
+  name: Remove(object)
+  nameWithType: WeakEventManager.Remove(object)
+  fullName: System.Windows.WeakEventManager.Remove(object)
+  nameWithType.vb: WeakEventManager.Remove(Object)
+  fullName.vb: System.Windows.WeakEventManager.Remove(Object)
+  name.vb: Remove(Object)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.Remove(System.Object)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.remove
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.Remove(System.Object)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.remove
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.WeakEventManager.ScheduleCleanup
+  commentId: M:System.Windows.WeakEventManager.ScheduleCleanup
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.schedulecleanup
+  name: ScheduleCleanup()
+  nameWithType: WeakEventManager.ScheduleCleanup()
+  fullName: System.Windows.WeakEventManager.ScheduleCleanup()
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.ScheduleCleanup
+    name: ScheduleCleanup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.schedulecleanup
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.ScheduleCleanup
+    name: ScheduleCleanup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.schedulecleanup
+  - name: (
+  - name: )
+- uid: System.Windows.WeakEventManager.SetCurrentManager(System.Type,System.Windows.WeakEventManager)
+  commentId: M:System.Windows.WeakEventManager.SetCurrentManager(System.Type,System.Windows.WeakEventManager)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.setcurrentmanager
+  name: SetCurrentManager(Type, WeakEventManager)
+  nameWithType: WeakEventManager.SetCurrentManager(Type, WeakEventManager)
+  fullName: System.Windows.WeakEventManager.SetCurrentManager(System.Type, System.Windows.WeakEventManager)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.SetCurrentManager(System.Type,System.Windows.WeakEventManager)
+    name: SetCurrentManager
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.setcurrentmanager
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Windows.WeakEventManager
+    name: WeakEventManager
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.SetCurrentManager(System.Type,System.Windows.WeakEventManager)
+    name: SetCurrentManager
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.setcurrentmanager
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Windows.WeakEventManager
+    name: WeakEventManager
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager
+  - name: )
+- uid: System.Windows.WeakEventManager.Item(System.Object)
+  commentId: P:System.Windows.WeakEventManager.Item(System.Object)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: WeakEventManager.this[object]
+  fullName: System.Windows.WeakEventManager.this[object]
+  nameWithType.vb: WeakEventManager.this[](Object)
+  fullName.vb: System.Windows.WeakEventManager.this[](Object)
+  name.vb: this[](Object)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ']'
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.Item(System.Object)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.item
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.WeakEventManager.ReadLock
+  commentId: P:System.Windows.WeakEventManager.ReadLock
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.readlock
+  name: ReadLock
+  nameWithType: WeakEventManager.ReadLock
+  fullName: System.Windows.WeakEventManager.ReadLock
+- uid: System.Windows.WeakEventManager.WriteLock
+  commentId: P:System.Windows.WeakEventManager.WriteLock
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.writelock
+  name: WriteLock
+  nameWithType: WeakEventManager.WriteLock
+  fullName: System.Windows.WeakEventManager.WriteLock
+- uid: System.Windows.Threading.DispatcherObject.Dispatcher
+  commentId: P:System.Windows.Threading.DispatcherObject.Dispatcher
+  parent: System.Windows.Threading.DispatcherObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher
+  name: Dispatcher
+  nameWithType: DispatcherObject.Dispatcher
+  fullName: System.Windows.Threading.DispatcherObject.Dispatcher
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  parent: H.Drawing3D.Drawing.DispatcherExtension
+  definition: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExternal: true
+  href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+  spec.csharp:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+  spec.vb:
+  - uid: H.Drawing3D.Drawing.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+    name: DelayInvoke
+    href: H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Threading.DispatcherPriority
+    name: DispatcherPriority
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  - name: )
+- uid: H.Drawing3D.Drawing.DispatcherExtension
+  commentId: T:H.Drawing3D.Drawing.DispatcherExtension
+  parent: H.Drawing3D.Drawing
+  href: H.Drawing3D.Drawing.DispatcherExtension.html
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: H.Drawing3D.Drawing.DispatcherExtension
+- uid: H.Drawing3D.Drawing
+  commentId: N:H.Drawing3D.Drawing
+  href: H.html
+  name: H.Drawing3D.Drawing
+  nameWithType: H.Drawing3D.Drawing
+  fullName: H.Drawing3D.Drawing
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Drawing
+    name: Drawing
+    href: H.Drawing3D.Drawing.html
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.AddListener*
+  commentId: Overload:H.Drawing3D.View.Base.WeakEventManagerBase`1.AddListener
+  href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html#H_Drawing3D_View_Base_WeakEventManagerBase_1_AddListener_System_Windows_IWeakEventListener_
+  name: AddListener
+  nameWithType: WeakEventManagerBase<TManager>.AddListener
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.AddListener
+  nameWithType.vb: WeakEventManagerBase(Of TManager).AddListener
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).AddListener
+- uid: System.Windows.IWeakEventListener
+  commentId: T:System.Windows.IWeakEventListener
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.iweakeventlistener
+  name: IWeakEventListener
+  nameWithType: IWeakEventListener
+  fullName: System.Windows.IWeakEventListener
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.RemoveListener*
+  commentId: Overload:H.Drawing3D.View.Base.WeakEventManagerBase`1.RemoveListener
+  href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html#H_Drawing3D_View_Base_WeakEventManagerBase_1_RemoveListener_System_Windows_IWeakEventListener_
+  name: RemoveListener
+  nameWithType: WeakEventManagerBase<TManager>.RemoveListener
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.RemoveListener
+  nameWithType.vb: WeakEventManagerBase(Of TManager).RemoveListener
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).RemoveListener
+- uid: System.Windows.WeakEventManager.StartListening(System.Object)
+  commentId: M:System.Windows.WeakEventManager.StartListening(System.Object)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.startlistening
+  name: StartListening(object)
+  nameWithType: WeakEventManager.StartListening(object)
+  fullName: System.Windows.WeakEventManager.StartListening(object)
+  nameWithType.vb: WeakEventManager.StartListening(Object)
+  fullName.vb: System.Windows.WeakEventManager.StartListening(Object)
+  name.vb: StartListening(Object)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.StartListening(System.Object)
+    name: StartListening
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.startlistening
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.StartListening(System.Object)
+    name: StartListening
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.startlistening
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening*
+  commentId: Overload:H.Drawing3D.View.Base.WeakEventManagerBase`1.StartListening
+  href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html#H_Drawing3D_View_Base_WeakEventManagerBase_1_StartListening_System_Object_
+  name: StartListening
+  nameWithType: WeakEventManagerBase<TManager>.StartListening
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.StartListening
+  nameWithType.vb: WeakEventManagerBase(Of TManager).StartListening
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).StartListening
+- uid: System.Windows.WeakEventManager.StopListening(System.Object)
+  commentId: M:System.Windows.WeakEventManager.StopListening(System.Object)
+  parent: System.Windows.WeakEventManager
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.stoplistening
+  name: StopListening(object)
+  nameWithType: WeakEventManager.StopListening(object)
+  fullName: System.Windows.WeakEventManager.StopListening(object)
+  nameWithType.vb: WeakEventManager.StopListening(Object)
+  fullName.vb: System.Windows.WeakEventManager.StopListening(Object)
+  name.vb: StopListening(Object)
+  spec.csharp:
+  - uid: System.Windows.WeakEventManager.StopListening(System.Object)
+    name: StopListening
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.stoplistening
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Windows.WeakEventManager.StopListening(System.Object)
+    name: StopListening
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.weakeventmanager.stoplistening
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening*
+  commentId: Overload:H.Drawing3D.View.Base.WeakEventManagerBase`1.StopListening
+  href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html#H_Drawing3D_View_Base_WeakEventManagerBase_1_StopListening_System_Object_
+  name: StopListening
+  nameWithType: WeakEventManagerBase<TManager>.StopListening
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.StopListening
+  nameWithType.vb: WeakEventManagerBase(Of TManager).StopListening
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).StopListening
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: H.Drawing3D.View.Base.WeakEventManagerBase`1.Handler*
+  commentId: Overload:H.Drawing3D.View.Base.WeakEventManagerBase`1.Handler
+  href: H.Drawing3D.View.Base.WeakEventManagerBase-1.html#H_Drawing3D_View_Base_WeakEventManagerBase_1_Handler_System_Object_System_EventArgs_
+  name: Handler
+  nameWithType: WeakEventManagerBase<TManager>.Handler
+  fullName: H.Drawing3D.View.Base.WeakEventManagerBase<TManager>.Handler
+  nameWithType.vb: WeakEventManagerBase(Of TManager).Handler
+  fullName.vb: H.Drawing3D.View.Base.WeakEventManagerBase(Of TManager).Handler

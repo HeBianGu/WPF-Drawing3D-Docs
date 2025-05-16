@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Shape.File.Importers
+  commentId: N:H.Drawing3D.Shape.File.Importers
+  id: H.Drawing3D.Shape.File.Importers
+  children:
+  - H.Drawing3D.Shape.File.Importers.IModelReader
+  - H.Drawing3D.Shape.File.Importers.Importers
+  - H.Drawing3D.Shape.File.Importers.ModelImporter
+  - H.Drawing3D.Shape.File.Importers.ObjReader
+  - H.Drawing3D.Shape.File.Importers.ObjReader.Group
+  - H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+  - H.Drawing3D.Shape.File.Importers.StudioReader
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Shape.File.Importers
+  nameWithType: H.Drawing3D.Shape.File.Importers
+  fullName: H.Drawing3D.Shape.File.Importers
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Shape.File
+references:
+- uid: H.Drawing3D.Shape.File.Importers.IModelReader
+  commentId: T:H.Drawing3D.Shape.File.Importers.IModelReader
+  parent: H.Drawing3D.Shape.File.Importers
+  href: H.Drawing3D.Shape.File.Importers.IModelReader.html
+  name: IModelReader
+  nameWithType: IModelReader
+  fullName: H.Drawing3D.Shape.File.Importers.IModelReader
+- uid: H.Drawing3D.Shape.File.Importers.Importers
+  commentId: T:H.Drawing3D.Shape.File.Importers.Importers
+  href: H.Drawing3D.Shape.File.Importers.Importers.html
+  name: Importers
+  nameWithType: Importers
+  fullName: H.Drawing3D.Shape.File.Importers.Importers
+- uid: H.Drawing3D.Shape.File.Importers.ModelImporter
+  commentId: T:H.Drawing3D.Shape.File.Importers.ModelImporter
+  href: H.Drawing3D.Shape.File.Importers.ModelImporter.html
+  name: ModelImporter
+  nameWithType: ModelImporter
+  fullName: H.Drawing3D.Shape.File.Importers.ModelImporter
+- uid: H.Drawing3D.Shape.File.Importers.ObjReader
+  commentId: T:H.Drawing3D.Shape.File.Importers.ObjReader
+  href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  name: ObjReader
+  nameWithType: ObjReader
+  fullName: H.Drawing3D.Shape.File.Importers.ObjReader
+- uid: H.Drawing3D.Shape.File.Importers.ObjReader.Group
+  commentId: T:H.Drawing3D.Shape.File.Importers.ObjReader.Group
+  href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  name: ObjReader.Group
+  nameWithType: ObjReader.Group
+  fullName: H.Drawing3D.Shape.File.Importers.ObjReader.Group
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader
+    name: ObjReader
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader.Group
+    name: Group
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.Group.html
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader
+    name: ObjReader
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader.Group
+    name: Group
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.Group.html
+- uid: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+  commentId: T:H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+  href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  name: ObjReader.MaterialDefinition
+  nameWithType: ObjReader.MaterialDefinition
+  fullName: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+  spec.csharp:
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader
+    name: ObjReader
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+    name: MaterialDefinition
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition.html
+  spec.vb:
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader
+    name: ObjReader
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition
+    name: MaterialDefinition
+    href: H.Drawing3D.Shape.File.Importers.ObjReader.MaterialDefinition.html
+- uid: H.Drawing3D.Shape.File.Importers.StudioReader
+  commentId: T:H.Drawing3D.Shape.File.Importers.StudioReader
+  href: H.Drawing3D.Shape.File.Importers.StudioReader.html
+  name: StudioReader
+  nameWithType: StudioReader
+  fullName: H.Drawing3D.Shape.File.Importers.StudioReader
+- uid: H.Drawing3D.Shape.File.Importers
+  commentId: N:H.Drawing3D.Shape.File.Importers
+  href: H.html
+  name: H.Drawing3D.Shape.File.Importers
+  nameWithType: H.Drawing3D.Shape.File.Importers
+  fullName: H.Drawing3D.Shape.File.Importers
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File.Importers
+    name: Importers
+    href: H.Drawing3D.Shape.File.Importers.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Shape
+    name: Shape
+    href: H.Drawing3D.Shape.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File
+    name: File
+    href: H.Drawing3D.Shape.File.html
+  - name: .
+  - uid: H.Drawing3D.Shape.File.Importers
+    name: Importers
+    href: H.Drawing3D.Shape.File.Importers.html

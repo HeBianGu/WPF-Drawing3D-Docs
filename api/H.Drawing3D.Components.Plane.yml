@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.Components.Plane
+  commentId: N:H.Drawing3D.Components.Plane
+  id: H.Drawing3D.Components.Plane
+  children:
+  - H.Drawing3D.Components.Plane.MovePlaneShapeState
+  - H.Drawing3D.Components.Plane.PlaneLayerView3D
+  - H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.Components.Plane
+  nameWithType: H.Drawing3D.Components.Plane
+  fullName: H.Drawing3D.Components.Plane
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.Components.Plane
+references:
+- uid: H.Drawing3D.Components.Plane.MovePlaneShapeState
+  commentId: T:H.Drawing3D.Components.Plane.MovePlaneShapeState
+  href: H.Drawing3D.Components.Plane.MovePlaneShapeState.html
+  name: MovePlaneShapeState
+  nameWithType: MovePlaneShapeState
+  fullName: H.Drawing3D.Components.Plane.MovePlaneShapeState
+- uid: H.Drawing3D.Components.Plane.PlaneLayerView3D
+  commentId: T:H.Drawing3D.Components.Plane.PlaneLayerView3D
+  parent: H.Drawing3D.Components.Plane
+  href: H.Drawing3D.Components.Plane.PlaneLayerView3D.html
+  name: PlaneLayerView3D
+  nameWithType: PlaneLayerView3D
+  fullName: H.Drawing3D.Components.Plane.PlaneLayerView3D
+- uid: H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D
+  commentId: T:H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D
+  href: H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D.html
+  name: ThemeablePlaneLayerView3D
+  nameWithType: ThemeablePlaneLayerView3D
+  fullName: H.Drawing3D.Components.Plane.ThemeablePlaneLayerView3D
+- uid: H.Drawing3D.Components.Plane
+  commentId: N:H.Drawing3D.Components.Plane
+  href: H.html
+  name: H.Drawing3D.Components.Plane
+  nameWithType: H.Drawing3D.Components.Plane
+  fullName: H.Drawing3D.Components.Plane
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Components
+    name: Components
+    href: H.Drawing3D.Components.html
+  - name: .
+  - uid: H.Drawing3D.Components.Plane
+    name: Plane
+    href: H.Drawing3D.Components.Plane.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.Components
+    name: Components
+    href: H.Drawing3D.Components.html
+  - name: .
+  - uid: H.Drawing3D.Components.Plane
+    name: Plane
+    href: H.Drawing3D.Components.Plane.html

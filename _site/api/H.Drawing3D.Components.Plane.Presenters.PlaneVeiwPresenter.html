@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlaneVeiwPresenter | WPF-Drawing3D开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlaneVeiwPresenter | WPF-Drawing3D开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-Drawing3D开发文档">
+            WPF-Drawing3D开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter">
+
+
+
+  <h1 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter" class="text-break">
+Class PlaneVeiwPresenter  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Drawing3D.html">Drawing3D</a>.<a class="xref" href="H.Drawing3D.Components.html">Components</a>.<a class="xref" href="H.Drawing3D.Components.Plane.html">Plane</a>.<a class="xref" href="H.Drawing3D.Components.Plane.Presenters.html">Presenters</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Drawing3D.Components.Plane.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlaneVeiwPresenter : DisplayBindableBase, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html">BindableBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html">CommandsBindableBase</a></div>
+      <div><a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html">DisplayBindableBase</a></div>
+      <div><span class="xref">PlaneVeiwPresenter</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ID">DisplayBindableBase.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Name">DisplayBindableBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Icon">DisplayBindableBase.Icon</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_ShortName">DisplayBindableBase.ShortName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_GroupName">DisplayBindableBase.GroupName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Description">DisplayBindableBase.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_Order">DisplayBindableBase.Order</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefaultCommand">DisplayBindableBase.LoadDefaultCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.DisplayBindableBase.html#H_Drawing3D_Shape_Mvvm_DisplayBindableBase_LoadDefault">DisplayBindableBase.LoadDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_Commands">CommandsBindableBase.Commands</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.CommandsBindableBase.html#H_Drawing3D_Shape_Mvvm_CommandsBindableBase_CreateCommands">CommandsBindableBase.CreateCommands()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_Init">BindableBase.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Drawing3D.Shape.Mvvm.BindableBase.html#H_Drawing3D_Shape_Mvvm_BindableBase_RaisePropertyChanged_System_String_">BindableBase.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Drawing3D.Drawing.DispatcherExtension.html#H_Drawing3D_Drawing_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_Center_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.Center*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_Center" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.Center">
+  Center
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;平台中心&quot;, GroupName = &quot;显示&quot;, Description = &quot;设置平台中心&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public Point3D Center { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.point3d">Point3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_MajorDistance_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.MajorDistance*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_MajorDistance" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.MajorDistance">
+  MajorDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;网线最大间距&quot;, GroupName = &quot;显示&quot;, Description = &quot;网线最大间距&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public double MajorDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_MinorDistance_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.MinorDistance*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_MinorDistance" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.MinorDistance">
+  MinorDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;网线最小距离&quot;, GroupName = &quot;显示&quot;, Description = &quot;网线最小距离&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public double MinorDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_Normal_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.Normal*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_Normal" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.Normal">
+  Normal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;平台方向&quot;, GroupName = &quot;显示&quot;, Description = &quot;平台方向&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public Vector3D Normal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.media3d.vector3d">Vector3D</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_PlaneLength_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.PlaneLength*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_PlaneLength" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.PlaneLength">
+  PlaneLength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;平台长度&quot;, GroupName = &quot;显示&quot;, Description = &quot;平台长度&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public double PlaneLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_Thickness_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.Thickness*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_Thickness" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.Thickness">
+  Thickness
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;启用线条粗细&quot;, GroupName = &quot;显示&quot;, Description = &quot;启用线条粗细&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public double Thickness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UseAxisBoundingBox_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UseAxisBoundingBox*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UseAxisBoundingBox" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UseAxisBoundingBox">
+  UseAxisBoundingBox
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;启用坐标网格线&quot;, GroupName = &quot;显示&quot;, Description = &quot;启用坐标网格线&quot;, Prompt = &quot;Prompt&quot;)]
+public bool UseAxisBoundingBox { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UseCoordinate_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UseCoordinate*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UseCoordinate" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UseCoordinate">
+  UseCoordinate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;启用角点方向&quot;, GroupName = &quot;显示&quot;, Description = &quot;启用角点方向&quot;, Prompt = &quot;Prompt&quot;)]
+public bool UseCoordinate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UsePlaneGridLine_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UsePlaneGridLine*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UsePlaneGridLine" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UsePlaneGridLine">
+  UsePlaneGridLine
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;启用平台网线&quot;, GroupName = &quot;显示&quot;, Description = &quot;启用平台网线&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public bool UsePlaneGridLine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UseTheme_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UseTheme*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_UseTheme" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.UseTheme">
+  UseTheme
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;启用动态颜色&quot;, GroupName = &quot;显示&quot;, Description = &quot;启用动态颜色&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public bool UseTheme { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_planeWidth_" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.planeWidth*"></a>
+
+  <h3 id="H_Drawing3D_Components_Plane_Presenters_PlaneVeiwPresenter_planeWidth" data-uid="H.Drawing3D.Components.Plane.Presenters.PlaneVeiwPresenter.planeWidth">
+  planeWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;平台宽度&quot;, GroupName = &quot;显示&quot;, Description = &quot;设置平台宽度&quot;, Prompt = &quot;Prompt&quot;, Order = -1)]
+public double planeWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

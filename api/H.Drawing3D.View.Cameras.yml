@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Drawing3D.View.Cameras
+  commentId: N:H.Drawing3D.View.Cameras
+  id: H.Drawing3D.View.Cameras
+  children:
+  - H.Drawing3D.View.Cameras.CameraMode
+  - H.Drawing3D.View.Cameras.CameraRotationMode
+  - H.Drawing3D.View.Cameras.CameraSetting
+  - H.Drawing3D.View.Cameras.ManipulationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: H.Drawing3D.View.Cameras
+  nameWithType: H.Drawing3D.View.Cameras
+  fullName: H.Drawing3D.View.Cameras
+  type: Namespace
+  assemblies:
+  - H.Drawing3D.View
+references:
+- uid: H.Drawing3D.View.Cameras.CameraMode
+  commentId: T:H.Drawing3D.View.Cameras.CameraMode
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.CameraMode.html
+  name: CameraMode
+  nameWithType: CameraMode
+  fullName: H.Drawing3D.View.Cameras.CameraMode
+- uid: H.Drawing3D.View.Cameras.CameraRotationMode
+  commentId: T:H.Drawing3D.View.Cameras.CameraRotationMode
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.CameraRotationMode.html
+  name: CameraRotationMode
+  nameWithType: CameraRotationMode
+  fullName: H.Drawing3D.View.Cameras.CameraRotationMode
+- uid: H.Drawing3D.View.Cameras.CameraSetting
+  commentId: T:H.Drawing3D.View.Cameras.CameraSetting
+  href: H.Drawing3D.View.Cameras.CameraSetting.html
+  name: CameraSetting
+  nameWithType: CameraSetting
+  fullName: H.Drawing3D.View.Cameras.CameraSetting
+- uid: H.Drawing3D.View.Cameras.ManipulationEventArgs
+  commentId: T:H.Drawing3D.View.Cameras.ManipulationEventArgs
+  parent: H.Drawing3D.View.Cameras
+  href: H.Drawing3D.View.Cameras.ManipulationEventArgs.html
+  name: ManipulationEventArgs
+  nameWithType: ManipulationEventArgs
+  fullName: H.Drawing3D.View.Cameras.ManipulationEventArgs
+- uid: H.Drawing3D.View.Cameras
+  commentId: N:H.Drawing3D.View.Cameras
+  href: H.html
+  name: H.Drawing3D.View.Cameras
+  nameWithType: H.Drawing3D.View.Cameras
+  fullName: H.Drawing3D.View.Cameras
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Drawing3D
+    name: Drawing3D
+    href: H.Drawing3D.html
+  - name: .
+  - uid: H.Drawing3D.View
+    name: View
+    href: H.Drawing3D.View.html
+  - name: .
+  - uid: H.Drawing3D.View.Cameras
+    name: Cameras
+    href: H.Drawing3D.View.Cameras.html
