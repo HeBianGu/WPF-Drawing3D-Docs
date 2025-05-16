@@ -2,9 +2,9 @@
 _layout: landing
 ---
 
-# 欢迎访问 **WPF-Control** 开发文档
+# 欢迎访问 **WPF-Drawing3D** 开发文档
 
-[点击此处打开开发文档](https://hebiangu.github.io/WPF-Control-Docs/api/H.Iocable.html)
+[点击此处打开开发文档](https://hebiangu.github.io/WPF-Drawing3D-Docs/api/H.Iocable.html)
 
 
 ## 作者
@@ -12,14 +12,6 @@ _layout: landing
 
 ## 博客
 [https://space.bilibili.com/370266611](https://space.bilibili.com/370266611)
-
-## 参考视频
-https://www.bilibili.com/video/BV1HhqTYxEDd
-
-https://www.bilibili.com/video/BV1qy421i74b
-
-## 参考项目
-https://github.com/HeBianGu/WPF-ControlBase
 
 ## 联系方式
 如有问题，请联系 QQ: 908293466
